@@ -1,8 +1,7 @@
 ---
 title: "Améliorer sa séquence pédagogique avec l'IA : guide pratique pour enseignants"
-date: "2025-11-03T21:57:07"
-slug: "ameliorer-sequence-pedagogique"
-draft: false
+description: "Guide complet pour les enseignants souhaitant améliorer leurs séquences pédagogiques grâce à l'intelligence artificielle."
+pubDate: "2026-05-16"
 ---
 # Améliorer votre séquence pédagogique avec l&#8217;IA : le vrai levier de votre efficacité
 
