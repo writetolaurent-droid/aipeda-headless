@@ -1,6 +1,7 @@
 ---
 title: "Créer ses supports de cours avec l'IA : la méthode zéro page blanche"
 description: "Trace écrite, exercices, matériel de manipulation, cartes mentales : 4 prompts concrets pour générer tous vos supports à 80% et finir en quelques minutes. L'IA propose, le prof dispose."
+category: "Préparer"
 pubDate: 2026-07-13
 ---
 

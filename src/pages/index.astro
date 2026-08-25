@@ -1,6 +1,5 @@
 ---
 import Base from '../layouts/Base.astro';
-import Newsletter from '../components/Newsletter.astro';
 import { getCollection } from 'astro:content';
 
 // Get pillar + recent articles
@@ -82,9 +81,6 @@ const recentPosts = allPosts
 			</div>
 		</section>
 	)}
-
-	{/* NEWSLETTER */}
-	<Newsletter />
 
 	{/* APPROACH */}
 	<section class="approach-section">

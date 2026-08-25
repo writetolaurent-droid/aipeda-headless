@@ -1,63 +1,311 @@
 ---
 import Base from '../layouts/Base.astro';
-import Newsletter from '../components/Newsletter.astro';
+
+// Articles liés par défi (maillage interne)
+const defis = [
+    {
+        icon: '🧩',
+        gradient: 'linear-gradient(135deg, #f093fb 0%, #4facfe 100%)',
+        accent: '#4facfe',
+        tag: 'Le défi n°1',
+        title: "Gérer l'hétérogénéité des classes",
+        douleur: "Dans une même classe, les niveaux s'étalent sur 3 ou 4 années scolaires. L'élève DYS qui déchiffre péniblement, l'EANA qui découvre le français, l'élève HPI qui termine en 2 minutes, celui qui décroche… Différencier pour tous, c'est l'intention qu'on a tous. La réalité, c'est 2 heures de préparation en plus par séance — qu'on ne fait jamais.",
+        piste: "L'IA génère des variantes d'un même exercice en quelques secondes : version guidée, version allégée, version défi. Vous gardez l'intention pédagogique et le pilotage. L'IA fait le travail répétitif d'adaptation. L'élève ne parle jamais à l'IA — c'est vous qui diffusez les supports adaptés.",
+        articles: [
+            { href: '/article/exercices-differencies-ia/', label: 'Créer des exercices différenciés (3 niveaux en 5 min)' },
+            { href: '/article/adaptation-dys-ia/', label: "Adapter ses supports pour les élèves DYS" },
+            { href: '/article/outil-diffit/', label: 'Diffit : adapter n\'importe quel texte en 2 clics' },
+        ],
+    },
+    {
+        icon: '⏱️',
+        gradient: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
+        accent: '#764ba2',
+        tag: 'Le défi n°2',
+        title: 'Alléger la charge mentale et le manque de temps',
+        douleur: "Préparer, corriger, remplir le cahier journal, répondre aux parents, monter les projets, assister aux réunions… Le métier déborde sur les soirées, les week-ends, les vacances. La charge mentale, c'est cette liste qui tourne en boucle dans la tête à 23h, avec le sentiment de toujours courir après le temps.",
+        piste: "L'IA ne fait pas le métier à votre place — elle prend en charge la production brute : structurer une séquence, générer une trame de cours, proposer une grille d'évaluation, rédiger un mail aux parents. Vous gardez la décision pédagogique, l'IA vous fait gagner les 30 minutes qui changent votre soirée.",
+        articles: [
+            { href: '/article/preparer-ses-cours-ia-guide-complet/', label: 'Préparer ses cours avec l\'IA : le guide complet' },
+            { href: '/article/workflow-30min-sequence/', label: 'Mon workflow 30 min pour préparer une séquence' },
+            { href: '/article/automatiser-correction-ia/', label: 'Automatiser la correction de vos copies' },
+            { href: '/article/progression-annuelle-ia/', label: 'Créer sa progression annuelle avec l\'IA' },
+        ],
+    },
+    {
+        icon: '🔗',
+        gradient: 'linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)',
+        accent: '#38f9d7',
+        tag: 'Le défi n°3',
+        title: 'Créer des ponts interdisciplinaires',
+        douleur: "On nous demande des projets transversaux, des EPI, des parcours, des décloisonnements. Mais trouver les connexions entre les disciplines, construire une séquence qui fait sens, coordonner deux enseignants… C'est enthousiasmant sur le papier, infaisable dans la vraie vie quand on jongle déjà avec son propre programme.",
+        piste: "L'IA cartographie les passerelles entre votre discipline et les autres. Décrivez votre séquence et demandez-lui les points d'ancrage avec l'histoire, les arts, les sciences, l'EPS. Elle propose des projets communs clés en main. Vous choisissez, vous adaptez, vous gardez la main.",
+        articles: [
+            { href: '/article/ameliorer-sequence-pedagogique/', label: 'Améliorer une séquence : 5 leviers concrets' },
+            { href: '/article/creer-supports-cours-ia/', label: 'Créer ses supports de cours : la méthode zéro page blanche' },
+            { href: '/article/quelle-ia-professeurs-ecoles/', label: 'Quelle IA choisir ? Le guide 2026' },
+        ],
+    },
+];
 ---
 
 <Base
-	title="Défis pédagogiques"
-	description="Les défis du quotidien enseignant : hétérogénéité, charge mentale, interdisciplinarité. Des solutions IA concrètes arrivent bientôt."
+	title="Défis pédagogiques : l'IA au service de l'enseignant"
+	description="Hétérogénéité, charge mentale, interdisciplinarité : les 3 plus grands défis du métier d'enseignant et comment l'IA peut concrètement vous aider, sans remplacer l'humain."
 >
-	<section class="coming-soon-section">
-		<h1>Défis Pédagogiques</h1>
-		<p class="coming-soon-lead">
-			Hétérogénéité des classes, charge mentale, interdisciplinarité… Les plus gros défis du métier d'enseignant méritent des réponses concrètes.
+	<!-- Hero -->
+	<section class="defis-hero">
+		<h1>Les défis du quotidien enseignant</h1>
+		<p class="hero-lead">
+			L'enseignement n'a jamais été simple. Mais aujourd'hui, la conjonction de
+			l'<strong>hétérogénéité croissante des classes</strong>, de la
+			<strong>charge mentale</strong> et des attentes
+			<strong>interdisciplinaires</strong> met les professeurs sous une pression inédite.
 		</p>
-		<p class="coming-soon-sub">
-			Cette section est en construction. En attendant, le guide complet couvre déjà la différenciation (DYS, EANA, HPI) face à l'hétérogénéité.
+		<p class="hero-sub">
+			Cette page cartographie les trois défis majeurs et, pour chacun, l'angle d'attaque concret que l'IA propose.
+			L'IA ne remplace pas le prof. Elle <em>libère du temps</em> pour ce qui compte vraiment : l'accompagnement humain.
 		</p>
-		<a href="/article/preparer-ses-cours-ia-guide-complet/" class="coming-soon-btn">
-			📖 Lire le guide complet
-		</a>
 	</section>
 
-	<Newsletter />
+	<!-- Cartes-défis -->
+	<section class="defis-list">
+		{defis.map(defi => (
+			<article class="defi-card">
+				<div class="defi-header" style={`background: ${defi.gradient};`}>
+					<div class="defi-icon">{defi.icon}</div>
+					<div class="defi-tag">{defi.tag}</div>
+				</div>
+				<div class="defi-body">
+					<h2 class="defi-title">{defi.title}</h2>
+
+					<div class="defi-section">
+						<h3 class="defi-subtitle">🔴 La réalité sur le terrain</h3>
+						<p>{defi.douleur}</p>
+					</div>
+
+					<div class="defi-section">
+						<h3 class="defi-subtitle">✅ L'angle IA</h3>
+						<p>{defi.piste}</p>
+					</div>
+
+					<div class="defi-articles">
+						<h4 class="articles-title">📖 Pour aller plus loin</h4>
+						<ul class="articles-list">
+							{defi.articles.map(a => (
+								<li>
+									<a href={a.href}>{a.label} →</a>
+								</li>
+							))}
+						</ul>
+					</div>
+				</div>
+			</article>
+		))}
+	</section>
+
+	<!-- Principe de précaution -->
+	<section class="defis-principe">
+		<div class="principe-box">
+			<h2>🛡️ Notre ligne rouge</h2>
+			<p>
+				L'IA est un <strong>outil au service du professeur</strong>, jamais un substitut.
+				L'évaluation, le feedback personnalisé et la relation pédagogique restent
+				<em>toujours humains</em>. L'élève ne dialogue pas avec l'IA — c'est le prof
+				qui utilise l'IA en tâche de fond pour produire des supports meilleurs et plus rapides.
+			</p>
+		</div>
+	</section>
+
 </Base>
 
 <style>
-	.coming-soon-section {
+	/* === Hero === */
+	.defis-hero {
 		text-align: center;
-		padding: 3rem 1rem 2rem;
-		max-width: 600px;
+		max-width: 720px;
 		margin: 0 auto;
+		padding: 3rem 1rem 1rem;
 	}
-	.coming-soon-section h1 {
-		font-size: 2rem;
+
+	.defis-hero h1 {
+		font-size: 2.4rem;
 		color: var(--navy);
-		margin: 0 0 1.5rem 0;
+		margin: 0 0 1.2rem 0;
+		line-height: 1.2;
 	}
-	.coming-soon-lead {
-		font-size: 1.1rem;
+
+	.hero-lead {
+		font-size: 1.15rem;
 		line-height: 1.7;
 		color: var(--text-body);
-		margin-bottom: 1rem;
+		margin-bottom: 0.8rem;
 	}
-	.coming-soon-sub {
+
+	.hero-sub {
 		font-size: 1rem;
+		line-height: 1.7;
 		color: var(--text-muted);
-		margin-bottom: 2rem;
 	}
-	.coming-soon-btn {
-		display: inline-block;
-		background: var(--amber);
+
+	/* === Liste des défis === */
+	.defis-list {
+		max-width: 800px;
+		margin: 0 auto;
+		padding: 2rem 1rem;
+		display: flex;
+		flex-direction: column;
+		gap: 2.5rem;
+	}
+
+	.defi-card {
+		background: var(--surface);
+		border-radius: var(--radius-lg);
+		overflow: hidden;
+		border: 1px solid var(--border);
+		box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+		transition: box-shadow 0.3s ease, transform 0.3s ease;
+	}
+
+	.defi-card:hover {
+		box-shadow: 0 12px 40px rgba(0, 0, 0, 0.12);
+		transform: translateY(-3px);
+	}
+
+	.defi-header {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		padding: 1.2rem 1.8rem;
+	}
+
+	.defi-icon {
+		font-size: 2.2rem;
+		filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.2));
+	}
+
+	.defi-tag {
 		color: white;
-		font-weight: 600;
-		padding: 0.85rem 2rem;
-		border-radius: var(--radius-md);
-		text-decoration: none;
-		transition: all 0.3s;
+		font-size: 0.78rem;
+		font-weight: 700;
+		text-transform: uppercase;
+		letter-spacing: 0.08em;
+		background: rgba(255, 255, 255, 0.2);
+		padding: 0.25rem 0.8rem;
+		border-radius: var(--radius-sm, 4px);
 	}
-	.coming-soon-btn:hover {
-		transform: translateY(-2px);
-		box-shadow: 0 8px 24px rgba(217, 119, 87, 0.35);
+
+	.defi-body {
+		padding: 1.8rem;
+	}
+
+	.defi-title {
+		font-size: 1.5rem;
+		color: var(--navy);
+		margin: 0 0 1.2rem 0;
+		line-height: 1.3;
+	}
+
+	.defi-section {
+		margin-bottom: 1.2rem;
+	}
+
+	.defi-subtitle {
+		font-size: 0.95rem;
+		font-weight: 700;
+		margin: 0 0 0.4rem 0;
+		color: var(--text-body);
+	}
+
+	.defi-section p {
+		font-size: 1rem;
+		line-height: 1.75;
+		color: var(--text-body);
+		margin: 0;
+	}
+
+	/* === Articles liés === */
+	.defi-articles {
+		margin-top: 1.5rem;
+		padding-top: 1.2rem;
+		border-top: 1px solid var(--border);
+	}
+
+	.articles-title {
+		font-size: 0.85rem;
+		font-weight: 700;
+		color: var(--text-muted);
+		margin: 0 0 0.6rem 0;
+		text-transform: uppercase;
+		letter-spacing: 0.05em;
+	}
+
+	.articles-list {
+		list-style: none;
+		padding: 0;
+		margin: 0;
+		display: flex;
+		flex-direction: column;
+		gap: 0.5rem;
+	}
+
+	.articles-list a {
+		display: inline-block;
+		color: var(--amber);
+		text-decoration: none;
+		font-weight: 500;
+		font-size: 0.98rem;
+		line-height: 1.4;
+		transition: color 0.2s ease, transform 0.2s ease;
+	}
+
+	.articles-list a:hover {
+		color: var(--navy);
+		transform: translateX(4px);
+	}
+
+	/* === Principe === */
+	.defis-principe {
+		max-width: 800px;
+		margin: 1rem auto 0;
+		padding: 0 1rem 2rem;
+	}
+
+	.principe-box {
+		background: var(--bg-warm);
+		border-left: 4px solid var(--amber);
+		border-radius: var(--radius-md);
+		padding: 1.8rem;
+	}
+
+	.principe-box h2 {
+		font-size: 1.2rem;
+		color: var(--navy);
+		margin: 0 0 0.6rem 0;
+	}
+
+	.principe-box p {
+		font-size: 1rem;
+		line-height: 1.7;
+		color: var(--text-body);
+		margin: 0;
+	}
+
+	@media (max-width: 560px) {
+		.defis-hero h1 {
+			font-size: 1.8rem;
+		}
+		.hero-lead {
+			font-size: 1.05rem;
+		}
+		.defi-body {
+			padding: 1.4rem;
+		}
+		.defi-title {
+			font-size: 1.25rem;
+		}
+		.defi-header {
+			padding: 1rem 1.4rem;
+		}
 	}
 </style>

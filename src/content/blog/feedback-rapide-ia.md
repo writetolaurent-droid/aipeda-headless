@@ -1,6 +1,7 @@
 ---
 title: "Donner un feedback personnalisé et rapide avec l'IA"
 description: "Des feedbacks constructifs pour chaque élève sans y passer vos soirées. Prompts et workflow pour formuler des retours bienveillants avec l'IA."
+category: "Évaluer"
 pubDate: 2026-07-18
 ---
 

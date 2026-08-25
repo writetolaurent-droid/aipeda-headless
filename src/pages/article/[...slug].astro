@@ -1,6 +1,5 @@
 ---
 import Base from '../../layouts/Base.astro';
-import Newsletter from '../../components/Newsletter.astro';
 import { type CollectionEntry, getCollection, render } from 'astro:content';
 import FormattedDate from '../../components/FormattedDate.astro';
 
@@ -15,7 +14,7 @@ const post = Astro.props;
 const { Content } = await render(post);
 ---
 
-<Base title={post.data.title} description={post.data.description}>
+<Base title={post.data.title} description={post.data.description} article={true} pubDate={post.data.pubDate} updatedDate={post.data.updatedDate} image={post.data.heroImage}>
 	<article class="article">
 		<div class="content">
 			<header class="article-header animate-in">
@@ -36,9 +35,6 @@ const { Content } = await render(post);
 			<div class="article-content animate-in">
 				<Content />
 			</div>
-
-			{/* Newsletter CTA */}
-			<Newsletter />
 
 			<footer class="article-footer">
 				<hr />

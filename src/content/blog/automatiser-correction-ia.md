@@ -1,6 +1,7 @@
 ---
 title: "Automatisez la correction de vos copies avec l'IA"
 description: "La correction est le poids n°1 des profs. Découvrez comment utiliser l'IA pour corriger plus vite sans perdre la qualité du feedback."
+category: "Évaluer"
 pubDate: 2026-07-16
 ---
 

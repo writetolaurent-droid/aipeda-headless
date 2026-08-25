@@ -3,56 +3,189 @@ import Base from '../../layouts/Base.astro';
 import { getCollection } from 'astro:content';
 
 const allPosts = await getCollection('blog');
-const blogPosts = allPosts.filter(post => post.id && !post.id.startsWith('outil-') && !post.id.startsWith('defi-'));
+const blogPosts = allPosts
+    .filter(post => post.id && !post.id.startsWith('defi-'))
+    .map(post => {
+        // Calcul du temps de lecture (~200 mots/min)
+        const wordCount = post.body?.split(/\s+/).length ?? 0;
+        const readingTime = Math.max(1, Math.round(wordCount / 200));
+        return { ...post, readingTime };
+    })
+    .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
 
-// Thematic gradient + icon per article
+// Catégories dynamiques avec compte
+const categoryCounts = {};
+blogPosts.forEach(p => {
+    const c = p.data.category || 'Autres';
+    categoryCounts[c] = (categoryCounts[c] || 0) + 1;
+});
+const categories = Object.keys(categoryCounts).sort();
+
+// Couleur par catégorie
+const catColors = {
+    'Préparer':   { bg: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)', icon: '📘' },
+    'Différencier': { bg: 'linear-gradient(135deg, #f093fb 0%, #4facfe 100%)', icon: '🧩' },
+    'Évaluer':    { bg: 'linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)', icon: '✅' },
+    'Outils':     { bg: 'linear-gradient(135deg, #fccb90 0%, #d57eeb 100%)', icon: '🔧' },
+    'Autres':     { bg: 'linear-gradient(135deg, #a8edea 0%, #fed6e3 100%)', icon: '📖' },
+};
+
+// StyleMap hérité (icône + dégradé par article)
 const styleMap = {
-  'exercices-differencies-ia':      { icon: '📝', gradient: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)' },
-  'khanmigo-avis-prof':             { icon: '🤖', gradient: 'linear-gradient(135deg, #f093fb 0%, #f5576c 100%)' },
-  'visuels-tableaux-ia':            { icon: '🎨', gradient: 'linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)' },
-  'correction-rapide':              { icon: '✅', gradient: 'linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)' },
-  'creer-supports-cours-ia':        { icon: '📚', gradient: 'linear-gradient(135deg, #fa709a 0%, #fee140 100%)' },
-  'grilles-evaluation-ia':          { icon: '📊', gradient: 'linear-gradient(135deg, #a18cd1 0%, #fbc2eb 100%)' },
-  'workflow-30min-sequence':        { icon: '⚡', gradient: 'linear-gradient(135deg, #fccb90 0%, #d57eeb 100%)' },
-  'quiz-interactif-ia':             { icon: '🎯', gradient: 'linear-gradient(135deg, #e0c3fc 0%, #8ec5fc 100%)' },
-  'rituels-classe':                 { icon: '🔁', gradient: 'linear-gradient(135deg, #f5576c 0%, #ff6f91 100%)' },
-  'methode-pareto-sequence':        { icon: '📐', gradient: 'linear-gradient(135deg, #667eea 0%, #43e97b 100%)' },
-  'methode-pareto':                 { icon: '📈', gradient: 'linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%)' },
-  'feedback-rapide-ia':             { icon: '💬', gradient: 'linear-gradient(135deg, #89f7fe 0%, #66a6ff 100%)' },
-  'automatiser-correction-ia':      { icon: '🤖', gradient: 'linear-gradient(135deg, #13547a 0%, #80d0c7 100%)' },
+  'preparer-ses-cours-ia-guide-complet': { icon: '📘', gradient: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)' },
+  'chatgpt-pour-prof':              { icon: '💬', gradient: 'linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)' },
+  'quelle-ia-professeurs-ecoles':   { icon: '🎯', gradient: 'linear-gradient(135deg, #f093fb 0%, #f5576c 100%)' },
+  'prompt-chatgpt-fiche-de-cours':  { icon: '⚡', gradient: 'linear-gradient(135deg, #fccb90 0%, #d57eeb 100%)' },
+  'outil-diffit':                   { icon: '🔧', gradient: 'linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)' },
   'ameliorer-sequence-pedagogique': { icon: '🔄', gradient: 'linear-gradient(135deg, #d4fc79 0%, #96e6a1 100%)' },
+  'exercices-differencies-ia':      { icon: '📝', gradient: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)' },
   'adaptation-dys-ia':              { icon: '🧩', gradient: 'linear-gradient(135deg, #f093fb 0%, #4facfe 100%)' },
+  'creer-supports-cours-ia':        { icon: '📚', gradient: 'linear-gradient(135deg, #fa709a 0%, #fee140 100%)' },
   'progression-annuelle-ia':        { icon: '🗺️', gradient: 'linear-gradient(135deg, #a1c4fd 0%, #c2e9fb 100%)' },
+  'workflow-30min-sequence':        { icon: '⏱️', gradient: 'linear-gradient(135deg, #13547a 0%, #80d0c7 100%)' },
+  'grilles-evaluation-ia':          { icon: '📋', gradient: 'linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)' },
+  'feedback-rapide-ia':             { icon: '💬', gradient: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)' },
+  'automatiser-correction-ia':      { icon: '✍️', gradient: 'linear-gradient(135deg, #d4fc79 0%, #96e6a1 100%)' },
+  'outil-magicschool':              { icon: '🧙', gradient: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)' },
+  'visuels-tableaux-ia':            { icon: '🎨', gradient: 'linear-gradient(135deg, #fa709a 0%, #fee140 100%)' },
 };
 
 const fallback = { icon: '📖', gradient: 'linear-gradient(135deg, #a8edea 0%, #fed6e3 100%)' };
+
+const formatDate = (date) =>
+    new Intl.DateTimeFormat('fr-FR', { day: 'numeric', month: 'long', year: 'numeric' }).format(date);
 ---
 
-<Base title="Blog" description="Tutos, réflexions et workflows pour les profs augmentés.">
+<Base title="Blog" description="Tutos, réflexions et workflows pour les profs augmentés. Filtrez par thème : préparation, différenciation, évaluation, outils IA.">
     <section class="tools-section">
         <h1 class="page-title animate-in">Blog</h1>
         <div class="blog-intro animate-in">
             <p>Tutos, workflows et réflexions pour automatiser le répétitif et réhumaniser la classe.</p>
         </div>
-        <div class="tools-grid">
+
+        <!-- Barre de filtres -->
+        <div class="filters-bar animate-in">
+            <div class="filter-buttons" role="tablist" aria-label="Filtrer par catégorie">
+                <button class="filter-btn active" data-category="all">
+                    Tout <span class="count">{blogPosts.length}</span>
+                </button>
+                {categories.map(cat => {
+                    const cc = catColors[cat] || catColors['Autres'];
+                    return (
+                        <button class="filter-btn" data-category={cat}>
+                            <span class="filter-icon">{cc.icon}</span>
+                            {cat} <span class="count">{categoryCounts[cat]}</span>
+                        </button>
+                    );
+                })}
+            </div>
+
+            <!-- Recherche -->
+            <div class="search-wrapper">
+                <svg class="search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="11" cy="11" r="8"></circle>
+                    <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                </svg>
+                <input
+                    type="text"
+                    id="blog-search"
+                    placeholder="Rechercher un article…"
+                    aria-label="Rechercher un article"
+                    autocomplete="off"
+                />
+            </div>
+        </div>
+
+        <!-- Grille d'articles -->
+        <div class="tools-grid" id="blog-grid">
             {blogPosts.map((post) => {
                 const s = styleMap[post.id] || fallback;
+                const cat = post.data.category || 'Autres';
+                const cc = catColors[cat] || catColors['Autres'];
                 return (
-                    <a href={`/article/${post.id}/`} class="tool-card animate-in">
+                    <a
+                        href={`/article/${post.id}/`}
+                        class="tool-card animate-in"
+                        data-category={cat}
+                        data-title={post.data.title.toLowerCase()}
+                        data-desc={post.data.description?.toLowerCase() ?? ''}
+                    >
                         <div class="tool-card-image">
                             <div class="tool-placeholder" style={`background: ${s.gradient};`}>
                                 <span class="tool-icon">{s.icon}</span>
                             </div>
                         </div>
                         <div class="tool-card-body">
+                            <span class="card-badge" style={`background: ${cc.bg};`}>{cc.icon} {cat}</span>
                             <h3 class="tool-card-title">{post.data.title}</h3>
+                            <div class="card-meta">
+                                <span class="meta-item">📅 {formatDate(post.data.pubDate)}</span>
+                                <span class="meta-item">⏱️ {post.readingTime} min</span>
+                            </div>
                         </div>
                     </a>
                 );
             })}
         </div>
+
+        <!-- Message aucun résultat -->
+        <div class="no-results" id="no-results" style="display: none;">
+            <p>🔍 Aucun article ne correspond à votre recherche.</p>
+            <button class="reset-btn" id="reset-filters">Réinitialiser les filtres</button>
+        </div>
     </section>
 </Base>
+
+<script is:inline define:vars={{ categories }}>
+    (function () {
+        const buttons = document.querySelectorAll('.filter-btn');
+        const grid = document.getElementById('blog-grid');
+        const cards = Array.from(grid.querySelectorAll('.tool-card'));
+        const searchInput = document.getElementById('blog-search');
+        const noResults = document.getElementById('no-results');
+        const resetBtn = document.getElementById('reset-filters');
+
+        let activeCategory = 'all';
+        let searchTerm = '';
+
+        function applyFilters() {
+            let visibleCount = 0;
+            cards.forEach(card => {
+                const matchCat = activeCategory === 'all' || card.dataset.category === activeCategory;
+                const matchSearch = !searchTerm
+                    || card.dataset.title.includes(searchTerm)
+                    || card.dataset.desc.includes(searchTerm);
+                const show = matchCat && matchSearch;
+                card.style.display = show ? '' : 'none';
+                if (show) visibleCount++;
+            });
+            noResults.style.display = visibleCount === 0 ? 'block' : 'none';
+        }
+
+        buttons.forEach(btn => {
+            btn.addEventListener('click', () => {
+                buttons.forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+                activeCategory = btn.dataset.category;
+                applyFilters();
+            });
+        });
+
+        searchInput.addEventListener('input', (e) => {
+            searchTerm = e.target.value.toLowerCase().trim();
+            applyFilters();
+        });
+
+        resetBtn.addEventListener('click', () => {
+            activeCategory = 'all';
+            searchTerm = '';
+            searchInput.value = '';
+            buttons.forEach(b => b.classList.remove('active'));
+            document.querySelector('.filter-btn[data-category="all"]').classList.add('active');
+            applyFilters();
+        });
+    })();
+</script>
 
 <style>
     .tools-section {
@@ -70,6 +203,101 @@ const fallback = { icon: '📖', gradient: 'linear-gradient(135deg, #a8edea 0%, 
         margin-bottom: 1rem;
     }
 
+    /* === Barre de filtres === */
+    .filters-bar {
+        margin: 1.5rem 0 0.5rem;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .filter-buttons {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+    }
+
+    .filter-btn {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.35rem;
+        padding: 0.5rem 1rem;
+        border: 1.5px solid var(--border);
+        border-radius: var(--radius-md);
+        background: var(--surface);
+        color: var(--text-body);
+        font-size: 0.9rem;
+        font-weight: 500;
+        cursor: pointer;
+        transition: all 0.25s ease;
+        font-family: inherit;
+    }
+
+    .filter-btn:hover {
+        border-color: var(--amber);
+        transform: translateY(-1px);
+    }
+
+    .filter-btn.active {
+        background: var(--navy);
+        color: white;
+        border-color: var(--navy);
+    }
+
+    .filter-icon {
+        font-size: 1rem;
+    }
+
+    .filter-btn .count {
+        background: rgba(255, 255, 255, 0.2);
+        padding: 0.05rem 0.4rem;
+        border-radius: var(--radius-sm, 4px);
+        font-size: 0.78rem;
+        font-weight: 600;
+    }
+
+    .filter-btn:not(.active) .count {
+        background: var(--bg-warm);
+        color: var(--text-muted);
+    }
+
+    /* === Recherche === */
+    .search-wrapper {
+        position: relative;
+        max-width: 400px;
+    }
+
+    .search-icon {
+        position: absolute;
+        left: 0.85rem;
+        top: 50%;
+        transform: translateY(-50%);
+        color: var(--text-muted);
+        pointer-events: none;
+    }
+
+    #blog-search {
+        width: 100%;
+        padding: 0.65rem 1rem 0.65rem 2.5rem;
+        border: 1.5px solid var(--border);
+        border-radius: var(--radius-md);
+        background: var(--surface);
+        color: var(--text-body);
+        font-size: 0.95rem;
+        font-family: inherit;
+        transition: border-color 0.25s ease;
+    }
+
+    #blog-search:focus {
+        outline: none;
+        border-color: var(--amber);
+    }
+
+    #blog-search::placeholder {
+        color: var(--text-muted);
+    }
+
+    /* === Grille === */
     .tools-grid {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
@@ -104,21 +332,6 @@ const fallback = { icon: '📖', gradient: 'linear-gradient(135deg, #a8edea 0%, 
         background: var(--bg-warm);
     }
 
-    .tool-card-image img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        display: block;
-        margin: 0;
-        border-radius: 0;
-        max-width: none;
-        transition: transform 0.4s ease;
-    }
-
-    .tool-card:hover .tool-card-image img {
-        transform: scale(1.05);
-    }
-
     .tool-placeholder {
         width: 100%;
         height: 100%;
@@ -137,16 +350,68 @@ const fallback = { icon: '📖', gradient: 'linear-gradient(135deg, #a8edea 0%, 
         padding: 1.5rem;
         flex: 1;
         display: flex;
-        align-items: center;
+        flex-direction: column;
+        gap: 0.6rem;
+    }
+
+    .card-badge {
+        align-self: flex-start;
+        color: white;
+        font-size: 0.72rem;
+        font-weight: 600;
+        padding: 0.2rem 0.65rem;
+        border-radius: var(--radius-sm, 4px);
+        text-transform: uppercase;
+        letter-spacing: 0.03em;
     }
 
     .tool-card-title {
         font-size: 1.05rem;
         margin: 0;
         color: var(--navy);
-        line-height: 1.3;
+        line-height: 1.4;
+    }
+
+    .card-meta {
+        display: flex;
+        gap: 1rem;
+        margin-top: auto;
+        padding-top: 0.3rem;
+    }
+
+    .meta-item {
+        font-size: 0.82rem;
+        color: var(--text-muted);
+        white-space: nowrap;
+    }
+
+    /* === Aucun résultat === */
+    .no-results {
         text-align: center;
-        width: 100%;
+        padding: 3rem 1rem;
+        color: var(--text-muted);
+    }
+
+    .no-results p {
+        font-size: 1.1rem;
+        margin-bottom: 1rem;
+    }
+
+    .reset-btn {
+        padding: 0.6rem 1.5rem;
+        background: var(--amber);
+        color: white;
+        border: none;
+        border-radius: var(--radius-md);
+        font-weight: 600;
+        cursor: pointer;
+        font-family: inherit;
+        font-size: 0.9rem;
+        transition: transform 0.2s ease;
+    }
+
+    .reset-btn:hover {
+        transform: translateY(-2px);
     }
 
     @media (max-width: 900px) {
@@ -163,6 +428,10 @@ const fallback = { icon: '📖', gradient: 'linear-gradient(135deg, #a8edea 0%, 
         }
         .tool-card-body {
             padding: 1.25rem;
+        }
+        .filter-btn {
+            padding: 0.45rem 0.8rem;
+            font-size: 0.85rem;
         }
     }
 </style>

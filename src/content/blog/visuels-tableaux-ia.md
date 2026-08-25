@@ -1,6 +1,7 @@
 ---
 title: "Générer des visuels pour le tableau en un clic avec l'IA"
 description: "Schémas, illustrations, affiches : l'IA génère vos visuels pédagogiques sur mesure en quelques secondes. Prompts et outils pour professeurs des écoles."
+category: "Préparer"
 pubDate: 2026-07-18
 ---
 

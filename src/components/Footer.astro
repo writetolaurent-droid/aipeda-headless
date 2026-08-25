@@ -1,22 +1,11 @@
 ---
-import { SITE_TITLE, SITE_TAGLINE, CONTACT_EMAIL, SOCIAL_LINKS, NEWSLETTER_URL } from '../consts';
+import { SITE_TITLE, SITE_TAGLINE, CONTACT_EMAIL, SOCIAL_LINKS } from '../consts';
 
 const year = new Date().getFullYear();
 ---
 
 <footer class="footer">
 	<div class="container">
-		{/* Newsletter band */}
-		<div class="footer-newsletter">
-			<div class="footer-newsletter-text">
-				<h3>📬 Le Cartable IA</h3>
-				<p>Un prompt testé en classe + un outil nouveau, chaque semaine.</p>
-			</div>
-			<a href={NEWSLETTER_URL} class="footer-newsletter-btn" target="_blank" rel="noopener">
-				S'inscrire →
-			</a>
-		</div>
-
 		<div class="footer-grid">
 			{/* Brand */}
 			<div class="footer-brand">
@@ -72,46 +61,8 @@ const year = new Date().getFullYear();
 	.footer {
 		background: var(--navy);
 		color: rgba(255, 255, 255, 0.8);
-		padding: 0 0 2rem 0;
+		padding: 3rem 0 2rem 0;
 		margin-top: 4rem;
-	}
-
-	.footer-newsletter {
-		display: flex;
-		align-items: center;
-		justify-content: space-between;
-		gap: 2rem;
-		padding: 2.5rem 0;
-		border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-		margin-bottom: 3rem;
-	}
-
-	.footer-newsletter-text h3 {
-		color: white;
-		font-size: 1.3rem;
-		margin: 0 0 0.25rem 0;
-	}
-
-	.footer-newsletter-text p {
-		color: rgba(255, 255, 255, 0.6);
-		font-size: 0.95rem;
-		margin: 0;
-	}
-
-	.footer-newsletter-btn {
-		background: var(--amber);
-		color: white;
-		font-weight: 600;
-		padding: 0.75rem 1.75rem;
-		border-radius: var(--radius-sm);
-		text-decoration: none;
-		white-space: nowrap;
-		transition: all 0.3s;
-	}
-
-	.footer-newsletter-btn:hover {
-		transform: translateY(-2px);
-		box-shadow: 0 6px 20px rgba(217, 119, 87, 0.35);
 	}
 
 	.footer-grid {
@@ -199,11 +150,6 @@ const year = new Date().getFullYear();
 	}
 
 	@media (max-width: 768px) {
-		.footer-newsletter {
-			flex-direction: column;
-			text-align: center;
-			gap: 1rem;
-		}
 		.footer-grid {
 			grid-template-columns: 1fr 1fr;
 		}

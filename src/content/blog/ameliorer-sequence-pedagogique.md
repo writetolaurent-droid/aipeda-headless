@@ -1,6 +1,7 @@
 ---
 title: "Améliorer une séquence pédagogique avec l'IA : 5 leviers concrets"
 description: "Vous avez une séquence qui fonctionne ? Voici comment l'IA peut l'enrichir, la différencier et la personnaliser — sans tout refondre. Avec 5 prompts testés en classe."
+category: "Préparer"
 pubDate: 2026-05-16
 updatedDate: 2026-07-13
 ---

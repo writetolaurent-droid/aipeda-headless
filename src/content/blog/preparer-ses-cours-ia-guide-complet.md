@@ -1,6 +1,7 @@
 ---
 title: "Préparer ses cours avec l'IA : le guide complet pour l'enseignant"
 description: "De l'objectif pédagogique à la séance clé en main : découvrez comment utiliser l'IA pour diviser par 4 votre temps de préparation, avec des prompts concrets et testés."
+category: "Préparer"
 pubDate: 2026-07-12
 updatedDate: 2026-07-13
 ---

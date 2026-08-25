@@ -1,6 +1,7 @@
 ---
 title: "Diffit : L'outil IA qui adapte n'importe quel texte en 2 clics"
 description: "Diffit transforme n'importe quel contenu en ressources différenciées automatiquement. Gagnez 30 min par séance sans sacrifier la qualité pédagogique."
+category: "Outils"
 pubDate: 2026-05-18
 updatedDate: 2026-07-13
 ---

@@ -1,6 +1,7 @@
 ---
 title: "Mon workflow 30 min pour préparer une séquence avec l'IA"
 description: "Préparez une séquence pédagogique complète en 30 minutes : brainstorming, structuration, supports. Workflow pas à pas avec prompts copier-coller."
+category: "Préparer"
 pubDate: 2026-07-17
 ---
 

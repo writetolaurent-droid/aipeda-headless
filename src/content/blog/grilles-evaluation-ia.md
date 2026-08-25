@@ -1,6 +1,7 @@
 ---
 title: "Créer des grilles d'évaluation avec l'IA en quelques minutes"
 description: "Générez des grilles critériées alignées sur le socle commun en 2 minutes. L'IA conçoit le cadre, le prof garde l'évaluation humaine."
+category: "Évaluer"
 pubDate: 2026-07-17
 ---
 

@@ -1,6 +1,7 @@
 ---
 title: "Créer sa progression annuelle avec l'IA"
 description: "Générez votre progression annuelle en 5 minutes avec l'IA : prompts prêts à copier, équilibrage des 5 périodes, adaptation AEFE. Le prof reste pilote."
+category: "Préparer"
 pubDate: 2026-07-17
 ---
 

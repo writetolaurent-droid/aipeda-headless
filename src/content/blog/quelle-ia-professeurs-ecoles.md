@@ -1,6 +1,7 @@
 ---
 title: "Quelle IA pour les professeurs des écoles ? Le guide 2026"
 description: "ChatGPT, Gemini, Claude, MagicSchool, Diffit… Quels outils IA choisir quand on enseigne en primaire ? Voici notre sélection testée, classée par usage."
+category: "Outils"
 pubDate: 2026-07-13
 ---
 

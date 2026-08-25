@@ -1,6 +1,7 @@
 ---
 title: "Adapter vos supports pour les élèves DYS en un clic"
 description: "L'IA reformule, simplifie et structure vos supports pour les élèves DYS. Gagnez 20 minutes par séance avec des prompts concrets et testés."
+category: "Différencier"
 pubDate: 2026-07-16
 ---
 

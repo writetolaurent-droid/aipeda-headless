@@ -1,6 +1,7 @@
 ---
 title: "ChatGPT pour prof : le guide pratique pour commencer"
 description: "Vous entendez parler de ChatGPT partout mais ne savez pas par où commencer ? Voici 6 cas d'usage concrets pour les enseignants, avec des prompts testés."
+category: "Outils"
 pubDate: 2026-07-13
 ---
 

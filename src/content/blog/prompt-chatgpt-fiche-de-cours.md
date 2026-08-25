@@ -1,6 +1,7 @@
 ---
 title: "Prompt ChatGPT : créer une fiche de cours en 2 minutes"
 description: "Le prompt exact pour générer une fiche de cours complète avec ChatGPT — trace écrite, exercices, différenciation et matériel. Testé et calibré pour les programmes français."
+category: "Préparer"
 pubDate: 2026-07-13
 ---
 

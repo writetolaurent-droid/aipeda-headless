@@ -8,15 +8,19 @@ interface Props {
 	title: string;
 	description?: string;
 	wide?: boolean;
+	article?: boolean;
+	pubDate?: Date;
+	updatedDate?: Date;
+	image?: string;
 }
 
-const { title, description, wide } = Astro.props;
+const { title, description, wide, article, pubDate, updatedDate, image } = Astro.props;
 ---
 
 <!doctype html>
 <html lang="fr">
 	<head>
-		<BaseHead title={title} description={description} />
+		<BaseHead title={title} description={description} article={article} pubDate={pubDate} updatedDate={updatedDate} image={image} />
 	</head>
 	<body>
 		<Header />

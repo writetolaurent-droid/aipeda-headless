@@ -1,5 +1,5 @@
 ---
-import { NAV_LINKS, SITE_TITLE, NEWSLETTER_URL } from '../consts';
+import { NAV_LINKS, SITE_TITLE } from '../consts';
 ---
 
 <header class="header">
@@ -25,13 +25,8 @@ import { NAV_LINKS, SITE_TITLE, NEWSLETTER_URL } from '../consts';
 						</li>
 					))
 				}
-				<li class="nav-cta-item">
-					<a href={NEWSLETTER_URL} class="nav-cta" target="_blank" rel="noopener">
-						📦 Newsletter
-					</a>
-				</li>
-			</ul>
-		</nav>
+				</ul>
+				</nav>
 
 		<button class="menu-toggle" aria-label="Menu" id="menu-toggle">
 			<span class="bar"></span>
@@ -117,22 +112,6 @@ import { NAV_LINKS, SITE_TITLE, NEWSLETTER_URL } from '../consts';
 		width: 100%;
 	}
 
-	.nav-cta {
-		background: var(--amber);
-		color: white !important;
-		font-weight: 600;
-		font-size: 0.9rem;
-		padding: 0.5rem 1.1rem;
-		border-radius: var(--radius-sm);
-		text-decoration: none;
-		transition: all 0.3s;
-	}
-
-	.nav-cta:hover {
-		transform: translateY(-1px);
-		box-shadow: 0 4px 12px rgba(217, 119, 87, 0.35);
-	}
-
 	.menu-toggle {
 		display: none;
 		flex-direction: column;
@@ -182,12 +161,6 @@ import { NAV_LINKS, SITE_TITLE, NEWSLETTER_URL } from '../consts';
 		.nav-list {
 			flex-direction: column;
 			gap: 1.25rem;
-		}
-		.nav-cta-item {
-			margin-top: 0.5rem;
-		}
-		.nav-cta {
-			display: inline-block;
 		}
 	}
 </style>

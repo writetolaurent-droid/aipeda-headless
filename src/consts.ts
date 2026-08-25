@@ -14,13 +14,10 @@ export const SITE_LANG = 'fr';
 export const NAV_LINKS = [
 	{ href: '/', label: 'Accueil' },
 	{ href: '/blog/', label: 'Blog' },
+	{ href: '/defis-pedagogiques/', label: 'Défis' },
 	{ href: '/outils-ia/', label: 'Outils IA' },
 	{ href: '/a-propos/', label: 'À propos' },
 ];
-
-// Newsletter (remplacez par votre URL d'embed Mailchimp/Brevo)
-export const NEWSLETTER_URL = 'https://eepurl.com/VOTRE-LIEN'; // ← À remplacer
-export const NEWSLETTER_FORM_ACTION = ''; // ← URL du form action Mailchimp/Brevo
 
 // Coordonnées
 export const CONTACT_EMAIL = 'bonjour@aipeda.com';

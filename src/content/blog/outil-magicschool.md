@@ -1,6 +1,7 @@
 ---
 title: "MagicSchool.ai : le couteau suisse IA pour les enseignants"
 description: "MagicSchool.ai regroupe 60+ outils IA pour les profs : plans de cours, quiz, emails parents, différenciation. Le guide complet pour démarrer."
+category: "Outils"
 pubDate: 2026-07-18
 ---
 
