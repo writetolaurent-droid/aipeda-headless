@@ -11,30 +11,140 @@ export async function getStaticPaths() {
 type Props = CollectionEntry<'blog'>;
 
 const post = Astro.props;
-const { Content } = await render(post);
+const { Content, headings } = await render(post);
+
+// --- Temps de lecture (~200 mots/min)
+const wordCount = post.body?.split(/\s+/).length ?? 0;
+const readingTime = Math.max(1, Math.round(wordCount / 200));
+
+// --- Catégorie + couleurs (cohérent avec /blog/)
+const cat = post.data.category || 'Autres';
+const catColors: Record<string, { icon: string; color: string }> = {
+	'Préparer':     { icon: '📘', color: '#764ba2' },
+	'Différencier': { icon: '🧩', color: '#4facfe' },
+	'Évaluer':      { icon: '✅', color: '#38f9d7' },
+	'Outils':       { icon: '🔧', color: '#d57eeb' },
+	'Autres':       { icon: '📖', color: '#94a3b8' },
+};
+const cc = catColors[cat] || catColors['Autres'];
+
+// --- Sommaire : uniquement les H2, affiché si >= 3 sections
+const tocItems = headings.filter(h => h.depth === 2 && !/^⚡/.test(h.text));
+
+// --- Articles liés : même catégorie d'abord, puis récents ; 3 cartes
+const readingTimeOf = (p: CollectionEntry<'blog'>) =>
+	Math.max(1, Math.round((p.body?.split(/\s+/).length ?? 0) / 200));
+const others = (await getCollection('blog')).filter(p => p.id !== post.id);
+const related = [
+	...others.filter(p => (p.data.category || 'Autres') === cat),
+	...others.filter(p => (p.data.category || 'Autres') !== cat),
+].slice(0, 3);
+
+// --- Schéma FAQPage : extraction des Q/R de la section "## FAQ"
+function extractFaq(body: string): { q: string; a: string }[] {
+	try {
+		const m = body.match(/## FAQ\b[\s\S]*?(?=\n## |$)/);
+		if (!m) return [];
+		return m[0].split(/^### /m).slice(1).map(part => {
+			const lines = part.split('\n');
+			const q = lines[0].trim();
+			const a = lines.slice(1).join(' ')
+				.replace(/\[([^\]]+)\]\([^)]*\)/g, '$1')
+				.replace(/[*_`»«]/g, '')
+				.replace(/\s+/g, ' ').trim();
+			return { q, a };
+		}).filter(x => x.q.length > 5 && x.a.length > 30);
+	} catch { return []; }
+}
+const faqItems = post.body ? extractFaq(post.body) : [];
+const faqSchema = faqItems.length >= 2 ? {
+	'@context': 'https://schema.org',
+	'@type': 'FAQPage',
+	mainEntity: faqItems.map(item => ({
+		'@type': 'Question',
+		name: item.q,
+		acceptedAnswer: { '@type': 'Answer', text: item.a },
+	})),
+} : null;
+
+// --- Schéma BreadcrumbList
+const breadcrumbSchema = {
+	'@context': 'https://schema.org',
+	'@type': 'BreadcrumbList',
+	itemListElement: [
+		{ '@type': 'ListItem', position: 1, name: 'Accueil', item: 'https://aipeda.com/' },
+		{ '@type': 'ListItem', position: 2, name: 'Blog', item: 'https://aipeda.com/blog/' },
+		{ '@type': 'ListItem', position: 3, name: post.data.title, item: `https://aipeda.com/article/${post.id}/` },
+	],
+};
 ---
 
 <Base title={post.data.title} description={post.data.description} article={true} pubDate={post.data.pubDate} updatedDate={post.data.updatedDate} image={post.data.heroImage}>
+	<div class="read-progress" id="read-progress" aria-hidden="true"></div>
 	<article class="article">
 		<div class="content">
+			<nav class="breadcrumb animate-in" aria-label="Fil d'Ariane">
+				<a href="/">Accueil</a>
+				<span class="crumb-sep" aria-hidden="true">›</span>
+				<a href="/blog/">Blog</a>
+				<span class="crumb-sep" aria-hidden="true">›</span>
+				<span class="crumb-current" aria-current="page">{post.data.title}</span>
+			</nav>
+
 			<header class="article-header animate-in">
-				<a href="/blog/" class="article-back">
-					<svg width="14" height="14" viewBox="0 0 16 16" fill="none"><path d="M10 13l-5-5 5-5" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
-					Retour au blog
-				</a>
 				<h1 class="article-title">{post.data.title}</h1>
 				<div class="article-meta">
+					<span class="cat-badge" style={`--cat-color: ${cc.color}`}>
+						<span class="cat-icon" aria-hidden="true">{cc.icon}</span> {cat}
+					</span>
 					<time datetime={post.data.pubDate.toISOString()}>
 						<FormattedDate date={post.data.pubDate} />
 					</time>
+					<span class="meta-sep" aria-hidden="true">·</span>
+					<span class="reading-time">⏱️ {readingTime} min de lecture</span>
 					{post.data.updatedDate && (
 						<span class="article-updated">(Mis à jour le <FormattedDate date={post.data.updatedDate} />)</span>
 					)}
 				</div>
 			</header>
+
+			{tocItems.length >= 3 && (
+			<details class="toc animate-in" open>
+				<summary>📋 Dans cet article</summary>
+				<nav aria-label="Sommaire">
+					<ul role="list">
+						{tocItems.map(item => (
+							<li><a href={`#${item.slug}`}>{item.text}</a></li>
+						))}
+					</ul>
+				</nav>
+			</details>
+			)}
+
 			<div class="article-content animate-in">
 				<Content />
 			</div>
+
+			{related.length > 0 && (
+			<section class="related animate-in" aria-label="À lire aussi">
+				<h2 class="related-heading">À lire aussi</h2>
+				<div class="related-grid">
+					{related.map(r => {
+						const rCat = r.data.category || 'Autres';
+						const rCc = catColors[rCat] || catColors['Autres'];
+						return (
+							<a href={`/article/${r.id}/`} class="related-card">
+								<span class="related-cat" style={`--cat-color: ${rCc.color}`}>
+									<span aria-hidden="true">{rCc.icon}</span> {rCat}
+								</span>
+								<h3 class="related-title">{r.data.title}</h3>
+								<span class="related-meta">⏱️ {readingTimeOf(r)} min <span class="related-arrow" aria-hidden="true">→</span></span>
+							</a>
+						);
+					})}
+				</div>
+			</section>
+			)}
 
 			<footer class="article-footer">
 				<hr />
@@ -42,16 +152,178 @@ const { Content } = await render(post);
 			</footer>
 		</div>
 	</article>
+
+	{faqSchema && <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} is:inline />}
+	<script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} is:inline />
+
+	<script>
+		// Barre de progression de lecture
+		const bar = document.getElementById('read-progress');
+		if (bar) {
+			let ticking = false;
+			window.addEventListener('scroll', () => {
+				if (!ticking) {
+					window.requestAnimationFrame(() => {
+						const el = document.documentElement;
+						const max = el.scrollHeight - el.clientHeight;
+						bar.style.width = (max > 0 ? (el.scrollTop / max) * 100 : 0) + '%';
+						ticking = false;
+					});
+					ticking = true;
+				}
+			}, { passive: true });
+		}
+	</script>
 </Base>
 
 <style>
+.read-progress {
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 3px;
+	width: 0%;
+	background: linear-gradient(90deg, var(--amber), #e8a48c);
+	z-index: 1001;
+	transition: width 0.08s linear;
+}
+
 .article { padding: 3rem 0 4rem; }
 .content { max-width: 720px; margin: 0 auto; }
+
+/* Fil d'Ariane */
+.breadcrumb {
+	font-size: 0.85rem;
+	color: var(--text-muted);
+	margin-bottom: 1.75rem;
+	display: flex;
+	align-items: center;
+	gap: 0.5rem;
+	flex-wrap: wrap;
+}
+.breadcrumb a { color: var(--text-muted); text-decoration: none; transition: color 0.2s; }
+.breadcrumb a:hover { color: var(--amber); }
+.crumb-sep { opacity: 0.5; }
+.crumb-current {
+	max-width: 320px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	color: var(--text-body);
+	opacity: 0.75;
+}
+
 .article-back { display: inline-flex; align-items: center; gap: 0.4rem; font-size: 0.9rem; color: var(--text-muted); text-decoration: none; margin-bottom: 1.5rem; }
 .article-back:hover { color: var(--amber); }
-.article-header { margin-bottom: 3rem; }
-.article-title { font-size: clamp(1.8rem, 4vw, 2.6rem); margin-bottom: 0.75rem; line-height: 1.15; letter-spacing: -0.02em; }
+.article-header { margin-bottom: 2rem; }
+.article-title { font-size: clamp(1.8rem, 4vw, 2.6rem); margin-bottom: 0.9rem; line-height: 1.15; letter-spacing: -0.02em; }
 .article-meta { font-size: 0.9rem; color: var(--text-muted); display: flex; gap: 0.75rem; align-items: center; flex-wrap: wrap; }
+
+/* Badge catégorie */
+.cat-badge {
+	display: inline-flex;
+	align-items: center;
+	gap: 0.3rem;
+	font-weight: 600;
+	color: var(--cat-color);
+	background: color-mix(in srgb, var(--cat-color) 12%, transparent);
+	padding: 0.2rem 0.7rem;
+	border-radius: 99px;
+	font-size: 0.82rem;
+}
+.meta-sep { opacity: 0.5; }
+
+/* Sommaire */
+.toc {
+	background: var(--surface);
+	border: 1px solid var(--border);
+	border-left: 4px solid var(--amber);
+	border-radius: var(--radius-md);
+	padding: 1rem 1.5rem;
+	margin-bottom: 2.5rem;
+}
+.toc summary {
+	cursor: pointer;
+	font-weight: 700;
+	color: var(--navy);
+	font-size: 0.95rem;
+	user-select: none;
+	list-style-position: outside;
+}
+.toc summary::marker { color: var(--amber); }
+.toc nav { margin-top: 0.75rem; }
+.toc ul { margin: 0; padding: 0 0 0 0.25rem; list-style: none; }
+.toc li { margin-bottom: 0.35rem; }
+.toc a {
+	color: var(--text-body);
+	text-decoration: none;
+	font-size: 0.92rem;
+	opacity: 0.85;
+	transition: color 0.2s, opacity 0.2s;
+}
+.toc a:hover { color: var(--amber); opacity: 1; }
+
+/* Ancres : compensation du header fixe */
+.article-content :global(h2) { scroll-margin-top: 6.5rem; }
+
+/* Articles liés */
+.related { margin-top: 4rem; }
+.related-heading {
+	font-size: 1.35rem;
+	color: var(--navy);
+	margin-bottom: 1.5rem;
+	padding-bottom: 0.5rem;
+	border-bottom: 2px solid var(--border);
+}
+.related-grid {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 1.25rem;
+}
+.related-card {
+	display: flex;
+	flex-direction: column;
+	gap: 0.6rem;
+	background: var(--surface);
+	border: 1px solid var(--border);
+	border-radius: var(--radius-md);
+	padding: 1.25rem;
+	text-decoration: none;
+	transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.3s, border-color 0.3s;
+	box-shadow: var(--shadow-soft);
+}
+.related-card:hover {
+	transform: translateY(-4px);
+	box-shadow: var(--shadow-md);
+	border-color: rgba(217, 119, 87, 0.35);
+}
+.related-cat {
+	font-size: 0.78rem;
+	font-weight: 700;
+	color: var(--cat-color);
+}
+.related-title {
+	font-size: 0.98rem;
+	line-height: 1.4;
+	margin: 0;
+	color: var(--navy);
+	font-weight: 700;
+}
+.related-meta {
+	margin-top: auto;
+	font-size: 0.82rem;
+	color: var(--text-muted);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.related-arrow { transition: transform 0.3s; color: var(--amber); }
+.related-card:hover .related-arrow { transform: translateX(4px); }
+
+@media (max-width: 720px) {
+	.related-grid { grid-template-columns: 1fr; }
+	.crumb-current { max-width: 180px; }
+}
 
 /* Article content */
 .article-content { font-size: 1.05rem; line-height: 1.85; }
