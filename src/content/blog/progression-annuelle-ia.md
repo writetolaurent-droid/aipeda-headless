@@ -5,7 +5,6 @@ category: "Préparer"
 pubDate: 2026-07-17
 ---
 
-![Progression annuelle avec l'IA](/images/gemini/gemini-dashboard.webp)
 
 ## Le casse-tête de la rentrée
 

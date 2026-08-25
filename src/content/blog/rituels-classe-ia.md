@@ -5,8 +5,6 @@ pubDate: 2026-08-26
 category: "Préparer"
 ---
 
-![Assistant IA Gemini, l'un des outils utilisables pour générer les supports de vos rituels de classe](/images/gemini/gemini-dashboard.webp)
-
 La date au tableau, la phrase du jour, le problème de maths à dénicher, le responsable du jour à noter : chaque matin recommence. Les rituels comptent parmi les moments les plus solides de la journée — mais côté préparation, leur charge est invisible et permanente : sourcer, calibrer, renouveler, imprimer. Et quand on change de niveau ou d'école, tout est à reconstruire.
 
 L'IA excelle justement dans cette production. Elle génère en quelques minutes les supports bruts de vos rituels — textes, problèmes, affichages — pendant que vous gardez ce qui fait le rituel : l'animation, les échanges, l'ajustement en direct. Voici comment, avec trois rituels phares de la rentrée et trois prompts prêts à copier. Pour une vue d'ensemble, consultez notre [guide complet sur la préparation de cours avec l'IA](/article/preparer-ses-cours-ia-guide-complet/).
