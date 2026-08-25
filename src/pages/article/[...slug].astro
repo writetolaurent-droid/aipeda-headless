@@ -1,0 +1,165 @@
+---
+import Base from '../../layouts/Base.astro';
+import Newsletter from '../../components/Newsletter.astro';
+import { type CollectionEntry, getCollection, render } from 'astro:content';
+import FormattedDate from '../../components/FormattedDate.astro';
+
+export async function getStaticPaths() {
+	const posts = await getCollection('blog');
+	return posts.map((post) => ({ params: { slug: post.id }, props: post }));
+}
+
+type Props = CollectionEntry<'blog'>;
+
+const post = Astro.props;
+const { Content } = await render(post);
+---
+
+<Base title={post.data.title} description={post.data.description}>
+	<article class="article">
+		<div class="content">
+			<header class="article-header animate-in">
+				<a href="/blog/" class="article-back">
+					<svg width="14" height="14" viewBox="0 0 16 16" fill="none"><path d="M10 13l-5-5 5-5" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+					Retour au blog
+				</a>
+				<h1 class="article-title">{post.data.title}</h1>
+				<div class="article-meta">
+					<time datetime={post.data.pubDate.toISOString()}>
+						<FormattedDate date={post.data.pubDate} />
+					</time>
+					{post.data.updatedDate && (
+						<span class="article-updated">(Mis à jour le <FormattedDate date={post.data.updatedDate} />)</span>
+					)}
+				</div>
+			</header>
+			<div class="article-content animate-in">
+				<Content />
+			</div>
+
+			{/* Newsletter CTA */}
+			<Newsletter />
+
+			<footer class="article-footer">
+				<hr />
+				<p class="article-footer-text"><strong>Vous avez testé cette méthode ?</strong> Partagez votre expérience, posez vos questions.</p>
+			</footer>
+		</div>
+	</article>
+</Base>
+
+<style>
+.article { padding: 3rem 0 4rem; }
+.content { max-width: 720px; margin: 0 auto; }
+.article-back { display: inline-flex; align-items: center; gap: 0.4rem; font-size: 0.9rem; color: var(--text-muted); text-decoration: none; margin-bottom: 1.5rem; }
+.article-back:hover { color: var(--amber); }
+.article-header { margin-bottom: 3rem; }
+.article-title { font-size: clamp(1.8rem, 4vw, 2.6rem); margin-bottom: 0.75rem; line-height: 1.15; letter-spacing: -0.02em; }
+.article-meta { font-size: 0.9rem; color: var(--text-muted); display: flex; gap: 0.75rem; align-items: center; flex-wrap: wrap; }
+
+/* Article content */
+.article-content { font-size: 1.05rem; line-height: 1.85; }
+.article-content h2 { margin-top: 2.5rem; padding-top: 0.5rem; font-size: 1.6rem; color: var(--navy); }
+.article-content h3 { margin-top: 2rem; font-size: 1.25rem; color: var(--navy); }
+.article-content p { margin-bottom: 1.5rem; }
+.article-content ul, .article-content ol { margin-bottom: 1.5rem; padding-left: 1.5rem; }
+.article-content li { margin-bottom: 0.5rem; }
+
+/* Blockquotes */
+.article-content blockquote {
+	border-left: 4px solid var(--amber);
+	background: var(--surface);
+	margin: 1.5rem 0;
+	padding: 1rem 1.5rem;
+	border-radius: 0 var(--radius-md) var(--radius-md) 0;
+	font-style: italic;
+	color: var(--text-muted);
+}
+
+/* Code */
+.article-content code { background: rgba(217, 119, 87, 0.08); padding: 0.15rem 0.4rem; border-radius: 4px; font-size: 0.9em; }
+.article-content pre {
+	background: var(--navy) !important;
+	color: rgba(255,255,255,0.9);
+	padding: 1.5rem;
+	border-radius: var(--radius-md);
+	overflow-x: auto;
+	margin: 1.5rem 0;
+	font-size: 0.9rem;
+	line-height: 1.6;
+}
+.article-content pre code { background: none; padding: 0; color: inherit; }
+
+/* Links */
+.article-content a {
+	color: var(--amber);
+	text-decoration: underline;
+	text-decoration-thickness: 1px;
+	text-underline-offset: 3px;
+}
+.article-content a:hover { color: var(--navy); }
+
+/* Images */
+.article-content img {
+	width: 100%;
+	border-radius: var(--radius-md);
+	margin: 2rem 0;
+}
+
+/* Tables */
+.article-content table {
+	width: 100%;
+	border-collapse: collapse;
+	margin: 2rem 0;
+	font-size: 0.95rem;
+}
+.article-content th, .article-content td {
+	border: 1px solid var(--border);
+	padding: 0.75rem 1rem;
+	text-align: left;
+}
+.article-content th {
+	background: var(--surface);
+	font-weight: 700;
+	color: var(--navy);
+}
+.article-content tr:nth-child(even) { background: rgba(217, 119, 87, 0.02); }
+
+/* Prompt blocks */
+.article-content :global(.prompt-block) {
+	background: var(--navy);
+	color: rgba(255, 255, 255, 0.92);
+	border-radius: var(--radius-md);
+	padding: 1.5rem 1.75rem;
+	margin: 2rem 0;
+	border-left: 4px solid var(--amber);
+}
+.article-content :global(.prompt-block p) { margin: 0; }
+.article-content :global(.prompt-label) {
+	color: var(--amber);
+	font-weight: 700;
+	font-size: 0.8rem;
+	text-transform: uppercase;
+	letter-spacing: 0.08em;
+	margin-bottom: 0.75rem;
+	display: block;
+}
+
+/* Essential box */
+.article-content :global(.essential-box) {
+	background: linear-gradient(135deg, rgba(217, 119, 87, 0.06) 0%, rgba(217, 119, 87, 0.02) 100%);
+	border: 1px solid rgba(217, 119, 87, 0.2);
+	border-radius: var(--radius-md);
+	padding: 1.5rem 2rem;
+	margin: 2rem 0;
+}
+.article-content :global(.essential-box h2) { margin-top: 0; }
+
+/* HR */
+.article-content hr { border: none; border-top: 1px solid var(--border); margin: 3rem 0; }
+
+/* Footer */
+.article-footer { margin-top: 4rem; }
+.article-footer hr { border: none; border-top: 1px solid var(--border); margin-bottom: 1.5rem; }
+.article-footer-text { color: var(--text-muted); margin-bottom: 1.5rem; }
+</style>

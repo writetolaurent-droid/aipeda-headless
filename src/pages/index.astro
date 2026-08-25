@@ -1,49 +1,335 @@
 ---
-import BaseHead from '../components/BaseHead.astro';
-import Footer from '../components/Footer.astro';
-import Header from '../components/Header.astro';
-import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
+import Base from '../layouts/Base.astro';
+import Newsletter from '../components/Newsletter.astro';
+import { getCollection } from 'astro:content';
+
+// Get pillar + recent articles
+const allPosts = await getCollection('blog');
+const pillar = allPosts.find(p => p.id === 'preparer-ses-cours-ia-guide-complet');
+const recentPosts = allPosts
+  .filter(p => p.id !== 'preparer-ses-cours-ia-guide-complet')
+  .sort((a, b) => b.data.pubDate.getTime() - a.data.pubDate.getTime())
+  .slice(0, 3);
 ---
 
-<!doctype html>
-<html lang="en">
-	<head>
-		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
-	</head>
-	<body>
-		<Header />
-		<main>
-			<h1>🧑‍🚀 Hello, Astronaut!</h1>
-			<p>
-				Welcome to the official <a href="https://astro.build/">Astro</a> blog starter template. This template
-				serves as a lightweight, minimally-styled starting point for anyone looking to build a personal
-				website, blog, or portfolio with Astro.
+<Base
+	title="AIPEDA — L'IA pour préparer vos cours, pas pour remplacer votre expertise"
+	description="Guides concrets, prompts testés en classe et outils IA pour les enseignants. Préparez vos cours 4x plus vite et recentrez-vous sur l'essentiel : vos élèves."
+>
+	{/* HERO */}
+	<section class="hero-section">
+		<div class="hero-inner">
+			<p class="hero-eyebrow">Pour les professeurs des écoles et l'écosystème éducatif</p>
+			<h1 class="hero-title">
+				L'IA en coulisses.<br/>
+				<span class="hero-accent">L'humain à 100% face aux élèves.</span>
+			</h1>
+			<p class="hero-sub">
+				Préparez vos séquences, créez vos supports et différenciez vos exercices en 30 minutes au lieu de 2 heures. Des prompts testés en classe, pas de théorie.
 			</p>
-			<p>
-				This template comes with a few integrations already configured in your
-				<code>astro.config.mjs</code> file. You can customize your setup with
-				<a href="https://astro.build/integrations">Astro Integrations</a> to add tools like Tailwind,
-				React, or Vue to your project.
-			</p>
-			<p>Here are a few ideas on how to get started with the template:</p>
-			<ul>
-				<li>Edit this page in <code>src/pages/index.astro</code></li>
-				<li>Edit the site header items in <code>src/components/Header.astro</code></li>
-				<li>Add your name to the footer in <code>src/components/Footer.astro</code></li>
-				<li>Check out the included blog posts in <code>src/content/blog/</code></li>
-				<li>Customize the blog post page layout in <code>src/layouts/BlogPost.astro</code></li>
-			</ul>
-			<p>
-				Have fun! If you get stuck, remember to
-				<a href="https://docs.astro.build/">read the docs</a>
-				or <a href="https://astro.build/chat">join us on Discord</a> to ask questions.
-			</p>
-			<p>
-				Looking for a blog template with a bit more personality? Check out
-				<a href="https://github.com/Charca/astro-blog-template">astro-blog-template</a>
-				by <a href="https://twitter.com/Charca">Maxi Ferreira</a>.
-			</p>
-		</main>
-		<Footer />
-	</body>
-</html>
+			<div class="hero-actions">
+				<a href="/article/preparer-ses-cours-ia-guide-complet/" class="btn btn-primary">
+					📖 Lire le guide complet
+				</a>
+				<a href="/blog/" class="btn btn-secondary">Explorer tous les articles</a>
+			</div>
+		</div>
+	</section>
+
+	{/* PILLAR FEATURE */}
+	{pillar && (
+		<section class="pillar-section">
+			<a href={`/article/${pillar.id}/`} class="pillar-card">
+				<div class="pillar-badge">⭐ Guide essentiel</div>
+				<h2 class="pillar-title">{pillar.data.title}</h2>
+				<p class="pillar-desc">{pillar.data.description}</p>
+				<span class="pillar-cta">Lire le guide →</span>
+			</a>
+		</section>
+	)}
+
+	{/* VALUE PROPS */}
+	<section class="values-section">
+		<div class="value-card">
+			<div class="value-icon">⏱️</div>
+			<h3>Préparer plus vite</h3>
+			<p>De l'objectif aux supports en 30 minutes. L'IA génère, vous validez.</p>
+		</div>
+		<div class="value-card">
+			<div class="value-icon">🧩</div>
+			<h3>Différencier sans effort</h3>
+			<p>DYS, EANA, élèves précoces : un même exercice décliné en 3 niveaux.</p>
+		</div>
+		<div class="value-card">
+			<div class="value-icon">🌏</div>
+			<h3>Adapter au contexte</h3>
+			<p>Programmes français, réseau AEFE, plurilinguisme — l'IA s'ajuste.</p>
+		</div>
+	</section>
+
+	{/* RECENT ARTICLES */}
+	{recentPosts.length > 0 && (
+		<section class="recent-section">
+			<h2 class="section-heading">Derniers articles</h2>
+			<div class="recent-grid">
+				{recentPosts.map((post) => (
+					<a href={`/article/${post.id}/`} class="recent-card">
+						<h3 class="recent-title">{post.data.title}</h3>
+						<p class="recent-desc">{post.data.description}</p>
+						<span class="recent-cta">Lire →</span>
+					</a>
+				))}
+			</div>
+		</section>
+	)}
+
+	{/* NEWSLETTER */}
+	<Newsletter />
+
+	{/* APPROACH */}
+	<section class="approach-section">
+		<div class="approach-inner">
+			<h2 class="approach-heading">La posture AIPEDA</h2>
+			<div class="approach-grid">
+				<div class="approach-item">
+					<h3>🚫 Anti-Guru</h3>
+					<p>Pas de recettes miracles. L'IA est un copilote, le prof reste pilote. On documente ce qui marche — et ce qui échoue.</p>
+				</div>
+				<div class="approach-item">
+					<h3>📐 Pareto 80/20</h3>
+					<p>80% du travail préparatoire en 20% du temps. Le reste, c'est votre expertise. On ne fait pas semblant.</p>
+				</div>
+				<div class="approach-item">
+					<h3>🔒 L'IA reste en coulisses</h3>
+					<p>L'IA prépare. L'humain enseigne. L'évaluation et le feedback restent la chasse gardée du professeur.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+</Base>
+
+<style>
+	/* HERO */
+	.hero-section {
+		text-align: center;
+		padding: 4rem 1rem 3rem;
+	}
+	.hero-eyebrow {
+		color: var(--text-muted);
+		font-size: 0.9rem;
+		font-weight: 600;
+		text-transform: uppercase;
+		letter-spacing: 0.08em;
+		margin: 0 0 1rem 0;
+	}
+	.hero-title {
+		font-size: clamp(2.2rem, 6vw, 3.8rem);
+		line-height: 1.1;
+		margin: 0 0 1.5rem 0;
+		color: var(--navy);
+		font-weight: 800;
+		letter-spacing: -0.03em;
+	}
+	.hero-accent { color: var(--amber); }
+	.hero-sub {
+		font-size: 1.15rem;
+		color: var(--text-muted);
+		max-width: 620px;
+		margin: 0 auto 2rem;
+		line-height: 1.7;
+	}
+	.hero-actions {
+		display: flex;
+		gap: 1rem;
+		justify-content: center;
+		flex-wrap: wrap;
+	}
+	.btn {
+		padding: 0.85rem 1.75rem;
+		border-radius: var(--radius-md);
+		font-weight: 600;
+		font-size: 1rem;
+		text-decoration: none;
+		transition: all 0.3s;
+		display: inline-block;
+	}
+	.btn-primary {
+		background: var(--amber);
+		color: white;
+	}
+	.btn-primary:hover {
+		transform: translateY(-2px);
+		box-shadow: 0 8px 24px rgba(217, 119, 87, 0.35);
+	}
+	.btn-secondary {
+		background: var(--surface);
+		color: var(--navy);
+		border: 1px solid var(--border);
+	}
+	.btn-secondary:hover {
+		border-color: var(--amber);
+		color: var(--amber);
+	}
+
+	/* PILLAR */
+	.pillar-section { margin: 3rem 0; }
+	.pillar-card {
+		display: block;
+		background: linear-gradient(135deg, var(--navy) 0%, #243b55 100%);
+		border-radius: var(--radius-lg);
+		padding: 3rem;
+		text-decoration: none;
+		position: relative;
+		overflow: hidden;
+		transition: transform 0.3s;
+	}
+	.pillar-card:hover { transform: translateY(-3px); }
+	.pillar-card::before {
+		content: '';
+		position: absolute;
+		top: -30%;
+		right: -5%;
+		width: 250px;
+		height: 250px;
+		background: radial-gradient(circle, rgba(217, 119, 87, 0.15) 0%, transparent 70%);
+		border-radius: 50%;
+	}
+	.pillar-badge {
+		color: var(--amber);
+		font-size: 0.85rem;
+		font-weight: 700;
+		text-transform: uppercase;
+		letter-spacing: 0.08em;
+		margin-bottom: 1rem;
+	}
+	.pillar-title {
+		color: white;
+		font-size: clamp(1.5rem, 4vw, 2.2rem);
+		margin: 0 0 1rem 0;
+		line-height: 1.2;
+		position: relative;
+	}
+	.pillar-desc {
+		color: rgba(255, 255, 255, 0.75);
+		font-size: 1.05rem;
+		line-height: 1.6;
+		margin: 0 0 1.5rem 0;
+		max-width: 600px;
+		position: relative;
+	}
+	.pillar-cta {
+		color: var(--amber);
+		font-weight: 600;
+		font-size: 1rem;
+		position: relative;
+	}
+
+	/* VALUES */
+	.values-section {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		gap: 2rem;
+		margin: 4rem 0;
+	}
+	.value-card {
+		text-align: center;
+		padding: 2rem 1.5rem;
+	}
+	.value-icon { font-size: 2.5rem; margin-bottom: 1rem; }
+	.value-card h3 {
+		font-size: 1.2rem;
+		margin: 0 0 0.5rem 0;
+		color: var(--navy);
+	}
+	.value-card p {
+		color: var(--text-muted);
+		font-size: 0.95rem;
+		line-height: 1.6;
+		margin: 0;
+	}
+
+	/* RECENT */
+	.recent-section { margin: 4rem 0; }
+	.section-heading {
+		font-size: 1.6rem;
+		color: var(--navy);
+		margin: 0 0 2rem 0;
+	}
+	.recent-grid {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		gap: 1.5rem;
+	}
+	.recent-card {
+		background: var(--surface);
+		border: 1px solid var(--border);
+		border-radius: var(--radius-lg);
+		padding: 2rem;
+		text-decoration: none;
+		transition: all 0.3s;
+		display: flex;
+		flex-direction: column;
+	}
+	.recent-card:hover {
+		transform: translateY(-3px);
+		box-shadow: var(--shadow-md);
+		border-color: rgba(217, 119, 87, 0.2);
+	}
+	.recent-title {
+		font-size: 1.1rem;
+		margin: 0 0 0.75rem 0;
+		color: var(--navy);
+	}
+	.recent-desc {
+		color: var(--text-muted);
+		font-size: 0.95rem;
+		line-height: 1.5;
+		flex: 1;
+		margin: 0 0 1rem 0;
+	}
+	.recent-cta {
+		color: var(--amber);
+		font-weight: 600;
+		font-size: 0.9rem;
+	}
+
+	/* APPROACH */
+	.approach-section {
+		background: var(--surface);
+		border-radius: var(--radius-lg);
+		padding: 3rem 2rem;
+		margin: 4rem 0;
+	}
+	.approach-heading {
+		text-align: center;
+		font-size: 1.6rem;
+		color: var(--navy);
+		margin: 0 0 2.5rem 0;
+	}
+	.approach-grid {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		gap: 2rem;
+	}
+	.approach-item h3 {
+		font-size: 1.15rem;
+		margin: 0 0 0.75rem 0;
+		color: var(--navy);
+	}
+	.approach-item p {
+		color: var(--text-muted);
+		font-size: 0.95rem;
+		line-height: 1.6;
+		margin: 0;
+	}
+
+	/* RESPONSIVE */
+	@media (max-width: 768px) {
+		.values-section { grid-template-columns: 1fr; }
+		.recent-grid { grid-template-columns: 1fr; }
+		.approach-grid { grid-template-columns: 1fr; }
+		.pillar-card { padding: 2rem 1.5rem; }
+		.hero-actions { flex-direction: column; align-items: center; }
+		.btn { width: 100%; max-width: 300px; text-align: center; }
+	}
+</style>

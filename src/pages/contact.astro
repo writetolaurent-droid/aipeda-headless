@@ -1,0 +1,88 @@
+---
+import Base from '../layouts/Base.astro';
+import { CONTACT_EMAIL, SOCIAL_LINKS } from '../consts';
+---
+
+<Base
+	title="Contact"
+	description="Une question, un retour, une envie de collaborer ? Contactez Laurent."
+>
+	<section class="section">
+		<div class="container">
+			<div class="text-center mb-3 animate-in">
+				<span class="section-tag">Contact</span>
+				<h1 class="section-title">Restons en contact</h1>
+				<p class="section-subtitle">
+					Une question sur un outil ? Un retour sur un article ? Une envie de collaborer ?
+				</p>
+			</div>
+
+			<div class="contact-grid animate-in animate-in-delay-1">
+				<div class="contact-card card">
+					<div class="contact-icon">✉️</div>
+					<h3>Email</h3>
+					<p>Pour toute question ou suggestion.</p>
+					<a href={`mailto:${CONTACT_EMAIL}`} class="contact-link">{CONTACT_EMAIL}</a>
+				</div>
+
+				<div class="contact-card card">
+					<div class="contact-icon">📺</div>
+					<h3>YouTube</h3>
+					<p>Chaîne Laurent / Mintavocado — démos, tutos, retours d'expérience.</p>
+					<a href={SOCIAL_LINKS.youtube} target="_blank" rel="noopener" class="contact-link">
+						Laurent sur YouTube →
+					</a>
+				</div>
+
+				<div class="contact-card card">
+					<div class="contact-icon">💬</div>
+					<h3>Communauté</h3>
+					<p>Discutez avec d'autres enseignants qui testent l'IA au quotidien.</p>
+					<a href="/blog/" class="contact-link">Rejoindre la conversation →</a>
+				</div>
+			</div>
+		</div>
+	</section>
+</Base>
+
+<style>
+	.contact-grid {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+		gap: 1.5rem;
+		max-width: 900px;
+		margin: 0 auto;
+	}
+
+	.contact-card {
+		text-align: center;
+		padding: 2.5rem 1.5rem;
+	}
+
+	.contact-icon {
+		font-size: 2.5rem;
+		margin-bottom: 1rem;
+	}
+
+	.contact-card h3 {
+		margin-bottom: 0.5rem;
+	}
+
+	.contact-card p {
+		color: var(--text-muted);
+		font-size: 0.9rem;
+		margin-bottom: 1rem;
+	}
+
+	.contact-link {
+		display: inline-block;
+		color: var(--amber);
+		font-weight: 600;
+		font-size: 0.95rem;
+		text-decoration: none;
+	}
+
+	.contact-link:hover {
+		color: var(--amber-dark);
+	}
+</style>

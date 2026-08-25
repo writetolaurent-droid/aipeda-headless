@@ -1,0 +1,63 @@
+---
+import Base from '../layouts/Base.astro';
+import Newsletter from '../components/Newsletter.astro';
+---
+
+<Base
+	title="Défis pédagogiques"
+	description="Les défis du quotidien enseignant : hétérogénéité, charge mentale, interdisciplinarité. Des solutions IA concrètes arrivent bientôt."
+>
+	<section class="coming-soon-section">
+		<h1>Défis Pédagogiques</h1>
+		<p class="coming-soon-lead">
+			Hétérogénéité des classes, charge mentale, interdisciplinarité… Les plus gros défis du métier d'enseignant méritent des réponses concrètes.
+		</p>
+		<p class="coming-soon-sub">
+			Cette section est en construction. En attendant, le guide complet couvre déjà la différenciation (DYS, EANA, HPI) face à l'hétérogénéité.
+		</p>
+		<a href="/article/preparer-ses-cours-ia-guide-complet/" class="coming-soon-btn">
+			📖 Lire le guide complet
+		</a>
+	</section>
+
+	<Newsletter />
+</Base>
+
+<style>
+	.coming-soon-section {
+		text-align: center;
+		padding: 3rem 1rem 2rem;
+		max-width: 600px;
+		margin: 0 auto;
+	}
+	.coming-soon-section h1 {
+		font-size: 2rem;
+		color: var(--navy);
+		margin: 0 0 1.5rem 0;
+	}
+	.coming-soon-lead {
+		font-size: 1.1rem;
+		line-height: 1.7;
+		color: var(--text-body);
+		margin-bottom: 1rem;
+	}
+	.coming-soon-sub {
+		font-size: 1rem;
+		color: var(--text-muted);
+		margin-bottom: 2rem;
+	}
+	.coming-soon-btn {
+		display: inline-block;
+		background: var(--amber);
+		color: white;
+		font-weight: 600;
+		padding: 0.85rem 2rem;
+		border-radius: var(--radius-md);
+		text-decoration: none;
+		transition: all 0.3s;
+	}
+	.coming-soon-btn:hover {
+		transform: translateY(-2px);
+		box-shadow: 0 8px 24px rgba(217, 119, 87, 0.35);
+	}
+</style>

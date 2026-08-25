@@ -1,0 +1,143 @@
+---
+import Base from '../layouts/Base.astro';
+---
+
+<Base
+	title="À propos"
+	description="AIPEDA : le laboratoire de Laurent Jeannin, professeur en réseau AEFE. L'IA en coulisses pour une préparation d'élite, l'humain à 100% face aux élèves."
+>
+	<section class="about-section">
+		<div class="about-card">
+			<h1>Le Concepteur Pédagogique Majeur</h1>
+			
+			<p class="about-lead">
+				AIPEDA n'est pas une agence. C'est le laboratoire de Laurent Jeannin — professeur des écoles dans le réseau AEFE, 15+ ans de terrain, basé en Asie.
+			</p>
+
+			<p>
+				Je teste, j'échoue, et je partage ce qui marche vraiment. L'IA n'est pas un gadget : c'est mon outil de coulisses pour concevoir des séquences d'élite, différencier sans perdre mes soirées, et garder mon énergie pour ce qui compte — mes élèves.
+			</p>
+
+			<div class="about-principles">
+				<div class="principle">
+					<h3>🚫 Anti-Guru</h3>
+					<p>Pas de recettes miracles. L'IA est un copilote, le prof reste pilote. Je documente les réussites et les échecs.</p>
+				</div>
+				<div class="principle">
+					<h3>📐 Pareto 80/20</h3>
+					<p>80% du travail préparatoire en 20% du temps. Le reste, c'est l'expertise humaine — irremplaçable.</p>
+				</div>
+				<div class="principle">
+					<h3>🔒 L'IA en coulisses</h3>
+					<p>L'IA prépare. L'humain enseigne. L'évaluation et le feedback restent la chasse gardée du professeur.</p>
+				</div>
+				<div class="principle">
+					<h3>🌏 Ouvert à tout l'écosystème</h3>
+					<p>Professeurs des écoles, secondaire, formateurs, directeurs, inspecteurs — l'IA péda concerne tout le monde.</p>
+				</div>
+			</div>
+
+			<div class="about-cta">
+				<h2>Travailler mieux pour donner plus</h2>
+				<p>
+					Le temps gagné sur la logistique est réinvesti dans une préparation supérieure, des situations d'apprentissage plus créatives, et une présence qualitative auprès des enfants.
+				</p>
+				<p>
+					<strong>Rejoignez cette quête pour un enseignement augmenté, plus humain, plus serein.</strong>
+				</p>
+				<a href="/article/preparer-ses-cours-ia-guide-complet/" class="about-btn">
+					📖 Commencer par le guide complet
+				</a>
+			</div>
+		</div>
+	</section>
+</Base>
+
+<style>
+	.about-section {
+		padding: 2rem 0 4rem;
+		max-width: 800px;
+		margin: 0 auto;
+	}
+
+	.about-card {
+		background: var(--surface);
+		border: 1px solid var(--border);
+		border-radius: var(--radius-lg);
+		padding: 3rem;
+	}
+
+	.about-card h1 {
+		font-size: 2rem;
+		margin: 0 0 1.5rem 0;
+		color: var(--navy);
+	}
+
+	.about-lead {
+		font-size: 1.15rem;
+		line-height: 1.7;
+		color: var(--text-body);
+		margin-bottom: 1.5rem;
+	}
+
+	.about-card p {
+		font-size: 1.05rem;
+		line-height: 1.8;
+		color: var(--text-muted);
+		margin-bottom: 1.5rem;
+	}
+
+	.about-principles {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		gap: 1.5rem;
+		margin: 2.5rem 0;
+	}
+
+	.principle h3 {
+		font-size: 1.05rem;
+		margin: 0 0 0.5rem 0;
+		color: var(--navy);
+	}
+
+	.principle p {
+		font-size: 0.95rem;
+		line-height: 1.6;
+		margin: 0;
+	}
+
+	.about-cta {
+		text-align: center;
+		margin-top: 3rem;
+		padding-top: 2rem;
+		border-top: 1px solid var(--border);
+	}
+
+	.about-cta h2 {
+		font-size: 1.4rem;
+		color: var(--navy);
+		margin: 0 0 1rem 0;
+	}
+
+	.about-btn {
+		display: inline-block;
+		background: var(--amber);
+		color: white;
+		font-weight: 600;
+		padding: 0.85rem 2rem;
+		border-radius: var(--radius-md);
+		text-decoration: none;
+		margin-top: 1rem;
+		transition: all 0.3s;
+	}
+
+	.about-btn:hover {
+		transform: translateY(-2px);
+		box-shadow: 0 8px 24px rgba(217, 119, 87, 0.35);
+	}
+
+	@media (max-width: 768px) {
+		.about-card { padding: 2rem 1.5rem; }
+		.about-principles { grid-template-columns: 1fr; }
+	}
+</style>
