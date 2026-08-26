@@ -6,15 +6,139 @@ import Base from '../layouts/Base.astro';
 	title="Académie IA"
 	description="Future plateforme de formation pour devenir un Prof Augmenté."
 >
-	<section class="section container">
-		<div class="card text-center">
-			<span class="section-tag">En préparation</span>
-			<h1>Académie IA : Formez-vous</h1>
-			<p>Je travaille sur une formation complète pour vous apprendre à déployer vos propres agents IA pédagogiques.</p>
-			<p><strong>Concrète, pratique, immédiatement applicable.</strong></p>
-			<div class="mt-2">
+	<!-- Panneau navy "bientôt" -->
+	<section class="aca-panel">
+		<div class="halo halo-a" aria-hidden="true"></div>
+		<div class="halo halo-b" aria-hidden="true"></div>
+
+		<div class="aca-content">
+			<span class="aca-chip">🚧 En préparation</span>
+			<h1>Académie IA</h1>
+			<p class="aca-lead">
+				Je travaille sur une formation complète pour vous apprendre à déployer
+				vos propres agents IA pédagogiques.
+			</p>
+			<p class="aca-strong"><strong>Concrète, pratique, immédiatement applicable.</strong></p>
+
+			<div class="aca-promise">
+				<span class="chip">✅ Testé en classe</span>
+				<span class="chip">⚡ Prompts prêts à l'emploi</span>
+				<span class="chip">🛡️ Ligne rouge respectée</span>
+			</div>
+
+			<div class="aca-actions">
 				<a href="/contact/" class="btn btn-primary">Être prévenu de l'ouverture</a>
+				<a href="/article/preparer-ses-cours-ia-guide-complet/" class="btn btn-ghost-light">
+					En attendant : le guide complet
+				</a>
 			</div>
 		</div>
 	</section>
 </Base>
+
+<style>
+	.aca-panel {
+		position: relative;
+		overflow: hidden;
+		max-width: 920px;
+		margin: 2rem auto 0;
+		padding: 4rem 2.5rem;
+		border-radius: var(--radius-xl);
+		background: linear-gradient(150deg, var(--navy) 0%, var(--navy-deep) 100%);
+		box-shadow: var(--shadow-lg);
+		text-align: center;
+	}
+
+	.halo {
+		position: absolute;
+		border-radius: 50%;
+		filter: blur(80px);
+		opacity: 0.3;
+		pointer-events: none;
+	}
+
+	.halo-a {
+		width: 340px;
+		height: 340px;
+		background: var(--amber);
+		top: -150px;
+		right: -100px;
+		animation: drift-a 9s ease-in-out infinite alternate;
+	}
+
+	.halo-b {
+		width: 300px;
+		height: 300px;
+		background: #764ba2;
+		bottom: -140px;
+		left: -90px;
+		animation: drift-b 11s ease-in-out infinite alternate;
+	}
+
+	@keyframes drift-a {
+		to { transform: translate(-30px, 24px); }
+	}
+
+	@keyframes drift-b {
+		to { transform: translate(26px, -22px); }
+	}
+
+	@media (prefers-reduced-motion: reduce) {
+		.halo { animation: none; }
+	}
+
+	.aca-content {
+		position: relative;
+		z-index: 1;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 0.9rem;
+	}
+
+	.aca-chip {
+		font-size: 0.78rem;
+		font-weight: 800;
+		text-transform: uppercase;
+		letter-spacing: 0.07em;
+		color: white;
+		background: rgba(255, 255, 255, 0.14);
+		border: 1px solid rgba(255, 255, 255, 0.22);
+		padding: 0.35rem 0.95rem;
+		border-radius: 999px;
+	}
+
+	h1 {
+		font-size: clamp(2.5rem, 6vw, 3.6rem);
+		color: white;
+		margin: 0;
+	}
+
+	.aca-lead {
+		color: rgba(255, 255, 255, 0.85);
+		font-size: 1.14rem;
+		line-height: 1.75;
+		max-width: 560px;
+		margin: 0;
+	}
+
+	.aca-strong strong {
+		color: var(--amber-light);
+	}
+
+	.aca-promise {
+		display: flex;
+		gap: 0.6rem;
+		flex-wrap: wrap;
+		justify-content: center;
+		margin-top: 0.5rem;
+	}
+
+	.aca-actions {
+		display: flex;
+		gap: 0.85rem;
+		flex-wrap: wrap;
+		justify-content: center;
+		margin-top: 1.3rem;
+	}
+</style>

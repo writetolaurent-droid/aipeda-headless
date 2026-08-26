@@ -251,17 +251,25 @@ const defis = [
 	}
 
 	.articles-list a {
-		display: inline-block;
-		color: var(--amber);
+		display: flex;
+		align-items: baseline;
+		gap: 0.5rem;
+		background: color-mix(in srgb, var(--amber) 7%, transparent);
+		border: 1px solid color-mix(in srgb, var(--amber) 16%, transparent);
+		border-radius: 11px;
+		padding: 0.65rem 1rem;
+		color: var(--text-body);
 		text-decoration: none;
-		font-weight: 500;
-		font-size: 0.98rem;
-		line-height: 1.4;
-		transition: color 0.2s ease, transform 0.2s ease;
+		font-weight: 600;
+		font-size: 0.95rem;
+		line-height: 1.45;
+		transition: background 0.25s ease, transform 0.2s ease, border-color 0.25s ease, color 0.2s ease;
 	}
 
 	.articles-list a:hover {
-		color: var(--navy);
+		background: color-mix(in srgb, var(--amber) 14%, transparent);
+		border-color: color-mix(in srgb, var(--amber) 35%, transparent);
+		color: var(--heading);
 		transform: translateX(4px);
 	}
 
@@ -273,10 +281,11 @@ const defis = [
 	}
 
 	.principe-box {
-		background: var(--bg-warm);
-		border-left: 4px solid var(--amber);
-		border-radius: var(--radius-md);
-		padding: 1.8rem;
+		background: color-mix(in srgb, var(--amber) 8%, var(--surface));
+		border-left: 5px solid var(--amber);
+		border-radius: var(--radius-lg);
+		padding: 2rem;
+		box-shadow: var(--shadow-soft);
 	}
 
 	.principe-box h2 {

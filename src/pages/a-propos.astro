@@ -6,138 +6,221 @@ import Base from '../layouts/Base.astro';
 	title="À propos"
 	description="AIPEDA : le laboratoire de Laurent Jeannin, professeur en réseau AEFE. L'IA en coulisses pour une préparation d'élite, l'humain à 100% face aux élèves."
 >
-	<section class="about-section">
-		<div class="about-card">
-			<h1>Le Concepteur Pédagogique Majeur</h1>
-			
-			<p class="about-lead">
-				AIPEDA n'est pas une agence. C'est le laboratoire de Laurent Jeannin — professeur des écoles dans le réseau AEFE, 15+ ans de terrain, basé en Asie.
-			</p>
-
-			<p>
-				Je teste, j'échoue, et je partage ce qui marche vraiment. L'IA n'est pas un gadget : c'est mon outil de coulisses pour concevoir des séquences d'élite, différencier sans perdre mes soirées, et garder mon énergie pour ce qui compte — mes élèves.
-			</p>
-
-			<div class="about-principles">
-				<div class="principle">
-					<h3>🚫 Anti-Guru</h3>
-					<p>Pas de recettes miracles. L'IA est un copilote, le prof reste pilote. Je documente les réussites et les échecs.</p>
-				</div>
-				<div class="principle">
-					<h3>📐 Pareto 80/20</h3>
-					<p>80% du travail préparatoire en 20% du temps. Le reste, c'est l'expertise humaine — irremplaçable.</p>
-				</div>
-				<div class="principle">
-					<h3>🔒 L'IA en coulisses</h3>
-					<p>L'IA prépare. L'humain enseigne. L'évaluation et le feedback restent la chasse gardée du professeur.</p>
-				</div>
-				<div class="principle">
-					<h3>🌏 Ouvert à tout l'écosystème</h3>
-					<p>Professeurs des écoles, secondaire, formateurs, directeurs, inspecteurs — l'IA péda concerne tout le monde.</p>
-				</div>
-			</div>
-
-			<div class="about-cta">
-				<h2>Travailler mieux pour donner plus</h2>
-				<p>
-					Le temps gagné sur la logistique est réinvesti dans une préparation supérieure, des situations d'apprentissage plus créatives, et une présence qualitative auprès des enfants.
-				</p>
-				<p>
-					<strong>Rejoignez cette quête pour un enseignement augmenté, plus humain, plus serein.</strong>
-				</p>
-				<a href="/article/preparer-ses-cours-ia-guide-complet/" class="about-btn">
-					📖 Commencer par le guide complet
-				</a>
-			</div>
+	<!-- Hero expressif -->
+	<section class="about-hero">
+		<span class="section-label">🧪 Le laboratoire du Prof Augmenté</span>
+		<h1>Le Concepteur Pédagogique Majeur</h1>
+		<div class="identity-chips">
+			<span class="chip">👩‍🏫 Professeur des écoles</span>
+			<span class="chip">🎓 15+ ans de terrain</span>
+			<span class="chip">🌏 Réseau AEFE · Asie</span>
 		</div>
+	</section>
+
+	<!-- Corps -->
+	<section class="about-body">
+		<p class="about-lead">
+			AIPEDA n'est pas une agence. C'est le laboratoire de Laurent Jeannin —
+			professeur des écoles dans le réseau AEFE, 15+ ans de terrain, basé en Asie.
+		</p>
+
+		<p>
+			Je teste, j'échoue, et je partage ce qui marche vraiment. L'IA n'est pas un
+			gadget&nbsp;: c'est mon outil de coulisses pour concevoir des séquences
+			d'élite, différencier sans perdre mes soirées, et garder mon énergie pour ce
+			qui compte — mes élèves.
+		</p>
+
+		<div class="principles-grid">
+			<article class="principle-card" style="--acc: #d97757;">
+				<div class="medallion">🚫</div>
+				<h3>Anti-Guru</h3>
+				<p>Pas de recettes miracles. L'IA est un copilote, le prof reste pilote. Je documente les réussites et les échecs.</p>
+			</article>
+			<article class="principle-card" style="--acc: #764ba2;">
+				<div class="medallion">📐</div>
+				<h3>Pareto 80/20</h3>
+				<p>80% du travail préparatoire en 20% du temps. Le reste, c'est l'expertise humaine — irremplaçable.</p>
+			</article>
+			<article class="principle-card" style="--acc: #4facfe;">
+				<div class="medallion">🔒</div>
+				<h3>L'IA en coulisses</h3>
+				<p>L'IA prépare. L'humain enseigne. L'évaluation et le feedback restent la chasse gardée du professeur.</p>
+			</article>
+			<article class="principle-card" style="--acc: #199a5e;">
+				<div class="medallion">🌏</div>
+				<h3>Ouvert à tout l'écosystème</h3>
+				<p>Professeurs des écoles, secondaire, formateurs, directeurs, inspecteurs — l'IA péda concerne tout le monde.</p>
+			</article>
+		</div>
+	</section>
+
+	<!-- Bandeau CTA navy -->
+	<section class="about-band">
+		<h2>Travailler mieux pour donner plus</h2>
+		<p>
+			Le temps gagné sur la logistique est réinvesti dans une préparation
+			supérieure, des situations d'apprentissage plus créatives, et une présence
+			qualitative auprès des enfants.
+		</p>
+		<p class="band-strong">
+			<strong>Rejoignez cette quête pour un enseignement augmenté, plus humain, plus serein.</strong>
+		</p>
+		<a href="/article/preparer-ses-cours-ia-guide-complet/" class="btn btn-primary">
+			📖 Commencer par le guide complet
+		</a>
 	</section>
 </Base>
 
 <style>
-	.about-section {
-		padding: 2rem 0 4rem;
-		max-width: 800px;
+	/* === Hero === */
+	.about-hero {
+		text-align: center;
+		padding: 1rem 0 1.5rem;
+	}
+
+	.about-hero h1 {
+		font-size: clamp(2.4rem, 5vw, 3.4rem);
+		margin: 0 auto 1.1rem;
+	}
+
+	.identity-chips {
+		display: flex;
+		gap: 0.6rem;
+		justify-content: center;
+		flex-wrap: wrap;
+	}
+
+	/* === Corps === */
+	.about-body {
+		max-width: 760px;
 		margin: 0 auto;
 	}
 
-	.about-card {
-		background: var(--surface);
-		border: 1px solid var(--border);
-		border-radius: var(--radius-lg);
-		padding: 3rem;
-	}
-
-	.about-card h1 {
-		font-size: 2rem;
-		margin: 0 0 1.5rem 0;
-		color: var(--navy);
-	}
-
 	.about-lead {
-		font-size: 1.15rem;
-		line-height: 1.7;
+		font-size: 1.18rem;
+		line-height: 1.75;
 		color: var(--text-body);
-		margin-bottom: 1.5rem;
+		margin-bottom: 1.2rem;
 	}
 
-	.about-card p {
-		font-size: 1.05rem;
+	.about-body > p:not(.about-lead) {
+		font-size: 1.02rem;
 		line-height: 1.8;
 		color: var(--text-muted);
-		margin-bottom: 1.5rem;
 	}
 
-	.about-principles {
+	/* === Principes === */
+	.principles-grid {
 		display: grid;
 		grid-template-columns: 1fr 1fr;
 		gap: 1.5rem;
-		margin: 2.5rem 0;
+		margin: 2.8rem 0 1rem;
 	}
 
-	.principle h3 {
+	.principle-card {
+		background: var(--surface);
+		border: 1px solid var(--border);
+		border-radius: var(--radius-lg);
+		padding: 1.6rem 1.5rem;
+		box-shadow: var(--shadow-soft);
+		transition: transform 0.35s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.35s ease, border-color 0.3s ease;
+	}
+
+	.principle-card:hover {
+		transform: translateY(-4px);
+		box-shadow: var(--shadow-md);
+		border-color: color-mix(in srgb, var(--acc) 35%, transparent);
+	}
+
+	.medallion {
+		width: 46px;
+		height: 46px;
+		border-radius: 13px;
+		display: grid;
+		place-items: center;
+		font-size: 1.35rem;
+		margin-bottom: 0.9rem;
+		background: color-mix(in srgb, var(--acc) 14%, transparent);
+		border: 1px solid color-mix(in srgb, var(--acc) 22%, transparent);
+	}
+
+	.principle-card h3 {
 		font-size: 1.05rem;
-		margin: 0 0 0.5rem 0;
-		color: var(--navy);
+		margin: 0 0 0.45rem 0;
+		color: var(--heading);
 	}
 
-	.principle p {
-		font-size: 0.95rem;
-		line-height: 1.6;
+	.principle-card p {
+		font-size: 0.93rem;
+		line-height: 1.62;
+		color: var(--text-muted);
 		margin: 0;
 	}
 
-	.about-cta {
+	/* === Bandeau final navy === */
+	.about-band {
+		position: relative;
+		overflow: hidden;
 		text-align: center;
-		margin-top: 3rem;
-		padding-top: 2rem;
-		border-top: 1px solid var(--border);
+		max-width: 900px;
+		margin: 3rem auto 0;
+		padding: 3rem 2.5rem;
+		border-radius: var(--radius-xl);
+		background: linear-gradient(150deg, var(--navy) 0%, var(--navy-deep) 100%);
+		box-shadow: var(--shadow-lg);
 	}
 
-	.about-cta h2 {
-		font-size: 1.4rem;
-		color: var(--navy);
+	.about-band::before,
+	.about-band::after {
+		content: '';
+		position: absolute;
+		border-radius: 50%;
+		filter: blur(70px);
+		opacity: 0.28;
+		pointer-events: none;
+	}
+
+	.about-band::before {
+		width: 300px;
+		height: 300px;
+		background: var(--amber);
+		top: -140px;
+		right: -90px;
+	}
+
+	.about-band::after {
+		width: 260px;
+		height: 260px;
+		background: #764ba2;
+		bottom: -130px;
+		left: -80px;
+	}
+
+	.about-band > * {
+		position: relative;
+		z-index: 1;
+	}
+
+	.about-band h2 {
+		font-size: clamp(1.5rem, 3.5vw, 2rem);
+		color: white;
 		margin: 0 0 1rem 0;
 	}
 
-	.about-btn {
-		display: inline-block;
-		background: var(--amber);
+	.about-band p {
+		color: rgba(255, 255, 255, 0.82);
+		line-height: 1.75;
+		max-width: 600px;
+		margin: 0 auto 1.2rem;
+	}
+
+	.band-strong strong {
 		color: white;
-		font-weight: 600;
-		padding: 0.85rem 2rem;
-		border-radius: var(--radius-md);
-		text-decoration: none;
-		margin-top: 1rem;
-		transition: all 0.3s;
 	}
 
-	.about-btn:hover {
-		transform: translateY(-2px);
-		box-shadow: 0 8px 24px rgba(217, 119, 87, 0.35);
-	}
-
-	@media (max-width: 768px) {
-		.about-card { padding: 2rem 1.5rem; }
-		.about-principles { grid-template-columns: 1fr; }
+	@media (max-width: 700px) {
+		.principles-grid { grid-template-columns: 1fr; }
+		.about-band { padding: 2.2rem 1.4rem; }
 	}
 </style>
