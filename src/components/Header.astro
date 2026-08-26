@@ -4,11 +4,12 @@ import { NAV_LINKS, SITE_TITLE } from '../consts';
 
 <header class="header">
 	<div class="container header-inner">
-		<a href="/" class="logo">
+		<a href="/" class="logo" aria-label={`${SITE_TITLE} — Accueil`}>
+			<span class="logo-mark" aria-hidden="true">A</span>
 			<span class="logo-text">{SITE_TITLE}</span>
 		</a>
 
-		<nav class="nav" id="nav-menu">
+		<nav class="nav" id="nav-menu" aria-label="Navigation principale">
 			<ul class="nav-list" role="list">
 				{
 					NAV_LINKS.map((link) => (
@@ -25,10 +26,13 @@ import { NAV_LINKS, SITE_TITLE } from '../consts';
 						</li>
 					))
 				}
-				</ul>
-				</nav>
+				<li class="nav-cta-item">
+					<a href="/article/preparer-ses-cours-ia-guide-complet/" class="nav-cta">Guide gratuit</a>
+				</li>
+			</ul>
+		</nav>
 
-		<button class="menu-toggle" aria-label="Menu" id="menu-toggle">
+		<button class="menu-toggle" aria-label="Menu" id="menu-toggle" aria-expanded="false" aria-controls="nav-menu">
 			<span class="bar"></span>
 			<span class="bar"></span>
 			<span class="bar"></span>
@@ -41,8 +45,9 @@ import { NAV_LINKS, SITE_TITLE } from '../consts';
 	const nav = document.getElementById('nav-menu');
 
 	toggle?.addEventListener('click', () => {
-		nav?.classList.toggle('open');
+		const isOpen = nav?.classList.toggle('open');
 		toggle.classList.toggle('active');
+		toggle.setAttribute('aria-expanded', String(Boolean(isOpen)));
 	});
 </script>
 
@@ -50,13 +55,15 @@ import { NAV_LINKS, SITE_TITLE } from '../consts';
 	.header {
 		position: fixed;
 		top: 0;
+		left: 0;
 		width: 100%;
-		padding: 1.25rem 0;
+		padding: 0.9rem 0;
 		z-index: 1000;
-		background: rgba(253, 251, 247, 0.85);
-		backdrop-filter: blur(12px);
-		-webkit-backdrop-filter: blur(12px);
+		background: rgba(253, 251, 247, 0.88);
+		backdrop-filter: blur(14px);
+		-webkit-backdrop-filter: blur(14px);
 		border-bottom: 1px solid var(--border);
+		box-sizing: border-box;
 	}
 
 	.header-inner {
@@ -66,17 +73,37 @@ import { NAV_LINKS, SITE_TITLE } from '../consts';
 	}
 
 	.logo {
-		font-weight: 800;
-		font-size: 1.4rem;
-		color: var(--navy);
+		display: inline-flex;
+		align-items: center;
+		gap: 0.6rem;
 		text-decoration: none;
+	}
+	.logo-mark {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 38px;
+		height: 38px;
+		background: linear-gradient(135deg, var(--amber) 0%, var(--amber-dark) 100%);
+		color: white;
+		border-radius: 11px;
+		font-size: 1.15rem;
+		font-weight: 800;
+		box-shadow: 0 4px 12px rgba(217, 119, 87, 0.32);
+		transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+	}
+	.logo:hover .logo-mark { transform: rotate(-6deg) scale(1.05); }
+	.logo-text {
+		font-weight: 800;
+		font-size: 1.35rem;
+		color: var(--navy);
 		letter-spacing: -0.02em;
 	}
 
 	.nav-list {
 		display: flex;
 		align-items: center;
-		gap: 1.75rem;
+		gap: 1.5rem;
 		list-style: none;
 		margin: 0;
 		padding: 0;
@@ -85,31 +112,48 @@ import { NAV_LINKS, SITE_TITLE } from '../consts';
 	.nav-link {
 		color: var(--text-body);
 		text-decoration: none;
-		font-weight: 500;
+		font-weight: 600;
 		font-size: 0.95rem;
 		position: relative;
+		padding: 0.4rem 0.15rem;
 		transition: color 0.3s;
 	}
-
 	.nav-link::after {
 		content: '';
 		position: absolute;
 		left: 0;
-		bottom: -5px;
+		bottom: -2px;
 		width: 0;
-		height: 2px;
-		background: var(--amber);
+		height: 2.5px;
+		border-radius: 2px;
+		background: linear-gradient(90deg, var(--amber), var(--amber-dark));
 		transition: width 0.3s;
 	}
-
 	.nav-link:hover,
-	.nav-link.active {
-		color: var(--amber);
-	}
-
+	.nav-link.active { color: var(--amber-dark); }
 	.nav-link:hover::after,
-	.nav-link.active::after {
-		width: 100%;
+	.nav-link.active::after { width: 100%; }
+
+	/* CTA permanent vers la ressource phare */
+	.nav-cta-item { margin-left: 0.75rem; }
+	.nav-cta {
+		display: inline-block;
+		background: var(--amber);
+		color: white !important;
+		font-weight: 700;
+		font-size: 0.9rem;
+		padding: 0.55rem 1.25rem;
+		border-radius: 999px;
+		text-decoration: none;
+		box-shadow: 0 4px 12px rgba(217, 119, 87, 0.28);
+		transition: background 0.2s ease, transform 0.25s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.25s ease;
+	}
+	.nav-cta::after { display: none; }
+	.nav-cta:hover {
+		background: var(--amber-dark);
+		transform: translateY(-1px);
+		box-shadow: var(--shadow-glow);
+		color: white;
 	}
 
 	.menu-toggle {
@@ -121,7 +165,6 @@ import { NAV_LINKS, SITE_TITLE } from '../consts';
 		cursor: pointer;
 		padding: 5px;
 	}
-
 	.bar {
 		width: 25px;
 		height: 2.5px;
@@ -129,21 +172,12 @@ import { NAV_LINKS, SITE_TITLE } from '../consts';
 		border-radius: 2px;
 		transition: 0.3s;
 	}
+	.menu-toggle.active .bar:nth-child(1) { transform: rotate(45deg) translate(6px, 6px); }
+	.menu-toggle.active .bar:nth-child(2) { opacity: 0; }
+	.menu-toggle.active .bar:nth-child(3) { transform: rotate(-45deg) translate(6px, -6px); }
 
-	.menu-toggle.active .bar:nth-child(1) {
-		transform: rotate(45deg) translate(6px, 6px);
-	}
-	.menu-toggle.active .bar:nth-child(2) {
-		opacity: 0;
-	}
-	.menu-toggle.active .bar:nth-child(3) {
-		transform: rotate(-45deg) translate(6px, -6px);
-	}
-
-	@media (max-width: 768px) {
-		.menu-toggle {
-			display: flex;
-		}
+	@media (max-width: 900px) {
+		.menu-toggle { display: flex; }
 		.nav {
 			display: none;
 			position: absolute;
@@ -151,16 +185,19 @@ import { NAV_LINKS, SITE_TITLE } from '../consts';
 			left: 0;
 			width: 100%;
 			background: var(--bg-warm);
-			padding: 2rem;
+			padding: 1.75rem 2rem;
 			box-shadow: var(--shadow-lg);
 			border-top: 1px solid var(--border);
+			box-sizing: border-box;
 		}
-		.nav.open {
-			display: block;
-		}
+		.nav.open { display: block; }
 		.nav-list {
 			flex-direction: column;
-			gap: 1.25rem;
+			align-items: stretch;
+			gap: 1.1rem;
 		}
+		.nav-link { display: block; padding: 0.35rem 0; font-size: 1.05rem; }
+		.nav-cta-item { margin-left: 0; }
+		.nav-cta { display: block; text-align: center; padding: 0.8rem 1.25rem; font-size: 1rem; }
 	}
 </style>

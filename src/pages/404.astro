@@ -1,0 +1,108 @@
+---
+import Base from '../layouts/Base.astro';
+import { getCollection } from 'astro:content';
+
+// Suggestion utile : 3 articles récents au lieu d'une impasse
+const recent = (await getCollection('blog'))
+	.sort((a, b) => b.data.pubDate.getTime() - a.data.pubDate.getTime())
+	.slice(0, 3);
+---
+
+<Base title="Page introuvable — AIPEDA" description="Cette page n'existe pas ou plus.">
+	<section class="nf-hero">
+		<span class="nf-code" aria-hidden="true">404</span>
+		<h1>Cette page a séché le cours&nbsp;!</h1>
+		<p class="nf-sub">
+			Introuvable, déplacée ou jamais créée. Pas de panique : voici de quoi rebondir.
+		</p>
+		<div class="nf-actions">
+			<a href="/" class="btn btn-primary">← Retour à l'accueil</a>
+			<a href="/blog/" class="btn btn-secondary">Parcourir le blog</a>
+			<a href="/article/preparer-ses-cours-ia-guide-complet/" class="btn btn-secondary">📖 Guide complet</a>
+		</div>
+	</section>
+
+	{recent.length > 0 && (
+		<section class="nf-recent">
+			<h2>À lire pendant ce temps</h2>
+			<ul class="nf-list" role="list">
+				{recent.map((post) => (
+					<li>
+						<a href={`/article/${post.id}/`}>{post.data.title} <span aria-hidden="true">→</span></a>
+					</li>
+				))}
+			</ul>
+		</section>
+	)}
+</Base>
+
+<style>
+	.nf-hero {
+		text-align: center;
+		padding: 3rem 1rem 1rem;
+		max-width: 640px;
+		margin: 0 auto;
+	}
+	.nf-code {
+		display: block;
+		font-size: clamp(5rem, 14vw, 8.5rem);
+		font-weight: 800;
+		line-height: 1;
+		letter-spacing: -0.04em;
+		background: linear-gradient(135deg, #d97757 20%, #764ba2 90%);
+		-webkit-background-clip: text;
+		background-clip: text;
+		color: transparent;
+		margin-bottom: 1rem;
+	}
+	h1 { font-size: clamp(1.6rem, 4vw, 2.3rem); }
+	.nf-sub {
+		color: var(--text-muted);
+		font-size: 1.08rem;
+		margin: 0 auto 2rem;
+	}
+	.nf-actions {
+		display: flex;
+		gap: 0.85rem;
+		justify-content: center;
+		flex-wrap: wrap;
+	}
+	.nf-recent {
+		max-width: 640px;
+		margin: 3rem auto 1rem;
+		background: var(--surface);
+		border: 1px solid var(--border);
+		border-radius: var(--radius-lg);
+		box-shadow: var(--shadow-soft);
+		padding: 1.9rem 2.1rem;
+	}
+	.nf-recent h2 {
+		font-size: 1.15rem;
+		margin: 0 0 1rem 0;
+	}
+	.nf-list {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		display: flex;
+		flex-direction: column;
+		gap: 0.7rem;
+	}
+	.nf-list a {
+		color: var(--text-body);
+		text-decoration: none;
+		font-weight: 600;
+		font-size: 0.98rem;
+		line-height: 1.45;
+		display: inline-block;
+		transition: color 0.2s ease, transform 0.2s ease;
+	}
+	.nf-list a:hover {
+		color: var(--amber-dark);
+		transform: translateX(3px);
+	}
+	@media (max-width: 600px) {
+		.nf-actions { flex-direction: column; align-items: stretch; }
+		.btn { justify-content: center; }
+	}
+</style>

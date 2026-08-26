@@ -58,10 +58,11 @@ const formatDate = (date) =>
 
 <Base title="Blog" description="Tutos, réflexions et workflows pour les profs augmentés. Filtrez par thème : préparation, différenciation, évaluation, outils IA.">
     <section class="tools-section">
-        <h1 class="page-title animate-in">Blog</h1>
-        <div class="blog-intro animate-in">
-            <p>Tutos, workflows et réflexions pour automatiser le répétitif et réhumaniser la classe.</p>
-        </div>
+        <header class="page-hero animate-in">
+            <span class="section-label">📚 {blogPosts.length} articles · filtrables</span>
+            <h1 class="page-title">Blog</h1>
+            <p class="page-sub">Tutos, workflows et réflexions pour automatiser le répétitif et réhumaniser la classe.</p>
+        </header>
 
         <!-- Barre de filtres -->
         <div class="filters-bar animate-in">
@@ -192,15 +193,21 @@ const formatDate = (date) =>
         padding: 2rem 0 4rem;
     }
 
-    .page-title {
-        font-size: 2.2rem;
-        margin-bottom: 0.5rem;
+    .page-hero {
+        text-align: center;
+        padding: 1rem 0 0.5rem;
     }
 
-    .blog-intro p {
+    .page-title {
+        font-size: clamp(2.4rem, 5vw, 3.4rem);
+        margin-bottom: 0.6rem;
+    }
+
+    .page-sub {
         color: var(--text-muted);
-        font-size: 1.1rem;
-        margin-bottom: 1rem;
+        font-size: 1.12rem;
+        max-width: 560px;
+        margin: 0 auto;
     }
 
     /* === Barre de filtres === */
@@ -357,12 +364,12 @@ const formatDate = (date) =>
     .card-badge {
         align-self: flex-start;
         color: white;
-        font-size: 0.72rem;
-        font-weight: 600;
-        padding: 0.2rem 0.65rem;
-        border-radius: var(--radius-sm, 4px);
+        font-size: 0.74rem;
+        font-weight: 800;
+        padding: 0.3rem 0.85rem;
+        border-radius: 999px;
         text-transform: uppercase;
-        letter-spacing: 0.03em;
+        letter-spacing: 0.04em;
     }
 
     .tool-card-title {

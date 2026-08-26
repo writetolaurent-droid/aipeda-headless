@@ -1,44 +1,104 @@
 /* ============================================================
-   AIPEDA — DESIGN SYSTEM (Version 3.0 : The Pedagogy Garden)
+   AIPEDA — DESIGN SYSTEM 4.0 « Contrast & Pulse »
+   Chaud (crème) x Profond (navy) x Vivant (coral)
+   Règle : chaque élément doit être utile. Keep it simple.
    ============================================================ */
 
 :root {
+	/* --- Fond & surfaces --- */
 	--bg-warm: #fdfbf7;
 	--surface: #ffffff;
+	--surface-tint: #fff8f4;
+
+	/* --- Couleurs de marque --- */
 	--navy: #1a2d42;
+	--heading: #1a2d42;
+	--navy-deep: #132334;
 	--amber: #d97757;
 	--amber-light: #e8a48c;
+	--amber-dark: #b85c3d;
 	--accent: #d97757;
+
+	/* --- Texte --- */
 	--text-body: #18181b;
 	--text-muted: #6b7280;
+
+	/* --- Bordures & ombres --- */
 	--border: #f0ece6;
-	--shadow-soft: 0 4px 12px rgba(0,0,0,0.03);
-	--shadow-md: 0 4px 20px rgba(0,0,0,0.06);
-	--shadow-lg: 0 10px 40px rgba(0,0,0,0.10);
+	--shadow-soft: 0 4px 12px rgba(26, 45, 66, 0.04);
+	--shadow-md: 0 4px 20px rgba(26, 45, 66, 0.07);
+	--shadow-lg: 0 14px 44px rgba(26, 45, 66, 0.13);
+	--shadow-glow: 0 10px 30px rgba(217, 119, 87, 0.32);
+
+	/* --- Rayons --- */
 	--radius-sm: 8px;
-	--radius-md: 12px;
-	--radius-lg: 16px;
+	--radius-md: 14px;
+	--radius-lg: 20px;
+	--radius-xl: 28px;
+
+	/* --- Typo --- */
+	--font-atkinson: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+	--font-sans: var(--font-atkinson);
+
+	/* --- Gradients signature (cats AIPEDA) --- */
+	--grad-preparer: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+	--grad-differencier: linear-gradient(135deg, #f093fb 0%, #4facfe 100%);
+	--grad-evaluer: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);
+	--grad-outils: linear-gradient(135deg, #fccb90 0%, #d57eeb 100%);
+	--grad-navy: linear-gradient(140deg, #1a2d42 0%, #243b55 60%, #2a4460 100%);
 }
+
+html { scroll-behavior: smooth; }
 
 body {
 	background-color: var(--bg-warm);
 	color: var(--text-body);
-	font-family: var(--font-atkinson), system-ui, sans-serif;
+	font-family: var(--font-sans);
 	font-size: 20px;
-	line-height: 1.8;
+	line-height: 1.75;
 	margin: 0;
+	-webkit-font-smoothing: antialiased;
 }
 
-/* --- MAIN CONTENT : 1200px max --- */
+::selection {
+	background: rgba(217, 119, 87, 0.22);
+	color: var(--navy);
+}
+
+:focus-visible {
+	outline: 3px solid var(--amber);
+	outline-offset: 3px;
+	border-radius: 4px;
+}
+
+/* --- MAIN CONTENT : 1200px max (header/footer/sections full-bleed échappent via main--wide) --- */
 main {
 	max-width: 1200px;
 	margin: 0 auto;
-	padding: 80px 2rem 0;
+	padding: 96px 2rem 0;
 	width: 100%;
 	box-sizing: border-box;
 }
 
-/* --- IMAGES : limitées à 1200px et centrées --- */
+/* Pages qui gèrent elles-mêmes leurs sections pleine largeur (home) */
+main.main--wide {
+	max-width: none;
+	padding-left: 0;
+	padding-right: 0;
+	padding-top: 64px;
+}
+main.main--wide > * { max-width: 1200px; margin-left: auto; margin-right: auto; }
+main.main--wide > .bleed { max-width: none; }
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 2rem;
+	box-sizing: border-box;
+	width: 100%;
+}
+
+/* --- IMAGES : limitées et centrées --- */
 img {
 	max-width: 1200px;
 	height: auto;
@@ -47,83 +107,154 @@ img {
 	border-radius: 12px;
 }
 
-/* --- UX/UI: ANIMATIONS DOUCES --- */
+/* --- TYPO EXPRESSIVE --- */
+h1, h2, h3, h4 {
+	color: var(--heading);
+	font-weight: 800;
+	letter-spacing: -0.02em;
+	text-wrap: balance;
+}
+h1 { font-size: clamp(2.4rem, 5vw, 3.6rem); line-height: 1.08; margin-bottom: 1.5rem; }
+h2 { font-size: clamp(1.7rem, 3vw, 2.25rem); line-height: 1.15; margin-bottom: 1.25rem; }
+h3 { font-size: 1.35rem; line-height: 1.3; margin-bottom: 0.65rem; }
+p { text-wrap: pretty; }
+
+/* --- LABEL DE SECTION (eyebrow vivant) --- */
+.section-label {
+	display: inline-flex;
+	align-items: center;
+	gap: 0.5rem;
+	font-size: 0.82rem;
+	font-weight: 800;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	color: var(--amber-dark);
+	background: var(--surface-tint);
+	border: 1px solid rgba(217, 119, 87, 0.25);
+	padding: 0.45rem 1rem;
+	border-radius: 999px;
+	margin: 0 0 1rem;
+}
+
+/* --- CHIP catégorielle générique --- */
+.chip {
+	display: inline-block;
+	font-size: 0.78rem;
+	font-weight: 800;
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+	padding: 0.32rem 0.85rem;
+	border-radius: 999px;
+}
+
+/* --- ANIMATIONS DOUCES AU SCROLL --- */
 .animate-in {
 	opacity: 0;
-	transition: opacity 0.8s ease-out;
+	transform: translateY(16px);
+	transition: opacity 0.7s ease-out, transform 0.7s ease-out;
 }
-.animate-in.visible { opacity: 1; }
+.animate-in.visible { opacity: 1; transform: translateY(0); }
 
+@media (prefers-reduced-motion: reduce) {
+	html { scroll-behavior: auto; }
+	.animate-in { transition: none; opacity: 1; transform: none; }
+	* { animation-duration: 0.01ms !important; }
+}
+
+/* --- CARTES GÉNÉRIQUES --- */
 .card {
 	background: var(--surface);
 	border: 1px solid var(--border);
 	border-radius: var(--radius-lg);
 	padding: 2.5rem;
-	transition: box-shadow 0.4s ease;
+	transition: box-shadow 0.4s ease, border-color 0.3s ease, transform 0.3s ease;
 }
-
 .card:hover {
-	box-shadow: 0 10px 30px rgba(0,0,0,0.06);
-	border-color: rgba(217, 119, 87, 0.2);
+	box-shadow: var(--shadow-md);
+	border-color: rgba(217, 119, 87, 0.25);
 }
 
-/* --- TYPO --- */
-h1, h2, h3 {
-	color: var(--navy);
-	font-weight: 700;
-	letter-spacing: -0.01em;
-}
-h1 { font-size: 2.2rem; margin-bottom: 2rem; line-height: 1.1; }
-h2 { font-size: 1.6rem; margin-bottom: 1.25rem; }
-h3 { font-size: 1.2rem; margin-bottom: 0.75rem; }
-
-/* --- HEADER --- */
-.header {
-	background: rgba(253, 251, 247, 0.9);
-	backdrop-filter: blur(10px);
-	border-bottom: 1px solid var(--border);
-	padding: 1.5rem 0;
-	position: sticky;
-	top: 0;
-	z-index: 1000;
-}
-
-.nav-link {
-	color: var(--text-body);
-	font-weight: 500;
-	padding: 0.5rem 1rem;
-	transition: color 0.3s;
-}
-.nav-link:hover { color: var(--amber); }
-
-/* --- BENTO GRID AÉRÉ --- */
+/* --- BENTO GRID --- */
 .bento-grid {
 	display: grid;
 	grid-template-columns: repeat(12, 1fr);
 	gap: 2rem;
 	padding: 3rem 0;
 }
-
+.bento-item {
+	background: var(--surface);
+	border: 1px solid var(--border);
+	border-radius: var(--radius-lg);
+	padding: 2rem;
+}
 @media (max-width: 768px) {
 	.bento-grid { display: flex; flex-direction: column; gap: 1.5rem; }
 	.bento-item { grid-column: span 12 !important; }
 }
 
-.bento-item {
-	background: var(--surface);
-	border-radius: var(--radius-lg);
-	padding: 2rem;
-}
-
 /* --- BOUTONS --- */
 .btn {
-	padding: 0.8rem 1.6rem;
-	border-radius: var(--radius-md);
-	font-weight: 600;
+	padding: 0.95rem 1.9rem;
+	border-radius: 999px;
+	font-weight: 700;
+	font-size: 1rem;
 	text-decoration: none;
-	transition: all 0.3s;
-	display: inline-block;
+	transition: transform 0.25s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.25s ease, background 0.2s ease, border-color 0.2s ease, color 0.2s ease;
+	display: inline-flex;
+	align-items: center;
+	gap: 0.55rem;
+	line-height: 1.2;
 }
-.btn:hover { transform: translateY(-2px); opacity: 0.9; }
-.btn-primary { background: var(--navy); color: white; }
-.btn-secondary { background: var(--border); color: var(--navy); }
+.btn:active { transform: translateY(0) scale(0.98); }
+.btn-primary {
+	background: var(--amber);
+	color: white;
+	box-shadow: 0 4px 14px rgba(217, 119, 87, 0.28);
+}
+.btn-primary:hover {
+	transform: translateY(-2px);
+	background: var(--amber-dark);
+	box-shadow: var(--shadow-glow);
+	color: white;
+}
+.btn-secondary {
+	background: var(--surface);
+	color: var(--navy);
+	border: 2px solid var(--border);
+}
+.btn-secondary:hover {
+	transform: translateY(-2px);
+	border-color: var(--amber);
+	color: var(--amber-dark);
+}
+.btn-ghost-light {
+	background: rgba(255, 255, 255, 0.08);
+	color: #fff;
+	border: 2px solid rgba(255, 255, 255, 0.25);
+	backdrop-filter: blur(4px);
+}
+.btn-ghost-light:hover {
+	transform: translateY(-2px);
+	background: rgba(255, 255, 255, 0.16);
+	border-color: rgba(255, 255, 255, 0.5);
+	color: #fff;
+}
+
+/* --- HEADER (base partagée, détails scopés dans Header.astro) --- */
+.header {
+	background: rgba(253, 251, 247, 0.88);
+	backdrop-filter: blur(14px);
+	-webkit-backdrop-filter: blur(14px);
+	border-bottom: 1px solid var(--border);
+	position: sticky;
+	top: 0;
+	z-index: 1000;
+}
+.nav-link {
+	color: var(--text-body);
+	font-weight: 600;
+	padding: 0.5rem 1rem;
+	transition: color 0.3s;
+	text-decoration: none;
+}
+.nav-link:hover { color: var(--amber); }

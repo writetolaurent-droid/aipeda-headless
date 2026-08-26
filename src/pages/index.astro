@@ -6,133 +6,275 @@ import { getCollection } from 'astro:content';
 const allPosts = await getCollection('blog');
 const pillar = allPosts.find(p => p.id === 'preparer-ses-cours-ia-guide-complet');
 const recentPosts = allPosts
-  .filter(p => p.id !== 'preparer-ses-cours-ia-guide-complet')
-  .sort((a, b) => b.data.pubDate.getTime() - a.data.pubDate.getTime())
-  .slice(0, 3);
+	.filter(p => p.id !== 'preparer-ses-cours-ia-guide-complet')
+	.sort((a, b) => b.data.pubDate.getTime() - a.data.pubDate.getTime())
+	.slice(0, 3);
+
+// Statistiques réelles (calculées, jamais inventées)
+const totalPosts = allPosts.length;
+const universCount = new Set(allPosts.map(p => p.data.category || 'Autres')).size;
+
+const readingTimeOf = (p: { body?: string }) =>
+	Math.max(1, Math.round((p.body?.split(/\s+/).length ?? 0) / 200));
+
+// Couleurs par catégorie (cohérent avec /blog/)
+const catColors: Record<string, { icon: string; gradient: string; color: string }> = {
+	'Préparer':     { icon: '📘', gradient: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)', color: '#6d5bd0' },
+	'Différencier': { icon: '🧩', gradient: 'linear-gradient(135deg, #f093fb 0%, #4facfe 100%)', color: '#c94fc8' },
+	'Évaluer':      { icon: '✅', gradient: 'linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)', color: '#199a5e' },
+	'Outils':       { icon: '🔧', gradient: 'linear-gradient(135deg, #fccb90 0%, #d57eeb 100%)', color: '#d7853a' },
+	'Autres':       { icon: '📖', gradient: 'linear-gradient(135deg, #a8edea 0%, #fed6e3 100%)', color: '#4a9d95' },
+};
 ---
 
 <Base
+	wide
 	title="AIPEDA — L'IA pour préparer vos cours, pas pour remplacer votre expertise"
 	description="Guides concrets, prompts testés en classe et outils IA pour les enseignants. Préparez vos cours 4x plus vite et recentrez-vous sur l'essentiel : vos élèves."
 >
-	{/* HERO */}
-	<section class="hero-section">
-		<div class="hero-inner">
+	{/* ================= HERO PLEINE LARGEUR ================= */}
+	<section class="bleed hero-section">
+		<div class="hero-decor" aria-hidden="true">
+			<div class="halo halo-1"></div>
+			<div class="halo halo-2"></div>
+			<div class="halo halo-3"></div>
+		</div>
+		<div class="container hero-inner">
 			<p class="hero-eyebrow">Pour les professeurs des écoles et l'écosystème éducatif</p>
 			<h1 class="hero-title">
-				L'IA en coulisses.<br/>
-				<span class="hero-accent">L'humain à 100% face aux élèves.</span>
+				L'IA en coulisses.<br />
+				<span class="hero-accent">L'humain à 100%</span> face aux élèves.
 			</h1>
 			<p class="hero-sub">
-				Préparez vos séquences, créez vos supports et différenciez vos exercices en 30 minutes au lieu de 2 heures. Des prompts testés en classe, pas de théorie.
+				Préparez vos séquences, créez vos supports et différenciez vos exercices en 30 minutes
+				au lieu de 2 heures. Des prompts testés en classe, pas de théorie.
 			</p>
 			<div class="hero-actions">
 				<a href="/article/preparer-ses-cours-ia-guide-complet/" class="btn btn-primary">
 					📖 Lire le guide complet
 				</a>
-				<a href="/blog/" class="btn btn-secondary">Explorer tous les articles</a>
+				<a href="/blog/" class="btn btn-ghost-light">Explorer tous les articles</a>
+			</div>
+			<p class="hero-trust">
+				<span>✓ Gratuit</span>
+				<span>✓ Sans inscription</span>
+				<span>✓ Prompts copier-coller</span>
+			</p>
+		</div>
+	</section>
+
+	{/* ================= STATS UTILES (chevauchement) ================= */}
+	<section class="stats-wrap container">
+		<div class="stats-strip animate-in">
+			<div class="stat">
+				<span class="stat-value">{totalPosts}</span>
+				<span class="stat-label">guides &amp; articles terrain</span>
+			</div>
+			<div class="stat">
+				<span class="stat-value">{universCount}</span>
+				<span class="stat-label">univers — préparer, différencier, évaluer, outiller</span>
+			</div>
+			<div class="stat">
+				<span class="stat-value">0&nbsp;€</span>
+				<span class="stat-label">gratuit &amp; sans inscription</span>
+			</div>
+			<div class="stat stat-accent">
+				<span class="stat-value">100%</span>
+				<span class="stat-label">humain face aux élèves</span>
 			</div>
 		</div>
 	</section>
 
-	{/* PILLAR FEATURE */}
+	{/* ================= PILLAR FEATURE ================= */}
 	{pillar && (
-		<section class="pillar-section">
-			<a href={`/article/${pillar.id}/`} class="pillar-card">
-				<div class="pillar-badge">⭐ Guide essentiel</div>
-				<h2 class="pillar-title">{pillar.data.title}</h2>
-				<p class="pillar-desc">{pillar.data.description}</p>
-				<span class="pillar-cta">Lire le guide →</span>
+		<section class="container pillar-section">
+			<a href={`/article/${pillar.id}/`} class="pillar-card animate-in">
+				<div class="pillar-body">
+					<span class="pillar-badge">⭐ Guide essentiel</span>
+					<h2 class="pillar-title">{pillar.data.title}</h2>
+					<p class="pillar-desc">{pillar.data.description}</p>
+					<span class="pillar-meta">⏱️ {readingTimeOf(pillar)} min de lecture · prompts prêts à l'emploi</span>
+					<span class="pillar-cta">
+						Lire le guide
+						<svg width="18" height="18" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+					</span>
+				</div>
+				<div class="pillar-side" aria-hidden="true">
+					<span class="pillar-book">📘</span>
+				</div>
 			</a>
 		</section>
 	)}
 
-	{/* VALUE PROPS */}
-	<section class="values-section">
-		<div class="value-card">
-			<div class="value-icon">⏱️</div>
+	{/* ================= VALUE PROPS ================= */}
+	<section class="container values-section">
+		<div class="value-card animate-in">
+			<div class="value-icon grad-preparer" aria-hidden="true">⏱️</div>
 			<h3>Préparer plus vite</h3>
 			<p>De l'objectif aux supports en 30 minutes. L'IA génère, vous validez.</p>
 		</div>
-		<div class="value-card">
-			<div class="value-icon">🧩</div>
+		<div class="value-card animate-in">
+			<div class="value-icon grad-differencier" aria-hidden="true">🧩</div>
 			<h3>Différencier sans effort</h3>
 			<p>DYS, EANA, élèves précoces : un même exercice décliné en 3 niveaux.</p>
 		</div>
-		<div class="value-card">
-			<div class="value-icon">🌏</div>
+		<div class="value-card animate-in">
+			<div class="value-icon grad-evaluer" aria-hidden="true">🌏</div>
 			<h3>Adapter au contexte</h3>
 			<p>Programmes français, réseau AEFE, plurilinguisme — l'IA s'ajuste.</p>
 		</div>
 	</section>
 
-	{/* RECENT ARTICLES */}
+	{/* ================= RECENT ARTICLES ================= */}
 	{recentPosts.length > 0 && (
-		<section class="recent-section">
-			<h2 class="section-heading">Derniers articles</h2>
+		<section class="container recent-section">
+			<div class="recent-header">
+				<div>
+					<span class="section-label">✨ Fraîchement publié</span>
+					<h2 class="section-heading">Derniers articles</h2>
+				</div>
+				<a href="/blog/" class="see-all">
+					Tout voir
+					<svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+				</a>
+			</div>
 			<div class="recent-grid">
-				{recentPosts.map((post) => (
-					<a href={`/article/${post.id}/`} class="recent-card">
-						<h3 class="recent-title">{post.data.title}</h3>
-						<p class="recent-desc">{post.data.description}</p>
-						<span class="recent-cta">Lire →</span>
-					</a>
-				))}
+				{recentPosts.map((post) => {
+					const cat = post.data.category || 'Autres';
+					const cc = catColors[cat] || catColors['Autres'];
+					return (
+						<a href={`/article/${post.id}/`} class="recent-card animate-in">
+							<div class="recent-thumb" style={`background: ${cc.gradient}`}>
+								<span class="thumb-icon" aria-hidden="true">{cc.icon}</span>
+							</div>
+							<div class="recent-body">
+								<div class="recent-meta-top">
+									<span class="chip recent-chip" style={`color: ${cc.color}; background: color-mix(in srgb, ${cc.color} 10%, transparent);`}>{cat}</span>
+									<span class="recent-time">{readingTimeOf(post)} min</span>
+								</div>
+								<h3 class="recent-title">{post.data.title}</h3>
+								<p class="recent-desc">{post.data.description}</p>
+								<span class="recent-cta">Lire <span aria-hidden="true">→</span></span>
+							</div>
+						</a>
+					);
+				})}
 			</div>
 		</section>
 	)}
 
-	{/* APPROACH */}
-	<section class="approach-section">
-		<div class="approach-inner">
+	{/* ================= APPROACH : BANDEAU NAVY ================= */}
+	<section class="bleed approach-section">
+		<div class="container approach-inner">
+			<span class="section-label approach-label">Notre ligne rouge</span>
 			<h2 class="approach-heading">La posture AIPEDA</h2>
 			<div class="approach-grid">
-				<div class="approach-item">
-					<h3>🚫 Anti-Guru</h3>
+				<div class="approach-item animate-in">
+					<div class="approach-icon" aria-hidden="true">🚫</div>
+					<h3>Anti-Guru</h3>
 					<p>Pas de recettes miracles. L'IA est un copilote, le prof reste pilote. On documente ce qui marche — et ce qui échoue.</p>
 				</div>
-				<div class="approach-item">
-					<h3>📐 Pareto 80/20</h3>
+				<div class="approach-item animate-in">
+					<div class="approach-icon" aria-hidden="true">📐</div>
+					<h3>Pareto 80/20</h3>
 					<p>80% du travail préparatoire en 20% du temps. Le reste, c'est votre expertise. On ne fait pas semblant.</p>
 				</div>
-				<div class="approach-item">
-					<h3>🔒 L'IA reste en coulisses</h3>
+				<div class="approach-item animate-in">
+					<div class="approach-icon" aria-hidden="true">🔒</div>
+					<h3>L'IA reste en coulisses</h3>
 					<p>L'IA prépare. L'humain enseigne. L'évaluation et le feedback restent la chasse gardée du professeur.</p>
 				</div>
+			</div>
+		</div>
+	</section>
+
+	{/* ================= CTA FINAL ================= */}
+	<section class="container cta-final-wrap">
+		<div class="cta-final animate-in">
+			<h2>Prêt à récupérer vos soirées&nbsp;?</h2>
+			<p>Commencez par le guide : une méthode complète, des prompts à copier-coller, zéro blabla.</p>
+			<div class="cta-actions">
+				<a href="/article/preparer-ses-cours-ia-guide-complet/" class="btn btn-light-solid">📖 Ouvrir le guide complet</a>
+				<a href="/blog/" class="btn btn-ghost-dark">Parcourir les articles</a>
 			</div>
 		</div>
 	</section>
 </Base>
 
 <style>
-	/* HERO */
+	/* ================= HERO ================= */
 	.hero-section {
+		position: relative;
+		background: var(--grad-navy);
+		color: white;
+		padding: 5rem 0 6.5rem;
+		overflow: hidden;
+	}
+	.hero-decor { position: absolute; inset: 0; pointer-events: none; }
+	.halo {
+		position: absolute;
+		border-radius: 50%;
+		filter: blur(70px);
+		opacity: 0.55;
+	}
+	.halo-1 {
+		width: 480px; height: 480px;
+		top: -160px; right: -80px;
+		background: radial-gradient(circle, rgba(217, 119, 87, 0.5) 0%, transparent 70%);
+		animation: drift 14s ease-in-out infinite alternate;
+	}
+	.halo-2 {
+		width: 380px; height: 380px;
+		bottom: -140px; left: -100px;
+		background: radial-gradient(circle, rgba(102, 126, 234, 0.45) 0%, transparent 70%);
+		animation: drift 17s ease-in-out infinite alternate-reverse;
+	}
+	.halo-3 {
+		width: 240px; height: 240px;
+		top: 40%; left: 55%;
+		background: radial-gradient(circle, rgba(217, 119, 87, 0.28) 0%, transparent 70%);
+	}
+	@keyframes drift {
+		from { transform: translate(0, 0) scale(1); }
+		to { transform: translate(-40px, 30px) scale(1.12); }
+	}
+	@media (prefers-reduced-motion: reduce) {
+		.halo { animation: none; }
+	}
+	.hero-inner {
+		position: relative;
 		text-align: center;
-		padding: 4rem 1rem 3rem;
+		max-width: 900px;
+		padding-top: 2.5rem;
 	}
 	.hero-eyebrow {
-		color: var(--text-muted);
-		font-size: 0.9rem;
-		font-weight: 600;
+		display: inline-block;
+		color: var(--amber-light);
+		font-size: 0.85rem;
+		font-weight: 700;
 		text-transform: uppercase;
-		letter-spacing: 0.08em;
-		margin: 0 0 1rem 0;
+		letter-spacing: 0.12em;
+		border: 1px solid rgba(232, 164, 140, 0.35);
+		background: rgba(217, 119, 87, 0.12);
+		padding: 0.5rem 1.2rem;
+		border-radius: 999px;
+		margin: 0 0 1.75rem 0;
 	}
 	.hero-title {
-		font-size: clamp(2.2rem, 6vw, 3.8rem);
-		line-height: 1.1;
+		font-size: clamp(2.6rem, 6.5vw, 4.3rem);
+		line-height: 1.06;
 		margin: 0 0 1.5rem 0;
-		color: var(--navy);
+		color: white;
 		font-weight: 800;
 		letter-spacing: -0.03em;
 	}
 	.hero-accent { color: var(--amber); }
 	.hero-sub {
-		font-size: 1.15rem;
-		color: var(--text-muted);
-		max-width: 620px;
-		margin: 0 auto 2rem;
-		line-height: 1.7;
+		font-size: 1.2rem;
+		color: rgba(255, 255, 255, 0.82);
+		max-width: 640px;
+		margin: 0 auto 2.25rem;
+		line-height: 1.65;
 	}
 	.hero-actions {
 		display: flex;
@@ -140,117 +282,207 @@ const recentPosts = allPosts
 		justify-content: center;
 		flex-wrap: wrap;
 	}
-	.btn {
-		padding: 0.85rem 1.75rem;
-		border-radius: var(--radius-md);
+	.hero-trust {
+		margin: 2rem 0 0;
+		display: flex;
+		gap: 1.6rem;
+		justify-content: center;
+		flex-wrap: wrap;
+		font-size: 0.9rem;
+		color: rgba(255, 255, 255, 0.72);
 		font-weight: 600;
-		font-size: 1rem;
-		text-decoration: none;
-		transition: all 0.3s;
-		display: inline-block;
-	}
-	.btn-primary {
-		background: var(--amber);
-		color: white;
-	}
-	.btn-primary:hover {
-		transform: translateY(-2px);
-		box-shadow: 0 8px 24px rgba(217, 119, 87, 0.35);
-	}
-	.btn-secondary {
-		background: var(--surface);
-		color: var(--navy);
-		border: 1px solid var(--border);
-	}
-	.btn-secondary:hover {
-		border-color: var(--amber);
-		color: var(--amber);
 	}
 
-	/* PILLAR */
-	.pillar-section { margin: 3rem 0; }
-	.pillar-card {
-		display: block;
-		background: linear-gradient(135deg, var(--navy) 0%, #243b55 100%);
+	/* ================= STATS STRIP ================= */
+	.stats-wrap { position: relative; z-index: 5; }
+	.stats-strip {
+		display: grid;
+		grid-template-columns: repeat(4, 1fr);
+		background: var(--surface);
+		border: 1px solid var(--border);
 		border-radius: var(--radius-lg);
-		padding: 3rem;
+		box-shadow: var(--shadow-lg);
+		transform: translateY(-2.5rem);
+		overflow: hidden;
+	}
+	.stat {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+		gap: 0.35rem;
+		padding: 1.9rem 1.25rem;
+		border-right: 1px solid var(--border);
+	}
+	.stat:last-child { border-right: none; }
+	.stat-value {
+		font-size: 2.15rem;
+		font-weight: 800;
+		color: var(--heading);
+		letter-spacing: -0.02em;
+		line-height: 1;
+	}
+	.stat-accent .stat-value { color: var(--amber-dark); }
+	.stat-label {
+		font-size: 0.84rem;
+		color: var(--text-muted);
+		line-height: 1.4;
+		max-width: 210px;
+	}
+
+	/* ================= PILLAR ================= */
+	.pillar-section { margin: 2.5rem auto 1rem; }
+	.pillar-card {
+		display: grid;
+		grid-template-columns: 1fr 260px;
+		align-items: center;
+		gap: 1.5rem;
+		background: var(--grad-preparer);
+		border-radius: var(--radius-xl);
+		padding: 3rem 3.25rem;
 		text-decoration: none;
 		position: relative;
 		overflow: hidden;
-		transition: transform 0.3s;
+		box-shadow: 0 24px 60px rgba(118, 75, 162, 0.35);
+		transition: transform 0.35s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.35s ease;
 	}
-	.pillar-card:hover { transform: translateY(-3px); }
+	.pillar-card:hover {
+		transform: translateY(-5px);
+		box-shadow: 0 32px 72px rgba(118, 75, 162, 0.45);
+	}
 	.pillar-card::before {
 		content: '';
 		position: absolute;
-		top: -30%;
-		right: -5%;
-		width: 250px;
-		height: 250px;
-		background: radial-gradient(circle, rgba(217, 119, 87, 0.15) 0%, transparent 70%);
-		border-radius: 50%;
+		inset: 0;
+		background:
+			radial-gradient(circle at 85% 20%, rgba(255,255,255,0.18) 0%, transparent 42%),
+			radial-gradient(circle at 8% 90%, rgba(255,255,255,0.1) 0%, transparent 40%);
+		pointer-events: none;
 	}
+	.pillar-body { position: relative; }
 	.pillar-badge {
-		color: var(--amber);
-		font-size: 0.85rem;
-		font-weight: 700;
+		display: inline-block;
+		background: rgba(255, 255, 255, 0.16);
+		border: 1px solid rgba(255, 255, 255, 0.3);
+		backdrop-filter: blur(4px);
+		color: white;
+		font-size: 0.82rem;
+		font-weight: 800;
 		text-transform: uppercase;
-		letter-spacing: 0.08em;
-		margin-bottom: 1rem;
+		letter-spacing: 0.09em;
+		padding: 0.42rem 1rem;
+		border-radius: 999px;
+		margin-bottom: 1.15rem;
 	}
 	.pillar-title {
 		color: white;
-		font-size: clamp(1.5rem, 4vw, 2.2rem);
+		font-size: clamp(1.55rem, 3.5vw, 2.3rem);
 		margin: 0 0 1rem 0;
-		line-height: 1.2;
-		position: relative;
+		line-height: 1.18;
 	}
 	.pillar-desc {
-		color: rgba(255, 255, 255, 0.75);
+		color: rgba(255, 255, 255, 0.85);
 		font-size: 1.05rem;
 		line-height: 1.6;
-		margin: 0 0 1.5rem 0;
-		max-width: 600px;
-		position: relative;
+		margin: 0 0 1rem 0;
+		max-width: 640px;
+	}
+	.pillar-meta {
+		display: block;
+		color: rgba(255, 255, 255, 0.68);
+		font-size: 0.88rem;
+		font-weight: 600;
+		margin-bottom: 1.4rem;
 	}
 	.pillar-cta {
-		color: var(--amber);
-		font-weight: 600;
-		font-size: 1rem;
+		display: inline-flex;
+		align-items: center;
+		gap: 0.5rem;
+		color: white;
+		font-weight: 800;
+		font-size: 1.02rem;
+		background: rgba(255, 255, 255, 0.14);
+		padding: 0.7rem 1.3rem;
+		border-radius: 999px;
+		transition: gap 0.25s ease, background 0.25s ease;
+	}
+	.pillar-card:hover .pillar-cta { gap: 0.85rem; background: rgba(255, 255, 255, 0.22); }
+	.pillar-side {
+		display: flex;
+		align-items: center;
+		justify-content: center;
 		position: relative;
 	}
+	.pillar-book {
+		font-size: 7.5rem;
+		line-height: 1;
+		filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.3));
+		transition: transform 0.35s cubic-bezier(0.34, 1.56, 0.64, 1);
+	}
+	.pillar-card:hover .pillar-book { transform: scale(1.08) rotate(-4deg); }
 
-	/* VALUES */
+	/* ================= VALUES ================= */
 	.values-section {
 		display: grid;
 		grid-template-columns: repeat(3, 1fr);
-		gap: 2rem;
-		margin: 4rem 0;
+		gap: 1.5rem;
+		margin: 3.5rem auto 0;
 	}
 	.value-card {
 		text-align: center;
-		padding: 2rem 1.5rem;
+		padding: 2.4rem 1.75rem;
+		background: var(--surface);
+		border: 1px solid var(--border);
+		border-radius: var(--radius-lg);
+		transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.3s, border-color 0.3s;
+		box-shadow: var(--shadow-soft);
 	}
-	.value-icon { font-size: 2.5rem; margin-bottom: 1rem; }
-	.value-card h3 {
-		font-size: 1.2rem;
-		margin: 0 0 0.5rem 0;
-		color: var(--navy);
+	.value-card:hover {
+		transform: translateY(-5px);
+		box-shadow: var(--shadow-md);
+		border-color: rgba(217, 119, 87, 0.3);
 	}
-	.value-card p {
-		color: var(--text-muted);
-		font-size: 0.95rem;
-		line-height: 1.6;
+	.value-icon {
+		font-size: 1.9rem;
+		width: 68px;
+		height: 68px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin: 0 auto 1.15rem;
+		border-radius: 22px;
+		box-shadow: 0 10px 24px rgba(26, 45, 66, 0.14);
+	}
+	.grad-preparer { background: linear-gradient(135deg, rgba(102,126,234,0.16), rgba(118,75,162,0.16)); }
+	.grad-differencier { background: linear-gradient(135deg, rgba(240,147,251,0.16), rgba(79,172,254,0.16)); }
+	.grad-evaluer { background: linear-gradient(135deg, rgba(67,233,123,0.16), rgba(56,249,215,0.16)); }
+
+	/* ================= RECENT ================= */
+	.recent-section { margin: 4.5rem auto 0; }
+	.recent-header {
+		display: flex;
+		align-items: flex-end;
+		justify-content: space-between;
+		gap: 1rem;
+		margin-bottom: 1.75rem;
+	}
+	.section-heading {
+		font-size: clamp(1.7rem, 3vw, 2.1rem);
+		color: var(--heading);
 		margin: 0;
 	}
-
-	/* RECENT */
-	.recent-section { margin: 4rem 0; }
-	.section-heading {
-		font-size: 1.6rem;
-		color: var(--navy);
-		margin: 0 0 2rem 0;
+	.see-all {
+		display: inline-flex;
+		align-items: center;
+		gap: 0.45rem;
+		color: var(--amber-dark);
+		font-weight: 700;
+		font-size: 0.95rem;
+		text-decoration: none;
+		white-space: nowrap;
+		transition: transform 0.2s;
 	}
+	.see-all:hover { transform: translateX(3px); }
 	.recent-grid {
 		display: grid;
 		grid-template-columns: repeat(3, 1fr);
@@ -260,72 +492,182 @@ const recentPosts = allPosts
 		background: var(--surface);
 		border: 1px solid var(--border);
 		border-radius: var(--radius-lg);
-		padding: 2rem;
 		text-decoration: none;
-		transition: all 0.3s;
+		transition: transform 0.35s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.35s, border-color 0.35s;
 		display: flex;
 		flex-direction: column;
+		overflow: hidden;
+		box-shadow: var(--shadow-soft);
 	}
 	.recent-card:hover {
-		transform: translateY(-3px);
-		box-shadow: var(--shadow-md);
-		border-color: rgba(217, 119, 87, 0.2);
+		transform: translateY(-6px);
+		box-shadow: var(--shadow-lg);
+		border-color: rgba(217, 119, 87, 0.35);
 	}
+	.recent-thumb {
+		aspect-ratio: 16 / 6;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	.thumb-icon { font-size: 2.6rem; filter: drop-shadow(0 2px 6px rgba(0,0,0,0.25)); }
+	.recent-body {
+		padding: 1.5rem 1.75rem 1.75rem;
+		display: flex;
+		flex-direction: column;
+		flex: 1;
+	}
+	.recent-meta-top {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		margin-bottom: 0.85rem;
+	}
+	.recent-time { font-size: 0.82rem; color: var(--text-muted); font-weight: 600; }
 	.recent-title {
-		font-size: 1.1rem;
-		margin: 0 0 0.75rem 0;
-		color: var(--navy);
+		font-size: 1.14rem;
+		margin: 0 0 0.65rem 0;
+		color: var(--heading);
+		line-height: 1.35;
 	}
 	.recent-desc {
 		color: var(--text-muted);
-		font-size: 0.95rem;
-		line-height: 1.5;
+		font-size: 0.93rem;
+		line-height: 1.55;
 		flex: 1;
 		margin: 0 0 1rem 0;
 	}
 	.recent-cta {
-		color: var(--amber);
-		font-weight: 600;
-		font-size: 0.9rem;
+		color: var(--amber-dark);
+		font-weight: 800;
+		font-size: 0.92rem;
 	}
+	.recent-card:hover .recent-cta { text-decoration: underline; }
 
-	/* APPROACH */
+	/* ================= APPROACH ================= */
 	.approach-section {
-		background: var(--surface);
-		border-radius: var(--radius-lg);
-		padding: 3rem 2rem;
-		margin: 4rem 0;
+		background: var(--navy-deep);
+		background: linear-gradient(150deg, #132334 0%, #1a2d42 55%, #21374f 100%);
+		margin: 4.5rem 0 0;
+		padding: 4.5rem 0;
+	}
+	.approach-inner { max-width: 1200px; text-align: center; padding-left: 2rem; padding-right: 2rem; }
+	.approach-label {
+		color: var(--amber-light);
+		background: rgba(217, 119, 87, 0.14);
+		border-color: rgba(232, 164, 140, 0.3);
 	}
 	.approach-heading {
-		text-align: center;
-		font-size: 1.6rem;
-		color: var(--navy);
-		margin: 0 0 2.5rem 0;
+		color: white;
+		font-size: clamp(1.8rem, 3.2vw, 2.3rem);
+		margin: 0 0 2.75rem 0;
 	}
 	.approach-grid {
 		display: grid;
 		grid-template-columns: repeat(3, 1fr);
 		gap: 2rem;
+		text-align: left;
 	}
 	.approach-item h3 {
-		font-size: 1.15rem;
-		margin: 0 0 0.75rem 0;
-		color: var(--navy);
+		font-size: 1.2rem;
+		margin: 0 0 0.7rem 0;
+		color: white;
 	}
 	.approach-item p {
-		color: var(--text-muted);
-		font-size: 0.95rem;
-		line-height: 1.6;
+		color: rgba(255, 255, 255, 0.72);
+		font-size: 0.96rem;
+		line-height: 1.65;
 		margin: 0;
 	}
+	.approach-icon {
+		width: 54px;
+		height: 54px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		font-size: 1.5rem;
+		background: rgba(217, 119, 87, 0.16);
+		border: 1px solid rgba(217, 119, 87, 0.3);
+		border-radius: 18px;
+		margin-bottom: 1.1rem;
+	}
 
-	/* RESPONSIVE */
+	/* ================= CTA FINAL ================= */
+	.cta-final-wrap { margin: 4.5rem auto 1rem; }
+	.cta-final {
+		position: relative;
+		overflow: hidden;
+		text-align: center;
+		background: linear-gradient(135deg, #d97757 0%, #c95f8a 55%, #764ba2 120%);
+		border-radius: var(--radius-xl);
+		padding: 3.75rem 2rem;
+		box-shadow: 0 26px 60px rgba(217, 119, 87, 0.35);
+	}
+	.cta-final::before {
+		content: '';
+		position: absolute;
+		top: -40%; right: -10%;
+		width: 420px; height: 420px;
+		background: radial-gradient(circle, rgba(255,255,255,0.22) 0%, transparent 65%);
+		border-radius: 50%;
+		pointer-events: none;
+	}
+	.cta-final h2 {
+		color: white;
+		font-size: clamp(1.7rem, 3.4vw, 2.4rem);
+		margin: 0 0 0.85rem 0;
+		position: relative;
+	}
+	.cta-final p {
+		color: rgba(255, 255, 255, 0.88);
+		max-width: 520px;
+		margin: 0 auto 1.9rem;
+		font-size: 1.05rem;
+		position: relative;
+	}
+	.cta-actions {
+		display: flex;
+		gap: 1rem;
+		justify-content: center;
+		flex-wrap: wrap;
+		position: relative;
+	}
+	.btn-light-solid {
+		background: white;
+		color: var(--amber-dark);
+		box-shadow: 0 10px 26px rgba(0, 0, 0, 0.18);
+	}
+	.btn-light-solid:hover { transform: translateY(-2px); box-shadow: 0 14px 34px rgba(0, 0, 0, 0.24); }
+	.btn-ghost-dark {
+		background: transparent;
+		color: white;
+		border: 2px solid rgba(255, 255, 255, 0.55);
+	}
+	.btn-ghost-dark:hover { transform: translateY(-2px); border-color: white; color: white; }
+
+	/* ================= RESPONSIVE ================= */
+	@media (max-width: 900px) {
+		.stats-strip { grid-template-columns: repeat(2, 1fr); }
+		.stat:nth-child(2) { border-right: none; }
+		.stat:nth-child(1), .stat:nth-child(2) { border-bottom: 1px solid var(--border); }
+		.pillar-card { grid-template-columns: 1fr; padding: 2.25rem 1.75rem; }
+		.pillar-side { display: none; }
+	}
 	@media (max-width: 768px) {
 		.values-section { grid-template-columns: 1fr; }
 		.recent-grid { grid-template-columns: 1fr; }
 		.approach-grid { grid-template-columns: 1fr; }
-		.pillar-card { padding: 2rem 1.5rem; }
-		.hero-actions { flex-direction: column; align-items: center; }
-		.btn { width: 100%; max-width: 300px; text-align: center; }
+		.hero-section { padding: 3.5rem 0 5rem; }
+		.hero-actions { flex-direction: column; align-items: stretch; }
+		.btn { justify-content: center; }
+		.hero-trust { flex-direction: column; gap: 0.4rem; align-items: center; }
+		.recent-header { flex-direction: column; gap: 0.5rem; align-items: flex-start; }
+		.cta-final { padding: 2.75rem 1.5rem; }
+		.cta-actions { flex-direction: column; align-items: stretch; }
+	}
+	@media (max-width: 480px) {
+		.stats-strip { grid-template-columns: 1fr; }
+		.stat { border-right: none; border-bottom: 1px solid var(--border); }
+		.stat:last-child { border-bottom: none; }
 	}
 </style>
