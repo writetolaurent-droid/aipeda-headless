@@ -239,3 +239,4 @@ Commencez petit. Prenez la prochaine évaluation de votre semaine. Lancez le pro
 - ✅ [Automatiser la correction avec l'IA](/article/automatiser-correction-ia/) — Le pré-travail de correction pour gagner du temps sur l'évaluation
 - 🎯 [Créer des exercices différenciés avec l'IA](/article/exercices-differencies-ia/) — 3 niveaux d'exercices en 5 minutes
 - ♿ [Adapter ses supports pour les élèves DYS](/article/adaptation-dys-ia/) — Simplifier et structurer les contenus pour tous
+- 📊 [Évaluation diagnostique avec l'IA](/article/evaluation-diagnostique-ia/) — Photographier le niveau de départ dès la première semaine

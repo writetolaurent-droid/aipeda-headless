@@ -191,5 +191,7 @@ Et le cœur du dispositif ne bouge pas : vous animez, questionnez, corrigez, obs
 - 🖼️ [Générer des visuels pour le tableau en un clic avec l'IA](/article/visuels-tableaux-ia/) — Créer les affichages et routines visuelles de la classe
 - 📝 [Créer ses supports de cours avec l'IA](/article/creer-supports-cours-ia/) — Étendre la méthode au-delà des rituels quotidiens
 - 🗓️ [Créer sa progression annuelle avec l'IA](/article/progression-annuelle-ia/) — Poser le cadre annuel qui rend vos rituels cohérents toute l'année
+- 📋 [Préparer sa rentrée avec l'IA : checklist complète](/article/preparer-rentree-ia/) — Affichages, planning, courriers : tout cadrer avant le jour J
+- ✉️ [Courriers aux parents avec l'IA](/article/courriers-parents-ia/) — Des écrits aux familles solides sans y passer ses soirées
 
 *Trois prompts ce week-end, une semaine de rituels prête lundi matin. Copiez, relisez, ajustez.*

@@ -243,5 +243,6 @@ Trois à cinq séances. Les deux premières, vous testez et ajustez les prompts 
 - 📐 [Améliorer une séquence avec l'IA : 5 leviers concrets](/article/ameliorer-sequence-pedagogique/) — Comment enrichir une séquence existante avec l'IA
 - ✏️ [ChatGPT pour prof : le guide pratique](/article/chatgpt-pour-prof/) — 6 cas d'usage avec prompts détaillés
 - 🎨 [Générer des visuels pour le tableau en un clic](/article/visuels-tableaux-ia/) — Créer des images et schémas pédagogiques sur mesure avec l'IA
+- ✉️ [Courriers aux parents avec l'IA](/article/courriers-parents-ia/) — L'IA au service des documents qui partent aux familles
 
 *La page blanche n'est plus une fatalité. L'IA ne crée pas vos supports à votre place — elle vous donne un point de départ solide, que votre expertise transforme en un véritable support pédagogique.*

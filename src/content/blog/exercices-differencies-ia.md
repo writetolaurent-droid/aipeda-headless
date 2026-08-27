@@ -190,3 +190,4 @@ Commencez petit. Prenez un exercice de cette semaine. Lancez le prompt des trois
 - 🔧 [Diffit : différenciation en 2 clics](/article/outil-diffit/) — L'outil dédié pour adapter vos textes en plusieurs niveaux
 - 📚 [Améliorer sa séquence pédagogique](/article/ameliorer-sequence-pedagogique/) — Structurer vos séquences de A à Z avec l'IA
 - 📋 [Créer des grilles d'évaluation avec l'IA](/article/grilles-evaluation-ia/) — Des critères d'évaluation clairs en quelques minutes
+- 📊 [Évaluation diagnostique avec l'IA](/article/evaluation-diagnostique-ia/) — Identifier dès septembre qui a besoin de quelle variante
