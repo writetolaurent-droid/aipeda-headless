@@ -223,3 +223,4 @@ Adapter ses supports pour les élèves DYS n'est plus un luxe réservé aux soir
 - 📐 [Préparer ses cours avec l'IA : guide complet](/article/preparer-ses-cours-ia-guide-complet/) — La page pilier pour intégrer l'IA dans toute votre préparation
 - 🔧 [Diffit : différenciation en 2 clics](/article/outil-diffit/) — L'outil dédié à l'adaptation automatique des textes
 - 📋 [Améliorer sa séquence pédagogique](/article/ameliorer-sequence-pedagogique/) — Inscrire l'adaptation DYS dans une progression cohérente
+- 🎯 [Gérer l'hétérogénéité de la classe : le défi n°2](/article/defi-heterogeneite/) — Le cadre global pour produire et attribuer des variantes

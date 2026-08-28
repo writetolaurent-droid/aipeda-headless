@@ -191,3 +191,4 @@ Commencez petit. Prenez un exercice de cette semaine. Lancez le prompt des trois
 - 📚 [Améliorer sa séquence pédagogique](/article/ameliorer-sequence-pedagogique/) — Structurer vos séquences de A à Z avec l'IA
 - 📋 [Créer des grilles d'évaluation avec l'IA](/article/grilles-evaluation-ia/) — Des critères d'évaluation clairs en quelques minutes
 - 📊 [Évaluation diagnostique avec l'IA](/article/evaluation-diagnostique-ia/) — Identifier dès septembre qui a besoin de quelle variante
+- 🎯 [Gérer l'hétérogénéité de la classe : le défi n°2](/article/defi-heterogeneite/) — La stratégie d'ensemble : l'IA produit les variantes, vous gardez l'intention

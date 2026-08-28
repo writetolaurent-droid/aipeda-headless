@@ -228,5 +228,6 @@ L'IA est un co-pilote. Le prof reste le pilote.
 - 🔧 [Diffit : adapter n'importe quel texte en 2 clics](/article/outil-diffit/) — L'alternative spécialisée pour la différenciation
 - 🤔 [Quelle IA pour les professeurs des écoles ?](/article/quelle-ia-professeurs-ecoles/) — Comparatif des outils IA du marché
 - 💬 [ChatGPT pour prof : le guide pratique](/article/chatgpt-pour-prof/) — Maîtriser le LLM le plus connu
+- 🧭 [Khanmigo : que vaut le tuteur IA de Khan Academy ?](/article/khanmigo-avis-prof/) — L'autre assistant IA enseignant, décortiqué sans complaisance
 
 *MagicSchool ne fait pas le travail à votre place. Il vous donne le temps de faire le vôtre.*

@@ -53,7 +53,7 @@ La première phase ne consiste pas à demander à l'IA de tout faire. Elle consi
 <div class="prompt-block">
 <span class="prompt-label">📋 Prompt — Brainstorming de séquence</span>
 
-Tu es un professeur des éoles expérimenté, expert dans les programmes français (Bulletin Officiel). Je dois préparer une séquence et j'ai besoin de cadrer les objectifs.
+Tu es un professeur des écoles expérimenté, expert dans les programmes français (Bulletin Officiel). Je dois préparer une séquence et j'ai besoin de cadrer les objectifs.
 
 **Niveau** : [ex : CE2 — Cycle 3]
 **Matière** : [ex : Étude de la langue / grammaire]
@@ -247,5 +247,6 @@ Le prof reste le pilote. L'IA est le co-pilote qui tient la carte pendant que vo
 - 📐 [Améliorer une séquence avec l'IA : 5 leviers concrets](/article/ameliorer-sequence-pedagogique/) — Enrichir une séquence déjà existante
 - 📝 [Créer des supports de cours avec l'IA](/article/creer-supports-cours-ia/) — Approfondir la phase 3 du workflow
 - 🔧 [Adapter ses supports pour les élèves DYS avec l'IA](/article/adaptation-dys-ia/) — Le guide complet de la différenciation DYS
+- ⚡ [Alléger la charge mentale : le défi n°1 et l'IA](/article/defi-charge-mentale/) — Déléguer la production brute, garder les décisions
 
 *30 minutes aujourd'hui, c'est une séquence prête demain. Copiez, testez, ajustez — le workflow devient un réflexe en moins d'une semaine.*

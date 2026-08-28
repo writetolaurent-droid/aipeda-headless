@@ -194,5 +194,6 @@ Non. L'IA génère des brouillons que vous validez. Le manuel reste le référen
 - 📘 [Préparer ses cours avec l'IA : le guide complet](/article/preparer-ses-cours-ia-guide-complet/) — La page pilier (5 étapes, 7 prompts)
 - ✏️ [ChatGPT pour prof : le guide pratique](/article/chatgpt-pour-prof/) — 6 cas d'usage détaillés avec prompts
 - 🔧 [Diffit : adapter n'importe quel texte en 2 clics](/article/outil-diffit/) — L'outil spécialisé différenciation
+- 🧭 [Khanmigo : que vaut le tuteur IA de Khan Academy ?](/article/khanmigo-avis-prof/) — L'avis côté prof : usages possibles, limites, ligne rouge
 
 *La question n'est pas « quelle IA choisir ? » mais « qu'est-ce que je veux gagner du temps dessus ? ».*

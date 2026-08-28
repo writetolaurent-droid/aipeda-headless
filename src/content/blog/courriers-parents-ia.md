@@ -198,5 +198,6 @@ Une discipline suffit : zéro donnée personnelle dans le chat, relecture systé
 - 🤖 [ChatGPT pour les profs](/article/chatgpt-pour-prof/) — Comprendre l'outil avant de l'adopter
 - 📝 [Prompt ChatGPT : fiche de cours](/article/prompt-chatgpt-fiche-de-cours/) — Des prompts éprouvés pour vos fiches
 - 📐 [Créer des supports de cours avec l'IA](/article/creer-supports-cours-ia/) — Fiches élèves et documents imprimables
+- ⚡ [Alléger la charge mentale : le défi n°1 et l'IA](/article/defi-charge-mentale/) — Trier ses tâches et déléguer la production brute
 
 *Copiez les prompts, adaptez-les à vos habitudes, gardez la plume : l'IA prépare le brouillon, c'est vous qui signez.*
