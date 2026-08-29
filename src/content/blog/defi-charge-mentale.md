@@ -195,5 +195,6 @@ Le prof reste le pilote. L'IA tient la carte en coulisses.
 
 - 📘 [Préparer ses cours avec l'IA : le guide complet](/article/preparer-ses-cours-ia-guide-complet/)
 - ⏱️ [Préparer une séquence en 30 minutes : le workflow](/article/workflow-30min-sequence/)
+- ⚡ [La méthode Pareto pour préparer vos séquences](/article/methode-pareto-sequence/)
 - ✉️ [Courriers aux parents : les prompts qui font gagner du temps](/article/courriers-parents-ia/)
 - 📅 [Construire sa progression annuelle avec l'IA](/article/progression-annuelle-ia/)

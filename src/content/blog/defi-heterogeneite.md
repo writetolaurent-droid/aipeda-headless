@@ -189,4 +189,5 @@ Cette économie redéploie votre énergie là où elle a le plus de valeur : obs
 - 🧠 [Exercices différenciés avec l’IA : la méthode complète](/article/exercices-differencies-ia/)
 - 💙 [Adapter ses supports pour les élèves DYS avec l’IA](/article/adaptation-dys-ia/)
 - 🔧 [Diffit : l’outil qui différencie vos documents en quelques clics](/article/outil-diffit/)
-- ✅ [Évaluation diagnostique avec l’IA : cibler avant de différencier](/article/evaluation-diagnostique-ia/)
+- ✅ [Évaluation diagnostique avec l'IA : cibler avant de différencier](/article/evaluation-diagnostique-ia/)
+- 🌍 [Élèves allophones : adapter consignes et supports avec l'IA](/article/eleves-allophones-ia/)

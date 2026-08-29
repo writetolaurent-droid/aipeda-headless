@@ -224,3 +224,4 @@ Adapter ses supports pour les élèves DYS n'est plus un luxe réservé aux soir
 - 🔧 [Diffit : différenciation en 2 clics](/article/outil-diffit/) — L'outil dédié à l'adaptation automatique des textes
 - 📋 [Améliorer sa séquence pédagogique](/article/ameliorer-sequence-pedagogique/) — Inscrire l'adaptation DYS dans une progression cohérente
 - 🎯 [Gérer l'hétérogénéité de la classe : le défi n°2](/article/defi-heterogeneite/) — Le cadre global pour produire et attribuer des variantes
+- 🌍 [Élèves allophones : adapter consignes et supports avec l'IA](/article/eleves-allophones-ia/) — L'adaptation linguistique, l'autre facette de la différenciation

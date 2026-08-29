@@ -223,5 +223,6 @@ Absolument pas. Commencez par une seule séquence, un seul levier. Testez en cla
 - 🔧 [Diffit : adapter n'importe quel texte en 2 clics](/article/outil-diffit/) — L'outil spécialisé pour la différenciation automatique
 - ⏱️ [Mon workflow 30 min pour préparer une séquence](/article/workflow-30min-sequence/) — Le déroulé chronométré pour passer de l'idée aux supports
 - 📅 [Créer sa progression annuelle avec l'IA](/article/progression-annuelle-ia/) — Structurer l'année entière en respectant les programmes
+- 🔗 [Créer des ponts interdisciplinaires : le défi n°3](/article/defi-interdisciplinarite/) — Ouvrir sa séquence aux autres disciplines par un projet cohérent
 
 *L'IA ne remplace pas votre expertise. Elle vous donne le temps de l'exercer pleinement.*
