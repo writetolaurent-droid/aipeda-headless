@@ -295,10 +295,12 @@ Ce guide est la **page pilier** du cocon AIPEDA sur la préparation de cours ave
 - 📐 [Améliorer sa séquence pédagogique avec l'IA](/article/ameliorer-sequence-pedagogique/) — Le guide détaillé de la structuration
 - 📚 [Créer ses supports de cours avec l'IA](/article/creer-supports-cours-ia/) — La méthode zéro page blanche
 - 🎨 [Générer des visuels pour le tableau en un clic](/article/visuels-tableaux-ia/) — Images et schémas pédagogiques sur mesure
+- ⚡ [Générer un plan B pédagogique en 5 minutes avec l'IA](/article/imprevu-pedagogique-plan-b-ia/) — Anticiper l'imprévu : activités de secours et séances dégradées
 
 **Différenciation & inclusion**
 - 🎯 [Créer des exercices différenciés avec l'IA](/article/exercices-differencies-ia/) — 3 niveaux d'exercices en 5 minutes
 - ♿ [Adapter vos supports pour les élèves DYS](/article/adaptation-dys-ia/) — Simplifier et structurer les textes pour tous
+- 🚀 [Élèves rapides : créer de vrais défis de complexification](/article/eleves-rapides-complexification-ia/) — Différencier vers le haut, pas seulement vers le bas
 
 **Évaluation**
 - 📋 [Créer des grilles d'évaluation avec l'IA](/article/grilles-evaluation-ia/) — Des critères clairs en quelques minutes

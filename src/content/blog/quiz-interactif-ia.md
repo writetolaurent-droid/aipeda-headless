@@ -198,5 +198,6 @@ Le fond ne bouge pas : vous choisissez la leçon, relisez chaque question, inter
 - 💬 [Donner un feedback personnalisé et rapide avec l'IA](/article/feedback-rapide-ia/) — Transformer les constats du rapport en retours utiles
 - ✅ [Automatisez la correction de vos copies avec l'IA](/article/automatiser-correction-ia/) — Alléger le poids le plus lourd de l'évaluation
 - 📘 [Préparer ses cours avec l'IA : le guide complet](/article/preparer-ses-cours-ia-guide-complet/) — Le pilier du cocon, avec 5 étapes et des dizaines de prompts
+- 🔄 [Générer un plan B pédagogique en 5 minutes avec l'IA](/article/imprevu-pedagogique-plan-b-ia/) — Un quiz de secours généré en quelques minutes quand la séance dérape
 
 *Huit questions générées ce soir, un quiz lancé demain matin, un rapport à lire à la récré. L'évaluation formative n'a jamais été si proche.*

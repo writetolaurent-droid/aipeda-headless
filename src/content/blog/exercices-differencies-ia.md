@@ -192,3 +192,4 @@ Commencez petit. Prenez un exercice de cette semaine. Lancez le prompt des trois
 - 📋 [Créer des grilles d'évaluation avec l'IA](/article/grilles-evaluation-ia/) — Des critères d'évaluation clairs en quelques minutes
 - 📊 [Évaluation diagnostique avec l'IA](/article/evaluation-diagnostique-ia/) — Identifier dès septembre qui a besoin de quelle variante
 - 🎯 [Gérer l'hétérogénéité de la classe : le défi n°2](/article/defi-heterogeneite/) — La stratégie d'ensemble : l'IA produit les variantes, vous gardez l'intention
+- 🚀 [Élèves rapides : créer de vrais défis de complexification](/article/eleves-rapides-complexification-ia/) — Le pendant vers le haut : tâches ouvertes, transfert, métacognition
