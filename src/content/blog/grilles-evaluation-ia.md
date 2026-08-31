@@ -240,3 +240,4 @@ Commencez petit. Prenez la prochaine évaluation de votre semaine. Lancez le pro
 - 🎯 [Créer des exercices différenciés avec l'IA](/article/exercices-differencies-ia/) — 3 niveaux d'exercices en 5 minutes
 - ♿ [Adapter ses supports pour les élèves DYS](/article/adaptation-dys-ia/) — Simplifier et structurer les contenus pour tous
 - 📊 [Évaluation diagnostique avec l'IA](/article/evaluation-diagnostique-ia/) — Photographier le niveau de départ dès la première semaine
+- 🌍 [Évaluer un élève allophone sans le pénaliser](/article/evaluer-eleve-allophone-ia/) — Grilles à deux entrées et énoncés accessibles pour mesurer la notion, pas le français

@@ -199,5 +199,7 @@ Une discipline suffit : zéro donnée personnelle dans le chat, relecture systé
 - 📝 [Prompt ChatGPT : fiche de cours](/article/prompt-chatgpt-fiche-de-cours/) — Des prompts éprouvés pour vos fiches
 - 📐 [Créer des supports de cours avec l'IA](/article/creer-supports-cours-ia/) — Fiches élèves et documents imprimables
 - ⚡ [Alléger la charge mentale : le défi n°1 et l'IA](/article/defi-charge-mentale/) — Trier ses tâches et déléguer la production brute
+- 🚌 [Préparer une sortie scolaire avec l'IA](/article/sortie-scolaire-ia/) — L'autorisation parentale n'est qu'une pièce : structurer tout le dossier
+- 🌍 [Communiquer avec les familles allophones](/article/communication-familles-allophones-ia/) — Traduire l'information pratique vers les langues des familles EANA
 
 *Copiez les prompts, adaptez-les à vos habitudes, gardez la plume : l'IA prépare le brouillon, c'est vous qui signez.*

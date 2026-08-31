@@ -193,3 +193,4 @@ L'IA ne pilote rien : elle fabrique, en coulisses, une proposition que vous vali
 - ⏱️ [Mon workflow 30 min pour préparer une séquence avec l'IA](/article/workflow-30min-sequence/) — Préparer la version complète, pour ne jamais avoir à improviser la version dégradée
 - 🔁 [Mettre en place ses rituels de classe avec l'IA](/article/rituels-classe-ia/) — Le principe du prêt-à-l'emploi appliqué au quotidien de la classe
 - 🎯 [Créer des quiz interactifs avec l'IA](/article/quiz-interactif-ia/) — Des activités de révision qui font d'excellentes activités « pont »
+- 🚌 [Préparer une sortie scolaire avec l'IA](/article/sortie-scolaire-ia/) — Checklists, dossier et plan B : la préparation amont du cas le plus structuré

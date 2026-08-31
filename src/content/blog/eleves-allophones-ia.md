@@ -175,3 +175,5 @@ Le temps gagné en production, vous le réinvestissez là où il n'y a pas de ra
 - 💙 [Adapter ses supports pour les élèves DYS avec l'IA](/article/adaptation-dys-ia/) — L'autre grande famille d'adaptations de supports
 - 📊 [Évaluation diagnostique avec l'IA](/article/evaluation-diagnostique-ia/) — Identifier précisément les besoins avant d'adapter
 - ✉️ [Courriers aux parents avec l'IA](/article/courriers-parents-ia/) — Le même outil appliqué à la communication avec les familles
+- 🌍 [Communiquer avec les familles allophones](/article/communication-familles-allophones-ia/) — Le pont linguistique côté familles, complément de l'adaptation côté élèves
+- 📊 [Évaluer un élève allophone sans le pénaliser](/article/evaluer-eleve-allophone-ia/) — Adapter l'instrument d'évaluation, pas le niveau
