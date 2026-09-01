@@ -3,6 +3,7 @@ title: "Donner un feedback personnalisé et rapide avec l'IA"
 description: "Des feedbacks constructifs pour chaque élève sans y passer vos soirées. Prompts et workflow pour formuler des retours bienveillants avec l'IA."
 category: "Évaluer"
 pubDate: 2026-07-18
+updatedDate: 2026-09-01
 ---
 
 ![Donner un feedback personnalisé avec l'IA](/images/chatgpt/chatgpt-prompt.webp)
@@ -214,4 +215,5 @@ L'IA formule. Le prof transmet. C'est ce partage des rôles, tenu avec rigueur, 
 - 📘 [Préparer ses cours avec l'IA : guide complet](/article/preparer-ses-cours-ia-guide-complet/) — La page pilier du cocon AIPEDA, pour intégrer l'IA dans toute votre préparation
 - 📐 [Automatiser la correction avec l'IA](/article/automatiser-correction-ia/) — Le pré-travail de correction qui alimente vos feedbacks
 - 📊 [Créer des grilles d'évaluation avec l'IA](/article/grilles-evaluation-ia/) — Des grilles claires pour des feedbacks alignés sur vos critères
+- ✍️ [Appréciations du livret scolaire avec l'IA](/article/appreciations-livret-scolaire-ia/) — Structurer et varier vos appréciations de période sans y passer vos soirées
 - 🔧 [Créer des exercices différenciés avec l'IA](/article/exercices-differencies-ia/) — Adapter les exercices aux besoins identifiés grâce au feedback

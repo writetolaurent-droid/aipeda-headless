@@ -3,6 +3,7 @@ title: "Adapter vos supports pour les élèves DYS en un clic"
 description: "L'IA reformule, simplifie et structure vos supports pour les élèves DYS. Gagnez 20 minutes par séance avec des prompts concrets et testés."
 category: "Différencier"
 pubDate: 2026-07-16
+updatedDate: 2026-09-01
 ---
 
 ![Adapter des supports pour élèves DYS](/images/chatgpt/chatgpt-prompt.webp)
@@ -226,3 +227,4 @@ Adapter ses supports pour les élèves DYS n'est plus un luxe réservé aux soir
 - 🎯 [Gérer l'hétérogénéité de la classe : le défi n°2](/article/defi-heterogeneite/) — Le cadre global pour produire et attribuer des variantes
 - 🌍 [Élèves allophones : adapter consignes et supports avec l'IA](/article/eleves-allophones-ia/) — L'adaptation linguistique, l'autre facette de la différenciation
 - 🚀 [Élèves rapides : créer de vrais défis de complexification](/article/eleves-rapides-complexification-ia/) — L'autre bord de la différenciation : stimuler ceux qui vont plus vite
+- 🧩 [Organiser les groupes de besoin avec l'IA](/article/groupes-de-besoin-organisation-ia/) — Poser le dispositif qui accueille vos variantes

@@ -2,6 +2,7 @@
 title: "Mettre en place ses rituels de classe avec l'IA"
 description: "Rentrée 2026 : affichage du jour, rituels lecture et maths, routines de classe. Générez vos supports avec l'IA et gardez la main sur votre pédagogie."
 pubDate: 2026-08-26
+updatedDate: 2026-09-01
 category: "Préparer"
 ---
 
@@ -193,5 +194,6 @@ Et le cœur du dispositif ne bouge pas : vous animez, questionnez, corrigez, obs
 - 🗓️ [Créer sa progression annuelle avec l'IA](/article/progression-annuelle-ia/) — Poser le cadre annuel qui rend vos rituels cohérents toute l'année
 - 📋 [Préparer sa rentrée avec l'IA : checklist complète](/article/preparer-rentree-ia/) — Affichages, planning, courriers : tout cadrer avant le jour J
 - ✉️ [Courriers aux parents avec l'IA](/article/courriers-parents-ia/) — Des écrits aux familles solides sans y passer ses soirées
+- 🗓️ [Construire l'emploi du temps de votre classe avec l'IA](/article/emploi-du-temps-classe-ia/) — Organiser la journée type qui héberge vos rituels
 
 *Trois prompts ce week-end, une semaine de rituels prête lundi matin. Copiez, relisez, ajustez.*

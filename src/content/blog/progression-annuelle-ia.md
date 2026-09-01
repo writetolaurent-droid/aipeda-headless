@@ -3,6 +3,7 @@ title: "Créer sa progression annuelle avec l'IA"
 description: "Générez votre progression annuelle en 5 minutes avec l'IA : prompts prêts à copier, équilibrage des 5 périodes, adaptation AEFE. Le prof reste pilote."
 category: "Préparer"
 pubDate: 2026-07-17
+updatedDate: 2026-09-01
 ---
 
 
@@ -231,6 +232,7 @@ Et une fois la progression posée, place à la séquence. Pour aller plus loin s
 - 📘 [Préparer ses cours avec l'IA : le guide complet](/article/preparer-ses-cours-ia-guide-complet/) — La page pilier avec 5 étapes et 7 prompts
 - 📐 [Améliorer une séquence pédagogique avec l'IA](/article/ameliorer-sequence-pedagogique/) — Enrichir une séquence existante
 - 📋 [Préparer sa rentrée avec l'IA : la checklist complète](/article/preparer-rentree-ia/) — Démarrer l'année avec une organisation déjà cadrée
+- 🗓️ [Construire l'emploi du temps de votre classe avec l'IA](/article/emploi-du-temps-classe-ia/) — Traduire votre progression en grille horaire équilibrée
 
 **Outils et prompts**
 - 🎯 [Quelle IA pour les professeurs des écoles ?](/article/quelle-ia-professeurs-ecoles/) — Le comparatif 2026 pour choisir son outil

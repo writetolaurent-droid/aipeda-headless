@@ -3,6 +3,7 @@ title: "Créer des grilles d'évaluation avec l'IA en quelques minutes"
 description: "Générez des grilles critériées alignées sur le socle commun en 2 minutes. L'IA conçoit le cadre, le prof garde l'évaluation humaine."
 category: "Évaluer"
 pubDate: 2026-07-17
+updatedDate: 2026-09-01
 ---
 
 ![Créer des grilles d'évaluation avec l'IA](/images/chatgpt/chatgpt-prompt.webp)
@@ -241,3 +242,4 @@ Commencez petit. Prenez la prochaine évaluation de votre semaine. Lancez le pro
 - ♿ [Adapter ses supports pour les élèves DYS](/article/adaptation-dys-ia/) — Simplifier et structurer les contenus pour tous
 - 📊 [Évaluation diagnostique avec l'IA](/article/evaluation-diagnostique-ia/) — Photographier le niveau de départ dès la première semaine
 - 🌍 [Évaluer un élève allophone sans le pénaliser](/article/evaluer-eleve-allophone-ia/) — Grilles à deux entrées et énoncés accessibles pour mesurer la notion, pas le français
+- ✍️ [Appréciations du livret scolaire avec l'IA](/article/appreciations-livret-scolaire-ia/) — Des appréciations solides, nourries de vos critères de grille

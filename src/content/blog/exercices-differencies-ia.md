@@ -3,6 +3,7 @@ title: "Créer des exercices différenciés avec l'IA : 3 niveaux en 5 minutes"
 description: "La différenciation prend trois fois plus de temps ? Découvrez comment générer 3 niveaux d'exercices avec l'IA, sans tout recommencer."
 category: "Différencier"
 pubDate: 2026-07-16
+updatedDate: 2026-09-01
 ---
 
 ![Créer des exercices différenciés](/images/magicschool/magicschool-homepage.webp)
@@ -193,3 +194,4 @@ Commencez petit. Prenez un exercice de cette semaine. Lancez le prompt des trois
 - 📊 [Évaluation diagnostique avec l'IA](/article/evaluation-diagnostique-ia/) — Identifier dès septembre qui a besoin de quelle variante
 - 🎯 [Gérer l'hétérogénéité de la classe : le défi n°2](/article/defi-heterogeneite/) — La stratégie d'ensemble : l'IA produit les variantes, vous gardez l'intention
 - 🚀 [Élèves rapides : créer de vrais défis de complexification](/article/eleves-rapides-complexification-ia/) — Le pendant vers le haut : tâches ouvertes, transfert, métacognition
+- 🧩 [Organiser les groupes de besoin avec l'IA](/article/groupes-de-besoin-organisation-ia/) — Le dispositif : constitution des groupes, rotations d'ateliers, rééquilibrage
