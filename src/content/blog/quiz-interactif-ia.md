@@ -3,6 +3,7 @@ title: "Créer des quiz interactifs avec l'IA : Quizizz pour évaluer en s'amusa
 description: "L'IA génère vos questions, Quizizz transforme le quiz en jeu, vous gardez l'analyse. Workflow complet pour une évaluation formative ludique."
 category: "Évaluer"
 pubDate: 2026-08-27
+updatedDate: 2026-09-02
 ---
 
 ![Quizizz, plateforme de quiz interactifs pour la classe](/images/quizizz/quizizz-homepage.webp)
@@ -199,5 +200,6 @@ Le fond ne bouge pas : vous choisissez la leçon, relisez chaque question, inter
 - ✅ [Automatisez la correction de vos copies avec l'IA](/article/automatiser-correction-ia/) — Alléger le poids le plus lourd de l'évaluation
 - 📘 [Préparer ses cours avec l'IA : le guide complet](/article/preparer-ses-cours-ia-guide-complet/) — Le pilier du cocon, avec 5 étapes et des dizaines de prompts
 - 🔄 [Générer un plan B pédagogique en 5 minutes avec l'IA](/article/imprevu-pedagogique-plan-b-ia/) — Un quiz de secours généré en quelques minutes quand la séance dérape
+- 🗝️ [Monter un escape game pédagogique avec l'IA](/article/escape-game-classe-ia/) — Scénario, énigmes et indices gradués pour une séance-jeu qui réactive les notions
 
 *Huit questions générées ce soir, un quiz lancé demain matin, un rapport à lire à la récré. L'évaluation formative n'a jamais été si proche.*

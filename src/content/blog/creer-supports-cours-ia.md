@@ -3,6 +3,7 @@ title: "Créer ses supports de cours avec l'IA : la méthode zéro page blanche"
 description: "Trace écrite, exercices, matériel de manipulation, cartes mentales : 4 prompts concrets pour générer tous vos supports à 80% et finir en quelques minutes. L'IA propose, le prof dispose."
 category: "Préparer"
 pubDate: 2026-07-13
+updatedDate: 2026-09-02
 ---
 
 ## La page blanche, encore et toujours
@@ -244,6 +245,7 @@ Trois à cinq séances. Les deux premières, vous testez et ajustez les prompts 
 - ✏️ [ChatGPT pour prof : le guide pratique](/article/chatgpt-pour-prof/) — 6 cas d'usage avec prompts détaillés
 - 🎨 [Générer des visuels pour le tableau en un clic](/article/visuels-tableaux-ia/) — Créer des images et schémas pédagogiques sur mesure avec l'IA
 - ✉️ [Courriers aux parents avec l'IA](/article/courriers-parents-ia/) — L'IA au service des documents qui partent aux familles
+- 🧩 [Des situations-problèmes en maths et sciences avec l'IA](/article/situations-problemes-maths-ia/) — De la notion au problème ouvert : 4 prompts pour ancrer la recherche dans le concret
 - 🗂️ [Défi n°4 : l'organisation matérielle de la classe avec l'IA](/article/defi-organisation-materielle/) — Plans de classe, affichages et rotations d'ateliers produits en première version
 
 *La page blanche n'est plus une fatalité. L'IA ne crée pas vos supports à votre place — elle vous donne un point de départ solide, que votre expertise transforme en un véritable support pédagogique.*

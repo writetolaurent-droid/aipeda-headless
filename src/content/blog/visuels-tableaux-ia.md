@@ -3,6 +3,7 @@ title: "Générer des visuels pour le tableau en un clic avec l'IA"
 description: "Schémas, illustrations, affiches : l'IA génère vos visuels pédagogiques sur mesure en quelques secondes. Prompts et outils pour professeurs des écoles."
 category: "Préparer"
 pubDate: 2026-07-18
+updatedDate: 2026-09-02
 ---
 
 ![Générer des visuels avec l'IA](/images/chatgpt/chatgpt-prompt.webp)
@@ -246,5 +247,6 @@ Commencez simple : un prompt, un visuel, une séance. Vous mesurerez le gain de 
 - 🖼️ [Créer ses supports de cours avec l'IA](/article/creer-supports-cours-ia/) — Trace écrite, exercices, matériel, cartes mentales : 4 prompts pour générer vos supports à 80 %
 - 🔤 [Adapter ses supports pour les élèves DYS avec l'IA](/article/adaptation-dys-ia/) — Comment l'IA peut rendre vos visuels accessibles à tous les élèves
 - 🤔 [Quelle IA pour les professeurs des écoles ?](/article/quelle-ia-professeurs-ecoles/) — Comparatif des outils IA accessibles et pertinents pour l'enseignement primaire
+- 🗝️ [Créer un escape game pédagogique avec l'IA](/article/escape-game-classe-ia/) — Scénario, énigmes et supports imprimables produits en première version
 
 *L'IA génératrice d'images est un outil au service de votre pédagogie. Elle vous libère du temps de recherche pour que vous l'investissiez là où il compte vraiment : dans le choix pédagogique, l'attention aux élèves, et le sens donné aux apprentissages.*

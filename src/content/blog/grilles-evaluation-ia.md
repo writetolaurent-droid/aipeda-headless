@@ -243,3 +243,4 @@ Commencez petit. Prenez la prochaine évaluation de votre semaine. Lancez le pro
 - 📊 [Évaluation diagnostique avec l'IA](/article/evaluation-diagnostique-ia/) — Photographier le niveau de départ dès la première semaine
 - 🌍 [Évaluer un élève allophone sans le pénaliser](/article/evaluer-eleve-allophone-ia/) — Grilles à deux entrées et énoncés accessibles pour mesurer la notion, pas le français
 - ✍️ [Appréciations du livret scolaire avec l'IA](/article/appreciations-livret-scolaire-ia/) — Des appréciations solides, nourries de vos critères de grille
+- 📈 [Analyser les résultats d'une évaluation avec l'IA](/article/resultats-evaluations-analyse-ia/) — Hiérarchiser les items à retravailler après la grille, sur données anonymisées

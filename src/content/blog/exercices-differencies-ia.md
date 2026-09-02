@@ -195,3 +195,4 @@ Commencez petit. Prenez un exercice de cette semaine. Lancez le prompt des trois
 - 🎯 [Gérer l'hétérogénéité de la classe : le défi n°2](/article/defi-heterogeneite/) — La stratégie d'ensemble : l'IA produit les variantes, vous gardez l'intention
 - 🚀 [Élèves rapides : créer de vrais défis de complexification](/article/eleves-rapides-complexification-ia/) — Le pendant vers le haut : tâches ouvertes, transfert, métacognition
 - 🧩 [Organiser les groupes de besoin avec l'IA](/article/groupes-de-besoin-organisation-ia/) — Le dispositif : constitution des groupes, rotations d'ateliers, rééquilibrage
+- ➗ [Créer des situations-problèmes en maths et sciences avec l'IA](/article/situations-problemes-maths-ia/) — Le pendant « recherche » des exercices : donner du sens à la notion

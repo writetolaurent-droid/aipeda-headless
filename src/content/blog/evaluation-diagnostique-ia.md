@@ -3,6 +3,7 @@ title: "Évaluation diagnostique avec l'IA : connaître sa classe dès les premi
 description: "Générez une évaluation diagnostique adaptée à votre niveau en quelques minutes : repères, exercices, grilles d'observation. L'IA propose, vous décidez."
 category: "Évaluer"
 pubDate: 2026-08-27
+updatedDate: 2026-09-02
 ---
 
 Les premières semaines d'année ressemblent à un travail d'enquête. Pendant que la classe prend ses marques, l'enseignant cherche à comprendre ce groupe dont il ne sait presque rien : qui décode avec aisance, qui écrit sans effort, qui suit une consigne longue, qui décroche dès la deuxième phrase. Cette période révèle vite l'hétérogénéité réelle du groupe, loin des certitudes héritées du niveau précédent.
@@ -191,5 +192,6 @@ Bien conçue, une évaluation diagnostique éclaire des mois d'enseignement. L'I
 - 📊 [Grilles d'évaluation avec l'IA](/article/grilles-evaluation-ia/) — Des grilles critériées utiles au quotidien
 - 🧩 [Exercices différenciés avec l'IA](/article/exercices-differencies-ia/) — Approfondir les variantes graduées
 - 🔧 [Adapter ses supports pour les élèves DYS avec l'IA](/article/adaptation-dys-ia/) — Quand le diagnostic débouche sur l'adaptation
+- 📈 [Analyser les résultats d'une évaluation avec l'IA](/article/resultats-evaluations-analyse-ia/) — De la pile de copies aux priorités de remédiation, sur données anonymisées
 
 *Connaître sa classe, c'est déjà commencer à l'accompagner. Générez, relisez, observez — puis décidez.*
