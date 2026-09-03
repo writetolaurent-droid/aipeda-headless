@@ -3,6 +3,7 @@ title: "Prompt ChatGPT : créer une fiche de cours en 2 minutes"
 description: "Le prompt exact pour générer une fiche de cours complète avec ChatGPT — trace écrite, exercices, différenciation et matériel. Testé et calibré pour les programmes français."
 category: "Préparer"
 pubDate: 2026-07-13
+updatedDate: 2026-09-03
 ---
 
 La fiche de cours, c'est le pain quotidien de l'enseignant. Trace écrite, exercices d'application, matériel de manipulation, différenciation — chaque fiche demande entre 30 minutes et 1 heure de préparation.
@@ -232,5 +233,6 @@ Oui, c'est l'idée. Le prompt est calibré pour fonctionner sur n'importe quelle
 - ✏️ [ChatGPT pour prof : le guide pratique](/article/chatgpt-pour-prof/) — 6 cas d'usage avec prompts détaillés
 - 📐 [Améliorer une séquence avec l'IA : 5 leviers concrets](/article/ameliorer-sequence-pedagogique/) — Enrichir une séquence existante
 - 🔧 [Diffit : adapter n'importe quel texte en 2 clics](/article/outil-diffit/) — Différenciation automatique
+- 📙 [Production d'écrits : amorces et critères de réussite avec l'IA](/article/production-ecrite-amorces-ia/) — Le pendant « écriture » : amorces déclenchantes et auto-évaluation
 
 *Le meilleur prompt est celui que vous utilisez vraiment. Copiez, testez, ajustez.*

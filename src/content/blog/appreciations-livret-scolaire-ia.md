@@ -3,6 +3,7 @@ title: "Appréciations du livret scolaire : les rédiger avec l’IA sans se tra
 description: "Transformez vos observations en appréciations solides : 4 prompts copier-coller pour structurer, varier les formulations et ajuster le ton du livret scolaire."
 category: "Évaluer"
 pubDate: 2026-09-01
+updatedDate: 2026-09-03
 ---
 
 Elles arrivent toujours au pire moment : la fin de période, quand l’énergie baisse. Plus de vingt-cinq appréciations à produire, une à trois lignes par élève et par domaine, et la même exigence à chaque fois — être juste, précis et bienveillant, sans recopier la formule de la ligne précédente. Les évaluations sont corrigées, les décisions sont prises dans votre tête — et pourtant la page reste blanche.
@@ -207,3 +208,4 @@ Rédiger les appréciations ne deviendra jamais la partie la plus réjouissante 
 - ✅ [Feedback rapide avec l’IA](/article/feedback-rapide-ia/) — Formuler vite des retours utiles au quotidien
 - 📊 [Créer des grilles d’évaluation avec l’IA](/article/grilles-evaluation-ia/) — Des critères clairs qui nourrissent vos appréciations
 - ✉️ [Courriers aux parents avec l’IA](/article/courriers-parents-ia/) — L’autre écrit exigeant de la relation familles
+- 📙 [Liaison CM2-6e : le dossier de passage avec l’IA](/article/liaison-cm2-sixieme-ia/) — L’autre écrit exigeant : la synthèse des acquis vers le collège
