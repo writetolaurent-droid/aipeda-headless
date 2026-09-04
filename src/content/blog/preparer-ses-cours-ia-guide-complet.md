@@ -296,6 +296,7 @@ Ce guide est la **page pilier** du cocon AIPEDA sur la préparation de cours ave
 - 📚 [Créer ses supports de cours avec l'IA](/article/creer-supports-cours-ia/) — La méthode zéro page blanche
 - 🎨 [Générer des visuels pour le tableau en un clic](/article/visuels-tableaux-ia/) — Images et schémas pédagogiques sur mesure
 - ⚡ [Générer un plan B pédagogique en 5 minutes avec l'IA](/article/imprevu-pedagogique-plan-b-ia/) — Anticiper l'imprévu : activités de secours et séances dégradées
+- 🧳 [Remplacement sur classe inconnue : la journée prête en 20 minutes](/article/remplacement-classe-inconnue-ia/) — Trame de journée, activités de secours zéro matériel et messages types
 
 **Différenciation & inclusion**
 - 🎯 [Créer des exercices différenciés avec l'IA](/article/exercices-differencies-ia/) — 3 niveaux d'exercices en 5 minutes

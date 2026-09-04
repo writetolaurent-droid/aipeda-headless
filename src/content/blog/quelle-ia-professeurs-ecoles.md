@@ -3,6 +3,7 @@ title: "Quelle IA pour les professeurs des écoles ? Le guide 2026"
 description: "ChatGPT, Gemini, Claude, MagicSchool, Diffit… Quels outils IA choisir quand on enseigne en primaire ? Voici notre sélection testée, classée par usage."
 category: "Outils"
 pubDate: 2026-07-13
+updatedDate: 2026-09-04
 ---
 
 On vous le demande partout. Formation, équipe pédagogique, parents d'élèves : « Quelle IA utiliser ? » La réponse courte : **ça dépend de ce que vous voulez faire.**
@@ -195,5 +196,6 @@ Non. L'IA génère des brouillons que vous validez. Le manuel reste le référen
 - ✏️ [ChatGPT pour prof : le guide pratique](/article/chatgpt-pour-prof/) — 6 cas d'usage détaillés avec prompts
 - 🔧 [Diffit : adapter n'importe quel texte en 2 clics](/article/outil-diffit/) — L'outil spécialisé différenciation
 - 🧭 [Khanmigo : que vaut le tuteur IA de Khan Academy ?](/article/khanmigo-avis-prof/) — L'avis côté prof : usages possibles, limites, ligne rouge
+- 🌍 [Préparer ses séquences d'anglais au primaire avec l'IA](/article/anglais-primaire-sequence-ia/) — Un cas d'usage LVE complet : l'IA prépare, le prof parle
 
 *La question n'est pas « quelle IA choisir ? » mais « qu'est-ce que je veux gagner du temps dessus ? ».*

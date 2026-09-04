@@ -3,6 +3,7 @@ title: "Escape game pédagogique : créer une séance-jeu complète avec l’IA"
 description: "Scénario, énigmes, indices gradués et débriefing : 4 prompts copier-coller pour monter un escape game lié à vos programmes, sans matériel coûteux."
 category: "Préparer"
 pubDate: 2026-09-02
+updatedDate: 2026-09-04
 ---
 
 La séance de révision est rarement la plus attendue de la semaine : plusieurs notions à réactiver en même temps, des élèves qui décrochent dès la première fiche d’exercices, et ce sentiment que chacun travaille seul face à son cahier. Or c’est précisément dans une situation nouvelle, collective et motivante que les connaissances se consolident — l’effort de retrouver, d’expliquer à un camarade et d’essayer ensemble vaut tous les exercices d’entraînement.
@@ -201,3 +202,4 @@ Un escape game pédagogique n’exige ni coffret coûteux ni soirée entière de
 - 🎯 [Créer des quiz interactifs avec l’IA](/article/quiz-interactif-ia/) — Le complément numérique : des révisions rapides, question par question
 - 📝 [Créer des supports de cours avec l’IA](/article/creer-supports-cours-ia/) — Produire cartes, énigmes imprimées et matériel papier du jeu
 - 🧩 [Créer des exercices différenciés avec l’IA](/article/exercices-differencies-ia/) — Décliner les énigmes en plusieurs niveaux de difficulté
+- 🎲 [Créer des jeux pédagogiques papier avec l’IA](/article/jeux-pedagogiques-papier-ia/) — Memory, jeu de l’oie, chasses au trésor : le contenu généré, les niveaux déclinés

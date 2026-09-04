@@ -197,3 +197,4 @@ Commencez petit. Prenez un exercice de cette semaine. Lancez le prompt des trois
 - 🧩 [Organiser les groupes de besoin avec l'IA](/article/groupes-de-besoin-organisation-ia/) — Le dispositif : constitution des groupes, rotations d'ateliers, rééquilibrage
 - ➗ [Créer des situations-problèmes en maths et sciences avec l'IA](/article/situations-problemes-maths-ia/) — Le pendant « recherche » des exercices : donner du sens à la notion
 - 📙 [Des dictées différenciées avec l'IA](/article/dictee-differenciee-ia/) — Le même texte décliné en toutes versions : dictée à trous, phrases courtes, aménagements
+- 🎲 [Créer des jeux pédagogiques papier avec l'IA](/article/jeux-pedagogiques-papier-ia/) — Entraînement par le jeu, décliné en 2-3 niveaux pour vos groupes de besoin

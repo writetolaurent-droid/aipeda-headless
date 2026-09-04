@@ -3,6 +3,7 @@ title: "Générer un plan B pédagogique en 5 minutes avec l'IA"
 description: "Séance qui dérape, intervenant absent, temps à combler : générez un plan B pédagogique réaliste en 5 minutes avec l'IA. 4 prompts copier-coller."
 category: "Préparer"
 pubDate: 2026-08-30
+updatedDate: 2026-09-04
 ---
 
 Une activité qui tombe à plat et se termine vingt minutes trop tôt. Un intervenant qui prévient à la dernière minute. Une salle indisponible, un retour de sortie avancé, un quart d'heure à combler entre deux rendez-vous. Ces trous-là ne sont pas des accidents rares : ils font partie du quotidien d'une classe. Et ils arrivent toujours au moment où l'on n'a rien sous la main.
@@ -194,3 +195,4 @@ L'IA ne pilote rien : elle fabrique, en coulisses, une proposition que vous vali
 - 🔁 [Mettre en place ses rituels de classe avec l'IA](/article/rituels-classe-ia/) — Le principe du prêt-à-l'emploi appliqué au quotidien de la classe
 - 🎯 [Créer des quiz interactifs avec l'IA](/article/quiz-interactif-ia/) — Des activités de révision qui font d'excellentes activités « pont »
 - 🚌 [Préparer une sortie scolaire avec l'IA](/article/sortie-scolaire-ia/) — Checklists, dossier et plan B : la préparation amont du cas le plus structuré
+- 🧳 [Remplacement sur classe inconnue : la journée prête en 20 minutes](/article/remplacement-classe-inconnue-ia/) — Le cas extrême de l'imprévu : une classe entière que vous ne connaissez pas
