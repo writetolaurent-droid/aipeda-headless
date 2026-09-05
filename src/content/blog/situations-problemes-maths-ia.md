@@ -3,6 +3,7 @@ title: "Situations-problèmes en maths et sciences : les construire avec l’IA"
 description: "Transformez une notion en situation de recherche motivante : 4 prompts copier-coller pour créer, décliner en 3 niveaux et fiabiliser vos situations-problèmes."
 category: "Préparer"
 pubDate: 2026-09-02
+updatedDate: 2026-09-05
 ---
 
 La notion est au programme, la date de la séance approche — et le manuel ne propose qu’une batterie d’exercices fermés : appliquer, calculer, compléter. Pour que les élèves entrent vraiment dans les apprentissages, il faudrait autre chose : une vraie situation-problème, une question qui résiste et qui donne envie de chercher. Or construire ce type d’énoncé prend du temps — trouver le prétexte juste, calibrer les données, écrire une question ouverte — et ce temps, personne ne l’a.
@@ -203,6 +204,7 @@ Construire une situation-problème ne demande pas trois soirées de recherche do
 ## Aller plus loin
 
 - 📘 [Préparer ses cours avec l’IA : guide complet](/article/preparer-ses-cours-ia-guide-complet/) — La page pilier pour intégrer l’IA dans toute votre préparation
+- 📘 [Calcul mental : fiches et séries graduées avec l’IA](/article/calcul-mental-ia/) — l’automatisation du calcul, complément du « chercher ».
 - ✏️ [Créer des exercices différenciés avec l’IA](/article/exercices-differencies-ia/) — L’entraînement qui suit la recherche, en 3 niveaux
 - 🧗 [Élèves rapides : créer de vrais défis de complexification avec l’IA](/article/eleves-rapides-complexification-ia/) — Prolonger la situation-problème pour ceux qui vont plus loin
 - 🗓️ [Améliorer une séquence pédagogique avec l’IA](/article/ameliorer-sequence-pedagogique/) — Insérer la situation-problème dans une séquence cohérente

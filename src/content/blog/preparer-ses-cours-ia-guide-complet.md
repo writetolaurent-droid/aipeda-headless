@@ -286,6 +286,7 @@ Ce guide est la **page pilier** du cocon AIPEDA sur la préparation de cours ave
 - 🎯 [Quelle IA pour les professeurs des écoles ?](/article/quelle-ia-professeurs-ecoles/) — Le guide 2026 pour choisir son outil
 - ✏️ [ChatGPT pour prof : le guide pratique](/article/chatgpt-pour-prof/) — 6 cas d'usage concrets avec prompts
 - ⚡ [Prompt ChatGPT : créer une fiche de cours en 2 min](/article/prompt-chatgpt-fiche-de-cours/) — Le prompt maître testé
+- 📙 [Observation de classe : préparer sa séance et son dossier avec l'IA](/article/observation-classe-ia/) — transformer une préparation ordinaire en dossier d'observation solide.
 - 🔧 [Diffit : adapter n'importe quel texte en 2 clics](/article/outil-diffit/) — L'outil indispensable pour la différenciation
 - 🪄 [MagicSchool.ai : le couteau suisse IA](/article/outil-magicschool/) — 60+ outils IA réunis dans une plateforme
 

@@ -188,6 +188,7 @@ Commencez petit. Prenez un exercice de cette semaine. Lancez le prompt des trois
 ## Aller plus loin
 
 - 📐 [Préparer ses cours avec l'IA : guide complet](/article/preparer-ses-cours-ia-guide-complet/) — La page pilier pour intégrer l'IA dans toute votre préparation
+- 📙 [Questionnaires de lecture avec l'IA : la compréhension en 3 niveaux](/article/questionnaire-lecture-ia/) — appliquer la logique des 3 niveaux aux questionnaires de lecture.
 - 🔧 [Diffit : différenciation en 2 clics](/article/outil-diffit/) — L'outil dédié pour adapter vos textes en plusieurs niveaux
 - 📚 [Améliorer sa séquence pédagogique](/article/ameliorer-sequence-pedagogique/) — Structurer vos séquences de A à Z avec l'IA
 - 📋 [Créer des grilles d'évaluation avec l'IA](/article/grilles-evaluation-ia/) — Des critères d'évaluation clairs en quelques minutes

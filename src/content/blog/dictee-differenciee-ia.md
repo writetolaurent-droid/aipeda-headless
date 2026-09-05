@@ -3,6 +3,7 @@ title: "Dictées différenciées avec l’IA : un même texte, tous les niveaux"
 description: "Un même texte de dictée, toutes les versions pour votre classe : dictée à trous, phrases courtes, aménagements DYS et allophones. 4 prompts à copier."
 category: "Différencier"
 pubDate: 2026-09-03
+updatedDate: 2026-09-05
 ---
 
 La dictée est l’un des rares exercices que tous les élèves réalisent en même temps, sur le même support, au même rythme. C’est précisément ce qui la rend difficile à différencier : dans une classe hétérogène, un texte unique produit des effets opposés. Les élèves à l’aise s’ennuient, les élèves fragiles décrochent dès la première phrase, et les élèves DYS ou allophones affrontent en plus l’écriture sous tension ou le lexique jamais rencontré.
@@ -189,6 +190,7 @@ La dictée différenciée n’est pas une idée nouvelle — c’est sa prépara
 ## Aller plus loin
 
 - 📙 [Créer des exercices différenciés avec l’IA : 3 niveaux en 5 minutes](/article/exercices-differencies-ia/) — Étendre la différenciation au-delà de la dictée
+- 📙 [Questionnaires de lecture avec l’IA : la compréhension en 3 niveaux](/article/questionnaire-lecture-ia/) — le même principe de déclinaison, côté compréhension.
 - 📙 [Adapter vos supports pour les élèves DYS en un clic](/article/adaptation-dys-ia/) — Le guide complet des aménagements DYS avec l’IA
 - 📙 [Élèves allophones : adapter vos consignes et supports avec l’IA](/article/eleves-allophones-ia/) — Lexique, consignes et étayage pour les élèves nouvellement arrivés
 - 📙 [Préparer ses cours avec l’IA : le guide complet pour l’enseignant](/article/preparer-ses-cours-ia-guide-complet/) — La vue d’ensemble, avec des dizaines de prompts copier-coller

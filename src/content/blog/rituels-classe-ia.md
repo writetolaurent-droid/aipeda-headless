@@ -189,6 +189,7 @@ Et le cœur du dispositif ne bouge pas : vous animez, questionnez, corrigez, obs
 ## Aller plus loin
 
 - 📘 [Préparer ses cours avec l'IA : le guide complet](/article/preparer-ses-cours-ia-guide-complet/) — Le guide pilier du cocon, avec 5 étapes et des dizaines de prompts
+- 📗 [Calcul mental : fiches et séries graduées avec l'IA](/article/calcul-mental-ia/) — un rituel d'oral de cinq minutes, clé en main.
 - 🖼️ [Générer des visuels pour le tableau en un clic avec l'IA](/article/visuels-tableaux-ia/) — Créer les affichages et routines visuelles de la classe
 - 📝 [Créer ses supports de cours avec l'IA](/article/creer-supports-cours-ia/) — Étendre la méthode au-delà des rituels quotidiens
 - 🗓️ [Créer sa progression annuelle avec l'IA](/article/progression-annuelle-ia/) — Poser le cadre annuel qui rend vos rituels cohérents toute l'année

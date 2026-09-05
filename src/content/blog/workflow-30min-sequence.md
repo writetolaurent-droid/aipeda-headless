@@ -3,6 +3,7 @@ title: "Mon workflow 30 min pour préparer une séquence avec l'IA"
 description: "Préparez une séquence pédagogique complète en 30 minutes : brainstorming, structuration, supports. Workflow pas à pas avec prompts copier-coller."
 category: "Préparer"
 pubDate: 2026-07-17
+updatedDate: 2026-09-05
 ---
 
 ![Workflow IA - Préparation de séquence](/images/claude/claude-prompt.webp)
@@ -244,6 +245,7 @@ Le prof reste le pilote. L'IA est le co-pilote qui tient la carte pendant que vo
 ## Aller plus loin
 
 - 📘 [Préparer ses cours avec l'IA : le guide complet](/article/preparer-ses-cours-ia-guide-complet/) — Le guide pilier du cocon, avec 5 étapes et des dizaines de prompts
+- 📗 [Observation de classe : préparer sa séance et son dossier avec l'IA](/article/observation-classe-ia/) — quand la séance sera observée, le dossier compte double.
 - 📐 [Améliorer une séquence avec l'IA : 5 leviers concrets](/article/ameliorer-sequence-pedagogique/) — Enrichir une séquence déjà existante
 - 📝 [Créer des supports de cours avec l'IA](/article/creer-supports-cours-ia/) — Approfondir la phase 3 du workflow
 - 🔧 [Adapter ses supports pour les élèves DYS avec l'IA](/article/adaptation-dys-ia/) — Le guide complet de la différenciation DYS
