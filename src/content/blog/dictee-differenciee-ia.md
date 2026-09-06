@@ -194,5 +194,6 @@ La dictée différenciée n’est pas une idée nouvelle — c’est sa prépara
 - 📙 [Adapter vos supports pour les élèves DYS en un clic](/article/adaptation-dys-ia/) — Le guide complet des aménagements DYS avec l’IA
 - 📙 [Élèves allophones : adapter vos consignes et supports avec l’IA](/article/eleves-allophones-ia/) — Lexique, consignes et étayage pour les élèves nouvellement arrivés
 - 📙 [Préparer ses cours avec l’IA : le guide complet pour l’enseignant](/article/preparer-ses-cours-ia-guide-complet/) — La vue d’ensemble, avec des dizaines de prompts copier-coller
+- 🏠 [Des devoirs à la maison différenciés avec l’IA](/article/devoir-maison-differencie-ia/) — Des devoirs courts et utiles, déclinés pour chaque niveau
 
 *Un même texte, tous les niveaux : copiez, relisez, distribuez — la dictée différenciée devient un réflexe de préparation, pas un projet de week-end.*

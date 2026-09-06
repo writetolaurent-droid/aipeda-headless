@@ -3,6 +3,7 @@ title: "Courriers aux parents : gagnez des heures sur vos communications écrite
 description: "Rentrée, sorties, réunions : structurez et rédigez vos courriers aux familles en quelques minutes avec l'IA, sans perdre votre voix ni votre confidentialité."
 category: "Préparer"
 pubDate: 2026-08-27
+updatedDate: 2026-09-06
 ---
 
 Courrier d'information de rentrée, autorisation de sortie, convocation à une réunion, rappel d'un document manquant : les écrits aux familles reviennent sans cesse et grignotent les soirées. Chaque missive exige un ton précis, professionnel ET chaleureux, où la moindre formule maladroite peut être mal interprétée.
@@ -201,5 +202,6 @@ Une discipline suffit : zéro donnée personnelle dans le chat, relecture systé
 - ⚡ [Alléger la charge mentale : le défi n°1 et l'IA](/article/defi-charge-mentale/) — Trier ses tâches et déléguer la production brute
 - 🚌 [Préparer une sortie scolaire avec l'IA](/article/sortie-scolaire-ia/) — L'autorisation parentale n'est qu'une pièce : structurer tout le dossier
 - 🌍 [Communiquer avec les familles allophones](/article/communication-familles-allophones-ia/) — Traduire l'information pratique vers les langues des familles EANA
+- 🗣️ [La réunion de rentrée préparée avec l'IA](/article/reunion-parents-ia/) — Discours, diaporama et mémo papier : l'oral qui accompagne vos courriers
 
 *Copiez les prompts, adaptez-les à vos habitudes, gardez la plume : l'IA prépare le brouillon, c'est vous qui signez.*

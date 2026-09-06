@@ -3,6 +3,7 @@ title: "Créer des jeux pédagogiques papier avec l’IA : memory, jeu de l’oi
 description: "Memory, jeu de l’oie, chasse au trésor : l’IA génère cartes, questions et règles graduées par niveau. Vous imprimez, assemblez, vous jouez. 4 prompts."
 category: "Différencier"
 pubDate: 2026-09-04
+updatedDate: 2026-09-06
 ---
 
 Le jeu est le meilleur moteur d’entraînement de la classe : une règle simple, un enjeu immédiat, et la même notion qui se répète sans lassitude, là où une fiche sature en dix minutes. Et les élèves connaissent déjà memory, jeu de l’oie, lotto et dominos : le lancement prend deux minutes, tout le temps de séance va au contenu.
@@ -177,5 +178,6 @@ Le jeu papier est le format d’entraînement le plus accepté de la classe — 
 - 🧩 [Créer des exercices différenciés avec l’IA : 3 niveaux en 5 minutes](/article/exercices-differencies-ia/) — La logique des niveaux appliquée aux exercices classiques
 - 🔁 [Mettre en place ses rituels de classe avec l’IA](/article/rituels-classe-ia/) — Intégrer les jeux dans les rituels quotidiens de la classe
 - 🎨 [Générer des visuels pour le tableau en un clic](/article/visuels-tableaux-ia/) — Illustrer vos jeux et supports avec des images sur mesure
+- 🖥️ [Défi n°5 : préparer avec l’IA quand le parc numérique est limité](/article/defi-parc-numerique-limite/) — L’IA la nuit, la classe sans écran le jour : le papier bien pensé
 
 *Une notion, un prompt, deux niveaux : le jeu papier redevient ce qu’il a toujours été — le meilleur moteur d’entraînement de la classe.*

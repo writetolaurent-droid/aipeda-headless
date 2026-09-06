@@ -3,6 +3,7 @@ title: "Préparer sa rentrée avec l'IA : la checklist complète du professeur"
 description: "Rentrée sereine : affichages, planning, courriers, premières séances. La checklist IA pas à pas avec prompts copier-coller pour partir du bon pied."
 category: "Préparer"
 pubDate: 2026-08-27
+updatedDate: 2026-09-06
 ---
 
 La pré-rentrée tient rarement ses promesses de sérénité. En quelques jours, il faut préparer ou actualiser les affichages, rédiger le courrier aux familles, répartir les disciplines dans un cadre horaire contraint, lister les fournitures, enchaîner réunions d'équipe et consignes nouvelles. Des tâches qui grignotent l'été — et l'énergie qu'on voudrait garder pour ce qui motive vraiment : imaginer les premiers apprentissages, préparer l'accueil des élèves.
@@ -194,5 +195,6 @@ La rentrée se prépare mieux en deux temps : l'administratif et l'organisation,
 - ⏱️ [Mon workflow 30 min pour préparer une séquence](/article/workflow-30min-sequence/) — Passer de la trame aux séquences
 - 🎨 [Visuels et tableaux de classe avec l'IA](/article/visuels-tableaux-ia/) — Doser et créer vos affichages
 - 🤖 [ChatGPT pour les professeurs](/article/chatgpt-pour-prof/) — La prise en main sans jargon
+- 🗣️ [La réunion de rentrée préparée avec l'IA](/article/reunion-parents-ia/) — Discours, diaporama et questions des parents : l'oral qui complète votre checklist
 
 *Quatre prompts d'ici la fin du mois d'août, et la rentrée vous regardera venir.*
