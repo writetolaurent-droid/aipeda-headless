@@ -192,6 +192,7 @@ Et le cœur du dispositif ne bouge pas : vous animez, questionnez, corrigez, obs
 - 📗 [Calcul mental : fiches et séries graduées avec l'IA](/article/calcul-mental-ia/) — un rituel d'oral de cinq minutes, clé en main.
 - 🖼️ [Générer des visuels pour le tableau en un clic avec l'IA](/article/visuels-tableaux-ia/) — Créer les affichages et routines visuelles de la classe
 - 📝 [Créer ses supports de cours avec l'IA](/article/creer-supports-cours-ia/) — Étendre la méthode au-delà des rituels quotidiens
+- 🏃 [Préparer ses séances d'EPS avec l'IA](/article/seances-eps-primaire-ia/) — Cartes de situations motrices et plans de tournoi générés en quelques minutes
 - 🗓️ [Créer sa progression annuelle avec l'IA](/article/progression-annuelle-ia/) — Poser le cadre annuel qui rend vos rituels cohérents toute l'année
 - 📋 [Préparer sa rentrée avec l'IA : checklist complète](/article/preparer-rentree-ia/) — Affichages, planning, courriers : tout cadrer avant le jour J
 - ✉️ [Courriers aux parents avec l'IA](/article/courriers-parents-ia/) — Des écrits aux familles solides sans y passer ses soirées

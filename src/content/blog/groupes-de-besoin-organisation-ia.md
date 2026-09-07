@@ -3,6 +3,7 @@ title: "Organiser les groupes de besoin avec l’IA (sans y passer ses soirées)
 description: "Constituer vos groupes, planifier les rotations d’ateliers, suivre les progrès : 4 prompts copier-coller pour piloter votre différenciation."
 category: "Différencier"
 pubDate: 2026-09-01
+updatedDate: 2026-09-07
 ---
 
 La différenciation, tout le monde y croit — jusqu’à la gestion des groupes. Constituer les groupes de besoin, décider ce que feront les autres élèves pendant que vous prenez en charge l’un d’eux, noter qui progresse et qui devrait changer de groupe : ce travail-là ne figure sur aucun cahier journal, et il dévore les soirées. Résultat classique : des groupes constitués au début de l’année et jamais remaniés, une rotation bricolée chaque matin, un dispositif qui s’essouffle bien avant les vacances.
@@ -197,4 +198,5 @@ Organiser des groupes de besoin, c’est avant tout un travail d’organisation 
 - 🎯 [Créer des exercices différenciés avec l’IA](/article/exercices-differencies-ia/) — Le contenu des variantes, une fois les groupes posés
 - 📊 [Évaluation diagnostique avec l’IA](/article/evaluation-diagnostique-ia/) — Photographier les besoins de départ pour constituer les groupes
 - 🚀 [Élèves rapides : créer de vrais défis de complexification](/article/eleves-rapides-complexification-ia/) — Penser aussi le groupe du haut
+- 🏫 [Classe multi-niveaux : la préparation à plusieurs niveaux](/article/classe-multi-niveaux-ia/) — Décliner chaque séance par niveau quand deux programmes cohabitent
 - 🎯 [Gérer l’hétérogénéité de la classe : le défi n°2](/article/defi-heterogeneite/) — La stratégie d’ensemble du quotidien hétérogène

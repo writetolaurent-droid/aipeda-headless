@@ -246,6 +246,7 @@ Commencez simple : un prompt, un visuel, une séance. Vous mesurerez le gain de 
 - 📘 [Préparer ses cours avec l'IA : le guide complet](/article/preparer-ses-cours-ia-guide-complet/) — La page pilier du cocon AIPEDA pour intégrer l'IA dans toute votre préparation
 - 🖼️ [Créer ses supports de cours avec l'IA](/article/creer-supports-cours-ia/) — Trace écrite, exercices, matériel, cartes mentales : 4 prompts pour générer vos supports à 80 %
 - 🔤 [Adapter ses supports pour les élèves DYS avec l'IA](/article/adaptation-dys-ia/) — Comment l'IA peut rendre vos visuels accessibles à tous les élèves
+- 🧸 [Préparer des séances de maternelle avec l'IA](/article/maternelle-seances-ia/) — Imagiers, pictogrammes et ateliers PS-MS-GS adaptés au langage des plus petits
 - 🤔 [Quelle IA pour les professeurs des écoles ?](/article/quelle-ia-professeurs-ecoles/) — Comparatif des outils IA accessibles et pertinents pour l'enseignement primaire
 - 🗝️ [Créer un escape game pédagogique avec l'IA](/article/escape-game-classe-ia/) — Scénario, énigmes et supports imprimables produits en première version
 

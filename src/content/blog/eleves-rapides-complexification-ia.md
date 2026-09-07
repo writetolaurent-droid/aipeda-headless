@@ -3,6 +3,7 @@ title: "Élèves rapides : créer de vrais défis de complexification avec l'IA"
 description: "Les élèves qui terminent avant les autres décrochent face aux fiches bonus. Créez de vrais défis de complexification avec l'IA : prompts prêts à l'emploi."
 category: "Différencier"
 pubDate: 2026-08-30
+updatedDate: 2026-09-07
 ---
 
 Un élève rend sa copie pendant que les autres lisent encore la consigne. Le réflexe est toujours le même : « Tu peux lire », ou une fiche bonus calquée sur l'exercice initial — dix items de plus, même consigne, même niveau de pensée. L'élève comprend vite le message : en classe, terminer tôt ne mène qu'à du travail en plus. Alors il ralentit, il décroche, ou il vient solliciter l'adulte toutes les deux minutes.
@@ -187,6 +188,7 @@ Différencier vers le haut, ce n'est pas occuper les élèves rapides : c'est le
 
 - 📐 [Exercices différenciés avec l'IA : adapter vers le bas](/article/exercices-differencies-ia/) — Le pendant descendant de la différenciation, avec ses propres prompts
 - 🧩 [Adapter ses supports pour les élèves DYS avec l'IA](/article/adaptation-dys-ia/) — L'adaptation fine des supports pour les besoins particuliers
+- 🏫 [Classe multi-niveaux : préparer chaque séance avec l'IA](/article/classe-multi-niveaux-ia/) — Gérer deux programmes parallèles dans la même salle, notamment en contexte AEFE
 - 🗣️ [Accompagner les élèves allophones avec l'IA](/article/eleves-allophones-ia/) — Une autre facette de la différenciation : la barrière de la langue
 - 📘 [Préparer ses cours avec l'IA : le guide complet](/article/preparer-ses-cours-ia-guide-complet/) — Le guide pilier du cocon : workflow complet et dizaines de prompts
 
