@@ -229,3 +229,4 @@ Adapter ses supports pour les élèves DYS n'est plus un luxe réservé aux soir
 - 🚀 [Élèves rapides : créer de vrais défis de complexification](/article/eleves-rapides-complexification-ia/) — L'autre bord de la différenciation : stimuler ceux qui vont plus vite
 - 🧩 [Organiser les groupes de besoin avec l'IA](/article/groupes-de-besoin-organisation-ia/) — Poser le dispositif qui accueille vos variantes
 - 📙 [Des dictées différenciées avec l'IA](/article/dictee-differenciee-ia/) — Des dictées aménagées : présentation adaptée, segmentation, séquencement oral
+- 📗 [Textes décodables pour le CP avec l'IA](/article/decodage-lecture-cp-ia/) — des textes calés sur votre progression, graphie par graphie

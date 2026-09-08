@@ -216,4 +216,5 @@ L'IA formule. Le prof transmet. C'est ce partage des rôles, tenu avec rigueur, 
 - 📐 [Automatiser la correction avec l'IA](/article/automatiser-correction-ia/) — Le pré-travail de correction qui alimente vos feedbacks
 - 📊 [Créer des grilles d'évaluation avec l'IA](/article/grilles-evaluation-ia/) — Des grilles claires pour des feedbacks alignés sur vos critères
 - ✍️ [Appréciations du livret scolaire avec l'IA](/article/appreciations-livret-scolaire-ia/) — Structurer et varier vos appréciations de période sans y passer vos soirées
+- 🪞 [Auto-évaluation des élèves avec l'IA](/article/auto-evaluation-eleves-ia/) — l'élève réfléchit sur ses critères, vous validez
 - 🔧 [Créer des exercices différenciés avec l'IA](/article/exercices-differencies-ia/) — Adapter les exercices aux besoins identifiés grâce au feedback

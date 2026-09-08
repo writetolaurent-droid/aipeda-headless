@@ -191,6 +191,7 @@ La dictée différenciée n’est pas une idée nouvelle — c’est sa prépara
 
 - 📙 [Créer des exercices différenciés avec l’IA : 3 niveaux en 5 minutes](/article/exercices-differencies-ia/) — Étendre la différenciation au-delà de la dictée
 - 📙 [Questionnaires de lecture avec l’IA : la compréhension en 3 niveaux](/article/questionnaire-lecture-ia/) — le même principe de déclinaison, côté compréhension.
+- 📝 [Poésie et mémorisation avec l’IA : du poème à la récitation](/article/poesie-memorisation-ia/) — fiches à trous et plan de mémorisation étagé, l’IA en coulisses.
 - 📙 [Adapter vos supports pour les élèves DYS en un clic](/article/adaptation-dys-ia/) — Le guide complet des aménagements DYS avec l’IA
 - 📙 [Élèves allophones : adapter vos consignes et supports avec l’IA](/article/eleves-allophones-ia/) — Lexique, consignes et étayage pour les élèves nouvellement arrivés
 - 📙 [Préparer ses cours avec l’IA : le guide complet pour l’enseignant](/article/preparer-ses-cours-ia-guide-complet/) — La vue d’ensemble, avec des dizaines de prompts copier-coller

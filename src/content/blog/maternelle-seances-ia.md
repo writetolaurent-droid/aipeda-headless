@@ -3,6 +3,7 @@ title: "Préparer des séances de maternelle avec l’IA (PS, MS, GS)"
 description: "Albums, langage, ateliers PS-MS-GS : l’IA transpose vos séances au niveau des plus petits. Quatre prompts prêts à l’emploi pour préparer sans y passer le soir."
 category: "Préparer"
 pubDate: 2026-09-07
+updatedDate: 2026-09-08
 ---
 
 Le site parle le plus souvent aux collègues d’élémentaire, mais les enseignants de maternelle préparent autrement : des séances courtes, tout en oral, où rien ne s’écrit au tableau et tout se dit, se montre, se manipule. Une séance de PS ou de MS se joue à la voix et au geste — et se prépare bien en amont.
@@ -176,5 +177,6 @@ Préparer une séance de maternelle, c’est préparer un langage avant tout : d
 
 - 📗 [Préparer ses cours avec l’IA : le guide complet](/article/preparer-ses-cours-ia-guide-complet/) — la méthode globale de préparation.
 - 📙 [Les rituels de classe avec l’IA](/article/rituels-classe-ia/) — la répétition quotidienne qui installe le langage.
+- 📙 [Textes décodables pour le CP avec l’IA](/article/decodage-lecture-cp-ia/) — syllabes, mots et textes gradués pour la suite du cycle 1.
 - 📒 [Créer des supports de cours avec l’IA](/article/creer-supports-cours-ia/) — fiches et supports, y compris en cycle 1.
 - 📘 [Des visuels pour le tableau avec l’IA](/article/visuels-tableaux-ia/) — pictogrammes et affichages de la classe.

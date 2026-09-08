@@ -241,6 +241,7 @@ Commencez petit. Prenez la prochaine évaluation de votre semaine. Lancez le pro
 - 🎯 [Créer des exercices différenciés avec l'IA](/article/exercices-differencies-ia/) — 3 niveaux d'exercices en 5 minutes
 - ♿ [Adapter ses supports pour les élèves DYS](/article/adaptation-dys-ia/) — Simplifier et structurer les contenus pour tous
 - 📊 [Évaluation diagnostique avec l'IA](/article/evaluation-diagnostique-ia/) — Photographier le niveau de départ dès la première semaine
+- 🪞 [Auto-évaluation des élèves avec l'IA](/article/auto-evaluation-eleves-ia/) — la contrepartie côté élève : trames papier, votre validation
 - 🌍 [Évaluer un élève allophone sans le pénaliser](/article/evaluer-eleve-allophone-ia/) — Grilles à deux entrées et énoncés accessibles pour mesurer la notion, pas le français
 - ✍️ [Appréciations du livret scolaire avec l'IA](/article/appreciations-livret-scolaire-ia/) — Des appréciations solides, nourries de vos critères de grille
 - 📈 [Analyser les résultats d'une évaluation avec l'IA](/article/resultats-evaluations-analyse-ia/) — Hiérarchiser les items à retravailler après la grille, sur données anonymisées

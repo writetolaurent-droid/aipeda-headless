@@ -3,6 +3,7 @@ title: "Production d’écrits : amorces et critères de réussite avec l’IA"
 description: "Amorces déclenchantes, critères de réussite, fiches d’auto-évaluation : préparez vos séances d’écriture avec l’IA. Vos élèves écrivent eux-mêmes."
 category: "Préparer"
 pubDate: 2026-09-03
+updatedDate: 2026-09-08
 ---
 
 « Écrivez la suite de ce récit. » La consigne tombe, et une partie de la classe se tait. Quelques plumes s’affolent, mais beaucoup d’élèves restent bloqués devant la première ligne : pas d’idée, pas d’accroche, pas de porte d’entrée. La difficulté commence avant l’écriture — et elle se voit de loin.
@@ -217,6 +218,7 @@ Le partage reste simple : l’IA propose, le prof dispose. Vous restez l’archi
 ## Aller plus loin
 
 - 📙 [Créer des supports de cours avec l’IA : la méthode pas à pas](/article/creer-supports-cours-ia/) — Concevoir fiches, affiches et documents imprimables pour la classe
+- 📙 [Poésie et mémorisation avec l’IA](/article/poesie-memorisation-ia/) — l’autre volet du français, côté oral : mémoriser, réciter.
 - 📙 [Le prompt ChatGPT pour créer une fiche de cours](/article/prompt-chatgpt-fiche-de-cours/) — Le prompt structuré pour générer une fiche prête à imprimer
 - 📙 [Feedback rapide avec l’IA : corriger sans s’épuiser](/article/feedback-rapide-ia/) — Préparer vos corrections et votre feedback, sans déléguer votre jugement
 - 📙 [Préparer ses cours avec l’IA : le guide complet](/article/preparer-ses-cours-ia-guide-complet/) — Le guide pilier du cocon, avec 5 étapes et des dizaines de prompts
