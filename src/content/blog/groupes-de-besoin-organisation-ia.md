@@ -200,3 +200,4 @@ Organiser des groupes de besoin, c’est avant tout un travail d’organisation 
 - 🚀 [Élèves rapides : créer de vrais défis de complexification](/article/eleves-rapides-complexification-ia/) — Penser aussi le groupe du haut
 - 🏫 [Classe multi-niveaux : la préparation à plusieurs niveaux](/article/classe-multi-niveaux-ia/) — Décliner chaque séance par niveau quand deux programmes cohabitent
 - 🎯 [Gérer l’hétérogénéité de la classe : le défi n°2](/article/defi-heterogeneite/) — La stratégie d’ensemble du quotidien hétérogène
+- 🤝 [Tutorat entre pairs avec l’IA](/article/tutorat-entre-pairs-ia/) — Le dispositif d’entraide : binômes outillés et suivi papier

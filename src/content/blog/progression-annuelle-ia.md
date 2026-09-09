@@ -237,6 +237,7 @@ Et une fois la progression posée, place à la séquence. Pour aller plus loin s
 **Outils et prompts**
 - 🎯 [Quelle IA pour les professeurs des écoles ?](/article/quelle-ia-professeurs-ecoles/) — Le comparatif 2026 pour choisir son outil
 - ✏️ [Prompt ChatGPT : créer une fiche de cours en 2 min](/article/prompt-chatgpt-fiche-de-cours/) — Le prompt maître pour générer une fiche complète
+- 📚 [Histoire-géo : repères et documents avec l'IA](/article/histoire-geo-reperes-ia/) — Construire les séquences des périodes du programme
 - 🔗 [Créer des ponts interdisciplinaires : le défi n°3](/article/defi-interdisciplinarite/) — Transformer une séquence en projet interdisciplinaire cadré
 
 *L'IA génère la trame. Vous gardez le cap.*

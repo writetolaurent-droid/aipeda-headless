@@ -208,3 +208,4 @@ Construire une situation-problème ne demande pas trois soirées de recherche do
 - ✏️ [Créer des exercices différenciés avec l’IA](/article/exercices-differencies-ia/) — L’entraînement qui suit la recherche, en 3 niveaux
 - 🧗 [Élèves rapides : créer de vrais défis de complexification avec l’IA](/article/eleves-rapides-complexification-ia/) — Prolonger la situation-problème pour ceux qui vont plus loin
 - 🗓️ [Améliorer une séquence pédagogique avec l’IA](/article/ameliorer-sequence-pedagogique/) — Insérer la situation-problème dans une séquence cohérente
+- 🧪 [Séquences de sciences avec l’IA : investigation et protocoles](/article/preparer-sequence-sciences-ia/) — Le protocole expérimental qui prolonge la recherche

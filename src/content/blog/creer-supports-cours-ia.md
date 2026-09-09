@@ -245,6 +245,7 @@ Trois à cinq séances. Les deux premières, vous testez et ajustez les prompts 
 - ✏️ [ChatGPT pour prof : le guide pratique](/article/chatgpt-pour-prof/) — 6 cas d'usage avec prompts détaillés
 - 🎨 [Générer des visuels pour le tableau en un clic](/article/visuels-tableaux-ia/) — Créer des images et schémas pédagogiques sur mesure avec l'IA
 - ✉️ [Courriers aux parents avec l'IA](/article/courriers-parents-ia/) — L'IA au service des documents qui partent aux familles
+- 📚 [Histoire-géo au primaire avec l'IA](/article/histoire-geo-reperes-ia/) — Déroulés, frises et documents adaptés en deux niveaux
 - 🧩 [Des situations-problèmes en maths et sciences avec l'IA](/article/situations-problemes-maths-ia/) — De la notion au problème ouvert : 4 prompts pour ancrer la recherche dans le concret
 - 🗂️ [Défi n°4 : l'organisation matérielle de la classe avec l'IA](/article/defi-organisation-materielle/) — Plans de classe, affichages et rotations d'ateliers produits en première version
 - 📙 [Production d'écrits : amorces et critères de réussite avec l'IA](/article/production-ecrite-amorces-ia/) — Une banque d'amorces déclenchantes et de critères prête à imprimer

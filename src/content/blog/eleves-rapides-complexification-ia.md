@@ -190,6 +190,7 @@ Différencier vers le haut, ce n'est pas occuper les élèves rapides : c'est le
 - 🧩 [Adapter ses supports pour les élèves DYS avec l'IA](/article/adaptation-dys-ia/) — L'adaptation fine des supports pour les besoins particuliers
 - 🏫 [Classe multi-niveaux : préparer chaque séance avec l'IA](/article/classe-multi-niveaux-ia/) — Gérer deux programmes parallèles dans la même salle, notamment en contexte AEFE
 - 🗣️ [Accompagner les élèves allophones avec l'IA](/article/eleves-allophones-ia/) — Une autre facette de la différenciation : la barrière de la langue
+- 🤝 [Tutorat entre pairs avec l'IA](/article/tutorat-entre-pairs-ia/) — Faites de vos élèves rapides des tuteurs outillés
 - 📘 [Préparer ses cours avec l'IA : le guide complet](/article/preparer-ses-cours-ia-guide-complet/) — Le guide pilier du cocon : workflow complet et dizaines de prompts
 
 *La différenciation ne regarde pas que ceux qui peinent. Les quatre prompts ci-dessus sont prêts : copiez, complétez, testez dès votre prochaine séance.*
