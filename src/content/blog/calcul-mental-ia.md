@@ -3,6 +3,7 @@ title: "Calcul mental : fiches et séries graduées avec l’IA, du CE1 au CM2"
 description: "Banques de calcul, fiches graduées et rituels d’oral générés en quelques minutes : l’IA produit l’entraînement, vous animez et corrigez. 4 prompts."
 category: "Différencier"
 pubDate: 2026-09-05
+updatedDate: 2026-09-10
 ---
 
 Le calcul mental se travaille chaque jour, souvent en ouverture du temps de mathématiques : dix minutes d’oral, une notion, des questions qui s’enchaînent. La régularité est le cœur du dispositif, et elle a un coût invisible : pour être utile, l’entraînement exige des séries nouvelles chaque semaine, graduées du plus simple au plus complexe, pour que chacun trouve où commencer et où monter.
@@ -171,3 +172,4 @@ Le calcul mental demande peu de matériel et beaucoup de régularité : c’est 
 - 📙 [Situations-problèmes en maths : les construire avec l’IA](/article/situations-problemes-maths-ia/) — le complément « chercher », distinct de l’automatisation.
 - 📒 [Jeux pédagogiques papier avec l’IA](/article/jeux-pedagogiques-papier-ia/) — transformer l’entraînement en jeu de plateau.
 - 📘 [Mettre en place ses rituels de classe avec l’IA](/article/rituels-classe-ia/) — où s’insère le calcul mental dans la journée.
+- 📙 [Rituels de français : conjugaison, grammaire et vocabulaire avec l’IA](/article/rituels-langue-francais-ia/) — l’autre famille de rituels quotidiens, côté langue.

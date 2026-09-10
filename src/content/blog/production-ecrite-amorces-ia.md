@@ -220,6 +220,7 @@ Le partage reste simple : l’IA propose, le prof dispose. Vous restez l’archi
 - 📙 [Créer des supports de cours avec l’IA : la méthode pas à pas](/article/creer-supports-cours-ia/) — Concevoir fiches, affiches et documents imprimables pour la classe
 - 📙 [Poésie et mémorisation avec l’IA](/article/poesie-memorisation-ia/) — l’autre volet du français, côté oral : mémoriser, réciter.
 - 📙 [Le prompt ChatGPT pour créer une fiche de cours](/article/prompt-chatgpt-fiche-de-cours/) — Le prompt structuré pour générer une fiche prête à imprimer
+- 📙 [Atelier philo et débat avec l’IA](/article/atelier-philo-debat-ia/) — des questions calibrées et un cadre de parole, préparés en amont.
 - 📙 [Feedback rapide avec l’IA : corriger sans s’épuiser](/article/feedback-rapide-ia/) — Préparer vos corrections et votre feedback, sans déléguer votre jugement
 - 📙 [Préparer ses cours avec l’IA : le guide complet](/article/preparer-ses-cours-ia-guide-complet/) — Le guide pilier du cocon, avec 5 étapes et des dizaines de prompts
 

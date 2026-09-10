@@ -3,6 +3,7 @@ title: "Questionnaires de lecture avec l’IA : la compréhension en 3 niveaux"
 description: "Collez votre texte, l’IA génère un questionnaire de lecture décliné en 3 niveaux : littéral, inférences, jugement. Correction papier, humaine. 4 prompts."
 category: "Différencier"
 pubDate: 2026-09-05
+updatedDate: 2026-09-10
 ---
 
 Un bon questionnaire de lecture ne se contente pas de vérifier qui a déchiffré : il fait gravir trois marches — retrouver dans le texte, relier ce que le texte suggère, puis dire ce qu’on en pense. Ce triptyque littéral-inférence-jugement structure tous les enseignements de compréhension ; c’est aussi ce qui rend l’exercice si coûteux à préparer.
@@ -162,5 +163,6 @@ Le questionnaire à trois paliers est l’exercice de compréhension le plus sol
 
 - 📗 [Préparer ses cours avec l’IA : le guide complet](/article/preparer-ses-cours-ia-guide-complet/) — la méthode globale, du texte à la séance.
 - 📙 [Dictées différenciées avec l’IA](/article/dictee-differenciee-ia/) — le même principe d’un contenu décliné, côté orthographe.
+- 📚 [Défi lecture avec l’IA : la lecture personnelle qui tient l’année](/article/lecture-personnelle-ia/) — le cadre qui donne envie d’ouvrir un livre, sans en faire un concours.
 - 📒 [Production d’écrits : amorces et critères de réussite](/article/production-ecrite-amorces-ia/) — l’autre volet français, côté écriture.
 - 📘 [Créer des exercices différenciés avec l’IA](/article/exercices-differencies-ia/) — la logique des 3 niveaux appliquée à toutes les disciplines.

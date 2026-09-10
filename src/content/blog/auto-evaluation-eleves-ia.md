@@ -3,6 +3,7 @@ title: "Auto-évaluation des élèves avec l’IA : des trames papier qui font r
 description: "Feux de position, journaux d’apprentissage, feuilles de route : l’IA conçoit vos trames d’auto-évaluation, l’élève réfléchit sur papier, vous validez."
 category: "Évaluer"
 pubDate: 2026-09-08
+updatedDate: 2026-09-10
 ---
 
 L’auto-évaluation figure dans tous les textes et dans toutes les formations : on demande aux élèves de se positionner, de réfléchir à leur production, de verbaliser ce qu’ils ont appris. Tout le monde est d’accord sur le principe. Dans la classe, pourtant, la trame fait souvent défaut : on improvise une grille le matin même, on réutilise chaque année le même tableau de smileys, et l’élève coche machinalement, sans vraiment réfléchir.
@@ -165,4 +166,5 @@ L’auto-évaluation est l’un des leviers les plus formateurs — et les plus 
 - 📊 [Grilles d’évaluation avec l’IA](/article/grilles-evaluation-ia/) — Vos grilles critériées, socle des trames d’auto-évaluation
 - ⚡ [Feedback rapide avec l’IA](/article/feedback-rapide-ia/) — Le feedback reste humain, la préparation s’automatise
 - 📈 [Évaluation diagnostique avec l’IA](/article/evaluation-diagnostique-ia/) — Photographier le niveau de départ
+- 🗣️ [Atelier philo et débat avec l’IA](/article/atelier-philo-debat-ia/) — une grille d’observation papier pour suivre la parole et l’argumentation.
 - 📙 [Préparer ses cours avec l’IA : le guide complet](/article/preparer-ses-cours-ia-guide-complet/) — La méthode globale, prompts inclus

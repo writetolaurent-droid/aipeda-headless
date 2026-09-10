@@ -193,6 +193,7 @@ La dictée différenciée n’est pas une idée nouvelle — c’est sa prépara
 - 📙 [Questionnaires de lecture avec l’IA : la compréhension en 3 niveaux](/article/questionnaire-lecture-ia/) — le même principe de déclinaison, côté compréhension.
 - 📝 [Poésie et mémorisation avec l’IA : du poème à la récitation](/article/poesie-memorisation-ia/) — fiches à trous et plan de mémorisation étagé, l’IA en coulisses.
 - 📙 [Adapter vos supports pour les élèves DYS en un clic](/article/adaptation-dys-ia/) — Le guide complet des aménagements DYS avec l’IA
+- 📙 [Rituels de français avec l’IA : conjugaison, grammaire, vocabulaire](/article/rituels-langue-francais-ia/) — la même logique de banque hebdo générée, tenue en 10 minutes.
 - 📙 [Élèves allophones : adapter vos consignes et supports avec l’IA](/article/eleves-allophones-ia/) — Lexique, consignes et étayage pour les élèves nouvellement arrivés
 - 📙 [Préparer ses cours avec l’IA : le guide complet pour l’enseignant](/article/preparer-ses-cours-ia-guide-complet/) — La vue d’ensemble, avec des dizaines de prompts copier-coller
 - 🏠 [Des devoirs à la maison différenciés avec l’IA](/article/devoir-maison-differencie-ia/) — Des devoirs courts et utiles, déclinés pour chaque niveau
