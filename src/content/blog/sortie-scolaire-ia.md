@@ -3,6 +3,7 @@ title: "Sortie scolaire : préparer le dossier, la logistique et le plan B avec 
 description: "Dossier, autorisations, checklist, fiche sur site, plan B : préparez votre sortie scolaire avec l'IA. 4 prompts copier-coller pour l'enseignant."
 category: "Préparer"
 pubDate: 2026-08-31
+updatedDate: 2026-09-11
 ---
 
 Une sortie scolaire réussie se joue des semaines avant le départ. Le projet pédagogique à rédiger, le site à réserver, le transport à organiser, les autorisations parentales à réunir, le matériel à lister, les familles à informer, l’encadrement à répartir — et, au fond, une question qui revient chaque année : « et s’il pleut le jour J ? ». Autant de pièces à assembler en amont, pendant que la classe continue de tourner.
@@ -191,3 +192,4 @@ La sortie scolaire reste ce qu’elle a toujours été : un moment fort pour la 
 - 🔁 [Générer un plan B pédagogique en 5 minutes avec l’IA](/article/imprevu-pedagogique-plan-b-ia/) — Le plan B appliqué au quotidien de la classe, bien avant la sortie
 - 📘 [Préparer ses cours avec l’IA : le guide complet pour l’enseignant](/article/preparer-ses-cours-ia-guide-complet/) — La porte d’entrée du cocon, avec 5 étapes et des dizaines de prompts
 - 🎨 [Générer des visuels pour le tableau en un clic avec l’IA](/article/visuels-tableaux-ia/) — Badges de groupes et affiches qui soulagent le jour J
+- 🌳 [La classe dehors avec l’IA](/article/classe-dehors-seances-ia/) — fiches terrain, check-lists matériel et plans B météo pour sortir régulièrement.

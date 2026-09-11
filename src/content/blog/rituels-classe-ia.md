@@ -194,6 +194,7 @@ Et le cœur du dispositif ne bouge pas : vous animez, questionnez, corrigez, obs
 - 📝 [Créer ses supports de cours avec l'IA](/article/creer-supports-cours-ia/) — Étendre la méthode au-delà des rituels quotidiens
 - 🏃 [Préparer ses séances d'EPS avec l'IA](/article/seances-eps-primaire-ia/) — Cartes de situations motrices et plans de tournoi générés en quelques minutes
 - 🗓️ [Créer sa progression annuelle avec l'IA](/article/progression-annuelle-ia/) — Poser le cadre annuel qui rend vos rituels cohérents toute l'année
+- 🤝 [Règlement de classe : l'IA prépare la trame](/article/reglement-classe-climat-ia/) — trames positives, affiches et phrases de médiation génériques.
 - 📋 [Préparer sa rentrée avec l'IA : checklist complète](/article/preparer-rentree-ia/) — Affichages, planning, courriers : tout cadrer avant le jour J
 - ✉️ [Courriers aux parents avec l'IA](/article/courriers-parents-ia/) — Des écrits aux familles solides sans y passer ses soirées
 - 🗓️ [Construire l'emploi du temps de votre classe avec l'IA](/article/emploi-du-temps-classe-ia/) — Organiser la journée type qui héberge vos rituels

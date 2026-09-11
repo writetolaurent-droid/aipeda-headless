@@ -196,5 +196,6 @@ La rentrée se prépare mieux en deux temps : l'administratif et l'organisation,
 - 🎨 [Visuels et tableaux de classe avec l'IA](/article/visuels-tableaux-ia/) — Doser et créer vos affichages
 - 🤖 [ChatGPT pour les professeurs](/article/chatgpt-pour-prof/) — La prise en main sans jargon
 - 🗣️ [La réunion de rentrée préparée avec l'IA](/article/reunion-parents-ia/) — Discours, diaporama et questions des parents : l'oral qui complète votre checklist
+- 🤝 [Règlement de classe : l'IA prépare la trame](/article/reglement-classe-climat-ia/) — formulation positive, version familles et affiche, sans aucune donnée d'élèves.
 
 *Quatre prompts d'ici la fin du mois d'août, et la rentrée vous regardera venir.*

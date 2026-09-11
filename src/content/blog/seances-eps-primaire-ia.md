@@ -3,6 +3,7 @@ title: "Préparer ses séances d’EPS avec l’IA : règles, cartes et tournois
 description: "Règles de jeux, échauffements, situations motrices, tournois et grilles d’observation : préparez vos séances d’EPS avec l’IA — et gardez le terrain."
 category: "Préparer"
 pubDate: 2026-09-07
+updatedDate: 2026-09-11
 ---
 
 Pour beaucoup d’enseignants du primaire, l’EPS est la discipline qu’on prépare en dernier — et dans l’urgence. Quand la semaine déborde, la séance de vendredi s’improvise la veille au soir, avec un soupçon de matériel, la moitié de la cour et le souvenir d’une situation vue en formation. Les programmes fixent clairement ce qui doit être travaillé aux cycles 2 et 3 ; c’est le « comment » qui manque : quelles situations choisir, comment les faire évoluer, comment savoir si les élèves progressent.
@@ -184,3 +185,4 @@ Une séance d’EPS réussie ne demande pas d’être spécialiste : elle demand
 - 📙 [Jeux pédagogiques papier avec l’IA](/article/jeux-pedagogiques-papier-ia/) — des jeux de classe prêts à jouer, pour la salle.
 - 📒 [Visuels et tableaux avec l’IA](/article/visuels-tableaux-ia/) — les affiches et tableaux qui accompagnent les séances.
 - 📘 [Créer des supports de cours avec l’IA](/article/creer-supports-cours-ia/) — fiches et documents imprimables pour toutes les disciplines.
+- 🌳 [La classe dehors avec l’IA](/article/classe-dehors-seances-ia/) — banques d’activités extérieures et plans B météo, toujours prêts dans le cartable.
