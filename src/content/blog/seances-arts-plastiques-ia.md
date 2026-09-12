@@ -3,6 +3,7 @@ title: "Préparer ses séances d’arts plastiques avec l’IA : programmation, 
 description: "Programmation annuelle, fiches de séances par cycle, matériel et déclinaisons : préparez vos arts plastiques avec l’IA, et gardez la main sur la création."
 category: "Préparer"
 pubDate: 2026-09-11
+updatedDate: 2026-09-12
 ---
 
 Les arts plastiques ont une place à part dans l’emploi du temps : les élèves les adorent, les enseignants les reportent. Quand la semaine déborde, c’est la séance qu’on sacrifie — ou qu’on improvise avec une feuille et des feutres. Pour un enseignant non-spécialiste, la discipline cumule les freins : le sentiment de devoir savoir dessiner, la crainte du désordre, un matériel à rassembler et des domaines multiples sans progression toute faite.
@@ -185,4 +186,5 @@ Des arts plastiques réussis ne demandent pas d’être artiste : ils demandent 
 - 📙 [Le guide complet de la préparation de cours avec l’IA](/article/preparer-ses-cours-ia-guide-complet/) — la méthode-mère, du brouillon au prêt à imprimer.
 - 🎨 [Des affiches et tableaux de classe avec l’IA](/article/visuels-tableaux-ia/) — compléter l’atelier d’affiches et cartels prêts à imprimer.
 - 🔬 [Préparer une séquence de sciences avec l’IA](/article/preparer-sequence-sciences-ia/) — l’autre discipline que les non-spécialistes redoutent.
+- 🎵 [Préparer des séances d’éducation musicale avec l’IA](/article/education-musicale-seances-ia/) — l’autre discipline « sensible », prête à l’avance au cartable.
 - 📅 [Construire sa progression annuelle avec l’IA](/article/progression-annuelle-ia/) — insérer l’année d’arts visuels dans la programmation globale.

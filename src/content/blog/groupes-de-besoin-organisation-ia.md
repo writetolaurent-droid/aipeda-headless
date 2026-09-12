@@ -201,3 +201,4 @@ Organiser des groupes de besoin, c’est avant tout un travail d’organisation 
 - 🏫 [Classe multi-niveaux : la préparation à plusieurs niveaux](/article/classe-multi-niveaux-ia/) — Décliner chaque séance par niveau quand deux programmes cohabitent
 - 🎯 [Gérer l’hétérogénéité de la classe : le défi n°2](/article/defi-heterogeneite/) — La stratégie d’ensemble du quotidien hétérogène
 - 🤝 [Tutorat entre pairs avec l’IA](/article/tutorat-entre-pairs-ia/) — Le dispositif d’entraide : binômes outillés et suivi papier
+- 🏫 [Organiser ses APC avec l’IA](/article/apc-activites-pedagogiques-complementaires-ia/) — le dispositif des 2 h hebdomadaires, ciblé et tracé.

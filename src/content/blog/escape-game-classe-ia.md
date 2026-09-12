@@ -203,3 +203,4 @@ Un escape game pédagogique n’exige ni coffret coûteux ni soirée entière de
 - 📝 [Créer des supports de cours avec l’IA](/article/creer-supports-cours-ia/) — Produire cartes, énigmes imprimées et matériel papier du jeu
 - 🧩 [Créer des exercices différenciés avec l’IA](/article/exercices-differencies-ia/) — Décliner les énigmes en plusieurs niveaux de difficulté
 - 🎲 [Créer des jeux pédagogiques papier avec l’IA](/article/jeux-pedagogiques-papier-ia/) — Memory, jeu de l’oie, chasses au trésor : le contenu généré, les niveaux déclinés
+- 📁 [Monter un projet de classe avec l’IA](/article/projet-classe-monter-ia/) — l’escape game traité comme un vrai projet : dossier, jalons, restitution.

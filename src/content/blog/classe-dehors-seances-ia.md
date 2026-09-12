@@ -3,6 +3,7 @@ title: "La classe dehors avec l’IA : fiches terrain, matériel et plans B mét
 description: "Séances dehors bien préparées : fiches terrain courtes, matériel léger, plans B météo et grilles d’observation papier. L’IA prépare, vous gardez la classe."
 category: "Préparer"
 pubDate: 2026-09-11
+updatedDate: 2026-09-12
 ---
 
 Faire la classe dehors — dans la cour, au parc, dans le bois à côté de l’école — est une promesse qu’on reporte de semaine en semaine. Pas faute d’envie : faute de logistique. Une sortie improvisée se paie vite : le matériel oublié au fond du placard, un parcours jamais repéré, la météo qui tourne au dernier moment, et une séance qui finit en gestion de groupe plutôt qu’en apprentissage.
@@ -183,4 +184,5 @@ Une sortie dehors réussie ne tient ni à la météo ni à l’inspiration du jo
 - 🚌 [Organiser une sortie scolaire avec l’IA](/article/sortie-scolaire-ia/) — la sortie longue : dossiers, autorisations et plannings.
 - 🌧️ [L’imprévu pédagogique : un plan B avec l’IA](/article/imprevu-pedagogique-plan-b-ia/) — la banque de plans B pour tous les jours.
 - ⚽ [Préparer ses séances d’EPS avec l’IA](/article/seances-eps-primaire-ia/) — l’autre discipline qui se joue dehors.
+- 🎵 [Préparer des séances d’éducation musicale avec l’IA](/article/education-musicale-seances-ia/) — parcours d’écoute et fiches chant préparés avant la séance.
 - 🔬 [Préparer une séquence de sciences avec l’IA](/article/preparer-sequence-sciences-ia/) — observations et manipulations à emporter dehors.

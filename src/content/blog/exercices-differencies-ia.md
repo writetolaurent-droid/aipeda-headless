@@ -199,4 +199,5 @@ Commencez petit. Prenez un exercice de cette semaine. Lancez le prompt des trois
 - ➗ [Créer des situations-problèmes en maths et sciences avec l'IA](/article/situations-problemes-maths-ia/) — Le pendant « recherche » des exercices : donner du sens à la notion
 - 📙 [Des dictées différenciées avec l'IA](/article/dictee-differenciee-ia/) — Le même texte décliné en toutes versions : dictée à trous, phrases courtes, aménagements
 - 🏠 [Des devoirs à la maison différenciés avec l'IA](/article/devoir-maison-differencie-ia/) — Le même entraînement décliné renfort/base/défi, jusque dans les devoirs
+- 🏫 [Organiser ses APC avec l'IA](/article/apc-activites-pedagogiques-complementaires-ia/) — un cadre officiel pour les exercices ciblés.
 - 🎲 [Créer des jeux pédagogiques papier avec l'IA](/article/jeux-pedagogiques-papier-ia/) — Entraînement par le jeu, décliné en 2-3 niveaux pour vos groupes de besoin

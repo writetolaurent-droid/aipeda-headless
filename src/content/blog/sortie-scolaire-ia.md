@@ -193,3 +193,4 @@ La sortie scolaire reste ce qu’elle a toujours été : un moment fort pour la 
 - 📘 [Préparer ses cours avec l’IA : le guide complet pour l’enseignant](/article/preparer-ses-cours-ia-guide-complet/) — La porte d’entrée du cocon, avec 5 étapes et des dizaines de prompts
 - 🎨 [Générer des visuels pour le tableau en un clic avec l’IA](/article/visuels-tableaux-ia/) — Badges de groupes et affiches qui soulagent le jour J
 - 🌳 [La classe dehors avec l’IA](/article/classe-dehors-seances-ia/) — fiches terrain, check-lists matériel et plans B météo pour sortir régulièrement.
+- 📁 [Monter un projet de classe avec l’IA](/article/projet-classe-monter-ia/) — du dossier d’intention au rétroplanning.
