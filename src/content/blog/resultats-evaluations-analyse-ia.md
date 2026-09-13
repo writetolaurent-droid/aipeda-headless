@@ -3,6 +3,7 @@ title: "Analyser les résultats d’une évaluation avec l’IA (sans données s
 description: "Collez vos taux de réussite par item, anonymisés : 4 prompts copier-coller pour identifier les priorités de remédiation et structurer la suite de votre séquence."
 category: "Évaluer"
 pubDate: 2026-09-02
+updatedDate: 2026-09-13
 ---
 
 La pile est corrigée, les notes relevées, la moyenne calculée — et pourtant, le plus utile reste à faire. Derrière ce chiffre unique se cachent des réalités très différentes : des items réussis par presque tous, d’autres qui font buter la classe entière, des erreurs identiques d’une copie à l’autre que personne n’a eu le temps de recenser. C’est cette lecture fine qui devrait décider de la suite : que retravailler, avec qui, sous quelle forme.
@@ -207,3 +208,4 @@ Analyser les résultats d’une évaluation ne doit rien à la magie : des chiff
 - 🧭 [Évaluation diagnostique avec l’IA](/article/evaluation-diagnostique-ia/) — Concevoir le test qui produira des données exploitables
 - 📊 [Créer des grilles d’évaluation avec l’IA](/article/grilles-evaluation-ia/) — Des critères clairs pour une correction lisible
 - 👥 [Organiser les groupes de besoin avec l’IA](/article/groupes-de-besoin-organisation-ia/) — Transformer vos priorités en ateliers organisés
+- 🤝 [Travail en équipe de cycle avec l’IA](/article/travail-equipe-cycle-ia/) — faire remonter l’analyse au conseil de cycle, données anonymisées.

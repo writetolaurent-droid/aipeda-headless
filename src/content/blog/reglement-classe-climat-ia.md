@@ -3,6 +3,7 @@ title: "Règlement de classe : l’IA prépare la trame, vous installez le clima
 description: "Co-construisez votre règlement de classe : trames positives, affiches, rituels et courriers familles préparés avec l’IA — sans aucune donnée d’élèves."
 category: "Différencier"
 pubDate: 2026-09-11
+updatedDate: 2026-09-13
 ---
 
 Le règlement de classe s’écrit en une soirée et se paie pendant des mois. Posé en début d’année, il conditionne le climat de la classe jusqu’en juin : comment on entre, comment on écoute, ce qu’on fait quand ça coince. Mal formulé, trop long ou resté au stade de la liste d’interdits, il produit des rappels à répétition — et une usure d’énergie qui n’a rien à voir avec de vrais problèmes.
@@ -169,3 +170,4 @@ Un règlement de classe est le premier geste de climat de l’année, et sa fabr
 - 🎒 [Préparer sa rentrée avec l’IA](/article/preparer-rentree-ia/) — tout le dossier de début d’année, règlement compris.
 - 💬 [Animer un atelier philo et débat avec l’IA](/article/atelier-philo-debat-ia/) — le cadre des discussions collectives.
 - ✉️ [Des courriers aux parents avec l’IA](/article/courriers-parents-ia/) — la communication famille, prête à adapter.
+- 🗳️ [Conseil d’élèves avec l’IA](/article/conseil-eleves-cooperation-ia/) — la parole des élèves, cadrée et outillée.

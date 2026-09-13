@@ -3,6 +3,7 @@ title: "Atelier philo et débat avec l’IA : des questions qui font penser, pas
 description: "Questions philosophiques calibrées, amorces de discussion, règles du débat et grilles d’observation papier : l’IA prépare l’atelier, vos élèves réfléchissent."
 category: "Préparer"
 pubDate: 2026-09-10
+updatedDate: 2026-09-13
 ---
 
 Animer une discussion à visée philosophique sans préparation, ça se voit tout de suite : la question part trop large, quelques élèves monopolisent la parole, et l’échange dérape en anecdotes personnelles ou en réponses fermées — « oui », « non », « moi mon papa il dit que ». Au bout de vingt minutes, on tranche pour conclure, et l’occasion de penser ensemble est passée.
@@ -182,3 +183,4 @@ L’IA propose des questions, des amorces, un déroulé, une grille. Vous dispos
 - ✍️ [Production d’écrite avec l’IA : des amorces qui déclenchent l’écriture](/article/production-ecrite-amorces-ia/)
 - 🚦 [Auto-évaluation des élèves avec l’IA : des trames papier pour s’auto-réguler](/article/auto-evaluation-eleves-ia/)
 - 📖 [Questionnaires de lecture avec l’IA : trois niveaux pour un même texte](/article/questionnaire-lecture-ia/)
+- 🗳️ [Conseil d’élèves avec l’IA](/article/conseil-eleves-cooperation-ia/) — l’autre instance de parole de la classe, supports prêts.
