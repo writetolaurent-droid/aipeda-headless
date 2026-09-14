@@ -3,6 +3,7 @@ title: "Conseil d’élèves avec l’IA : la coopération prête à animer"
 description: "Mettre en place un conseil d’élèves qui tient : ordre du jour, rôles, traces écrites. L’IA prépare les supports, la parole reste aux élèves."
 category: "Préparer"
 pubDate: 2026-09-13
+updatedDate: 2026-09-14
 ---
 
 Le conseil d’élèves est souvent lancé avec enthousiasme en septembre. Les élèves ont voté pour le président, le secrétaire a été désigné, la première réunion a même produit quelques décisions. Puis octobre arrive : l’ordre du jour s’improvise à la sonnerie, les rôles se brouillent, le secrétaire ne sait plus quoi écrire, et la réunion glisse vers une liste de plaintes sans suite. En novembre, le conseil n’a plus lieu.
@@ -196,3 +197,4 @@ Le conseil d’élèves ne meurt pas par manque d’idées ou d’envie : il meu
 - 🏗️ [Monter un projet de classe avec l’IA](/article/projet-classe-monter-ia/) — le conseil décide, le projet se prépare.
 - 🔄 [Des rituels de classe efficaces avec l’IA](/article/rituels-classe-ia/) — le socle quotidien du climat.
 - 🧭 [Travail en équipe de cycle avec l’IA](/article/travail-equipe-cycle-ia/) — le même esprit de concertation, côté adultes.
+- 🤝 [Médiation entre élèves avec l’IA](/article/mediation-conflits-eleves-ia/) — désamorcer les tensions avant le conseil

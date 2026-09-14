@@ -169,3 +169,4 @@ L’auto-évaluation est l’un des leviers les plus formateurs — et les plus 
 - 🗣️ [Atelier philo et débat avec l’IA](/article/atelier-philo-debat-ia/) — une grille d’observation papier pour suivre la parole et l’argumentation.
 - 📙 [Préparer ses cours avec l’IA : le guide complet](/article/preparer-ses-cours-ia-guide-complet/) — La méthode globale, prompts inclus
 - 🗓️ [Plan de travail et ateliers autonomes avec l’IA](/article/plan-travail-ateliers-autonomes-ia/) — l’organisation hebdo qui rend l’autonomie gérable.
+- 🏆 [Carnet de réussites avec l’IA](/article/portfolio-reussites-ia/) — monter un portfolio qui donne à voir les progrès

@@ -209,3 +209,4 @@ Rédiger les appréciations ne deviendra jamais la partie la plus réjouissante 
 - 📊 [Créer des grilles d’évaluation avec l’IA](/article/grilles-evaluation-ia/) — Des critères clairs qui nourrissent vos appréciations
 - ✉️ [Courriers aux parents avec l’IA](/article/courriers-parents-ia/) — L’autre écrit exigeant de la relation familles
 - 📙 [Liaison CM2-6e : le dossier de passage avec l’IA](/article/liaison-cm2-sixieme-ia/) — L’autre écrit exigeant : la synthèse des acquis vers le collège
+- 🏆 [Carnet de réussites avec l’IA](/article/portfolio-reussites-ia/) — valoriser les progrès au-delà du livret

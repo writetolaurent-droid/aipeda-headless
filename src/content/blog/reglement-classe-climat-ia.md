@@ -171,3 +171,4 @@ Un règlement de classe est le premier geste de climat de l’année, et sa fabr
 - 💬 [Animer un atelier philo et débat avec l’IA](/article/atelier-philo-debat-ia/) — le cadre des discussions collectives.
 - ✉️ [Des courriers aux parents avec l’IA](/article/courriers-parents-ia/) — la communication famille, prête à adapter.
 - 🗳️ [Conseil d’élèves avec l’IA](/article/conseil-eleves-cooperation-ia/) — la parole des élèves, cadrée et outillée.
+- 🤝 [Médiation entre élèves avec l’IA](/article/mediation-conflits-eleves-ia/) — des outils préparés, un entretien humain

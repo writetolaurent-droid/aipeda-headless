@@ -184,3 +184,4 @@ L’IA propose des questions, des amorces, un déroulé, une grille. Vous dispos
 - 🚦 [Auto-évaluation des élèves avec l’IA : des trames papier pour s’auto-réguler](/article/auto-evaluation-eleves-ia/)
 - 📖 [Questionnaires de lecture avec l’IA : trois niveaux pour un même texte](/article/questionnaire-lecture-ia/)
 - 🗳️ [Conseil d’élèves avec l’IA](/article/conseil-eleves-cooperation-ia/) — l’autre instance de parole de la classe, supports prêts.
+- 📰 [Éducation aux médias au primaire avec l’IA](/article/education-medias-primaire-ia/) — préparer le tri de l’information

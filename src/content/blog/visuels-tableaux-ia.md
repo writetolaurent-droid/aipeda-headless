@@ -250,6 +250,7 @@ Commencez simple : un prompt, un visuel, une séance. Vous mesurerez le gain de 
 - 🤔 [Quelle IA pour les professeurs des écoles ?](/article/quelle-ia-professeurs-ecoles/) — Comparatif des outils IA accessibles et pertinents pour l'enseignement primaire
 - 🗝️ [Créer un escape game pédagogique avec l'IA](/article/escape-game-classe-ia/) — Scénario, énigmes et supports imprimables produits en première version
 - 🎨 [Préparer des séances d'arts plastiques avec l'IA](/article/seances-arts-plastiques-ia/) — programmation annuelle, fiches de séance et matériel d'atelier.
+- 📰 [Éducation aux médias au primaire avec l'IA](/article/education-medias-primaire-ia/) — des documents à analyser, imprimés et vérifiés
 - 🧪 [Séquences de sciences avec l'IA](/article/preparer-sequence-sciences-ia/) — Protocoles et fiches d'investigation pour la séance réelle
 
 *L'IA génératrice d'images est un outil au service de votre pédagogie. Elle vous libère du temps de recherche pour que vous l'investissiez là où il compte vraiment : dans le choix pédagogique, l'attention aux élèves, et le sens donné aux apprentissages.*

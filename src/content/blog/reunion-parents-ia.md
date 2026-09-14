@@ -3,6 +3,7 @@ title: "Réunion de rentrée : préparer votre discours et vos supports avec l�
 description: "Discours, diaporama, questions des parents, mémo papier : préparez votre réunion de rentrée en une soirée, avec quatre prompts prêts à l’emploi."
 category: "Préparer"
 pubDate: 2026-09-06
+updatedDate: 2026-09-14
 ---
 
 Quelques jours après la rentrée, la réunion de parents s’invite dans la to-do list. Et avec elle, son lot d’allers-retours mentaux : quoi dire du fonctionnement de classe, combien de temps parler, ce qui vaut un document plutôt qu’une phrase dite à l’oral. On prépare souvent cette soirée le soir même, entre la vaisselle et le cahier de textes, puis on la vit avec ce sentiment d’avoir oublié l’essentiel.
@@ -169,3 +170,4 @@ La réunion de rentrée n’est pas un examen : c’est la première rencontre d
 - 📙 [Préparer sa rentrée avec l’IA : la checklist complète](/article/preparer-rentree-ia/) — tout le reste de la rentrée, avant la réunion.
 - 📒 [Courriers aux parents avec l’IA](/article/courriers-parents-ia/) — les communications écrites qui accompagnent la réunion.
 - 📘 [Communiquer avec les familles allophones](/article/communication-familles-allophones-ia/) — rendre le mémo et les supports accessibles à toutes les familles.
+- 🏆 [Carnet de réussites avec l’IA](/article/portfolio-reussites-ia/) — un support concret à feuilleter avec les familles

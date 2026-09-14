@@ -3,6 +3,7 @@ title: "Tutorat entre pairs avec l’IA : des binômes organisés et outillés"
 description: "Constituer les binômes, outiller tuteur et tutoré, suivre les progrès : l’IA conçoit le dispositif de tutorat, votre classe apprend à deux."
 category: "Différencier"
 pubDate: 2026-09-09
+updatedDate: 2026-09-14
 ---
 
 Vous ne pouvez pas être partout. Pendant que vous circulez entre les groupes, deux élèves se sont improvisés « aides » : l’un dicte la réponse, l’autre recopie. Tout le monde est occupé, personne n’a rien appris.
@@ -178,5 +179,6 @@ Le tutorat entre pairs ne coûte presque rien et rapporte beaucoup — quand il 
 - 👥 [Organiser les groupes de besoin](/article/groupes-de-besoin-organisation-ia/) — L’autre dispositif d’accompagnement
 - 🧩 [Exercices différenciés avec l’IA](/article/exercices-differencies-ia/) — Un même objectif, trois niveaux
 - ✍️ [Fiches de calcul mental graduées](/article/calcul-mental-ia/) — Le support idéal pour vos binômes
+- 🤝 [Médiation entre élèves avec l’IA](/article/mediation-conflits-eleves-ia/) — des outils de réparation prêts à l’emploi
 
 *Copiez, ajustez, imprimez — et laissez vos élèves s’expliquer l’essentiel.*

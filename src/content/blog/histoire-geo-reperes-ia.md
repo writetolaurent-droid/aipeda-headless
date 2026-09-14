@@ -3,6 +3,7 @@ title: "Histoire-géographie au primaire avec l’IA : repères, frises et docum
 description: "Déroulés de séances, frises et repères, documents adaptés en deux niveaux de lecture : l’IA prépare l’histoire-géo, vos élèves explorent sur papier."
 category: "Préparer"
 pubDate: 2026-09-09
+updatedDate: 2026-09-14
 ---
 
 Les documents de l’histoire-géo n’ont jamais été écrits pour des enfants. Textes d’archive, récits de voyageurs, descriptions de territoires : la matière première de la discipline suppose des lecteurs experts, capables de débusquer une information dans une syntaxe ancienne et un vocabulaire daté. Au cycle 3, une partie de la classe bute sur la porte avant même d’avoir commencé à explorer.
@@ -193,5 +194,6 @@ Une séquence d’histoire-géo demande des documents justes, des repères solid
 - 📊 [Créer des supports de cours avec l’IA](/article/creer-supports-cours-ia/) — Affiches, tableaux et documents clairs
 - 🗺️ [Visuels et tableaux pour la classe](/article/visuels-tableaux-ia/) — Les affiches qui structurent l’espace
 - 📝 [Questionnaires de lecture en 3 niveaux](/article/questionnaire-lecture-ia/) — Le même réflexe pour vos documents
+- 📰 [Éducation aux médias au primaire avec l’IA](/article/education-medias-primaire-ia/) — entraîner le tri de l’info dès le cycle 3
 
 *L’IA prépare la matière et l’échafaudage ; vous installez les repères — et vos élèves explorent, sur papier, le monde d’hier et d’aujourd’hui.*
