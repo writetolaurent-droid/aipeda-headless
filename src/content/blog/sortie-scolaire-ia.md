@@ -190,6 +190,7 @@ La sortie scolaire reste ce qu’elle a toujours été : un moment fort pour la 
 
 - 📝 [Courriers aux parents : gagnez des heures sur vos communications écrites](/article/courriers-parents-ia/) — Pour l’autorisation parentale et l’information aux familles, sans page blanche
 - 🔁 [Générer un plan B pédagogique en 5 minutes avec l’IA](/article/imprevu-pedagogique-plan-b-ia/) — Le plan B appliqué au quotidien de la classe, bien avant la sortie
+- 📮 [La correspondance scolaire avec l’IA](/article/correspondance-scolaire-ia/) — un dispositif d’écriture motivant pour la classe
 - 📘 [Préparer ses cours avec l’IA : le guide complet pour l’enseignant](/article/preparer-ses-cours-ia-guide-complet/) — La porte d’entrée du cocon, avec 5 étapes et des dizaines de prompts
 - 🎨 [Générer des visuels pour le tableau en un clic avec l’IA](/article/visuels-tableaux-ia/) — Badges de groupes et affiches qui soulagent le jour J
 - 🌳 [La classe dehors avec l’IA](/article/classe-dehors-seances-ia/) — fiches terrain, check-lists matériel et plans B météo pour sortir régulièrement.

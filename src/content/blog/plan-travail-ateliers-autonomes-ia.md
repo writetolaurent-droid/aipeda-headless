@@ -3,6 +3,7 @@ title: "Plan de travail et ateliers autonomes avec l’IA : différencier sans s
 description: "Plan de travail et ateliers autonomes prêts à l’emploi : tâches différenciées, corrigés, fiches de suivi. L’IA prépare le papier, vous gardez le pilotage."
 category: "Différencier"
 pubDate: 2026-09-13
+updatedDate: 2026-09-15
 ---
 
 Le plan de travail est l’un des dispositifs les plus convaincants qui soient : les élèves avancent à leur rythme, choisissent certaines tâches, apprennent à se corriger seuls, et l’enseignant peut enfin prendre un groupe en besoin.
@@ -186,6 +187,7 @@ L’IA prépare le papier. Vous gardez le volant.
 ## Aller plus loin
 
 - 🧩 [Exercices différenciés avec l’IA](/article/exercices-differencies-ia/) — les variantes par niveau, prompts inclus.
+- 🪑 [La classe flexible avec l’IA](/article/classe-flexible-amenagement-espace-ia/) — aménager l’espace pour soutenir l’autonomie
 - 🔁 [Auto-évaluation des élèves avec l’IA](/article/auto-evaluation-eleves-ia/) — les trames qui rendent l’autonomie lisible.
 - 🚀 [Élèves rapides : la complexification avec l’IA](/article/eleves-rapides-complexification-ia/) — occuper sans surcharger.
 - 🗳️ [Conseil d’élèves avec l’IA](/article/conseil-eleves-cooperation-ia/) — l’autonomie collective, côté vie de classe.

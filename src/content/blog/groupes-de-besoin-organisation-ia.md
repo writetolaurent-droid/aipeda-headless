@@ -198,6 +198,7 @@ Organiser des groupes de besoin, c’est avant tout un travail d’organisation 
 - 🎯 [Créer des exercices différenciés avec l’IA](/article/exercices-differencies-ia/) — Le contenu des variantes, une fois les groupes posés
 - 📊 [Évaluation diagnostique avec l’IA](/article/evaluation-diagnostique-ia/) — Photographier les besoins de départ pour constituer les groupes
 - 🚀 [Élèves rapides : créer de vrais défis de complexification](/article/eleves-rapides-complexification-ia/) — Penser aussi le groupe du haut
+- 🪑 [La classe flexible avec l’IA](/article/classe-flexible-amenagement-espace-ia/) — un espace qui accompagne la rotation des groupes
 - 🏫 [Classe multi-niveaux : la préparation à plusieurs niveaux](/article/classe-multi-niveaux-ia/) — Décliner chaque séance par niveau quand deux programmes cohabitent
 - 🎯 [Gérer l’hétérogénéité de la classe : le défi n°2](/article/defi-heterogeneite/) — La stratégie d’ensemble du quotidien hétérogène
 - 🤝 [Tutorat entre pairs avec l’IA](/article/tutorat-entre-pairs-ia/) — Le dispositif d’entraide : binômes outillés et suivi papier

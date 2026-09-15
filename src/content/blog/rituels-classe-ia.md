@@ -198,5 +198,6 @@ Et le cœur du dispositif ne bouge pas : vous animez, questionnez, corrigez, obs
 - 📋 [Préparer sa rentrée avec l'IA : checklist complète](/article/preparer-rentree-ia/) — Affichages, planning, courriers : tout cadrer avant le jour J
 - ✉️ [Courriers aux parents avec l'IA](/article/courriers-parents-ia/) — Des écrits aux familles solides sans y passer ses soirées
 - 🗓️ [Construire l'emploi du temps de votre classe avec l'IA](/article/emploi-du-temps-classe-ia/) — Organiser la journée type qui héberge vos rituels
+- ⏱️ [Les transitions et moments courts avec l'IA](/article/transitions-moments-courts-ia/) — occuper les micro-moments sans éparpillement
 
 *Trois prompts ce week-end, une semaine de rituels prête lundi matin. Copiez, relisez, ajustez.*
