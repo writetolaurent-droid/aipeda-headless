@@ -3,6 +3,7 @@ title: "Monter un projet de classe avec l’IA : de l’idée au dossier complet
 description: "Construire un projet de classe : objectifs, rétroplanning, lettres de partenariat et communication aux familles. L’IA rédige le dossier, vous décidez."
 category: "Préparer"
 pubDate: 2026-09-12
+updatedDate: 2026-09-16
 ---
 
 Un projet de classe — un jardin pédagogique, un journal scolaire, un spectacle de théâtre, un escape game, un échange avec une école partenaire — donne du sens aux apprentissages comme peu de choses. Lire, écrire, calculer, débattre y trouvent une raison commune, visible, que les élèves expliquent d’eux-mêmes à la maison.
@@ -203,3 +204,4 @@ Un projet de classe réussi ne tient ni à un dossier spectaculaire ni à l’in
 - 🚌 [Organiser une sortie scolaire avec l’IA](/article/sortie-scolaire-ia/) — la sortie longue : dossiers, autorisations et plannings.
 - 🗝️ [Créer un escape game pédagogique avec l’IA](/article/escape-game-classe-ia/) — le projet clé en main, qui se monte lui aussi avec un dossier.
 - ✉️ [Rédiger ses courriers aux parents avec l’IA](/article/courriers-parents-ia/) — toutes les lettres de l’année, au-delà du projet.
+- 🎭 [Organiser un projet culturel avec l’IA](/article/projet-culturel-intervenant-exterieur-ia/) — l’intervenant extérieur : dossier, autorisations et suivi.

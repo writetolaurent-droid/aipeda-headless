@@ -206,6 +206,7 @@ Analyser les résultats d’une évaluation ne doit rien à la magie : des chiff
 
 - 📘 [Préparer ses cours avec l’IA : guide complet](/article/preparer-ses-cours-ia-guide-complet/) — La page pilier pour intégrer l’IA dans toute votre préparation
 - 🧭 [Évaluation diagnostique avec l’IA](/article/evaluation-diagnostique-ia/) — Concevoir le test qui produira des données exploitables
+- 📏 [Les évaluations repères CP et CE1 avec l’IA](/article/evaluations-reperes-cp-ce1-ia/) — préparer la passation et exploiter les résultats dès septembre.
 - 📊 [Créer des grilles d’évaluation avec l’IA](/article/grilles-evaluation-ia/) — Des critères clairs pour une correction lisible
 - 👥 [Organiser les groupes de besoin avec l’IA](/article/groupes-de-besoin-organisation-ia/) — Transformer vos priorités en ateliers organisés
 - 🤝 [Travail en équipe de cycle avec l’IA](/article/travail-equipe-cycle-ia/) — faire remonter l’analyse au conseil de cycle, données anonymisées.

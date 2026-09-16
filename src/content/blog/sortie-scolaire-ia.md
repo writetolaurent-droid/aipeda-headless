@@ -195,3 +195,4 @@ La sortie scolaire reste ce qu’elle a toujours été : un moment fort pour la 
 - 🎨 [Générer des visuels pour le tableau en un clic avec l’IA](/article/visuels-tableaux-ia/) — Badges de groupes et affiches qui soulagent le jour J
 - 🌳 [La classe dehors avec l’IA](/article/classe-dehors-seances-ia/) — fiches terrain, check-lists matériel et plans B météo pour sortir régulièrement.
 - 📁 [Monter un projet de classe avec l’IA](/article/projet-classe-monter-ia/) — du dossier d’intention au rétroplanning.
+- 🎭 [Organiser un projet culturel avec l’IA](/article/projet-culturel-intervenant-exterieur-ia/) — accueillir un intervenant extérieur : dossier, planning, courriers.

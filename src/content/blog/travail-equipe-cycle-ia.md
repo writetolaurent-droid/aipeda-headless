@@ -3,6 +3,7 @@ title: "Travail en équipe de cycle avec l’IA : mutualiser sans alourdir perso
 description: "Conseil de cycle : progression commune, séances mutualisées, comptes rendus. L’IA harmonise les documents, l’équipe garde les décisions."
 category: "Préparer"
 pubDate: 2026-09-13
+updatedDate: 2026-09-16
 ---
 
 Le conseil de cycle commence toujours par le même rituel : quinze minutes perdues à chercher la dernière version de la progression, un collègue qui a « mis à jour un document quelque part », et le compte rendu promis qui n’arrivera jamais. La pédagogie, elle, se discute avec sérieux — mais la logistique s’enlise.
@@ -139,4 +140,5 @@ Le travail d’équipe mérite mieux que des comptes rendus fantômes et des pro
 - ⚡ [Le workflow 30 minutes pour préparer une séquence](/article/workflow-30min-sequence/) — la préparation individuelle, rapide.
 - 📊 [Analyser les résultats d’évaluations avec l’IA](/article/resultats-evaluations-analyse-ia/) — les données dont le cycle discute, anonymisées.
 - 🗳️ [Conseil d’élèves avec l’IA](/article/conseil-eleves-cooperation-ia/) — la concertation, version élèves.
+- 🤝 [Travailler avec son AESH : supports adaptés](/article/aesh-supports-adaptes-ia/) — coordonner les adultes autour d’un élève accompagné.
 - 📘 [Préparer ses cours avec l’IA : le guide complet](/article/preparer-ses-cours-ia-guide-complet/) — le pilier du cocon.
