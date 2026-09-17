@@ -191,6 +191,7 @@ Côté élèves, la ligne rouge tient : le dialogue direct entre un enfant et un
 
 ## Aller plus loin
 
+- 🗂️ [La fiche annuaire de Khanmigo](/outils-ia/khanmigo/) — Le tuteur IA passé au filtre de notre ligne rouge
 - 🤖 [Quelle IA choisir pour un professeur des écoles ?](/article/quelle-ia-professeurs-ecoles/)
 - 🔧 [MagicSchool : l'assistant IA pensé pour les enseignants](/article/outil-magicschool/)
 - 💬 [ChatGPT pour les profs : bien démarrer sans se tromper](/article/chatgpt-pour-prof/)

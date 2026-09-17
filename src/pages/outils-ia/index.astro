@@ -1,0 +1,228 @@
+---
+import Base from '../../layouts/Base.astro';
+import { getCollection } from 'astro:content';
+
+const allTools = (await getCollection('tools')).sort((a, b) => (a.data.order ?? 99) - (b.data.order ?? 99));
+const allPosts = await getCollection('blog');
+
+// Catégories distinctes, dans l'ordre d'apparition
+const categories: { name: string; count: number }[] = [];
+for (const t of allTools) {
+	const c = categories.find((x) => x.name === t.data.category);
+	if (c) c.count++;
+	else categories.push({ name: t.data.category, count: 1 });
+}
+const catIcons: Record<string, string> = {
+	'Créer des supports': '🪄',
+	'Textes & différenciation': '📖',
+	'Jeux & quiz': '🎮',
+	'Assistants du prof': '🧑‍🏫',
+	'Voix & audio': '🔊',
+	'Chercher & vérifier': '🔎',
+};
+const testedCount = allTools.filter((t) => t.data.article).length;
+const guidePost = allPosts.find((p) => p.id === 'quelle-ia-professeurs-ecoles');
+
+const starts = [
+	{ icon: '🌱', title: 'Je débute, je veux un seul outil', text: "Un assistant généraliste suffit pour tout le travail de préparation : textes, trames, courriers.", href: '/outils-ia/chatgpt/', cta: 'Voir ChatGPT' },
+	{ icon: '🧩', title: 'Ma classe lit à des niveaux différents', text: "Un même texte décliné en plusieurs niveaux de lecture, questions incluses : la différenciation sans double préparation.", href: '/outils-ia/diffit/', cta: 'Voir Diffit' },
+	{ icon: '🎮', title: 'Je veux rendre la révision vivante', text: "Quiz collectifs corrigés automatiquement : les résultats servent votre enseignement, pas la compétition.", href: '/outils-ia/quizizz/', cta: 'Voir Quizizz' },
+];
+---
+
+<Base title="Outils IA pour enseignants : l'annuaire pratique" description="16 outils IA sélectionnés pour les enseignants : à quoi ils servent, leurs limites, leur place en classe. Fiches claires, tests en conditions réelles, ligne rouge assumée.">
+	<section class="tools-section">
+		<header class="page-hero animate-in">
+			<span class="section-label">🧰 {allTools.length} outils · {testedCount} tests complets en classe</span>
+			<h1 class="page-title">L'annuaire des outils IA pour enseignants</h1>
+			<p class="page-sub">Chaque outil a sa fiche : à quoi il sert, ses limites, et comment l'utiliser sans jamais céder votre place d'enseignant. Les fiches marquées « testé en classe » renvoient vers un test complet publié sur le blog.</p>
+		</header>
+
+		{guidePost && (
+		<a href={`/article/${guidePost.id}/`} class="guide-banner animate-in">
+			<span class="gb-icon">🧭</span>
+			<span class="gb-text"><strong>Par où commencer&nbsp;?</strong> Quelle IA choisir quand on est enseignant&nbsp;— le guide de départ.</span>
+			<span class="gb-arrow" aria-hidden="true">→</span>
+		</a>
+		)}
+
+		{/* ================= FILTRES ================= */}
+		<div class="filter-bar animate-in" role="group" aria-label="Filtrer les outils">
+			<button class="filter-btn active" data-category="all">Tous <span class="fcount">{allTools.length}</span></button>
+			{categories.map((c) => (
+				<button class="filter-btn" data-category={c.name}>{catIcons[c.name] ?? '🔧'} {c.name} <span class="fcount">{c.count}</span></button>
+			))}
+			<input type="search" id="tool-search" class="tool-search" placeholder="Rechercher un outil…" aria-label="Rechercher un outil" />
+		</div>
+
+		{/* ================= GRILLE ANNULAIRE ================= */}
+		<div class="tool-grid" id="tool-grid">
+			{allTools.map((tool) => {
+				const t = tool.data;
+				const tested = !!t.article;
+				return (
+					<a href={`/outils-ia/${tool.id}/`} class="tool-card animate-in" data-category={t.category} data-title={`${t.name} ${t.tagline}`.toLowerCase()}>
+						<div class="tc-top" style={`background: ${t.gradient};`}>
+							<span class="tc-icon" aria-hidden="true">{t.icon}</span>
+							{tested && <span class="tc-tested">✅ Testé en classe</span>}
+						</div>
+						<div class="tc-body">
+							<div class="tc-chips">
+								<span class="chip tc-cat">{t.category}</span>
+								<span class="chip tc-free">{t.free}</span>
+							</div>
+							<h3 class="tc-name">{t.name}</h3>
+							<p class="tc-tagline">{t.tagline}</p>
+							<span class="tc-cta">Voir la fiche <span aria-hidden="true">→</span></span>
+						</div>
+					</a>
+				);
+			})}
+		</div>
+		<p class="no-result" id="no-result" hidden>Aucun outil ne correspond à cette recherche.</p>
+
+		{/* ================= PAR OÙ COMMENCER ================= */}
+		<section class="starts-section">
+			<span class="section-label">🚀 Trois points de départ</span>
+			<h2 class="section-heading">Par où commencer selon votre besoin</h2>
+			<div class="starts-grid">
+				{starts.map((s) => (
+					<a href={s.href} class="start-card animate-in">
+						<span class="sc-icon" aria-hidden="true">{s.icon}</span>
+						<h3 class="sc-title">{s.title}</h3>
+						<p class="sc-text">{s.text}</p>
+						<span class="sc-cta">{s.cta} <span aria-hidden="true">→</span></span>
+					</a>
+				))}
+			</div>
+		</section>
+
+		{/* ================= LIGNE ROUGE ================= */}
+		<section class="bleed redline-band">
+			<div class="redline-inner">
+				<span class="section-label redline-label">🛡️ Notre ligne rouge</span>
+				<p class="redline-text">Sur AIPEDA, l'IA prépare&nbsp;: le prof fait la classe. Aucun outil de cet annuaire ne remplace votre expertise, votre jugement ou votre relation pédagogique — et un élève du primaire ne dialogue jamais seul avec une IA. <a href="/a-propos/">Notre approche complète</a>.</p>
+			</div>
+		</section>
+
+		{/* ================= CTA FINAL ================= */}
+		<section class="container cta-final-wrap">
+			<div class="cta-final">
+				<h2 class="cta-title">Envie de passer des outils aux usages&nbsp;?</h2>
+				<p class="cta-sub">84 articles concrets&nbsp;: séquences, différenciation, évaluation — toujours avec l'IA en coulisses et le prof aux commandes.</p>
+				<a href="/blog/" class="cta-btn">Explorer les guides</a>
+			</div>
+		</section>
+	</section>
+
+	<script type="application/ld+json" set:html={JSON.stringify({
+		'@context': 'https://schema.org',
+		'@type': 'ItemList',
+		name: "Annuaire des outils IA pour enseignants",
+		itemListElement: allTools.map((t, i) => ({
+			'@type': 'ListItem',
+			position: i + 1,
+			name: t.data.name,
+			url: `/outils-ia/${t.id}/`,
+		})),
+	})} is:inline />
+</Base>
+
+<style>
+	.tools-section { padding: 2.5rem 0 4rem; }
+	.page-hero { text-align: center; max-width: 46rem; margin: 0 auto 2rem; }
+	.page-title { font-size: clamp(2.2rem, 5vw, 3.2rem); letter-spacing: -0.03em; color: var(--heading); margin: 0.6rem 0 0.8rem; }
+	.page-sub { color: var(--text-muted); font-size: 1.08rem; line-height: 1.65; margin: 0; }
+
+	.guide-banner { display: flex; align-items: center; gap: 1rem; max-width: 46rem; margin: 0 auto 2.2rem; padding: 0.95rem 1.3rem; background: linear-gradient(135deg, var(--navy) 0%, var(--navy-deep) 100%); color: #fff; border-radius: var(--radius-md); text-decoration: none; box-shadow: var(--shadow-md); transition: transform 0.25s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.25s; }
+	.guide-banner:hover { transform: translateY(-3px); box-shadow: var(--shadow-lg); }
+	.gb-icon { font-size: 1.4rem; }
+	.gb-text { font-size: 0.97rem; line-height: 1.45; color: rgba(255,255,255,0.92); }
+	.gb-text strong { color: var(--amber-light); }
+	.gb-arrow { margin-left: auto; font-size: 1.2rem; transition: transform 0.25s cubic-bezier(0.34, 1.56, 0.64, 1); }
+	.guide-banner:hover .gb-arrow { transform: translateX(5px); }
+
+	.filter-bar { display: flex; flex-wrap: wrap; gap: 0.55rem; justify-content: center; margin: 0 auto 2.2rem; max-width: 60rem; }
+	.filter-btn { border: 1px solid var(--border); background: var(--surface); color: var(--text-body); font-weight: 600; font-size: 0.88rem; padding: 0.5rem 1rem; border-radius: 999px; cursor: pointer; transition: all 0.2s; }
+	.filter-btn:hover { border-color: color-mix(in srgb, var(--amber) 45%, transparent); color: var(--amber-dark); }
+	.filter-btn.active { background: var(--navy); border-color: var(--navy); color: #fff; }
+	.filter-btn .fcount { opacity: 0.55; font-size: 0.8em; margin-left: 0.15rem; }
+	.tool-search { border: 1px solid var(--border); background: var(--surface); border-radius: 999px; padding: 0.5rem 1.1rem; font-size: 0.9rem; min-width: 12rem; color: var(--text-body); }
+	.tool-search:focus { outline: 2px solid color-mix(in srgb, var(--amber) 45%, transparent); }
+
+	.tool-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(17rem, 1fr)); gap: 1.3rem; }
+	.tool-card { display: flex; flex-direction: column; background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius-lg); overflow: hidden; text-decoration: none; color: inherit; box-shadow: var(--shadow-soft); transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.3s, border-color 0.3s; }
+	.tool-card:hover { transform: translateY(-6px); box-shadow: var(--shadow-lg); border-color: color-mix(in srgb, var(--amber) 35%, transparent); }
+	.tc-top { position: relative; display: flex; align-items: center; justify-content: center; padding: 1.5rem 1rem 1.1rem; }
+	.tc-icon { font-size: 2.6rem; filter: drop-shadow(0 4px 8px rgba(0,0,0,0.18)); }
+	.tc-tested { position: absolute; top: 0.6rem; right: 0.6rem; background: rgba(255,255,255,0.92); color: #199a5e; font-size: 0.7rem; font-weight: 800; padding: 0.22rem 0.55rem; border-radius: 999px; }
+	.tc-body { display: flex; flex-direction: column; gap: 0.55rem; padding: 1.1rem 1.2rem 1.25rem; flex: 1; }
+	.tc-chips { display: flex; flex-wrap: wrap; gap: 0.4rem; }
+	.chip { font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.04em; padding: 0.28rem 0.7rem; border-radius: 999px; background: color-mix(in srgb, var(--navy) 7%, transparent); color: var(--navy); }
+	.tc-free { background: color-mix(in srgb, var(--amber) 12%, transparent); color: var(--amber-dark); }
+	.tc-name { font-size: 1.22rem; letter-spacing: -0.02em; color: var(--heading); margin: 0.15rem 0 0; }
+	.tc-tagline { color: var(--text-muted); font-size: 0.92rem; line-height: 1.55; margin: 0; flex: 1; }
+	.tc-cta { font-weight: 700; font-size: 0.9rem; color: var(--amber-dark); }
+	.tool-card:hover .tc-cta span { display: inline-block; transform: translateX(4px); transition: transform 0.25s cubic-bezier(0.34, 1.56, 0.64, 1); }
+	.no-result { text-align: center; color: var(--text-muted); padding: 2.5rem 0; }
+
+	.starts-section { margin: 3.5rem 0 0; text-align: center; }
+	.section-heading { font-size: clamp(1.5rem, 3vw, 2rem); letter-spacing: -0.03em; color: var(--heading); margin: 0.4rem 0 1.6rem; }
+	.starts-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr)); gap: 1.2rem; text-align: left; }
+	.start-card { display: flex; flex-direction: column; gap: 0.5rem; background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius-lg); padding: 1.4rem 1.4rem 1.3rem; text-decoration: none; color: inherit; box-shadow: var(--shadow-soft); transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.3s; }
+	.start-card:hover { transform: translateY(-5px); box-shadow: var(--shadow-md); }
+	.sc-icon { font-size: 1.8rem; }
+	.sc-title { font-size: 1.05rem; color: var(--heading); margin: 0; }
+	.sc-text { color: var(--text-muted); font-size: 0.92rem; line-height: 1.55; margin: 0; flex: 1; }
+	.sc-cta { font-weight: 700; font-size: 0.88rem; color: var(--amber-dark); }
+
+	.redline-band { margin-top: 3.5rem; background: linear-gradient(135deg, var(--navy) 0%, var(--navy-deep) 100%); border-radius: var(--radius-xl); }
+	.redline-inner { max-width: 46rem; margin: 0 auto; padding: 2.2rem 1.6rem; text-align: center; }
+	.redline-label { color: var(--amber-light); }
+	.redline-text { color: rgba(255,255,255,0.9); line-height: 1.7; font-size: 1.02rem; margin: 0.7rem 0 0; }
+	.redline-text a { color: var(--amber-light); font-weight: 700; }
+
+	.cta-final-wrap { margin-top: 3rem; }
+	.cta-final { text-align: center; background: linear-gradient(135deg, var(--navy) 0%, var(--navy-deep) 100%); border-radius: var(--radius-xl); padding: 2.6rem 1.6rem; }
+	.cta-title { color: #fff; font-size: clamp(1.4rem, 3vw, 1.9rem); letter-spacing: -0.03em; margin: 0 0 0.5rem; }
+	.cta-sub { color: rgba(255,255,255,0.75); max-width: 34rem; margin: 0 auto 1.4rem; line-height: 1.6; }
+	.cta-btn { display: inline-block; background: var(--amber); color: #fff; font-weight: 800; padding: 0.85rem 2.1rem; border-radius: 999px; text-decoration: none; box-shadow: var(--shadow-glow); transition: transform 0.25s cubic-bezier(0.34, 1.56, 0.64, 1); }
+	.cta-btn:hover { transform: translateY(-3px) scale(1.02); }
+
+	@media (max-width: 640px) {
+		.gb-arrow { display: none; }
+		.filter-bar { gap: 0.45rem; }
+		.tool-search { min-width: 100%; }
+	}
+</style>
+
+<script is:inline>
+	(function () {
+		const btns = document.querySelectorAll('.filter-btn');
+		const cards = document.querySelectorAll('.tool-card');
+		const search = document.getElementById('tool-search');
+		const noResult = document.getElementById('no-result');
+		let cat = 'all';
+		function apply() {
+			const q = (search && search.value ? search.value : '').toLowerCase().trim();
+			let visible = 0;
+			cards.forEach(function (c) {
+				const okCat = cat === 'all' || c.getAttribute('data-category') === cat;
+				const okText = !q || (c.getAttribute('data-title') || '').indexOf(q) !== -1;
+				const show = okCat && okText;
+				c.style.display = show ? '' : 'none';
+				if (show) visible++;
+			});
+			if (noResult) noResult.hidden = visible > 0;
+		}
+		btns.forEach(function (b) {
+			b.addEventListener('click', function () {
+				btns.forEach(function (x) { x.classList.remove('active'); });
+				b.classList.add('active');
+				cat = b.getAttribute('data-category');
+				apply();
+			});
+		});
+		if (search) search.addEventListener('input', apply);
+	})();
+</script>

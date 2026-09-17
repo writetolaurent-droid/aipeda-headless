@@ -18,4 +18,25 @@ const blog = defineCollection({
 		}),
 });
 
-export const collections = { blog };
+// Annuaire des outils IA — pilier autonome (fiches de référence, pas des articles)
+const tools = defineCollection({
+	loader: glob({ base: './src/content/tools', pattern: '**/*.md' }),
+	schema: z.object({
+		name: z.string(),
+		tagline: z.string(),
+		category: z.string(),
+		icon: z.string(),
+		gradient: z.string(),
+		free: z.enum(['Gratuit', 'Freemium', 'Payant']),
+		levels: z.string(),
+		site: z.string().url(),
+		strengths: z.array(z.string()),
+		limits: z.array(z.string()),
+		classUse: z.string(),
+		redLine: z.string().optional(),
+		article: z.string().optional(),
+		order: z.number().default(99),
+	}),
+});
+
+export const collections = { blog, tools };

@@ -1,0 +1,185 @@
+---
+import Base from '../../layouts/Base.astro';
+import { getCollection } from 'astro:content';
+
+export async function getStaticPaths() {
+	const tools = await getCollection('tools');
+	return tools.map((tool) => ({ params: { slug: tool.id }, props: { tool } }));
+}
+
+const { tool } = Astro.props;
+const t = tool.data;
+const tested = !!t.article;
+
+const allPosts = await getCollection('blog');
+const linkedPost = t.article ? allPosts.find((p) => p.id === t.article) : undefined;
+
+const allTools = (await getCollection('tools')).sort((a, b) => (a.data.order ?? 99) - (b.data.order ?? 99));
+const sameCategory = allTools.filter((x) => x.id !== tool.id && x.data.category === t.category).slice(0, 3);
+const fillers = allTools.filter((x) => x.id !== tool.id && x.data.category !== t.category).slice(0, 3 - sameCategory.length);
+const others = [...sameCategory, ...fillers];
+
+const extraReads = allPosts.filter((p) => ['preparer-ses-cours-ia-guide-complet', 'quelle-ia-professeurs-ecoles'].includes(p.id));
+
+const breadcrumbSchema = {
+	'@context': 'https://schema.org',
+	'@type': 'BreadcrumbList',
+	itemListElement: [
+		{ '@type': 'ListItem', position: 1, name: 'Accueil', item: 'https://aipeda.com/' },
+		{ '@type': 'ListItem', position: 2, name: 'Outils IA', item: 'https://aipeda.com/outils-ia/' },
+		{ '@type': 'ListItem', position: 3, name: t.name, item: `https://aipeda.com/outils-ia/${tool.id}/` },
+	],
+};
+---
+
+<Base title={`${t.name} pour les enseignants : usages, limites et place en classe`} description={`${t.tagline} Fiche pratique AIPEDA : ce que l'outil fait vraiment, ses limites, et comment l'utiliser en classe sans jamais remplacer l'enseignant.`}>
+	<section class="fiche-section">
+		<nav class="breadcrumb animate-in" aria-label="Fil d'Ariane">
+			<a href="/">Accueil</a> <span aria-hidden="true">/</span> <a href="/outils-ia/">Outils IA</a> <span aria-hidden="true">/</span> <span class="bc-current">{t.name}</span>
+		</nav>
+
+		<header class="fiche-hero animate-in">
+			<div class="fh-badge" style={`background: ${t.gradient};`} aria-hidden="true">
+				<span class="fh-icon">{t.icon}</span>
+			</div>
+			{tested && <span class="fh-tested">✅ Testé en classe — le test complet est lié plus bas</span>}
+			<h1 class="fh-title">{t.name} pour les enseignants</h1>
+			<p class="fh-tagline">{t.tagline}</p>
+			<div class="fh-chips">
+				<a href="/outils-ia/" class="chip fh-chip">{t.category}</a>
+				<span class="chip fh-chip fh-free">{t.free}</span>
+				<span class="chip fh-chip">{t.levels}</span>
+				<a href={t.site} target="_blank" rel="noopener" class="chip fh-chip fh-site">Site officiel ↗</a>
+			</div>
+		</header>
+
+		<div class="fiche-grid">
+			<article class="fiche-card animate-in fh-forts">
+				<h2 class="fc-h2">✅ Ce qu'il fait bien</h2>
+				<ul class="fc-list">
+					{t.strengths.map((s) => <li>{s}</li>)}
+				</ul>
+			</article>
+			<article class="fiche-card animate-in fh-limites">
+				<h2 class="fc-h2">⚠️ Limites &amp; vigilance</h2>
+				<ul class="fc-list">
+					{t.limits.map((s) => <li>{s}</li>)}
+				</ul>
+			</article>
+		</div>
+
+		<section class="class-use animate-in">
+			<h2 class="section-heading">🧑‍🏫 En classe, concrètement</h2>
+			<p class="cu-text">{t.classUse}</p>
+		</section>
+
+		{t.redLine && (
+		<section class="redline-card animate-in">
+			<span class="rl-label">🛡️ Notre ligne rouge</span>
+			<p class="rl-text">{t.redLine}</p>
+		</section>
+		)}
+
+		{linkedPost && (
+		<a href={`/article/${linkedPost.id}/`} class="guide-banner animate-in">
+			<span class="gb-icon">🧪</span>
+			<span class="gb-text"><strong>Le test complet en classe :</strong> {linkedPost.data.title}</span>
+			<span class="gb-arrow" aria-hidden="true">→</span>
+		</a>
+		)}
+
+		<section class="also-section">
+			<h2 class="section-heading others-h">Autres outils de l'annuaire</h2>
+			<div class="others-grid">
+				{others.map((o) => (
+					<a href={`/outils-ia/${o.id}/`} class="other-card animate-in">
+						<span class="oc-icon" style={`background: ${o.data.gradient};`} aria-hidden="true">{o.data.icon}</span>
+						<span class="oc-body">
+							<span class="oc-name">{o.data.name}</span>
+							<span class="oc-cat">{o.data.category}</span>
+						</span>
+					</a>
+				))}
+			</div>
+		</section>
+
+		<section class="reads-section">
+			<h2 class="section-heading">📖 Pour aller plus loin sur le blog</h2>
+			<ul class="reads-list">
+				{extraReads.map((p) => (
+					<li><a href={`/article/${p.id}/`}>{p.data.title}</a></li>
+				))}
+				<li><a href="/blog/">Tous les guides AIPEDA</a></li>
+			</ul>
+			<p class="reads-note"><em>Un outil propose, l'enseignant dispose&nbsp;: c'est la règle de tout cet annuaire.</em></p>
+		</section>
+	</section>
+
+	<script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} is:inline />
+</Base>
+
+<style>
+	.fiche-section { padding: 2rem 0 4rem; max-width: 52rem; margin: 0 auto; }
+	.breadcrumb { font-size: 0.85rem; color: var(--text-muted); margin-bottom: 1.6rem; display: flex; gap: 0.45rem; flex-wrap: wrap; }
+	.breadcrumb a { color: var(--text-muted); text-decoration: none; }
+	.breadcrumb a:hover { color: var(--amber-dark); }
+	.bc-current { color: var(--heading); font-weight: 600; }
+
+	.fiche-hero { text-align: center; margin-bottom: 2.2rem; }
+	.fh-badge { width: 5.2rem; height: 5.2rem; border-radius: var(--radius-lg); display: inline-flex; align-items: center; justify-content: center; box-shadow: var(--shadow-md); margin-bottom: 1.1rem; }
+	.fh-icon { font-size: 2.6rem; filter: drop-shadow(0 4px 8px rgba(0,0,0,0.18)); }
+	.fh-tested { display: inline-block; background: color-mix(in srgb, #199a5e 10%, transparent); color: #199a5e; font-size: 0.78rem; font-weight: 800; padding: 0.3rem 0.8rem; border-radius: 999px; margin-bottom: 0.8rem; }
+	.fh-title { font-size: clamp(2rem, 5vw, 2.9rem); letter-spacing: -0.03em; color: var(--heading); margin: 0 0 0.7rem; }
+	.fh-tagline { color: var(--text-muted); font-size: 1.08rem; line-height: 1.65; max-width: 40rem; margin: 0 auto 1.2rem; }
+	.fh-chips { display: flex; flex-wrap: wrap; gap: 0.5rem; justify-content: center; }
+	.chip { font-size: 0.74rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.04em; padding: 0.3rem 0.8rem; border-radius: 999px; background: color-mix(in srgb, var(--navy) 7%, transparent); color: var(--navy); text-decoration: none; }
+	.fh-free { background: color-mix(in srgb, var(--amber) 12%, transparent); color: var(--amber-dark); }
+	.fh-site { background: var(--navy); color: #fff; }
+	.fh-site:hover { background: var(--navy-deep); }
+
+	.fiche-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(17rem, 1fr)); gap: 1.2rem; margin-bottom: 2rem; }
+	.fiche-card { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius-lg); padding: 1.4rem 1.5rem; box-shadow: var(--shadow-soft); }
+	.fh-forts { border-top: 3px solid #199a5e; }
+	.fh-limites { border-top: 3px solid var(--amber); }
+	.fc-h2 { font-size: 1.05rem; color: var(--heading); margin: 0 0 0.9rem; }
+	.fc-list { margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 0.6rem; }
+	.fc-list li { position: relative; padding-left: 1.4rem; color: var(--text-body); font-size: 0.95rem; line-height: 1.55; }
+	.fh-forts .fc-list li::before { content: '✅'; position: absolute; left: 0; font-size: 0.8rem; top: 0.15rem; }
+	.fh-limites .fc-list li::before { content: '⚠️'; position: absolute; left: 0; font-size: 0.8rem; top: 0.15rem; }
+
+	.class-use { background: var(--surface-tint); border: 1px solid var(--border); border-radius: var(--radius-lg); padding: 1.6rem 1.7rem; margin-bottom: 1.6rem; }
+	.section-heading { font-size: 1.25rem; letter-spacing: -0.02em; color: var(--heading); margin: 0 0 0.8rem; }
+	.cu-text { color: var(--text-body); line-height: 1.75; font-size: 1.02rem; margin: 0; }
+
+	.redline-card { background: linear-gradient(135deg, var(--navy) 0%, var(--navy-deep) 100%); border-radius: var(--radius-lg); padding: 1.5rem 1.7rem; margin-bottom: 1.8rem; }
+	.rl-label { color: var(--amber-light); font-size: 0.8rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.06em; }
+	.rl-text { color: rgba(255,255,255,0.92); line-height: 1.7; margin: 0.6rem 0 0; }
+
+	.guide-banner { display: flex; align-items: center; gap: 1rem; padding: 0.95rem 1.3rem; background: var(--surface); border: 1px solid color-mix(in srgb, var(--amber) 30%, transparent); color: inherit; border-radius: var(--radius-md); text-decoration: none; box-shadow: var(--shadow-soft); transition: transform 0.25s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.25s; }
+	.guide-banner:hover { transform: translateY(-3px); box-shadow: var(--shadow-md); }
+	.gb-icon { font-size: 1.4rem; }
+	.gb-text { font-size: 0.97rem; line-height: 1.45; }
+	.gb-text strong { color: var(--amber-dark); }
+	.gb-arrow { margin-left: auto; font-size: 1.2rem; transition: transform 0.25s cubic-bezier(0.34, 1.56, 0.64, 1); }
+	.guide-banner:hover .gb-arrow { transform: translateX(5px); }
+
+	.also-section { margin-top: 2.4rem; }
+	.others-h { text-align: center; }
+	.others-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr)); gap: 0.9rem; }
+	.other-card { display: flex; align-items: center; gap: 0.8rem; background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius-md); padding: 0.85rem 1rem; text-decoration: none; color: inherit; transition: transform 0.25s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.25s; }
+	.other-card:hover { transform: translateY(-3px); box-shadow: var(--shadow-md); }
+	.oc-icon { width: 2.5rem; height: 2.5rem; border-radius: var(--radius-md); display: inline-flex; align-items: center; justify-content: center; font-size: 1.25rem; flex-shrink: 0; }
+	.oc-body { display: flex; flex-direction: column; }
+	.oc-name { font-weight: 700; color: var(--heading); font-size: 0.95rem; }
+	.oc-cat { font-size: 0.78rem; color: var(--text-muted); }
+
+	.reads-section { margin-top: 2.4rem; text-align: center; }
+	.reads-list { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 0.55rem; align-items: center; }
+	.reads-list a { display: inline-block; background: color-mix(in srgb, var(--amber) 7%, transparent); border: 1px solid color-mix(in srgb, var(--amber) 16%, transparent); border-radius: 999px; padding: 0.5rem 1.2rem; font-size: 0.9rem; font-weight: 600; color: var(--text-body); text-decoration: none; transition: background 0.2s, border-color 0.2s, transform 0.2s; }
+	.reads-list a:hover { background: color-mix(in srgb, var(--amber) 14%, transparent); border-color: color-mix(in srgb, var(--amber) 35%, transparent); transform: translateX(3px); }
+	.reads-note { color: var(--text-muted); font-size: 0.92rem; margin: 1.4rem 0 0; }
+
+	@media (max-width: 640px) {
+		.gb-arrow { display: none; }
+	}
+</style>

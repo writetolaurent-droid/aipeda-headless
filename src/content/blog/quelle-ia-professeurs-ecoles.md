@@ -192,6 +192,7 @@ Non. L'IA génère des brouillons que vous validez. Le manuel reste le référen
 
 ## Aller plus loin
 
+- 🗂️ [L'annuaire des outils IA : 16 outils fichés](/outils-ia/) — La vue d'ensemble, chaque outil avec sa fiche
 - 📘 [Préparer ses cours avec l'IA : le guide complet](/article/preparer-ses-cours-ia-guide-complet/) — La page pilier (5 étapes, 7 prompts)
 - ✏️ [ChatGPT pour prof : le guide pratique](/article/chatgpt-pour-prof/) — 6 cas d'usage détaillés avec prompts
 - 🔧 [Diffit : adapter n'importe quel texte en 2 clics](/article/outil-diffit/) — L'outil spécialisé différenciation

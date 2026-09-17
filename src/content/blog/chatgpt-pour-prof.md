@@ -234,6 +234,7 @@ Les trois font le même travail pour un enseignant. ChatGPT est le plus connu. C
 
 ## Aller plus loin
 
+- 🗂️ [La fiche annuaire de ChatGPT](/outils-ia/chatgpt/) — Ce qu'il fait bien, ses limites, son usage en classe
 - 📘 [Préparer ses cours avec l'IA : le guide complet](/article/preparer-ses-cours-ia-guide-complet/) — La page pilier du cocon AIPEDA (5 étapes complètes)
 - 📐 [Améliorer une séquence avec l'IA : 5 leviers concrets](/article/ameliorer-sequence-pedagogique/) — Enrichir une séquence existante
 - 🔧 [Diffit : adapter n'importe quel texte en 2 clics](/article/outil-diffit/) — L'outil spécialisé pour la différenciation

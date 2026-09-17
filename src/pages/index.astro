@@ -10,6 +10,11 @@ const recentPosts = allPosts
 	.sort((a, b) => b.data.pubDate.getTime() - a.data.pubDate.getTime())
 	.slice(0, 3);
 
+// Annuaire des outils (collection tools) — bandeau home
+const allTools = (await getCollection('tools')).sort((a, b) => (a.data.order ?? 99) - (b.data.order ?? 99));
+const toolsCount = allTools.length;
+const topTools = allTools.slice(0, 5);
+
 // Statistiques réelles (calculées, jamais inventées)
 const totalPosts = allPosts.length;
 const universCount = new Set(allPosts.map(p => p.data.category || 'Autres')).size;
@@ -122,6 +127,31 @@ const catColors: Record<string, { icon: string; gradient: string; color: string 
 			<div class="value-icon grad-evaluer" aria-hidden="true">🌏</div>
 			<h3>Adapter au contexte</h3>
 			<p>Programmes français, réseau AEFE, plurilinguisme — l'IA s'ajuste.</p>
+		</div>
+	</section>
+
+	{/* ================= TOOLS BAND : ANNUAIRE ================= */}
+	<section class="container tools-band-section">
+		<div class="tools-band animate-in">
+			<div class="tb-head">
+				<div>
+					<span class="section-label">🧰 Nouveau · {toolsCount} outils passés au crible</span>
+					<h2 class="tb-title">L'annuaire des outils IA, fiché et filtré</h2>
+					<p class="tb-sub">À quoi sert chaque outil, ce qu'il vaut, où il atteint ses limites — et ce qui reste votre travail.</p>
+				</div>
+				<a href="/outils-ia/" class="tb-cta">Ouvrir l'annuaire
+					<svg width="18" height="18" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+				</a>
+			</div>
+			<div class="tb-grid">
+				{topTools.map((tool) => (
+					<a href={`/outils-ia/${tool.id}/`} class="tb-card">
+						<span class="tb-icon" style={`background: ${tool.data.gradient};`} aria-hidden="true">{tool.data.icon}</span>
+						<span class="tb-name">{tool.data.name}</span>
+						<span class="tb-cat">{tool.data.category}</span>
+					</a>
+				))}
+			</div>
 		</div>
 	</section>
 
@@ -458,6 +488,32 @@ const catColors: Record<string, { icon: string; gradient: string; color: string 
 	.grad-evaluer { background: linear-gradient(135deg, rgba(67,233,123,0.16), rgba(56,249,215,0.16)); }
 
 	/* ================= RECENT ================= */
+	/* ================= TOOLS BAND ================= */
+	.tools-band-section { margin-top: 4.5rem; }
+	.tools-band { background: linear-gradient(135deg, var(--navy) 0%, var(--navy-deep) 100%); border-radius: var(--radius-xl); padding: 2.4rem 2.2rem; position: relative; overflow: hidden; }
+	.tools-band::before { content: ''; position: absolute; width: 340px; height: 340px; border-radius: 50%; background: var(--amber); opacity: 0.16; filter: blur(80px); top: -140px; right: -100px; animation: tb-drift 9s ease-in-out infinite alternate; }
+	.tools-band::after { content: ''; position: absolute; width: 280px; height: 280px; border-radius: 50%; background: #667eea; opacity: 0.14; filter: blur(75px); bottom: -130px; left: -80px; animation: tb-drift 11s ease-in-out infinite alternate-reverse; }
+	@keyframes tb-drift { from { transform: translate(0, 0); } to { transform: translate(28px, 18px); } }
+	@media (prefers-reduced-motion: reduce) { .tools-band::before, .tools-band::after { animation: none; } }
+	.tb-head { position: relative; z-index: 1; display: flex; align-items: flex-end; justify-content: space-between; gap: 1.5rem; margin-bottom: 1.6rem; }
+	.tb-head .section-label { color: var(--amber-light); }
+	.tb-title { color: #fff; font-size: clamp(1.4rem, 3vw, 1.95rem); letter-spacing: -0.03em; margin: 0.5rem 0 0.4rem; }
+	.tb-sub { color: rgba(255,255,255,0.72); font-size: 0.98rem; line-height: 1.55; margin: 0; max-width: 34rem; }
+	.tb-cta { display: inline-flex; align-items: center; gap: 0.5rem; background: var(--amber); color: #fff; font-weight: 800; font-size: 0.95rem; padding: 0.8rem 1.6rem; border-radius: 999px; text-decoration: none; box-shadow: var(--shadow-glow); white-space: nowrap; transition: transform 0.25s cubic-bezier(0.34, 1.56, 0.64, 1); flex-shrink: 0; }
+	.tb-cta:hover { transform: translateY(-3px) scale(1.02); }
+	.tb-grid { position: relative; z-index: 1; display: grid; grid-template-columns: repeat(5, 1fr); gap: 0.8rem; }
+	.tb-card { display: flex; flex-direction: column; align-items: center; text-align: center; gap: 0.45rem; background: rgba(255,255,255,0.07); border: 1px solid rgba(255,255,255,0.12); border-radius: var(--radius-md); padding: 1rem 0.6rem; text-decoration: none; transition: background 0.2s, transform 0.25s cubic-bezier(0.34, 1.56, 0.64, 1); }
+	.tb-card:hover { background: rgba(255,255,255,0.14); transform: translateY(-4px); }
+	.tb-icon { width: 2.7rem; height: 2.7rem; border-radius: var(--radius-md); display: inline-flex; align-items: center; justify-content: center; font-size: 1.35rem; }
+	.tb-name { color: #fff; font-weight: 800; font-size: 0.9rem; }
+	.tb-cat { color: rgba(255,255,255,0.6); font-size: 0.72rem; }
+	@media (max-width: 900px) { .tb-grid { grid-template-columns: repeat(3, 1fr); } }
+	@media (max-width: 640px) {
+		.tb-head { flex-direction: column; align-items: flex-start; }
+		.tb-grid { grid-template-columns: repeat(2, 1fr); }
+		.tools-band { padding: 1.8rem 1.3rem; }
+	}
+
 	.recent-section { margin: 4.5rem auto 0; }
 	.recent-header {
 		display: flex;

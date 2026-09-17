@@ -166,6 +166,7 @@ Diffit est conçu pour un usage enseignant sur des contenus libres de droit ou p
 
 ## Aller plus loin
 
+- 🗂️ [La fiche annuaire de Diffit : usages, limites, modèle gratuit](/outils-ia/diffit/) — La référence à consulter avant de se lancer
 - 📘 [Préparer ses cours avec l'IA : le guide complet](/article/preparer-ses-cours-ia-guide-complet/) — La page pilier du cocon AIPEDA
 - 📐 [Améliorer une séquence avec l'IA : 5 leviers concrets](/article/ameliorer-sequence-pedagogique/) — Comment enrichir une séquence existante
 - 🪄 [MagicSchool.ai : le couteau suisse IA](/article/outil-magicschool/) — Une alternative tout-en-un avec 60+ outils intégrés

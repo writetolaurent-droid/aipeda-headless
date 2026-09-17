@@ -195,6 +195,7 @@ Le fond ne bouge pas : vous choisissez la leçon, relisez chaque question, inter
 
 ## Aller plus loin
 
+- 🗂️ [La fiche annuaire de Quizizz](/outils-ia/quizizz/) — Usages, limites et alternatives en un coup d'œil
 - 📋 [Créer des grilles d'évaluation avec l'IA](/article/grilles-evaluation-ia/) — Des critères explicites pour compléter le flash du quiz
 - 💬 [Donner un feedback personnalisé et rapide avec l'IA](/article/feedback-rapide-ia/) — Transformer les constats du rapport en retours utiles
 - ✅ [Automatisez la correction de vos copies avec l'IA](/article/automatiser-correction-ia/) — Alléger le poids le plus lourd de l'évaluation
