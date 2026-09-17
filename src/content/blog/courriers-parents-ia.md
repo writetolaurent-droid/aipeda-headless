@@ -204,6 +204,7 @@ Une discipline suffit : zéro donnée personnelle dans le chat, relecture systé
 - 🌍 [Communiquer avec les familles allophones](/article/communication-familles-allophones-ia/) — Traduire l'information pratique vers les langues des familles EANA
 - 🗣️ [La réunion de rentrée préparée avec l'IA](/article/reunion-parents-ia/) — Discours, diaporama et mémo papier : l'oral qui accompagne vos courriers
 - 📮 [La correspondance scolaire avec l'IA](/article/correspondance-scolaire-ia/) — l'écrit relationnel côté élèves
+- 📙 [Préparer un conseil d'école avec l'IA : le guide du directeur](/article/conseil-ecole-directeur-ia/) — convocations et procès-verbaux mis en forme en quelques minutes.
 - 📁 [Monter un projet de classe avec l'IA](/article/projet-classe-monter-ia/) — la lettre de présentation du projet fait partie du dossier.
 
 *Copiez les prompts, adaptez-les à vos habitudes, gardez la plume : l'IA prépare le brouillon, c'est vous qui signez.*

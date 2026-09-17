@@ -180,5 +180,6 @@ Le jeu papier est le format d’entraînement le plus accepté de la classe — 
 - 🎨 [Générer des visuels pour le tableau en un clic](/article/visuels-tableaux-ia/) — Illustrer vos jeux et supports avec des images sur mesure
 - 🏃 [Préparer ses séances d’EPS avec l’IA](/article/seances-eps-primaire-ia/) — Règles de jeux, tournois et grilles d’observation, prêts à imprimer
 - 🖥️ [Défi n°5 : préparer avec l’IA quand le parc numérique est limité](/article/defi-parc-numerique-limite/) — L’IA la nuit, la classe sans écran le jour : le papier bien pensé
+- 📙 [Scratch au primaire : préparer vos séances de programmation avec l’IA](/article/scratch-programmation-primaire-ia/) — des projets guidés et des défis progressifs, même sans expertise en code.
 
 *Une notion, un prompt, deux niveaux : le jeu papier redevient ce qu’il a toujours été — le meilleur moteur d’entraînement de la classe.*

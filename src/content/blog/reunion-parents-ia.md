@@ -171,3 +171,4 @@ La réunion de rentrée n’est pas un examen : c’est la première rencontre d
 - 📒 [Courriers aux parents avec l’IA](/article/courriers-parents-ia/) — les communications écrites qui accompagnent la réunion.
 - 📘 [Communiquer avec les familles allophones](/article/communication-familles-allophones-ia/) — rendre le mémo et les supports accessibles à toutes les familles.
 - 🏆 [Carnet de réussites avec l’IA](/article/portfolio-reussites-ia/) — un support concret à feuilleter avec les familles
+- 📙 [Préparer un conseil d’école avec l’IA : le guide du directeur](/article/conseil-ecole-directeur-ia/) — ordre du jour, rapport et présentation sans y passer ses soirées.

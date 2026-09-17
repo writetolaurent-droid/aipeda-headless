@@ -3,6 +3,7 @@ title: "Défi lecture avec l’IA : installer une lecture personnelle qui tient 
 description: "Circuit de lecture personnelle, banque de fiches déclinées par niveau, tableaux de progression papier : l’IA outille le défi lecture, vos élèves lisent."
 category: "Différencier"
 pubDate: 2026-09-10
+updatedDate: 2026-09-17
 ---
 
 La lecture personnelle est l’une de ces belles intentions qui s’évaporent sans dispositif. On l’annonce en septembre, on installe un coin lecture, on prête quelques livres — puis le quotidien reprend ses droits. Les bons lecteurs dévorent, livre après livre, sans qu’on ait rien à leur apprendre ; les autres n’ouvrent jamais un volume spontanément, et le coin lecture finit en décor.
@@ -162,5 +163,6 @@ Le défi lecture tient l’année quand il est outillé : un circuit papier que 
 
 - 📖 [Questionnaires de lecture avec l’IA : trois niveaux pour un même texte](/article/questionnaire-lecture-ia/)
 - 🔤 [Textes décodables au CP avec l’IA : syllabes, mots et phrases gradués](/article/decodage-lecture-cp-ia/)
+- 📙 [Fluence : organiser la lecture à voix haute avec l’IA](/article/fluence-lecture-voix-haute-ia/) — la fluidité orale au service de la compréhension.
 - 🤝 [Tutorat entre pairs avec l’IA : des binômes organisés et outillés](/article/tutorat-entre-pairs-ia/)
 - 🚀 [Élèves rapides : la complexification vers le haut avec l’IA](/article/eleves-rapides-complexification-ia/)

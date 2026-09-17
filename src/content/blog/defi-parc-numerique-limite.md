@@ -3,6 +3,7 @@ title: "Défi n°5 : préparer avec l’IA quand le parc numérique est limité"
 description: "Un poste, des copies, pas de tablettes : l’IA prépare la nuit le matériel papier, la classe vit le jour sans écran. 4 prompts pour piloter avec un parc limité."
 category: "Préparer"
 pubDate: 2026-09-06
+updatedDate: 2026-09-17
 ---
 
 Un poste, souvent celui du professeur. Des photocopies. Pas de tablettes, un TNI capricieux quand il existe, une connexion qui coupe sans prévenir — réalité quotidienne de bien des écoles, et plus encore en réseau AEFE, où l’équipement est hétérogène et l’accès internet instable. Dans ce contexte, « intégrer le numérique » sonne comme une consigne venue d’un autre monde.
@@ -179,4 +180,5 @@ Un parc numérique limité n’est pas une pédagogie en retard ; c’est un cad
 - 🖨️ [Défi n°4 : l’organisation matérielle de la classe avec l’IA](/article/defi-organisation-materielle/) — Plans, affichages et plannings produits sans y passer les soirées
 - 🎲 [Créer des jeux pédagogiques papier avec l’IA](/article/jeux-pedagogiques-papier-ia/) — L’entraînement par le jeu, sans écran ni connexion
 - ✅ [Créer des quiz interactifs avec l’IA : Quizizz pour évaluer en s’amusant](/article/quiz-interactif-ia/) — Pour les jours où le poste peut servir à toute la classe
+- 📙 [Scratch au primaire : préparer vos séances de programmation avec l’IA](/article/scratch-programmation-primaire-ia/) — Scratch tourne dans un navigateur, sans installation coûteuse.
 - 🌧️ [Générer un plan B pédagogique en 5 minutes avec l’IA](/article/imprevu-pedagogique-plan-b-ia/) — Le plan de secours prêt quand la séance dérape
