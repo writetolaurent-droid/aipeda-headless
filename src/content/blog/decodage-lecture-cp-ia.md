@@ -160,5 +160,6 @@ Des supports décodables, il en faut chaque jour, et ils doivent coller à votre
 - 🧩 [Adapter vos supports pour les élèves DYS en un clic](/article/adaptation-dys-ia/) — Quand un lecteur fragile a besoin d’un étayage supplémentaire
 - 📙 [Questionnaires de lecture avec l’IA : la compréhension en 3 niveaux](/article/questionnaire-lecture-ia/) — L’étape suivante : travailler la compréhension des lecteurs décodants
 - 📙 [Fluence : organiser la lecture à voix haute avec l’IA](/article/fluence-lecture-voix-haute-ia/) — des textes calibrés pour entraîner la fluidité.
+- 📙 [Conscience phonologique : préparer vos séances MS-GS-CP avec l’IA](/article/conscience-phonologique-maternelle-ia/) — l’amont du décodage : listes de mots et jeux d’écoute prêts.
 - 🎨 [Séances de maternelle avec l’IA (PS, MS, GS)](/article/maternelle-seances-ia/) — Le langage oral en amont du décodage
 - 🌍 [Élèves allophones : adapter vos consignes et supports avec l’IA](/article/eleves-allophones-ia/) — Décoder quand le français n’est pas la langue de la maison

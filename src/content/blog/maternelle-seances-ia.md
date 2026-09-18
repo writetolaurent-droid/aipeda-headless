@@ -181,4 +181,6 @@ Préparer une séance de maternelle, c’est préparer un langage avant tout : d
 - 📒 [Créer des supports de cours avec l’IA](/article/creer-supports-cours-ia/) — fiches et supports, y compris en cycle 1.
 - 📘 [Des visuels pour le tableau avec l’IA](/article/visuels-tableaux-ia/) — pictogrammes et affichages de la classe.
 - 🎨 [Préparer des séances d’arts plastiques avec l’IA](/article/seances-arts-plastiques-ia/) — des fiches déclinées dès la maternelle, matériel simple et gestes courts.
+- 🎨 [Graphisme et écriture cursive avec l’IA](/article/graphisme-ecriture-cursive-ia/) — fiches calibrées du PS au CE1, geste réel sur papier.
 - 🎵 [Préparer des séances d’éducation musicale avec l’IA](/article/education-musicale-seances-ia/) — comptines, écoute et rythme dès le plus jeune âge.
+- 📙 [Conscience phonologique : préparer vos séances MS-GS-CP avec l’IA](/article/conscience-phonologique-maternelle-ia/) — le socle de l’entrée dans la lecture, jeux 100 % oraux.

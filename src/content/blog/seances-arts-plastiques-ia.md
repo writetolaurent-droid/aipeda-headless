@@ -188,3 +188,4 @@ Des arts plastiques réussis ne demandent pas d’être artiste : ils demandent 
 - 🔬 [Préparer une séquence de sciences avec l’IA](/article/preparer-sequence-sciences-ia/) — l’autre discipline que les non-spécialistes redoutent.
 - 🎵 [Préparer des séances d’éducation musicale avec l’IA](/article/education-musicale-seances-ia/) — l’autre discipline « sensible », prête à l’avance au cartable.
 - 📅 [Construire sa progression annuelle avec l’IA](/article/progression-annuelle-ia/) — insérer l’année d’arts visuels dans la programmation globale.
+- ✏️ [Graphisme et écriture cursive avec l’IA](/article/graphisme-ecriture-cursive-ia/) — le geste graphique préparé en fiches différenciées.

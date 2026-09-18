@@ -185,3 +185,4 @@ L’IA propose des questions, des amorces, un déroulé, une grille. Vous dispos
 - 📖 [Questionnaires de lecture avec l’IA : trois niveaux pour un même texte](/article/questionnaire-lecture-ia/)
 - 🗳️ [Conseil d’élèves avec l’IA](/article/conseil-eleves-cooperation-ia/) — l’autre instance de parole de la classe, supports prêts.
 - 📰 [Éducation aux médias au primaire avec l’IA](/article/education-medias-primaire-ia/) — préparer le tri de l’information
+- 🏛️ [EMC : construire vos séances d’enseignement moral et civique avec l’IA](/article/emc-seances-ia/) — dilemmes et trames de débat prêts à animer.
