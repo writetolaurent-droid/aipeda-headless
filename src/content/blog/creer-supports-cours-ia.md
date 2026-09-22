@@ -251,5 +251,6 @@ Trois à cinq séances. Les deux premières, vous testez et ajustez les prompts 
 - 📙 [Production d'écrits : amorces et critères de réussite avec l'IA](/article/production-ecrite-amorces-ia/) — Une banque d'amorces déclenchantes et de critères prête à imprimer
 - 🌍 [Préparer ses séquences d'anglais au primaire avec l'IA](/article/anglais-primaire-sequence-ia/) — Lexiques, scripts d'oral et jeux de langage, même sans être spécialiste
 - 🧸 [Préparer des séances de maternelle avec l'IA](/article/maternelle-seances-ia/) — La méthode des supports déclinée pour PS-MS-GS
+- 🎬 [Classe inversée au primaire : capsules et quiz avec l'IA](/article/classe-inversee-primaire-ia/) — Scripts et storyboards de capsules vidéo produits en première version
 
 *La page blanche n'est plus une fatalité. L'IA ne crée pas vos supports à votre place — elle vous donne un point de départ solide, que votre expertise transforme en un véritable support pédagogique.*

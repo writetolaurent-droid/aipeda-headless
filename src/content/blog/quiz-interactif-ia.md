@@ -203,5 +203,6 @@ Le fond ne bouge pas : vous choisissez la leçon, relisez chaque question, inter
 - 🔄 [Générer un plan B pédagogique en 5 minutes avec l'IA](/article/imprevu-pedagogique-plan-b-ia/) — Un quiz de secours généré en quelques minutes quand la séance dérape
 - 🗝️ [Monter un escape game pédagogique avec l'IA](/article/escape-game-classe-ia/) — Scénario, énigmes et indices gradués pour une séance-jeu qui réactive les notions
 - 🖥️ [Le défi n°5 : préparer avec l'IA quand le parc numérique est limité](/article/defi-parc-numerique-limite/) — Penser ses supports quand il n'y a qu'un poste en classe
+- 🎬 [Classe inversée au primaire : capsules et quiz avec l'IA](/article/classe-inversee-primaire-ia/) — Un quiz de compréhension gradué pour vérifier le visionnage des capsules
 
 *Huit questions générées ce soir, un quiz lancé demain matin, un rapport à lire à la récré. L'évaluation formative n'a jamais été si proche.*
