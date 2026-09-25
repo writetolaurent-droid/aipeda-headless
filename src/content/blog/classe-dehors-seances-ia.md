@@ -186,3 +186,4 @@ Une sortie dehors réussie ne tient ni à la météo ni à l’inspiration du jo
 - ⚽ [Préparer ses séances d’EPS avec l’IA](/article/seances-eps-primaire-ia/) — l’autre discipline qui se joue dehors.
 - 🎵 [Préparer des séances d’éducation musicale avec l’IA](/article/education-musicale-seances-ia/) — parcours d’écoute et fiches chant préparés avant la séance.
 - 🔬 [Préparer une séquence de sciences avec l’IA](/article/preparer-sequence-sciences-ia/) — observations et manipulations à emporter dehors.
+- 🌱 [Monter un projet EDD avec l’IA](/article/projet-edd-developpement-durable-ia/) — le projet développement durable, dans le prolongement des séances dehors.

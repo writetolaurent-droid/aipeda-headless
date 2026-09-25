@@ -3,6 +3,7 @@ title: "EMC : construire vos séances d’enseignement moral et civique avec l�
 description: "Dilemmes moraux, débats structurés, repères laïcité : l’IA aide à bâtir des séances EMC prêtes à animer, vous gardez l’animation et la parole des élèves."
 category: "Préparer"
 pubDate: 2026-09-18
+updatedDate: 2026-09-25
 ---
 
 Une séance d’enseignement moral et civique vit d’un cas précis : un dilemme qui divise, une situation que les élèves reconnaissent, une question qui ne se referme pas sur une réponse toute faite. Encore faut-il trouver ce cas — neuf, calibré pour le niveau visé, sans réponse évidente, et assez éloigné des situations réelles de la classe pour que personne ne se sente désigné.
@@ -167,3 +168,4 @@ Une séance d’EMC réussie ne se juge pas à la qualité de sa fiche, mais à 
 - 💬 [Animer un atelier philo et débat avec l’IA](/article/atelier-philo-debat-ia/) — le cadre des discussions collectives, complémentaire de l’EMC.
 - 🚧 [Règlement de classe et climat scolaire avec l’IA](/article/reglement-classe-climat-ia/) — les règles que les dilemmes mettent à l’épreuve.
 - 🗳️ [Conseil d’élèves avec l’IA](/article/conseil-eleves-cooperation-ia/) — l’instance où la parole des élèves devient décision.
+- 🌱 [Projet EDD et développement durable avec l’IA](/article/projet-edd-developpement-durable-ia/) — l’engagement écologique de la classe, cousin de l’EMC.
