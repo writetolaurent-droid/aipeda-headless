@@ -206,3 +206,4 @@ Un projet de classe réussi ne tient ni à un dossier spectaculaire ni à l’in
 - ✉️ [Rédiger ses courriers aux parents avec l’IA](/article/courriers-parents-ia/) — toutes les lettres de l’année, au-delà du projet.
 - 🎭 [Organiser un projet culturel avec l’IA](/article/projet-culturel-intervenant-exterieur-ia/) — l’intervenant extérieur : dossier, autorisations et suivi.
 - 🌱 [Projet EDD et développement durable avec l’IA](/article/projet-edd-developpement-durable-ia/) — un autre grand projet annuel, même méthode de pilotage.
+- 🎙️ [Exposé oral : préparer vos élèves avec l’IA](/article/expose-oral-preparation-ia/) — l’exposé comme produit final d’un projet de classe.
