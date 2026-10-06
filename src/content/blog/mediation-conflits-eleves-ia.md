@@ -3,6 +3,7 @@ title: "Médiation entre élèves : l’IA prépare les outils, l’adulte condu
 description: "Conflits entre élèves : trames de médiation, jeux de rôles et messages calmes préparés avec l’IA. L’entretien, lui, reste un moment humain."
 category: "Différencier"
 pubDate: 2026-09-14
+updatedDate: 2026-10-06
 ---
 
 Deux élèves se disputent à la récréation, et c’est toute la matinée qui en garde la trace. L’un refuse de s’asseoir près de l’autre, des remarques fusent, des copains prennent parti. Pendant que l’enseignant arbitre, la classe attend — et le temps d’enseignement fond, récréation après récréation.
@@ -179,3 +180,4 @@ Préparez vos outils quand tout va bien. Ils seront prêts le jour où la cour d
 - 🤝 [Conseil d’élèves et coopération avec l’IA](/article/conseil-eleves-cooperation-ia/) — un lieu institutionnel pour parler des tensions
 - 🎓 [Atelier philo et débat : l’IA en coulisses](/article/atelier-philo-debat-ia/) — apprendre le désaccord constructif
 - 🧩 [Tutorat entre pairs avec l’IA](/article/tutorat-entre-pairs-ia/) — renforcer les liens positifs entre élèves
+- 🧒 [Accueillir un nouvel élève en cours d’année](/article/accueil-nouvel-eleve-annee-ia/) — intégrer un élève arrivant : binôme cadré et brise-glace préparés avec l’IA

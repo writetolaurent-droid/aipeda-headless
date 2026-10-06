@@ -3,6 +3,7 @@ title: "Communiquer avec les familles allophones : l'IA comme pont linguistique"
 description: "Traduire infos pratiques, lexique de l'école et messages de routine vers les langues des familles EANA : l'IA prépare, le prof aux commandes. 4 prompts."
 category: "Différencier"
 pubDate: 2026-08-31
+updatedDate: 2026-10-06
 ---
 
 Une sortie que des familles découvrent après la date. Un mot sur la cantine resté au fond du cartable, jamais lu. Une absence « non justifiée » née d’un simple malentendu. Quand une famille ne lit pas le français, l’information pratique de l’école — horaires, matériel, sorties, convocations — a toutes les chances de se perdre en route. Et personne n’y est pour quelque chose : ni les familles, qui s’intéressent à la scolarité de leurs enfants, ni les enseignants, qui manquent de temps et d’outils pour traduire.
@@ -170,6 +171,7 @@ L’IA ne pilote rien : elle traduit une matière que vous avez choisie, dans un
 ## Aller plus loin
 
 - 🗣️ [Élèves allophones : adapter vos consignes et supports avec l’IA](/article/eleves-allophones-ia/) — L’IA cette fois du côté des élèves : supports et consignes rendus accessibles
+- 🧒 [Accueillir un nouvel élève en cours d’année](/article/accueil-nouvel-eleve-annee-ia/) — le dossier d’accueil complet : observation, multi-niveaux, familles
 - ✉️ [Courriers aux parents : gagnez des heures sur vos communications écrites](/article/courriers-parents-ia/) — Structurer ses écrits aux familles en français, avant même de penser traduction
 - 🧩 [Défi n°2 : gérer l’hétérogénéité de la classe avec l’IA](/article/defi-heterogeneite/) — Quand les profils se multiplient, la communication adaptée fait partie de la réponse
 - 📘 [Préparer ses cours avec l’IA : le guide complet](/article/preparer-ses-cours-ia-guide-complet/) — La porte d’entrée du cocon, avec 5 étapes et des dizaines de prompts
