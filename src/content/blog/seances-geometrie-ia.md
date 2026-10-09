@@ -3,6 +3,7 @@ title: "Géométrie au primaire : préparer vos séances avec l’IA"
 description: "Programmes de construction gradués, ateliers manipulés, vocabulaire et trace écrite : l’IA prépare le dossier de vos séances de géométrie. Vous tracez."
 category: "Préparer"
 pubDate: 2026-10-02
+updatedDate: 2026-10-09
 ---
 
 La géométrie est probablement la discipline la plus coûteuse à préparer de tout le primaire. Il faut du matériel qui fonctionne, des figures préparées en amont pour l’affichage, des énoncés de construction dont chaque étape doit être juste — une consigne ambiguë et la moitié de la classe déraille. Il faut un vocabulaire installé pas à pas, des ateliers qui font manipuler, une trace écrite que les élèves relisent vraiment. Le fond pédagogique, vous le maîtrisez déjà : c’est le temps de conception qui manque, encore et toujours.
@@ -106,5 +107,6 @@ La géométrie mérite mieux que des séances improvisées faute de temps : c’
 
 - 🧭 [Préparer ses cours avec l’IA : le guide complet](/article/preparer-ses-cours-ia-guide-complet/) — la porte d’entrée du cocon.
 - 🧩 [Situations-problèmes en maths et sciences avec l’IA](/article/situations-problemes-maths-ia/) — la soeur logique pour les maths de recherche.
+- 📏 [Grandeurs et mesures : préparer vos séances avec l’IA](/article/grandeurs-mesures-seances-ia/) — la seconde moitié du domaine mathématiques : longueurs, masses, capacités, durées.
 - 🎲 [Jeux pédagogiques papier avec l’IA](/article/jeux-pedagogiques-papier-ia/) — quand le parc numérique manque, le papier joue.
 - 🖼️ [Générer des visuels pour le tableau en un clic](/article/visuels-tableaux-ia/) — affichages et repères visuels hors figures géométriques.
