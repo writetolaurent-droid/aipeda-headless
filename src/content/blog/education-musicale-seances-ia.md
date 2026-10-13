@@ -3,6 +3,7 @@ title: "Préparer ses séances d'éducation musicale avec l'IA : écoute, chant 
 description: "Séances d'éducation musicale prêtes à imprimer : parcours d'écoute, fiches chant, cartes rythme. L'IA prépare, vous menez la séance."
 category: "Préparer"
 pubDate: 2026-09-12
+updatedDate: 2026-10-13
 ---
 
 L’éducation musicale reste la discipline qu’on reporte. Pas faute d’envie : la plupart des enseignants du primaire n’ont jamais été formés à la mener, beaucoup s’estiment « pas assez musiciens », et la séance repoussée finit par ne jamais avoir lieu. S’ajoute un malaise bien connu : chanter devant ses élèves quand on doute de sa propre voix, lancer une écoute quand on ne sait pas quoi faire écouter, ou improviser un rythme au moment où il faudrait en proposer trois.
@@ -198,3 +199,4 @@ Une séance d’éducation musicale réussie ne tient ni au talent du jour ni à
 - 🎨 [Préparer ses séances d’arts plastiques avec l’IA](/article/seances-arts-plastiques-ia/) — l’autre discipline « sensible » qui se prépare à l’avance.
 - 🌳 [La classe dehors avec l’IA](/article/classe-dehors-seances-ia/) — des séances qui se jouent loin du cartable.
 - 🧸 [Préparer des séances en maternelle avec l’IA](/article/maternelle-seances-ia/) — chansons et comptines dès le plus jeune âge.
+- 🎭 [Atelier théâtre et expression dramatique avec l’IA](/article/theatre-expression-dramatique-ia/) — l’autre art de la scène : voix, corps et jeu.

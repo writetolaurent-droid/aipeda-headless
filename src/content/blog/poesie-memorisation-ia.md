@@ -3,6 +3,7 @@ title: "Poésie et mémorisation avec l’IA : du poème à la récitation"
 description: "Choisir des poèmes, découper la mémorisation en étapes courtes, préparer fiches à trous et grilles de récitation : l’IA prépare, vos élèves récitent."
 category: "Préparer"
 pubDate: 2026-09-08
+updatedDate: 2026-10-13
 ---
 
 Parmi toutes les séquences de français, la poésie est celle qui ne pardonne pas l’improvisation. Ce n’est pas une séance isolée mais un arc complet : choisir le poème, l’installer en lecture, le découper en unités mémorisables, accompagner un apprentissage qui s’étale sur les jours, puis accueillir et évaluer les récitations. Chaque étape réclame son support.
@@ -183,5 +184,6 @@ La poésie demande de la constance : un texte juste, un découpage progressif, u
 - 📝 [Production d’écrits : amorces et critères de réussite](/article/production-ecrite-amorces-ia/) — L’autre volet oral-écrit du français
 - 📙 [Dictées différenciées avec l’IA](/article/dictee-differenciee-ia/) — Un même contenu décliné pour tous les niveaux
 - 🗓️ [Rituels de classe avec l’IA](/article/rituels-classe-ia/) — Le rituel quotidien qui accueille vos répétitions de poésie
+- 🎭 [Atelier théâtre et expression dramatique avec l’IA](/article/theatre-expression-dramatique-ia/) — de la récitation au jeu : le prolongement naturel des textes mémorisés.
 
 *Copiez, ajustez, imprimez — et laissez la classe réciter.*
