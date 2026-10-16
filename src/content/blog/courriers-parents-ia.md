@@ -203,6 +203,7 @@ Une discipline suffit : zéro donnée personnelle dans le chat, relecture systé
 - 🚌 [Préparer une sortie scolaire avec l'IA](/article/sortie-scolaire-ia/) — L'autorisation parentale n'est qu'une pièce : structurer tout le dossier
 - 🌍 [Communiquer avec les familles allophones](/article/communication-familles-allophones-ia/) — Traduire l'information pratique vers les langues des familles EANA
 - 🗣️ [La réunion de rentrée préparée avec l'IA](/article/reunion-parents-ia/) — Discours, diaporama et mémo papier : l'oral qui accompagne vos courriers
+- 🎪 [Organiser une kermesse avec l'IA](/article/kermesse-fete-ecole-organisation-ia/) — courriers, autorisations et appels à bénévoles générés puis relus.
 - 📮 [La correspondance scolaire avec l'IA](/article/correspondance-scolaire-ia/) — l'écrit relationnel côté élèves
 - 📙 [Préparer un conseil d'école avec l'IA : le guide du directeur](/article/conseil-ecole-directeur-ia/) — convocations et procès-verbaux mis en forme en quelques minutes.
 - 📁 [Monter un projet de classe avec l'IA](/article/projet-classe-monter-ia/) — la lettre de présentation du projet fait partie du dossier.

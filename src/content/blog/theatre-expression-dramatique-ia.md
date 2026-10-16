@@ -3,6 +3,7 @@ title: "Théâtre à l’école : construire votre atelier d’expression dramat
 description: "Séquence progressive, répliques calibrées par niveau, jeux d’échauffement, scénario sur mesure : l’IA construit le dossier de votre atelier théâtre."
 category: "Préparer"
 pubDate: 2026-10-13
+updatedDate: 2026-10-16
 ---
 
 Un atelier théâtre est le genre de projet dont les élèves parlent des semaines après : on joue, on rit, on se dédouble, les familles viennent voir le résultat. Les bénéfices ne sont plus à démontrer — prise de parole, confiance en soi, écoute, mémoire, lecture expressive. Et pourtant, le projet figure rarement au calendrier. La raison tient rarement au manque d’envie : c’est le dossier d’amont qui décourage.
@@ -126,6 +127,7 @@ Le théâtre à l’école échoue rarement sur scène : il échoue avant, dans 
 - 📘 [Préparer ses cours avec l’IA : le guide complet](/article/preparer-ses-cours-ia-guide-complet/) — la méthode-mère de toute préparation assistée.
 - 🎙️ [Exposé oral : préparer vos élèves avec l’IA](/article/expose-oral-preparation-ia/) — l’autre grand rendez-vous de la prise de parole.
 - 📝 [Poésie et mémorisation avec l’IA](/article/poesie-memorisation-ia/) — du poème à la récitation : le socle de la mise en voix.
+- 🎪 [Organiser une kermesse avec l’IA](/article/kermesse-fete-ecole-organisation-ia/) — la fête d’école vue côté organisation : scénario, planning, courriers.
 - 🎨 [Préparer ses séances d’éducation musicale avec l’IA](/article/education-musicale-seances-ia/) — l’autre art de la scène, voix et rythme.
 - 🚀 [Monter un projet de classe avec l’IA](/article/projet-classe-monter-ia/) — la méthode complète pour piloter le projet jusqu’à la restitution.
 
