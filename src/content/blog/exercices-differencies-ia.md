@@ -201,3 +201,4 @@ Commencez petit. Prenez un exercice de cette semaine. Lancez le prompt des trois
 - 🏠 [Des devoirs à la maison différenciés avec l'IA](/article/devoir-maison-differencie-ia/) — Le même entraînement décliné renfort/base/défi, jusque dans les devoirs
 - 🏫 [Organiser ses APC avec l'IA](/article/apc-activites-pedagogiques-complementaires-ia/) — un cadre officiel pour les exercices ciblés.
 - 🎲 [Créer des jeux pédagogiques papier avec l'IA](/article/jeux-pedagogiques-papier-ia/) — Entraînement par le jeu, décliné en 2-3 niveaux pour vos groupes de besoin
+- 🧠 [Élèves HPI : nourrir sans surcharger avec l'IA](/article/eleves-hpi-haut-potentiel-ia/) — enrichissement et projets personnels pour les élèves à haut potentiel.
