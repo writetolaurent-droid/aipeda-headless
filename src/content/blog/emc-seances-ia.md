@@ -166,6 +166,7 @@ Une séance d’EMC réussie ne se juge pas à la qualité de sa fiche, mais à 
 
 - 📘 [Le guide complet pour préparer ses cours avec l’IA](/article/preparer-ses-cours-ia-guide-complet/) — la méthode-mère.
 - 💬 [Animer un atelier philo et débat avec l’IA](/article/atelier-philo-debat-ia/) — le cadre des discussions collectives, complémentaire de l’EMC.
+- 🗳️ [Élection des délégués de classe avec l’IA](/article/delegues-classe-election-ia/) — le dossier complet d’un scrutin vécu en classe.
 - 🚧 [Règlement de classe et climat scolaire avec l’IA](/article/reglement-classe-climat-ia/) — les règles que les dilemmes mettent à l’épreuve.
 - 🗳️ [Conseil d’élèves avec l’IA](/article/conseil-eleves-cooperation-ia/) — l’instance où la parole des élèves devient décision.
 - 🌱 [Projet EDD et développement durable avec l’IA](/article/projet-edd-developpement-durable-ia/) — l’engagement écologique de la classe, cousin de l’EMC.

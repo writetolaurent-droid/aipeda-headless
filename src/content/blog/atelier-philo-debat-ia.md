@@ -184,6 +184,7 @@ L’IA propose des questions, des amorces, un déroulé, une grille. Vous dispos
 - 🚦 [Auto-évaluation des élèves avec l’IA : des trames papier pour s’auto-réguler](/article/auto-evaluation-eleves-ia/)
 - 📖 [Questionnaires de lecture avec l’IA : trois niveaux pour un même texte](/article/questionnaire-lecture-ia/)
 - 🗳️ [Conseil d’élèves avec l’IA](/article/conseil-eleves-cooperation-ia/) — l’autre instance de parole de la classe, supports prêts.
+- 🗳️ [Élection des délégués de classe avec l’IA](/article/delegues-classe-election-ia/) — professions de foi, scrutin et cartes de rôle prêts à relire.
 - 📰 [Éducation aux médias au primaire avec l’IA](/article/education-medias-primaire-ia/) — préparer le tri de l’information
 - 🏛️ [EMC : construire vos séances d’enseignement moral et civique avec l’IA](/article/emc-seances-ia/) — dilemmes et trames de débat prêts à animer.
 - 🎙️ [Exposé oral : préparer vos élèves avec l’IA](/article/expose-oral-preparation-ia/) — le dossier complet du cycle d’exposés, de la banque de sujets à la grille.

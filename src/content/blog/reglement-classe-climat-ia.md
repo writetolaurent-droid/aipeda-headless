@@ -174,3 +174,4 @@ Un règlement de classe est le premier geste de climat de l’année, et sa fabr
 - ⏱️ [Les transitions et moments courts avec l’IA](/article/transitions-moments-courts-ia/) — des passages ritualisés qui préservent le climat
 - 🤝 [Médiation entre élèves avec l’IA](/article/mediation-conflits-eleves-ia/) — des outils préparés, un entretien humain
 - 🏛️ [EMC : construire vos séances d’enseignement moral et civique avec l’IA](/article/emc-seances-ia/) — des dilemmes qui mettent les règles à l’épreuve.
+- 🗳️ [Élection des délégués de classe avec l’IA](/article/delegues-classe-election-ia/) — outiller le mandat des élèves élus, pas seulement le jour du vote.
