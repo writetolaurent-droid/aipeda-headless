@@ -195,6 +195,7 @@ Bien conçue, une évaluation diagnostique éclaire des mois d'enseignement. L'I
 - 📈 [Analyser les résultats d'une évaluation avec l'IA](/article/resultats-evaluations-analyse-ia/) — De la pile de copies aux priorités de remédiation, sur données anonymisées
 - 📙 [Liaison CM2-6e : le dossier de passage avec l'IA](/article/liaison-cm2-sixieme-ia/) — Synthétiser les acquis de fin de cycle pour le collègue de 6e
 - 📏 [Les évaluations repères CP et CE1 avec l'IA](/article/evaluations-reperes-cp-ce1-ia/) — les évaluations nationales de septembre : logistique et exploitation.
+- 🔄 [Reprise après les vacances : réactiver les acquis avec l'IA](/article/reprise-apres-vacances-reactivation-ia/) — utiliser le diagnostic pour une reprise de période réussie.
 - 🏫 [Organiser ses APC avec l'IA](/article/apc-activites-pedagogiques-complementaires-ia/) — partir des résultats pour cibler les séances.
 
 *Connaître sa classe, c'est déjà commencer à l'accompagner. Générez, relisez, observez — puis décidez.*

@@ -199,5 +199,6 @@ Et le cœur du dispositif ne bouge pas : vous animez, questionnez, corrigez, obs
 - ✉️ [Courriers aux parents avec l'IA](/article/courriers-parents-ia/) — Des écrits aux familles solides sans y passer ses soirées
 - 🗓️ [Construire l'emploi du temps de votre classe avec l'IA](/article/emploi-du-temps-classe-ia/) — Organiser la journée type qui héberge vos rituels
 - ⏱️ [Les transitions et moments courts avec l'IA](/article/transitions-moments-courts-ia/) — occuper les micro-moments sans éparpillement
+- 🔄 [Reprise après les vacances : réactiver les acquis avec l'IA](/article/reprise-apres-vacances-reactivation-ia/) — redémarrer la classe et réactiver les acquis après une coupure.
 
 *Trois prompts ce week-end, une semaine de rituels prête lundi matin. Copiez, relisez, ajustez.*
