@@ -293,6 +293,7 @@ Ce guide est la **page pilier** du cocon AIPEDA sur la préparation de cours ave
 **Méthode & supports**
 - 📅 [Créer sa progression annuelle avec l'IA](/article/progression-annuelle-ia/) — Structurer son année en respectant les programmes
 - ⏱️ [Mon workflow 30 min pour préparer une séquence](/article/workflow-30min-sequence/) — De l'idée aux supports prêts
+- 🤝 [Co-intervention et décloisonnement avec l'IA](/article/co-intervention-decloisonnement-ia/) — décliner un cadrage commun en plans de séance synchronisés.
 - 📐 [Améliorer sa séquence pédagogique avec l'IA](/article/ameliorer-sequence-pedagogique/) — Le guide détaillé de la structuration
 - 📚 [Créer ses supports de cours avec l'IA](/article/creer-supports-cours-ia/) — La méthode zéro page blanche
 - 🎨 [Générer des visuels pour le tableau en un clic](/article/visuels-tableaux-ia/) — Images et schémas pédagogiques sur mesure

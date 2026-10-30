@@ -3,6 +3,7 @@ title: "Construire l’emploi du temps de votre classe avec l’IA"
 description: "Grille horaire, contraintes multiples, équilibre des domaines : générez et vérifiez votre emploi du temps de classe avec 4 prompts copier-coller."
 category: "Préparer"
 pubDate: 2026-09-01
+updatedDate: 2026-10-30
 ---
 
 Chaque rentrée, c’est le même rituel : construire l’emploi du temps de la classe. Et chaque année, la grille résiste. Le gymnase n’est disponible que tel créneau, partagé avec les autres classes de l’école. L’intervenant ne passe que le jeudi après-midi. La natation, l’anglais, le décloisonnement avec la classe voisine, la salle partagée : autant de blocs figés qui réduisent d’autant les cases libres.
@@ -214,5 +215,6 @@ La grille finale, elle, reste une décision professionnelle collective. L’équ
 
 - 📘 [Préparer ses cours avec l’IA : guide complet](/article/preparer-ses-cours-ia-guide-complet/) — La page pilier pour intégrer l’IA dans toute votre préparation
 - 🗓️ [Créer sa progression annuelle avec l’IA](/article/progression-annuelle-ia/) — Poser le cadre annuel que votre grille doit servir
+- 🤝 [Co-intervention et décloisonnement avec l’IA](/article/co-intervention-decloisonnement-ia/) — organiser l’échange de services sans exploser la charge documentaire.
 - 🔁 [Mettre en place des rituels de classe avec l’IA](/article/rituels-classe-ia/) — Stabiliser les moments récurrents de votre journée
 - 📋 [Préparer sa rentrée avec l’IA : checklist complète](/article/preparer-rentree-ia/) — Affichages, planning, courriers : tout cadrer avant le jour J
