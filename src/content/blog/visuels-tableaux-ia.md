@@ -247,6 +247,7 @@ Commencez simple : un prompt, un visuel, une séance. Vous mesurerez le gain de 
 - 🖼️ [Créer ses supports de cours avec l'IA](/article/creer-supports-cours-ia/) — Trace écrite, exercices, matériel, cartes mentales : 4 prompts pour générer vos supports à 80 %
 - 🔤 [Adapter ses supports pour les élèves DYS avec l'IA](/article/adaptation-dys-ia/) — Comment l'IA peut rendre vos visuels accessibles à tous les élèves
 - 🧸 [Préparer des séances de maternelle avec l'IA](/article/maternelle-seances-ia/) — Imagiers, pictogrammes et ateliers PS-MS-GS adaptés au langage des plus petits
+- 🧱 [Affichage de classe et affiches avec l'IA](/article/affichage-classe-affiches-ia/) — le contenu textuel de vos murs pédagogiques rédigé en quelques échanges
 - 🤔 [Quelle IA pour les professeurs des écoles ?](/article/quelle-ia-professeurs-ecoles/) — Comparatif des outils IA accessibles et pertinents pour l'enseignement primaire
 - 🗝️ [Créer un escape game pédagogique avec l'IA](/article/escape-game-classe-ia/) — Scénario, énigmes et supports imprimables produits en première version
 - 🎨 [Préparer des séances d'arts plastiques avec l'IA](/article/seances-arts-plastiques-ia/) — programmation annuelle, fiches de séance et matériel d'atelier.
