@@ -6,7 +6,7 @@ import { defineConfig, fontProviders } from 'astro/config';
 
 // https://astro.build/config
 export default defineConfig({
-	site: 'https://aipeda.com',
+	site: 'https://kaiedu.fyi',
 	integrations: [mdx(), sitemap()],
 	fonts: [
 		{

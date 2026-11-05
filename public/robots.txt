@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://aipeda.com/sitemap-index.xml
+Sitemap: https://kaiedu.fyi/sitemap-index.xml

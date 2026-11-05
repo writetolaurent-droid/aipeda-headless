@@ -12,7 +12,7 @@ interface Props {
 
 const { title, description = SITE_DESCRIPTION, image, article = false, pubDate, updatedDate } = Astro.props;
 
-const canonicalURL = `https://aipeda.com${Astro.url.pathname}`;
+const canonicalURL = `https://kaiedu.fyi${Astro.url.pathname}`;
 ---
 
 {/* Essentials */}
@@ -35,15 +35,15 @@ const canonicalURL = `https://aipeda.com${Astro.url.pathname}`;
 <meta property="og:url" content={canonicalURL} />
 <meta property="og:site_name" content={SITE_TITLE} />
 <meta property="og:locale" content="fr_FR" />
-{image && <meta property="og:image" content={`https://aipeda.com${image}`} />}
-{!image && <meta property="og:image" content="https://aipeda.com/og-default.png" />}
+{image && <meta property="og:image" content={`https://kaiedu.fyi${image}`} />}
+{!image && <meta property="og:image" content="https://kaiedu.fyi/og-default.png" />}
 
 {/* Twitter Card */}
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:title" content={title} />
 <meta name="twitter:description" content={description} />
-{image && <meta name="twitter:image" content={`https://aipeda.com${image}`} />}
-{!image && <meta name="twitter:image" content="https://aipeda.com/og-default.png" />}
+{image && <meta name="twitter:image" content={`https://kaiedu.fyi${image}`} />}
+{!image && <meta name="twitter:image" content="https://kaiedu.fyi/og-default.png" />}
 
 {/* RSS */}
 <link rel="alternate" type="application/rss+xml" title="AIPEDA — Blog" href="/rss.xml" />
@@ -63,17 +63,17 @@ const canonicalURL = `https://aipeda.com${Astro.url.pathname}`;
 		'author': {
 			'@type': 'Person',
 			'name': 'Laurent Jeannin',
-			'url': 'https://aipeda.com/a-propos/'
+			'url': 'https://kaiedu.fyi/a-propos/'
 		},
 		'publisher': {
 			'@type': 'Organization',
 			'name': SITE_TITLE,
-			'url': 'https://aipeda.com'
+			'url': 'https://kaiedu.fyi'
 		},
 		'mainEntityOfPage': {
 			'@type': 'WebPage',
 			'@id': canonicalURL
 		},
-		...(image && { 'image': `https://aipeda.com${image}` })
+		...(image && { 'image': `https://kaiedu.fyi${image}` })
 	})} />
 )}
