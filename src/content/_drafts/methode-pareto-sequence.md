@@ -171,4 +171,4 @@ Ce renversement change la nature de vos soirées de préparation : moins de temp
 - ⏱️ [Mon workflow 30 min pour préparer une séquence](/article/workflow-30min-sequence/) — Le découpage minute par minute du temps de préparation
 - ⚡ [Alléger la charge mentale : le défi n°1 et l'IA](/article/defi-charge-mentale/) — Le tri décision/production appliqué à tout le métier
 - 📅 [Créer sa progression annuelle avec l'IA](/article/progression-annuelle-ia/) — Cadrer l'année avant de cadrer les séquences
-- 📘 [Préparer ses cours avec l'IA : le guide complet](/article/preparer-ses-cours-ia-guide-complet/) — La page pilier du cocon AIPEDA
+- 📘 [Préparer ses cours avec l'IA : le guide complet](/article/preparer-ses-cours-ia-guide-complet/) — La page pilier du cocon KAIEDU

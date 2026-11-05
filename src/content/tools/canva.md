@@ -21,4 +21,4 @@ order: 4
 
 Canva en bref : Création graphique tout-en-un : affiches, fiches, présentations — avec l'IA générative Magic Studio en bonus.
 
-*Cette fiche fait partie de l'[annuaire des outils IA pour enseignants](/outils-ia/) d'AIPEDA.*
+*Cette fiche fait partie de l'[annuaire des outils IA pour enseignants](/outils-ia/) d'KAIEDU.*

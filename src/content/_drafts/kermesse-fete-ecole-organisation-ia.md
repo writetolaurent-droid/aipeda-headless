@@ -117,7 +117,7 @@ La kermesse ne doit plus coûter trois week-ends de mise en page. Conçu en équ
 
 ## Aller plus loin
 
-- 📘 [Préparer ses cours avec l'IA : le guide complet](/article/preparer-ses-cours-ia-guide-complet/) — les fondations de la méthode AIPEDA.
+- 📘 [Préparer ses cours avec l'IA : le guide complet](/article/preparer-ses-cours-ia-guide-complet/) — les fondations de la méthode KAIEDU.
 - 🎭 [Atelier théâtre et expression dramatique avec l'IA](/article/theatre-expression-dramatique-ia/) — pour le volet spectacles de votre kermesse.
 - ✉️ [Courriers aux parents : l'IA comme assistant de rédaction](/article/courriers-parents-ia/) — la règle d'or « je fournis les faits, l'IA met en forme ».
 - 🏫 [Monter un projet de classe avec l'IA](/article/projet-classe-monter-ia/) — la dynamique de projet dont la kermesse peut être le point d'orgue.

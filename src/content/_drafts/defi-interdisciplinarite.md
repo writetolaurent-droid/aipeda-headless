@@ -171,4 +171,4 @@ Vous restez l'architecte : choix des connexions, vérification des programmes, c
 - 📐 [Améliorer une séquence pédagogique avec l'IA : 5 leviers concrets](/article/ameliorer-sequence-pedagogique/) — Renforcer une séquence avant de l'ouvrir aux autres disciplines
 - 📅 [Créer sa progression annuelle avec l'IA](/article/progression-annuelle-ia/) — Structurer l'année pour dégager les créneaux des projets
 - 📝 [Créer des supports de cours avec l'IA](/article/creer-supports-cours-ia/) — Produire les documents des différentes phases du projet
-- 📘 [Préparer ses cours avec l'IA : le guide complet](/article/preparer-ses-cours-ia-guide-complet/) — La page pilier du cocon AIPEDA
+- 📘 [Préparer ses cours avec l'IA : le guide complet](/article/preparer-ses-cours-ia-guide-complet/) — La page pilier du cocon KAIEDU

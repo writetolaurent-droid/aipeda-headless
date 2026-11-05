@@ -280,7 +280,7 @@ Pour les élèves de primaire et collège, l'IA reste un outil de l'enseignant, 
 
 ## Aller plus loin
 
-Ce guide est la **page pilier** du cocon AIPEDA sur la préparation de cours avec l'IA. Pour approfondir chaque aspect :
+Ce guide est la **page pilier** du cocon KAIEDU sur la préparation de cours avec l'IA. Pour approfondir chaque aspect :
 
 **Outils & choix**
 - 🎯 [Quelle IA pour les professeurs des écoles ?](/article/quelle-ia-professeurs-ecoles/) — Le guide 2026 pour choisir son outil

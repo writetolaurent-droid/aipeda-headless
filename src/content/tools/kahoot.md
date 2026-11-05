@@ -20,4 +20,4 @@ order: 12
 
 Kahoot! en bref : Le quiz compétitif emblématique : réviser en classe entière, en s'amusant.
 
-*Cette fiche fait partie de l'[annuaire des outils IA pour enseignants](/outils-ia/) d'AIPEDA.*
+*Cette fiche fait partie de l'[annuaire des outils IA pour enseignants](/outils-ia/) d'KAIEDU.*

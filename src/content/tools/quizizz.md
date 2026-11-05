@@ -21,4 +21,4 @@ order: 5
 
 Quizizz en bref : Quiz interactifs en classe ou à la maison, avec banques de questions et adaptation par IA.
 
-*Cette fiche fait partie de l'[annuaire des outils IA pour enseignants](/outils-ia/) d'AIPEDA.*
+*Cette fiche fait partie de l'[annuaire des outils IA pour enseignants](/outils-ia/) d'KAIEDU.*

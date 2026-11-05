@@ -1,8 +1,8 @@
 // ============================================================
-// AIPEDA — CONSTANTES GLOBALES
+// KAIEDU — CONSTANTES GLOBALES
 // ============================================================
 
-export const SITE_TITLE = 'AIPEDA';
+export const SITE_TITLE = 'KAIEDU';
 export const SITE_TAGLINE = "L'IA pour automatiser le répétitif — et réhumaniser la salle de classe.";
 export const SITE_DESCRIPTION =
 	"Découvrez comment utiliser l'IA en enseignement pour gagner du temps, personnaliser vos cours et vous concentrer sur l'essentiel : vos élèves.";

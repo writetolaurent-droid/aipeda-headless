@@ -20,4 +20,4 @@ order: 8
 
 Le Chat (Mistral AI) en bref : L'IA générative française : une alternative crédible, hébergée en Europe.
 
-*Cette fiche fait partie de l'[annuaire des outils IA pour enseignants](/outils-ia/) d'AIPEDA.*
+*Cette fiche fait partie de l'[annuaire des outils IA pour enseignants](/outils-ia/) d'KAIEDU.*

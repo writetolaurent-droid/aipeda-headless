@@ -32,7 +32,7 @@ const breadcrumbSchema = {
 };
 ---
 
-<Base title={`${t.name} pour les enseignants : usages, limites et place en classe`} description={`${t.tagline} Fiche pratique AIPEDA : ce que l'outil fait vraiment, ses limites, et comment l'utiliser en classe sans jamais remplacer l'enseignant.`}>
+<Base title={`${t.name} pour les enseignants : usages, limites et place en classe`} description={`${t.tagline} Fiche pratique KAIEDU : ce que l'outil fait vraiment, ses limites, et comment l'utiliser en classe sans jamais remplacer l'enseignant.`}>
 	<section class="fiche-section">
 		<nav class="breadcrumb animate-in" aria-label="Fil d'Ariane">
 			<a href="/">Accueil</a> <span aria-hidden="true">/</span> <a href="/outils-ia/">Outils IA</a> <span aria-hidden="true">/</span> <span class="bc-current">{t.name}</span>
@@ -109,7 +109,7 @@ const breadcrumbSchema = {
 				{extraReads.map((p) => (
 					<li><a href={`/article/${p.id}/`}>{p.data.title}</a></li>
 				))}
-				<li><a href="/blog/">Tous les guides AIPEDA</a></li>
+				<li><a href="/blog/">Tous les guides KAIEDU</a></li>
 			</ul>
 			<p class="reads-note"><em>Un outil propose, l'enseignant dispose&nbsp;: c'est la règle de tout cet annuaire.</em></p>
 		</section>

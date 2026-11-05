@@ -20,4 +20,4 @@ order: 6
 
 Gemini en bref : L'IA de Google, intégrée aux outils que l'Éducation utilise déjà : Docs, Drive, Gmail.
 
-*Cette fiche fait partie de l'[annuaire des outils IA pour enseignants](/outils-ia/) d'AIPEDA.*
+*Cette fiche fait partie de l'[annuaire des outils IA pour enseignants](/outils-ia/) d'KAIEDU.*

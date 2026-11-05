@@ -21,4 +21,4 @@ order: 14
 
 Genially en bref : Supports interactifs et animés : présentations, jeux, images cliquables.
 
-*Cette fiche fait partie de l'[annuaire des outils IA pour enseignants](/outils-ia/) d'AIPEDA.*
+*Cette fiche fait partie de l'[annuaire des outils IA pour enseignants](/outils-ia/) d'KAIEDU.*

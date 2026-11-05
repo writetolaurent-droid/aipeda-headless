@@ -219,7 +219,7 @@ Absolument pas. Commencez par une seule séquence, un seul levier. Testez en cla
 
 ## Aller plus loin
 
-- 📘 [Préparer ses cours avec l'IA : le guide complet](/article/preparer-ses-cours-ia-guide-complet/) — La page pilier du cocon AIPEDA
+- 📘 [Préparer ses cours avec l'IA : le guide complet](/article/preparer-ses-cours-ia-guide-complet/) — La page pilier du cocon KAIEDU
 - 🔧 [Diffit : adapter n'importe quel texte en 2 clics](/article/outil-diffit/) — L'outil spécialisé pour la différenciation automatique
 - ⏱️ [Mon workflow 30 min pour préparer une séquence](/article/workflow-30min-sequence/) — Le déroulé chronométré pour passer de l'idée aux supports
 - 📅 [Créer sa progression annuelle avec l'IA](/article/progression-annuelle-ia/) — Structurer l'année entière en respectant les programmes

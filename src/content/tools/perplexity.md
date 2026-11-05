@@ -20,4 +20,4 @@ order: 10
 
 Perplexity en bref : Le moteur de réponses avec sources citées : chercher l'information fiable, pas la générer.
 
-*Cette fiche fait partie de l'[annuaire des outils IA pour enseignants](/outils-ia/) d'AIPEDA.*
+*Cette fiche fait partie de l'[annuaire des outils IA pour enseignants](/outils-ia/) d'KAIEDU.*

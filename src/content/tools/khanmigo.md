@@ -22,4 +22,4 @@ order: 11
 
 Khanmigo en bref : Le tuteur IA de Khan Academy — conçu pour dialoguer avec les élèves, avec un volet assistant pour les enseignants.
 
-*Cette fiche fait partie de l'[annuaire des outils IA pour enseignants](/outils-ia/) d'AIPEDA.*
+*Cette fiche fait partie de l'[annuaire des outils IA pour enseignants](/outils-ia/) d'KAIEDU.*

@@ -34,9 +34,34 @@ const catColors: Record<string, { icon: string; gradient: string; color: string 
 
 <Base
 	wide
-	title="AIPEDA — L'IA pour préparer vos cours, pas pour remplacer votre expertise"
+	title="KAIEDU (anciennement AIPEDA) — L'IA pour préparer vos cours, pas pour remplacer votre expertise"
 	description="Guides concrets, prompts testés en classe et outils IA pour les enseignants. Préparez vos cours 4x plus vite et recentrez-vous sur l'essentiel : vos élèves."
 >
+	{/* ================= BANNIÈRE MIGRATION — A SUPPRIMER (ou disparaît seule) après le 05/01/2027 ================= */}
+	<section class="banner-migration" id="banner-migration" role="status">
+		<div class="banner-mig-inner">
+			<div class="banner-mig-icon" aria-hidden="true">🔄</div>
+			<div class="banner-mig-text">
+				<p class="banner-mig-title">
+					<span class="banner-mig-old">AIPEDA</span>
+					<span class="banner-mig-arrow" aria-hidden="true">→</span>
+					<span class="banner-mig-new">DEVIENT KAIEDU</span>
+				</p>
+				<p class="banner-mig-sub">
+					AIPEDA devient <strong>KAIEDU</strong> — nouveau nom, nouvelle adresse : <strong>kaiedu.fyi</strong>.
+					Mêmes guides, mêmes prompts, même mission. Ce site est <strong>autofinancé</strong> : le maintien
+					de l'ancien domaine coûtait trop cher, on a donc tout transféré ici. Pensez à mettre à jour
+					vos favoris !
+				</p>
+			</div>
+		</div>
+	</section>
+	<script>
+		// Disparition automatique après le 5 janvier 2027 (2 mois de transition)
+		if (new Date() > new Date('2027-01-05T00:00:00Z')) {
+			document.getElementById('banner-migration')?.remove();
+		}
+	</script>
 	{/* ================= HERO PLEINE LARGEUR ================= */}
 	<section class="bleed hero-section">
 		<div class="hero-decor" aria-hidden="true">
@@ -197,7 +222,7 @@ const catColors: Record<string, { icon: string; gradient: string; color: string 
 	<section class="bleed approach-section">
 		<div class="container approach-inner">
 			<span class="section-label approach-label">Notre ligne rouge</span>
-			<h2 class="approach-heading">La posture AIPEDA</h2>
+			<h2 class="approach-heading">La posture KAIEDU</h2>
 			<div class="approach-grid">
 				<div class="approach-item animate-in">
 					<div class="approach-icon" aria-hidden="true">🚫</div>
@@ -232,6 +257,69 @@ const catColors: Record<string, { icon: string; gradient: string; color: string 
 </Base>
 
 <style>
+	/* ===== BANNIÈRE MIGRATION AIPEDA → KAIEDU (suppression ~05/01/2027) ===== */
+	.banner-migration {
+		position: relative;
+		overflow: hidden;
+		border-radius: 0 0 1.25rem 1.25rem;
+		padding: 1.1rem 1.5rem;
+		background: linear-gradient(110deg, #1e3a5f, #2d5f8f, #7c3aed, #1e3a5f);
+		background-size: 300% 100%;
+		animation: bannerFlow 9s linear infinite;
+		color: #fff;
+	}
+	.banner-migration::after {
+		content: '';
+		position: absolute;
+		inset: 0;
+		background: linear-gradient(100deg, transparent 30%, rgba(255,255,255,.14) 50%, transparent 70%);
+		background-size: 220% 100%;
+		animation: bannerShimmer 4.5s ease-in-out infinite;
+		pointer-events: none;
+	}
+	.banner-mig-inner { display: flex; align-items: center; gap: 1.1rem; max-width: 72rem; margin: 0 auto; }
+	.banner-mig-icon {
+		font-size: 1.7rem;
+		flex-shrink: 0;
+		animation: bannerSpin 6s ease-in-out infinite;
+		filter: drop-shadow(0 0 8px rgba(255,255,255,.45));
+	}
+	.banner-mig-title {
+		margin: 0 0 .25rem;
+		font-size: 1.15rem;
+		font-weight: 800;
+		letter-spacing: .06em;
+		display: flex;
+		align-items: center;
+		gap: .6rem;
+		flex-wrap: wrap;
+	}
+	.banner-mig-old { opacity: .75; text-decoration: line-through; text-decoration-thickness: 2px; }
+	.banner-mig-arrow { animation: bannerNudge 1.6s ease-in-out infinite; font-size: 1.3rem; }
+	.banner-mig-new {
+		background: linear-gradient(90deg, #ffd166, #ff9e5e, #ffd166);
+		background-size: 200% 100%;
+		-webkit-background-clip: text;
+		background-clip: text;
+		color: transparent;
+		animation: bannerGold 3.5s linear infinite;
+	}
+	.banner-mig-sub { margin: 0; font-size: .92rem; line-height: 1.5; color: rgba(255,255,255,.92); max-width: 60ch; }
+	.banner-mig-sub strong { color: #ffd166; }
+	@keyframes bannerFlow { to { background-position: 300% 0; } }
+	@keyframes bannerShimmer { 0% { background-position: 120% 0; } 60%, 100% { background-position: -120% 0; } }
+	@keyframes bannerSpin { 0%, 100% { transform: rotate(0); } 50% { transform: rotate(360deg); } }
+	@keyframes bannerNudge { 0%, 100% { transform: translateX(0); } 50% { transform: translateX(.45rem); } }
+	@keyframes bannerGold { to { background-position: 200% 0; } }
+	@media (prefers-reduced-motion: reduce) {
+		.banner-migration, .banner-migration::after, .banner-mig-icon, .banner-mig-arrow, .banner-mig-new { animation: none; }
+	}
+	@media (max-width: 640px) {
+		.banner-migration { padding: 1rem; }
+		.banner-mig-title { font-size: 1rem; }
+		.banner-mig-sub { font-size: .85rem; }
+	}
+
 	/* ================= HERO ================= */
 	.hero-section {
 		position: relative;

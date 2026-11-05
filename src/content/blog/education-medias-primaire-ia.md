@@ -200,7 +200,7 @@ La règle tient en une ligne : l’IA prépare, le prof vérifie, l’élève pe
 
 ## Aller plus loin
 
-- 📙 [Le guide complet pour préparer ses cours avec l’IA](/article/preparer-ses-cours-ia-guide-complet/) — la méthode AIPEDA de A à Z
+- 📙 [Le guide complet pour préparer ses cours avec l’IA](/article/preparer-ses-cours-ia-guide-complet/) — la méthode KAIEDU de A à Z
 - 🎓 [Atelier philo et débat : l’IA en coulisses](/article/atelier-philo-debat-ia/) — esprit critique et prise de parole
 - 🗺️ [Histoire-géo : repères et frises avec l’IA](/article/histoire-geo-reperes-ia/) — situer l’information dans le temps
 - ❓ [Questionnaires de lecture avec l’IA](/article/questionnaire-lecture-ia/) — entraîner la compréhension de documents

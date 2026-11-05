@@ -20,4 +20,4 @@ order: 13
 
 Wordwall en bref : Des activités interactives courtes — roue, memory, pendu — générées à partir de vos paires mots-définitions.
 
-*Cette fiche fait partie de l'[annuaire des outils IA pour enseignants](/outils-ia/) d'AIPEDA.*
+*Cette fiche fait partie de l'[annuaire des outils IA pour enseignants](/outils-ia/) d'KAIEDU.*

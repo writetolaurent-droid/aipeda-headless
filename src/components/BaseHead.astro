@@ -22,8 +22,7 @@ const canonicalURL = `https://kaiedu.fyi${Astro.url.pathname}`;
 <link rel="shortcut icon" href="/favicon.ico" />
 
 {/* Primary SEO */}
-<title>{title} — AIPEDA</title>
-<meta name="description" content={description} />
+<title>{title} — KAIEDU</title><meta name="description" content={description} />
 <link rel="canonical" href={canonicalURL} />
 <meta name="robots" content="index, follow" />
 <meta name="author" content="Laurent Jeannin" />
@@ -46,7 +45,7 @@ const canonicalURL = `https://kaiedu.fyi${Astro.url.pathname}`;
 {!image && <meta name="twitter:image" content="https://kaiedu.fyi/og-default.png" />}
 
 {/* RSS */}
-<link rel="alternate" type="application/rss+xml" title="AIPEDA — Blog" href="/rss.xml" />
+<link rel="alternate" type="application/rss+xml" title="KAIEDU — Blog (anciennement AIPEDA)" href="/rss.xml" />
 
 {/* Sitemap reference */}
 <link rel="sitemap" href="/sitemap-index.xml" />

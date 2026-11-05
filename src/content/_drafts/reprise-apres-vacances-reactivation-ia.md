@@ -7,7 +7,7 @@ pubDate: 2026-10-27
 
 Les vacances de Toussaint touchent à leur fin, et la reprise a toujours le même goût de défi. D’un côté, des élèves qui ont décroché pendant deux semaines — certains ont voyagé, d’autres ont simplement décroché des routines scolaires. De l’autre, une période 2 qui commence et un programme qui n’attend pas. Il faut relancer la machine sans brutaliser, réactiver ce qui a été vu en période 1, repérer ce qui s’est évaporé, et remettre en place les rituels en un minimum de temps. Ce travail de « remise en route » est rarement préparé : on l’improvise le jour même, entre deux tracasseries administratives de rentrée de période.
 
-Bonne nouvelle : c’est exactement le type de préparation où l’IA fait gagner du temps sans jamais se substituer à votre jugement. L’IA en coulisses, vous au pupitre — comme toujours sur AIPEDA.
+Bonne nouvelle : c’est exactement le type de préparation où l’IA fait gagner du temps sans jamais se substituer à votre jugement. L’IA en coulisses, vous au pupitre — comme toujours sur KAIEDU.
 
 <div class="essential-box">
 

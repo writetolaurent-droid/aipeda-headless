@@ -208,7 +208,7 @@ Utilisez-la comme un assistant qui prépare le terrain. Jamais comme un remplaç
 
 ## Aller plus loin
 
-- 📘 [Préparer ses cours avec l'IA : guide complet](/article/preparer-ses-cours-ia-guide-complet/) — La page pilier du cocon AIPEDA, pour intégrer l'IA dans toute votre préparation
+- 📘 [Préparer ses cours avec l'IA : guide complet](/article/preparer-ses-cours-ia-guide-complet/) — La page pilier du cocon KAIEDU, pour intégrer l'IA dans toute votre préparation
 - 🔧 [Diffit : différenciation en 2 clics](/article/outil-diffit/) — Différencier les exercices selon les besoins identifiés grâce à la correction
 - 📐 [Améliorer sa séquence pédagogique](/article/ameliorer-sequence-pedagogique/) — Utiliser les données de correction pour ajuster votre séquence en cours d'apprentissage
 - 💬 [Donner un feedback personnalisé et rapide](/article/feedback-rapide-ia/) — Formuler des retours constructifs sans y passer vos soirées

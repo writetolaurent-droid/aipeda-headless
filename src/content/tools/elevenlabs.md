@@ -21,4 +21,4 @@ order: 15
 
 ElevenLabs en bref : Synthèse vocale très naturelle : transformer vos textes en audio propre, en plusieurs voix et langues.
 
-*Cette fiche fait partie de l'[annuaire des outils IA pour enseignants](/outils-ia/) d'AIPEDA.*
+*Cette fiche fait partie de l'[annuaire des outils IA pour enseignants](/outils-ia/) d'KAIEDU.*

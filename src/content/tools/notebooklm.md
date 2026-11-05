@@ -21,4 +21,4 @@ order: 9
 
 NotebookLM en bref : L'IA qui travaille sur VOS documents : résumés, questions-réponses et synthèses audio à partir de vos propres sources.
 
-*Cette fiche fait partie de l'[annuaire des outils IA pour enseignants](/outils-ia/) d'AIPEDA.*
+*Cette fiche fait partie de l'[annuaire des outils IA pour enseignants](/outils-ia/) d'KAIEDU.*

@@ -239,7 +239,7 @@ Trois à cinq séances. Les deux premières, vous testez et ajustez les prompts 
 
 ## Aller plus loin
 
-- 📘 [Préparer ses cours avec l'IA : le guide complet](/article/preparer-ses-cours-ia-guide-complet/) — La page pilier du cocon AIPEDA, avec 5 étapes complètes et 7 prompts
+- 📘 [Préparer ses cours avec l'IA : le guide complet](/article/preparer-ses-cours-ia-guide-complet/) — La page pilier du cocon KAIEDU, avec 5 étapes complètes et 7 prompts
 - ✏️ [Prompt ChatGPT : créer une fiche de cours en 2 min](/article/prompt-chatgpt-fiche-de-cours/) — Le prompt maître qui intègre trace écrite + exercices + manipulation + carte mentale dans une seule fiche
 - 📐 [Améliorer une séquence avec l'IA : 5 leviers concrets](/article/ameliorer-sequence-pedagogique/) — Comment enrichir une séquence existante avec l'IA
 - ✏️ [ChatGPT pour prof : le guide pratique](/article/chatgpt-pour-prof/) — 6 cas d'usage avec prompts détaillés

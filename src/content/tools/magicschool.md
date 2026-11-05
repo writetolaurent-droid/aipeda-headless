@@ -21,4 +21,4 @@ order: 2
 
 MagicSchool en bref : La plateforme d'IA pensée pour les enseignants : des dizaines d'assistants spécialisés réunis sur un seul compte.
 
-*Cette fiche fait partie de l'[annuaire des outils IA pour enseignants](/outils-ia/) d'AIPEDA.*
+*Cette fiche fait partie de l'[annuaire des outils IA pour enseignants](/outils-ia/) d'KAIEDU.*

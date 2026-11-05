@@ -20,4 +20,4 @@ order: 7
 
 Claude en bref : L'assistant généraliste réputé pour la qualité d'écriture et le traitement des longs documents.
 
-*Cette fiche fait partie de l'[annuaire des outils IA pour enseignants](/outils-ia/) d'AIPEDA.*
+*Cette fiche fait partie de l'[annuaire des outils IA pour enseignants](/outils-ia/) d'KAIEDU.*

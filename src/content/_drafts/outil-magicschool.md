@@ -223,7 +223,7 @@ L'IA est un co-pilote. Le prof reste le pilote.
 
 ## Aller plus loin
 
-- 📘 [Préparer ses cours avec l'IA : le guide complet](/article/preparer-ses-cours-ia-guide-complet/) — La page pilier du cocon AIPEDA
+- 📘 [Préparer ses cours avec l'IA : le guide complet](/article/preparer-ses-cours-ia-guide-complet/) — La page pilier du cocon KAIEDU
 - 🔧 [Diffit : adapter n'importe quel texte en 2 clics](/article/outil-diffit/) — L'alternative spécialisée pour la différenciation
 - 🤔 [Quelle IA pour les professeurs des écoles ?](/article/quelle-ia-professeurs-ecoles/) — Comparatif des outils IA du marché
 - 💬 [ChatGPT pour prof : le guide pratique](/article/chatgpt-pour-prof/) — Maîtriser le LLM le plus connu

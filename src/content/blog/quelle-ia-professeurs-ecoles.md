@@ -68,7 +68,7 @@ Le seul avec un accès direct aux documents publics — utile pour citer les pro
 | **Prix** | Gratuit (Gemini Flash), ~22€/mois (Advanced) |
 | **Lien** | gemini.google.com |
 
-**Lequel choisir ?** Si vous devez n'en choisir qu'un : **ChatGPT** pour commencer (communauté + tutoriels), **Claude** si vous écrivez beaucoup, **Gemini** si vous travaillez beaucoup avec les programmes officiels. Les prompts AIPEDA fonctionnent avec les trois.
+**Lequel choisir ?** Si vous devez n'en choisir qu'un : **ChatGPT** pour commencer (communauté + tutoriels), **Claude** si vous écrivez beaucoup, **Gemini** si vous travaillez beaucoup avec les programmes officiels. Les prompts KAIEDU fonctionnent avec les trois.
 
 ---
 
