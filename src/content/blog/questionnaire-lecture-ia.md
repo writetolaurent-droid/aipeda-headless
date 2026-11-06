@@ -163,6 +163,7 @@ Le questionnaire à trois paliers est l’exercice de compréhension le plus sol
 
 - 📗 [Préparer ses cours avec l’IA : le guide complet](/article/preparer-ses-cours-ia-guide-complet/) — la méthode globale, du texte à la séance.
 - 📙 [Dictées différenciées avec l’IA](/article/dictee-differenciee-ia/) — le même principe d’un contenu décliné, côté orthographe.
+- 📖 [Étudier un album ou un roman jeunesse avec l’IA](/article/album-jeunesse-etude-oeuvre-ia/) — la séquence de littérature, avec des questionnaires déclinés chapitre par chapitre.
 - 📚 [Défi lecture avec l’IA : la lecture personnelle qui tient l’année](/article/lecture-personnelle-ia/) — le cadre qui donne envie d’ouvrir un livre, sans en faire un concours.
 - 📒 [Production d’écrits : amorces et critères de réussite](/article/production-ecrite-amorces-ia/) — l’autre volet français, côté écriture.
 - 📘 [Créer des exercices différenciés avec l’IA](/article/exercices-differencies-ia/) — la logique des 3 niveaux appliquée à toutes les disciplines.

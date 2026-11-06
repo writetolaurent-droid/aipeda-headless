@@ -165,4 +165,5 @@ Le défi lecture tient l’année quand il est outillé : un circuit papier que 
 - 🔤 [Textes décodables au CP avec l’IA : syllabes, mots et phrases gradués](/article/decodage-lecture-cp-ia/)
 - 📙 [Fluence : organiser la lecture à voix haute avec l’IA](/article/fluence-lecture-voix-haute-ia/) — la fluidité orale au service de la compréhension.
 - 🤝 [Tutorat entre pairs avec l’IA : des binômes organisés et outillés](/article/tutorat-entre-pairs-ia/)
+- 📖 [Étudier un album ou un roman jeunesse avec l’IA](/article/album-jeunesse-etude-oeuvre-ia/) — la séquence d’œuvre complète préparée en une soirée.
 - 🚀 [Élèves rapides : la complexification vers le haut avec l’IA](/article/eleves-rapides-complexification-ia/)
