@@ -251,6 +251,7 @@ Le prof reste le pilote. L'IA est le co-pilote qui tient la carte pendant que vo
 - 🔧 [Adapter ses supports pour les élèves DYS avec l'IA](/article/adaptation-dys-ia/) — Le guide complet de la différenciation DYS
 - ⚡ [Alléger la charge mentale : le défi n°1 et l'IA](/article/defi-charge-mentale/) — Déléguer la production brute, garder les décisions
 - ⚡ [La méthode Pareto pour préparer vos séquences](/article/methode-pareto-sequence/) — Trier les tâches à fort impact et déléguer le reste à l'IA
+- 🏠 [AIPEDA devient KAIEDU : nouveau nom, nouvelle adresse](/article/aipeda-devient-kaiedu/) — le site change d'identité, même méthode.
 - 🔄 [Générer un plan B pédagogique en 5 minutes avec l'IA](/article/imprevu-pedagogique-plan-b-ia/) — Quand la séance dérape : activités de secours sans matériel
 - 🎬 [Classe inversée au primaire : capsules et quiz avec l'IA](/article/classe-inversee-primaire-ia/) — Un script, un storyboard et un quiz générés dans le même passage
 

@@ -287,6 +287,7 @@ Ce guide est la **page pilier** du cocon KAIEDU sur la préparation de cours ave
 - ✏️ [ChatGPT pour prof : le guide pratique](/article/chatgpt-pour-prof/) — 6 cas d'usage concrets avec prompts
 - ⚡ [Prompt ChatGPT : créer une fiche de cours en 2 min](/article/prompt-chatgpt-fiche-de-cours/) — Le prompt maître testé
 - 📙 [Observation de classe : préparer sa séance et son dossier avec l'IA](/article/observation-classe-ia/) — transformer une préparation ordinaire en dossier d'observation solide.
+- 🏠 [AIPEDA devient KAIEDU : nouveau nom, nouvelle adresse](/article/aipeda-devient-kaiedu/) — pourquoi le site a changé d'adresse et comment mettre à jour vos liens.
 - 🔧 [Diffit : adapter n'importe quel texte en 2 clics](/article/outil-diffit/) — L'outil indispensable pour la différenciation
 - 🪄 [MagicSchool.ai : le couteau suisse IA](/article/outil-magicschool/) — 60+ outils IA réunis dans une plateforme
 
