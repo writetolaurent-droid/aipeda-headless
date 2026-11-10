@@ -3,6 +3,7 @@ title: "Étudier un album ou un roman jeunesse avec l’IA : la séquence de lit
 description: "Séquence de littérature jeunesse : découpage en séances, vocabulaire, questionnaires et traces écrites préparés avec l’IA. Le prof garde la main sur le sens."
 category: "Préparer"
 pubDate: 2026-11-06
+updatedDate: 2026-11-10
 ---
 
 La littérature jeunesse fait partie des grands rendez-vous de l’année : un album ou un roman étudié en classe entière, sur plusieurs semaines, avec des débats, des écrits courts et une lecture continue. C’est aussi l’un des projets de séquence les plus lourds à préparer : découper l’œuvre en séances, choisir le vocabulaire à travailler, fabriquer les questionnaires de compréhension, prévoir les traces écrites, imaginer ce que feront les élèves pendant que vous lisez. Beaucoup d’enseignants renoncent à l’étude d’œuvre faute de temps de préparation, ou la réduisent à un questionnaire générique trouvé en ligne.
@@ -118,5 +119,6 @@ L’étude d’une œuvre de littérature jeunesse est le moment où la classe d
 - 📗 [Préparer ses cours avec l’IA : le guide complet](/article/preparer-ses-cours-ia-guide-complet/) — la méthode globale, du texte à la séance.
 - 📗 [Questionnaires de lecture avec l’IA : trois niveaux pour un même texte](/article/questionnaire-lecture-ia/) — le principe des 3 niveaux, à réutiliser au-delà de l’œuvre étudiée.
 - 📚 [Défi lecture avec l’IA : la lecture personnelle qui tient l’année](/article/lecture-personnelle-ia/) — pour que l’œuvre étudiée donne envie de lire en autonomie.
+- 📚 [Séances de vocabulaire avec l’IA](/article/seances-vocabulaire-ia/) — ancrer les réseaux de mots dans les œuvres travaillées
 - 📝 [Théâtre et expression dramatique avec l’IA](/article/theatre-expression-dramatique-ia/) — mettre en voix les dialogues de l’œuvre, prolongement artistique clé en main.
 - 🔤 [Rituels de français avec l’IA : conjugaison, grammaire, vocabulaire](/article/rituels-langue-francais-ia/) — le cadre hebdomadaire où loger le vocabulaire de l’œuvre.

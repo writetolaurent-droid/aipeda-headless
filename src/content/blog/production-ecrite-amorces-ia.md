@@ -222,6 +222,7 @@ Le partage reste simple : l’IA propose, le prof dispose. Vous restez l’archi
 - 📙 [Le prompt ChatGPT pour créer une fiche de cours](/article/prompt-chatgpt-fiche-de-cours/) — Le prompt structuré pour générer une fiche prête à imprimer
 - 📙 [Atelier philo et débat avec l’IA](/article/atelier-philo-debat-ia/) — des questions calibrées et un cadre de parole, préparés en amont.
 - 📙 [Feedback rapide avec l’IA : corriger sans s’épuiser](/article/feedback-rapide-ia/) — Préparer vos corrections et votre feedback, sans déléguer votre jugement
+- 📚 [Séances de vocabulaire avec l’IA](/article/seances-vocabulaire-ia/) — viser le réemploi du lexique dans vos sujets d’écriture
 - 📙 [Préparer ses cours avec l’IA : le guide complet](/article/preparer-ses-cours-ia-guide-complet/) — Le guide pilier du cocon, avec 5 étapes et des dizaines de prompts
 
 *L’IA prépare la séance, vous validez, l’élève écrit — et le feedback reste entre vos mains.*

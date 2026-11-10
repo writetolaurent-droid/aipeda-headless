@@ -3,6 +3,7 @@ title: "Rituels de français avec l’IA : conjugaison, grammaire et vocabulaire
 description: "Rituels quotidiens de conjugaison, grammaire et vocabulaire : fiches graduées générées en avance, tenues en 10 minutes. L’IA prépare, vous corrigez."
 category: "Préparer"
 pubDate: 2026-09-10
+updatedDate: 2026-11-10
 ---
 
 Un rituel de langue, c’est dix minutes faciles à tenir — mais ça se prépare. Cinq phrases à trous pour lundi, une transformation pour mardi, un court texte à recopier pour mercredi… Multiplié par trois rituels (conjugaison, grammaire, vocabulaire), le compte est vite tombé : chaque soir, il faut inventer, calibrer, imprimer. Et dès qu’une préparation manque, le rituel saute. Puis il disparaît.
@@ -197,3 +198,4 @@ L’IA propose la fiche ; vous la relisez, la corrigez, la mettez entre les main
 - 🧮 [Calcul mental avec l’IA : des fiches graduées prêtes à imprimer](/article/calcul-mental-ia/)
 - ✍️ [La dictée différenciée avec l’IA : un même texte pour tous les niveaux](/article/dictee-differenciee-ia/)
 - 🧩 [Exercices différenciés avec l’IA : un socle commun, trois niveaux d’accès](/article/exercices-differencies-ia/)
+- 📚 [Séances de vocabulaire avec l’IA](/article/seances-vocabulaire-ia/) — des réseaux de mots enseignés en séances, au-delà du rituel quotidien
