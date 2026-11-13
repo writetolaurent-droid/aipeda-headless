@@ -3,6 +3,7 @@ title: "Conscience phonologique : préparer vos séances MS-GS-CP avec l’IA"
 description: "L’IA prépare listes de mots, paires minimales et fiches d’écoute pour vos séances de conscience phonologique MS-GS-CP. Vous animez, elle prépare."
 category: "Préparer"
 pubDate: 2026-09-18
+updatedDate: 2026-11-13
 ---
 
 La conscience phonologique est le socle de tout l’apprentissage de la lecture : savoir segmenter la parole en syllabes, repérer les sons qui composent les mots, les comparer, les manipuler. Avant de décoder, les élèves apprennent d’abord à écouter la langue — et cette écoute se travaille, séance après séance, en MS, en GS puis au CP.
@@ -185,4 +186,5 @@ La conscience phonologique n’a pas besoin de technologie en classe : elle a be
 - 📘 [Préparer ses cours avec l’IA : le guide complet](/article/preparer-ses-cours-ia-guide-complet/) — la méthode globale de préparation.
 - 📙 [Le décodage en lecture au CP avec l’IA](/article/decodage-lecture-cp-ia/) — l’étape suivante : syllabes, mots et textes décodables.
 - 🎨 [Graphisme et écriture cursive avec l’IA](/article/graphisme-ecriture-cursive-ia/) — l’autre socle fin de cycle 1, fiches calibrées.
+- 🔢 [Maths en maternelle avec l’IA : dénombrement, formes, logique](/article/maths-maternelle-seances-ia/) — la préparation des ateliers numériques du cycle 1.
 - 📙 [Fluence : organiser la lecture à voix haute avec l’IA](/article/fluence-lecture-voix-haute-ia/) — la fluidité une fois le décodage installé.

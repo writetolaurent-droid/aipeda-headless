@@ -3,6 +3,7 @@ title: "Grandeurs et mesures au primaire : préparer vos séances avec l’IA"
 description: "Balances, rubans, tableaux de conversion, problèmes contextualisés : l’IA assemble le dossier de vos séquences grandeurs et mesures. Vous gardez la main."
 category: "Préparer"
 pubDate: 2026-10-09
+updatedDate: 2026-11-13
 ---
 
 Après la géométrie, les grandeurs et mesures sont probablement le domaine où la préparation passe d’abord par le matériel : balances de cuisine, rubans gradués, verres doseurs, monnaie factice, sabliers. Il faut des situations où mesurer a du sens, des énoncés de problèmes dont les données restent réalistes, des tableaux de conversion propres pour l’affichage et les cahiers, des exercices gradués du simple au complexe. Et comme le domaine s’étale sur toute l’année — longueurs en période 1, masses plus tard, durées et monnaie encore après — la préparation revient sans cesse, en petites touches qui finissent par peser.
@@ -104,3 +105,4 @@ Les grandeurs et mesures n’ont pas besoin de plus de temps de préparation : e
 - 📐 [Préparer ses séances de géométrie avec l’IA](/article/seances-geometrie-ia/) — le domaine sœur : figures, tracés et instruments.
 - 🧩 [Situations-problèmes en maths et sciences avec l’IA](/article/situations-problemes-maths-ia/) — pour les problèmes de recherche au-delà des applications directes.
 - 🧮 [Calcul mental : fiches et séries graduées avec l’IA](/article/calcul-mental-ia/) — les automatismes numériques qui soutiennent les conversions.
+- 🧒 [Maths en maternelle avec l’IA : dénombrement, formes, logique](/article/maths-maternelle-seances-ia/) — en amont du cycle 2 : les ateliers de manipulation PS-MS-GS.
