@@ -3,6 +3,7 @@ title: "Observation de classe : préparer sa séance et son dossier avec l’IA"
 description: "Inspection, titularisation ou regard d’un pair : structurez dossier de séance, cohérence pédagogique et entretien en une soirée. 4 prompts."
 category: "Préparer"
 pubDate: 2026-09-05
+updatedDate: 2026-11-17
 ---
 
 Une observation annoncée a ce pouvoir : elle transforme une soirée tranquille en trois soirées de réécriture. Le dossier de séance sort des cartons, les objectifs se reformulent, chaque document se relit, chaque choix se rejoue mentalement. La séance elle-même n’a pas changé ; c’est son dossier qui grossit, et les nuits qui raccourcissent avec lui.
@@ -171,4 +172,5 @@ L’observation redoutée n’est pas un examen de séance parfaite : elle réco
 - 📗 [Préparer ses cours avec l’IA : le guide complet](/article/preparer-ses-cours-ia-guide-complet/) — la méthode globale de préparation.
 - 📙 [Le workflow 30 minutes pour une séance](/article/workflow-30min-sequence/) — produire une séance solide en un créneau.
 - 📒 [Créer des exercices différenciés avec l’IA](/article/exercices-differencies-ia/) — la différenciation, point d’attention classique en observation.
+- 🎓 [Accueillir un stagiaire en classe : organiser le tutorat avec l’IA](/article/stagiaire-tutorat-accueil-ia/) — le point de vue tuteur : progression, grilles d’observation et débriefs.
 - 📘 [Organiser ses groupes de besoin avec l’IA](/article/groupes-de-besoin-organisation-ia/) — montrer un dispositif structuré pendant la séance.

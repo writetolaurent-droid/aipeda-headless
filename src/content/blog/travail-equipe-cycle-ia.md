@@ -140,5 +140,6 @@ Le travail d’équipe mérite mieux que des comptes rendus fantômes et des pro
 - ⚡ [Le workflow 30 minutes pour préparer une séquence](/article/workflow-30min-sequence/) — la préparation individuelle, rapide.
 - 📊 [Analyser les résultats d’évaluations avec l’IA](/article/resultats-evaluations-analyse-ia/) — les données dont le cycle discute, anonymisées.
 - 🗳️ [Conseil d’élèves avec l’IA](/article/conseil-eleves-cooperation-ia/) — la concertation, version élèves.
+- 🎓 [Accueillir un stagiaire en classe : organiser le tutorat avec l’IA](/article/stagiaire-tutorat-accueil-ia/) — mutualiser les documents de tutorat au niveau du cycle.
 - 🤝 [Travailler avec son AESH : supports adaptés](/article/aesh-supports-adaptes-ia/) — coordonner les adultes autour d’un élève accompagné.
 - 📘 [Préparer ses cours avec l’IA : le guide complet](/article/preparer-ses-cours-ia-guide-complet/) — le pilier du cocon.
