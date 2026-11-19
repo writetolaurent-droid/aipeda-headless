@@ -143,3 +143,4 @@ Le travail d’équipe mérite mieux que des comptes rendus fantômes et des pro
 - 🎓 [Accueillir un stagiaire en classe : organiser le tutorat avec l’IA](/article/stagiaire-tutorat-accueil-ia/) — mutualiser les documents de tutorat au niveau du cycle.
 - 🤝 [Travailler avec son AESH : supports adaptés](/article/aesh-supports-adaptes-ia/) — coordonner les adultes autour d’un élève accompagné.
 - 📘 [Préparer ses cours avec l’IA : le guide complet](/article/preparer-ses-cours-ia-guide-complet/) — le pilier du cocon.
+- 🔍 [Préparer une séance observée avec l’IA](/article/observation-classe-ia/) — le regard externe qui alimente ensuite le conseil de cycle.
