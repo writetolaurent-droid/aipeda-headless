@@ -174,3 +174,4 @@ L’observation redoutée n’est pas un examen de séance parfaite : elle réco
 - 📒 [Créer des exercices différenciés avec l’IA](/article/exercices-differencies-ia/) — la différenciation, point d’attention classique en observation.
 - 🎓 [Accueillir un stagiaire en classe : organiser le tutorat avec l’IA](/article/stagiaire-tutorat-accueil-ia/) — le point de vue tuteur : progression, grilles d’observation et débriefs.
 - 📘 [Organiser ses groupes de besoin avec l’IA](/article/groupes-de-besoin-organisation-ia/) — montrer un dispositif structuré pendant la séance.
+- 🤝 [Préparer le conseil de cycle avec l’IA](/article/travail-equipe-cycle-ia/) — prolonger l’observation par un travail d’équipe : mutualiser les regards et décider collectivement des suites.
