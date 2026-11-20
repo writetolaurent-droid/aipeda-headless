@@ -200,6 +200,7 @@ Un escape game pédagogique n’exige ni coffret coûteux ni soirée entière de
 
 - 📘 [Préparer ses cours avec l’IA : guide complet](/article/preparer-ses-cours-ia-guide-complet/) — La page pilier pour intégrer l’IA dans toute votre préparation
 - 🎯 [Créer des quiz interactifs avec l’IA](/article/quiz-interactif-ia/) — Le complément numérique : des révisions rapides, question par question
+- 📝 [Fiches de révision et plan de révision avec l’IA](/article/revision-fiches-plan-evaluation-ia/) — préparer les jours avant l’évaluation
 - 📝 [Créer des supports de cours avec l’IA](/article/creer-supports-cours-ia/) — Produire cartes, énigmes imprimées et matériel papier du jeu
 - 🧩 [Créer des exercices différenciés avec l’IA](/article/exercices-differencies-ia/) — Décliner les énigmes en plusieurs niveaux de difficulté
 - 🎲 [Créer des jeux pédagogiques papier avec l’IA](/article/jeux-pedagogiques-papier-ia/) — Memory, jeu de l’oie, chasses au trésor : le contenu généré, les niveaux déclinés
