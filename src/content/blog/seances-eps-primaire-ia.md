@@ -186,3 +186,4 @@ Une séance d’EPS réussie ne demande pas d’être spécialiste : elle demand
 - 📒 [Visuels et tableaux avec l’IA](/article/visuels-tableaux-ia/) — les affiches et tableaux qui accompagnent les séances.
 - 📘 [Créer des supports de cours avec l’IA](/article/creer-supports-cours-ia/) — fiches et documents imprimables pour toutes les disciplines.
 - 🌳 [La classe dehors avec l’IA](/article/classe-dehors-seances-ia/) — banques d’activités extérieures et plans B météo, toujours prêts dans le cartable.
+- 🏊 [Cycle natation : organiser la piscine avec l’IA](/article/cycle-natation-piscine-ia/) — rétroplanning, groupes de niveau, fiches d’observation et savoir nager.

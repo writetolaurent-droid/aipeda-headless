@@ -196,3 +196,4 @@ La sortie scolaire reste ce qu’elle a toujours été : un moment fort pour la 
 - 🌳 [La classe dehors avec l’IA](/article/classe-dehors-seances-ia/) — fiches terrain, check-lists matériel et plans B météo pour sortir régulièrement.
 - 📁 [Monter un projet de classe avec l’IA](/article/projet-classe-monter-ia/) — du dossier d’intention au rétroplanning.
 - 🎭 [Organiser un projet culturel avec l’IA](/article/projet-culturel-intervenant-exterieur-ia/) — accueillir un intervenant extérieur : dossier, planning, courriers.
+- 🏊 [Cycle natation : organiser la piscine avec l’IA](/article/cycle-natation-piscine-ia/) — autorisations, matériel et dispenses pour un cycle piscine complet.

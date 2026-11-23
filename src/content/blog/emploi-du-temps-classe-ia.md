@@ -218,3 +218,4 @@ La grille finale, elle, reste une décision professionnelle collective. L’équ
 - 🤝 [Co-intervention et décloisonnement avec l’IA](/article/co-intervention-decloisonnement-ia/) — organiser l’échange de services sans exploser la charge documentaire.
 - 🔁 [Mettre en place des rituels de classe avec l’IA](/article/rituels-classe-ia/) — Stabiliser les moments récurrents de votre journée
 - 📋 [Préparer sa rentrée avec l’IA : checklist complète](/article/preparer-rentree-ia/) — Affichages, planning, courriers : tout cadrer avant le jour J
+- 🏊 [Cycle natation : organiser la piscine avec l’IA](/article/cycle-natation-piscine-ia/) — caser le créneau piscine sans déséquilibrer la semaine.

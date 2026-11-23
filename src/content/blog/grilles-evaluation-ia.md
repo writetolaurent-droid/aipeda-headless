@@ -246,3 +246,4 @@ Commencez petit. Prenez la prochaine évaluation de votre semaine. Lancez le pro
 - ✍️ [Appréciations du livret scolaire avec l'IA](/article/appreciations-livret-scolaire-ia/) — Des appréciations solides, nourries de vos critères de grille
 - 🎙️ [Exposé oral : préparer vos élèves avec l'IA](/article/expose-oral-preparation-ia/) — une grille de prise de parole construite par l'IA, remplie par vous pendant les passages.
 - 📈 [Analyser les résultats d'une évaluation avec l'IA](/article/resultats-evaluations-analyse-ia/) — Hiérarchiser les items à retravailler après la grille, sur données anonymisées
+- 🏊 [Cycle natation : organiser la piscine avec l’IA](/article/cycle-natation-piscine-ia/) — une fiche d’observation réutilisée et la grille du savoir nager.
