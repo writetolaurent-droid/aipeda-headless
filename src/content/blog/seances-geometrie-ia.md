@@ -108,5 +108,6 @@ La géométrie mérite mieux que des séances improvisées faute de temps : c’
 - 🧭 [Préparer ses cours avec l’IA : le guide complet](/article/preparer-ses-cours-ia-guide-complet/) — la porte d’entrée du cocon.
 - 🧩 [Situations-problèmes en maths et sciences avec l’IA](/article/situations-problemes-maths-ia/) — la soeur logique pour les maths de recherche.
 - 📏 [Grandeurs et mesures : préparer vos séances avec l’IA](/article/grandeurs-mesures-seances-ia/) — la seconde moitié du domaine mathématiques : longueurs, masses, capacités, durées.
+- 🖥️ [Exploiter le TNI avec l’IA](/article/tni-lecons-interactives-ia/) — pour faire manipuler vos élèves au tableau numérique.
 - 🎲 [Jeux pédagogiques papier avec l’IA](/article/jeux-pedagogiques-papier-ia/) — quand le parc numérique manque, le papier joue.
 - 🖼️ [Générer des visuels pour le tableau en un clic](/article/visuels-tableaux-ia/) — affichages et repères visuels hors figures géométriques.
