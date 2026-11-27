@@ -105,4 +105,5 @@ Les grandeurs et mesures n’ont pas besoin de plus de temps de préparation : e
 - 📐 [Préparer ses séances de géométrie avec l’IA](/article/seances-geometrie-ia/) — le domaine sœur : figures, tracés et instruments.
 - 🧩 [Situations-problèmes en maths et sciences avec l’IA](/article/situations-problemes-maths-ia/) — pour les problèmes de recherche au-delà des applications directes.
 - 🧮 [Calcul mental : fiches et séries graduées avec l’IA](/article/calcul-mental-ia/) — les automatismes numériques qui soutiennent les conversions.
+- 🍕 [Fractions et nombres décimaux : préparer vos séances avec l’IA](/article/fractions-decimaux-seances-ia/) — le domaine où les supports de représentation changent tout.
 - 🧒 [Maths en maternelle avec l’IA : dénombrement, formes, logique](/article/maths-maternelle-seances-ia/) — en amont du cycle 2 : les ateliers de manipulation PS-MS-GS.

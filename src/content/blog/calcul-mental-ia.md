@@ -172,5 +172,6 @@ Le calcul mental demande peu de matériel et beaucoup de régularité : c’est 
 - 📙 [Situations-problèmes en maths : les construire avec l’IA](/article/situations-problemes-maths-ia/) — le complément « chercher », distinct de l’automatisation.
 - 📒 [Jeux pédagogiques papier avec l’IA](/article/jeux-pedagogiques-papier-ia/) — transformer l’entraînement en jeu de plateau.
 - 📏 [Grandeurs et mesures : préparer vos séances avec l’IA](/article/grandeurs-mesures-seances-ia/) — les conversions qui s’entraînent comme un automatisme.
+- 🍕 [Fractions et nombres décimaux avec l’IA](/article/fractions-decimaux-seances-ia/) — les écritures d’un même nombre, du partage à la droite graduée.
 - 📘 [Mettre en place ses rituels de classe avec l’IA](/article/rituels-classe-ia/) — où s’insère le calcul mental dans la journée.
 - 📙 [Rituels de français : conjugaison, grammaire et vocabulaire avec l’IA](/article/rituels-langue-francais-ia/) — l’autre famille de rituels quotidiens, côté langue.

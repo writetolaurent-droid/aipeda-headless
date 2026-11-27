@@ -203,3 +203,4 @@ Commencez petit. Prenez un exercice de cette semaine. Lancez le prompt des trois
 - 🏫 [Organiser ses APC avec l'IA](/article/apc-activites-pedagogiques-complementaires-ia/) — un cadre officiel pour les exercices ciblés.
 - 🎲 [Créer des jeux pédagogiques papier avec l'IA](/article/jeux-pedagogiques-papier-ia/) — Entraînement par le jeu, décliné en 2-3 niveaux pour vos groupes de besoin
 - 🧠 [Élèves HPI : nourrir sans surcharger avec l'IA](/article/eleves-hpi-haut-potentiel-ia/) — enrichissement et projets personnels pour les élèves à haut potentiel.
+- 🍕 [Fractions et nombres décimaux : préparer vos séances avec l'IA](/article/fractions-decimaux-seances-ia/) — un exemple complet de série graduée en trois niveaux.
